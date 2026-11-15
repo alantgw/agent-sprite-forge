@@ -1,0 +1,117 @@
+{
+  "schema": "generate2dsprite.pixel_look.v2",
+  "tool": "pixel_look",
+  "kind": "master",
+  "name": "candidate-2",
+  "size": [
+    112,
+    102
+  ],
+  "cells": 7846,
+  "colours": 15,
+  "palette": [
+    "#000018",
+    "#02020c",
+    "#026704",
+    "#111338",
+    "#1f1e1c",
+    "#2e0b13",
+    "#36318c",
+    "#762e04",
+    "#7674dc",
+    "#94364e",
+    "#b8150e",
+    "#ba6cf6",
+    "#c27e13",
+    "#cc90f6",
+    "#e3caf6"
+  ],
+  "feet": {
+    "middle": 72.0,
+    "row": 101
+  },
+  "anchor": [
+    72.5,
+    102
+  ],
+  "key": "green",
+  "howZoom": 8,
+  "read": {
+    "method": "beside the first master",
+    "cellPx": [
+      6.93,
+      6.93
+    ],
+    "lattice": {
+      "cell": 6.93,
+      "offset": [
+        0.45,
+        -0.57
+      ],
+      "equal": 5664,
+      "cells": 6664,
+      "share": 0.8499
+    },
+    "ownLattice": {
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "flat": 14145,
+      "flatUnshifted": 14145,
+      "cells": 19712
+    },
+    "key": [
+      2,
+      249,
+      3
+    ],
+    "edge": {
+      "keyMixed": {
+        "removed": 0,
+        "darkened": 71
+      },
+      "keyTinted": 0,
+      "keyNear": 0,
+      "keyHoles": 4,
+      "keyInked": 41,
+      "keySpill": {
+        "removed": 0,
+        "recoloured": 21
+      },
+      "islandCells": 0
+    },
+    "outline": {
+      "line": [
+        0,
+        0,
+        24
+      ],
+      "specks": 21,
+      "bareCells": 11,
+      "lineCellsAdded": 10,
+      "closed": true,
+      "offset": [
+        0,
+        -1
+      ],
+      "mode": "rule"
+    }
+  },
+  "rulerEqualShare": 0.8499,
+  "heightRows": 101,
+  "masterHeightRows": 93,
+  "solesBelowMasters": 0.0,
+  "warnings": [],
+  "source": {
+    "image": "/workspace/generated_images/exec-e52995f3-d5c0-42ce-bf93-b2263ac010f8.png",
+    "sha256": "5ab5b07ed920ba60393c0f54851d76c5acc59ce42a0a7edcc0e050f72d27d626"
+  },
+  "files": {
+    "sprite": "candidate-2.png",
+    "how": "candidate-2-how.png",
+    "review": "candidate-2-review.png",
+    "grounds": "candidate-2-grounds.png"
+  },
+  "note": "Drawn beside the first master, so one pixel of this sprite is one pixel of that one. Look at the review picture and at the sprite's edge on every ground before anything is made from it."
+}

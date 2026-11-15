@@ -1,0 +1,125 @@
+{
+  "selected": "v003 Candidate 2",
+  "status": "user-selected final",
+  "canvas": [
+    144,
+    112
+  ],
+  "occupied_size": [
+    112,
+    102
+  ],
+  "bounds_xyxy_exclusive": [
+    16,
+    7,
+    128,
+    109
+  ],
+  "mode": "P",
+  "palette_entries": 16,
+  "used_palette_entries": 16,
+  "palette_rgb": [
+    [
+      88,
+      120,
+      120
+    ],
+    [
+      0,
+      0,
+      24
+    ],
+    [
+      2,
+      2,
+      12
+    ],
+    [
+      2,
+      103,
+      4
+    ],
+    [
+      17,
+      19,
+      56
+    ],
+    [
+      31,
+      30,
+      28
+    ],
+    [
+      46,
+      11,
+      19
+    ],
+    [
+      54,
+      49,
+      140
+    ],
+    [
+      118,
+      46,
+      4
+    ],
+    [
+      118,
+      116,
+      220
+    ],
+    [
+      148,
+      54,
+      78
+    ],
+    [
+      184,
+      21,
+      14
+    ],
+    [
+      186,
+      108,
+      246
+    ],
+    [
+      194,
+      126,
+      19
+    ],
+    [
+      204,
+      144,
+      246
+    ],
+    [
+      227,
+      202,
+      246
+    ]
+  ],
+  "background": {
+    "index": 0,
+    "rgb": [
+      88,
+      120,
+      120
+    ],
+    "opaque": true
+  },
+  "preview": {
+    "size": [
+      864,
+      672
+    ],
+    "scale": 6,
+    "resampling": "nearest-neighbour"
+  },
+  "game_import_compatibility": "not verified",
+  "art_source": "host_image",
+  "route": "built-in image_gen, repository pixel_look ask-cast/cast",
+  "source_folder": "processing/",
+  "checks": "native PNG reopened and verified; preview exactly matches nearest-neighbour; BMP RGB pixels match PNG"
+}
