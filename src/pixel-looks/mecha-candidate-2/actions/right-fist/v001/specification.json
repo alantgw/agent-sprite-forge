@@ -1,0 +1,28 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "stored_palette_entries": 16,
+  "used_palette_entries": 16,
+  "palette_exactly_matches_base": true,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "opaque": true,
+  "changed_arm": "mecha right, viewers left",
+  "restored_arm": "mecha left, viewers right; exact approved Candidate 2 base pixels",
+  "edited_region_xyxy_exclusive": [
+    16,
+    27,
+    57,
+    82
+  ],
+  "pixels_outside_region_identical_to_approved_base": true,
+  "entire_viewer_right_half_identical_to_approved_base": true,
+  "changed_pixels_from_base": 871,
+  "method": "exact indexed-pixel restoration/compositing from approved base and existing clenched-fist action; no additional generation",
+  "game_import_compatibility": "not verified"
+}
