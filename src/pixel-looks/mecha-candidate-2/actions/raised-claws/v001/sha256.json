@@ -1,0 +1,17 @@
+{
+  "specification.json": "90cd1f00e2c6f8027cf60c9a0e42eb2c7da05963fb650f5b72cf76ec20dee0e9",
+  "report.txt": "d2a882b39f2d49e5f5289c48b809342a53294b1af24ed32e837d6ee71117b090",
+  "mecha-raised-claws-6x.png": "a5a15f08f32952a139619a540969ce508426f5a06a769a903de3f87e5b08b9c3",
+  "mecha-raised-claws.bmp": "81bd985735dd800fd5704c9bd559be4d26e6883583898e6892a5ad731ae7f080",
+  "mecha-raised-claws-1x.png": "b5e9e7b5821b9b4952cf66025e947ca775faf82c40a8a20511a53cfdef6dc3bf",
+  "base-action-comparison.png": "61a8edfd4a04c2a7545659f608788fcd7e503c3f694170d6cadf9ff5158effbd",
+  "processing/pose_fit.py": "ecf5e89f86dd86a13897c212156e54a2c2b9eb955cc0f2922f23cdb73fde18b0",
+  "processing/generated-source.png": "cb0cde8ad78ba70d03baddadbc665b402b565b53fe8158df52b25b63fe279135",
+  "processing/pose/mecha-action.json": "d0e7cb10ebd8318a80f86ce8253840bad5d56a20c65cd999ce4a21187d6d6bfe",
+  "processing/pose/mecha-action-review.png": "cb6e1ed263ec2b54f1186807b24168be66de99bec1f897628b18a119fb7ed67f",
+  "processing/pose/mecha-action.png": "9b640e2f884924a8fdd922507feeca9d27be1ffec88a2f41b518c15d259810b5",
+  "processing/ask-pose/prompt.txt": "612203f6be24e536fd61ceb9eed615be5fb4844db148ba3abd2a490c53b996e6",
+  "processing/ask-pose/reference.png": "e07d778bde8ae6e9645d31a77a3568f0d7e9177dee2aaad5345f1fe994acd6fa",
+  "processing/ask-pose/master.png": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+  "processing/ask-pose/request.json": "44125f9049d1337276659f1a8d20c289e0ea54ef78a2a8f54aa5ae761aff630a"
+}

@@ -1,0 +1,103 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "mecha-action",
+ "size": [
+  112,
+  102
+ ],
+ "cells": 7296,
+ "colours": 16,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#026704",
+  "#111338",
+  "#1f1e1c",
+  "#2e0b13",
+  "#36318c",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#982c19",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 72.0,
+  "row": 101
+ },
+ "anchor": [
+  72.5,
+  102
+ ],
+ "change": "Raise BOTH arms into a menacing attack-ready pose: the forearm on the viewers left is lifted vertically beside the left shoulder, claws open with the palm facing diagonally forward; the forearm on the viewers right is bent upward and outward beside the right shoulder, large black clawed fingers spread. Both hands at about shoulder height. Keep the head, torso, waist, legs, feet, horn and tail in their original positions and preserve every unchanged pixel. Keep the same three-quarter orientation and braced stance.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 9.797,
+  "offset": [
+   -0.2,
+   0.8
+  ],
+  "equal": 5432,
+  "cells": 7846,
+  "share": 0.6923
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5740,
+  "cellsTaken": 1799,
+  "newCells": 104,
+  "cellsEmptied": 661
+ },
+ "masterCellsKept": 6151,
+ "masterCells": 7846,
+ "masterKeptShare": 0.784,
+ "newColours": 1,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 6
+  },
+  "keyTinted": 4,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 3,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 4,
+  "lineCellsAdded": 7,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-0f310b48-edbd-4312-a8ac-eb9a89572e6e.png",
+  "sha256": "cb0cde8ad78ba70d03baddadbc665b402b565b53fe8158df52b25b63fe279135"
+ },
+ "files": {
+  "sprite": "mecha-action.png",
+  "review": "mecha-action-review.png"
+ }
+}

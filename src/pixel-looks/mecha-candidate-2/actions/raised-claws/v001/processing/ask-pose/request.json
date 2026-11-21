@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+  "size": [
+   112,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Raise BOTH arms into a menacing attack-ready pose: the forearm on the viewers left is lifted vertically beside the left shoulder, claws open with the palm facing diagonally forward; the forearm on the viewers right is bent upward and outward beside the right shoulder, large black clawed fingers spread. Both hands at about shoulder height. Keep the head, torso, waist, legs, feet, horn and tail in their original positions and preserve every unchanged pixel. Keep the same three-quarter orientation and braced stance.",
+ "outline": "rule"
+}
