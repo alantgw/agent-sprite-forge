@@ -1,0 +1,23 @@
+{
+  "specification.json": "d9ca3dd9ed31710a7812d643ec5e389bfc484045ca03e9f0c925c1a673151fe3",
+  "mecha-airborne-kick-1x.png": "98cd59749865b516c955b005431d2c5b1122aa6b22d2a2d86b2835727fcbe5c8",
+  "mecha-airborne-kick.bmp": "b07584001c56399bef52b77a5899aa2365e82dea15b3593776641e16a057ffcf",
+  "report.txt": "6321435f5403264a8159c9763c9ec98a458b2f9e5d0d606924b97274ae689b8c",
+  "base-kick-comparison.png": "53b8e744f403951376ee2897fdcbcb1276c119ac64c20d1046bc4ebaa8c5a950",
+  "mecha-airborne-kick-6x.png": "056ba243f6af8454a2effb434275006d1aa41dce266a36c11a5aed66b90693d2",
+  "processing/first-generation.png": "09643ed4bda75de53d74c9b7c7f857591a25d22f256925b11abef342a33323fe",
+  "processing/edited-generation.png": "a3705431c1ece7e1682d20c2fda013fe742ca98d93bf50d88670e9d3cb191cbf",
+  "processing/ask.py": "4278d90d17e8203df372f8e47048c08fc6a2491b8ccd63251b96893cce9bb4f3",
+  "processing/read.py": "ecf5e89f86dd86a13897c212156e54a2c2b9eb955cc0f2922f23cdb73fde18b0",
+  "processing/package.py": "4885a76cdc76c3605252f41876882c1a1dd6dcc127c1a21ecaa8b61be860a91d",
+  "processing/generation-prompt.txt": "c33a3dd7363842df7a11dd78f2738e94fda4b7401804ff9e8e2fd999e16e6f2c",
+  "processing/ask-view/prompt.txt": "1e123bf6bb246711841f442ee0ead2956abfcbd32d37cf5e6bd4388346c2bfca",
+  "processing/ask-view/reference.png": "4551ba6a4e33b31716523f4905790af93005405d64edec3b6f684a3d31d7cdc3",
+  "processing/ask-view/master.png": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+  "processing/ask-view/request.json": "9818bc65499f2ac7e0b1eb79f10ddbe3b318d6411cb93868a85409ab6a2994f9",
+  "processing/extracted/mecha-kick.json": "5d547e7545f0515ac2952e4f859bd5ddf36ed991221f0a916eb668254c095b68",
+  "processing/extracted/mecha-kick-review.png": "6054eb803a872a8c29ca8e0fc338b77452d5f1c14cfd4ee25568d1f4368c1183",
+  "processing/extracted/mecha-kick-how.png": "16bac59e7562667863179d57a8d3ec73864147967a37b7b854d37d3a95ae00b7",
+  "processing/extracted/mecha-kick.png": "bfcc4647e1a133b5bce2be8825633cb75589a2f8944b24304c30aa55f7240d1f",
+  "processing/extracted/mecha-kick-grounds.png": "f915ec1b2997fc0ff9fb88e991f3203553f2780d4f347454d8b3413e5872c119"
+}

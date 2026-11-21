@@ -1,0 +1,108 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "view",
+ "name": "mecha-kick",
+ "size": [
+  124,
+  74
+ ],
+ "cells": 4551,
+ "colours": 15,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#111338",
+  "#1f1e1c",
+  "#2e0b13",
+  "#36318c",
+  "#421215",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 58.0,
+  "row": 70
+ },
+ "anchor": [
+  58.5,
+  71
+ ],
+ "view": "custom",
+ "lattice": {
+  "cell": 6.93,
+  "offset": [
+   -0.2,
+   0.3
+  ],
+  "equal": 6864,
+  "cells": 7846,
+  "share": 0.8748
+ },
+ "rulerEqualShare": 0.8748,
+ "heightRows": 71,
+ "masterHeightRows": 101,
+ "solesBelowMasters": -18.0,
+ "ownLattice": {
+  "shift": [
+   -1.5,
+   0.0
+  ],
+  "flat": 14088,
+  "flatUnshifted": 14075,
+  "cells": 17152
+ },
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 58
+  },
+  "keyTinted": 6,
+  "keyNear": 0,
+  "keyHoles": 2,
+  "keyInked": 39,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 15
+  },
+  "islandCells": 0
+ },
+ "newColours": 1,
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 3,
+  "bareCells": 4,
+  "lineCellsAdded": 4,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "key": "green",
+ "howZoom": 7,
+ "warnings": [
+  "the new view's body is 71 rows tall, the master's 101: it is not the same height; generate again"
+ ],
+ "source": {
+  "image": "/workspace/generated_images/exec-ff0219fa-02b2-403b-97cf-d86c4475ec40.png",
+  "sha256": "a3705431c1ece7e1682d20c2fda013fe742ca98d93bf50d88670e9d3cb191cbf"
+ },
+ "files": {
+  "sprite": "mecha-kick.png",
+  "how": "mecha-kick-how.png",
+  "review": "mecha-kick-review.png",
+  "grounds": "mecha-kick-grounds.png"
+ }
+}
