@@ -1,0 +1,132 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_palette_entries": 16,
+  "palette_identical_to_approved_base": true,
+  "opaque_teal_rgb": [
+    88,
+    120,
+    120
+  ],
+  "changed_area_xyxy_exclusive": [
+    17,
+    25,
+    56,
+    69
+  ],
+  "all_other_pixels_identical_to_right_fist_v002": true,
+  "changed_pixels": 466,
+  "left_arm_preserved": true,
+  "detached_pin_still_removed": true,
+  "pose": "accepted raised anatomical right arm, on viewers left",
+  "design": "base-derived tapered black armour, lavender shell, red inset and tucked claw tips; no literal animal features",
+  "route": "host_image_gen then repository ask-pose/pose, palette lock and region-only compositing",
+  "review": "amended artwork for user review",
+  "game_import_compatibility": "not verified",
+  "pose_record": {
+    "schema": "generate2dsprite.pixel_look.v2",
+    "tool": "pixel_look",
+    "kind": "pose",
+    "name": "mecha-gauntlet",
+    "size": [
+      112,
+      102
+    ],
+    "cells": 7421,
+    "colours": 16,
+    "palette": [
+      "#000018",
+      "#02020c",
+      "#026704",
+      "#111338",
+      "#1f1e1c",
+      "#2e0b13",
+      "#36318c",
+      "#504747",
+      "#762e04",
+      "#7674dc",
+      "#94364e",
+      "#b8150e",
+      "#ba6cf6",
+      "#c27e13",
+      "#cc90f6",
+      "#e3caf6"
+    ],
+    "feet": {
+      "middle": 72.0,
+      "row": 101
+    },
+    "anchor": [
+      72.5,
+      102
+    ],
+    "change": "Correct ONLY the raised right hand and gauntlet on the VIEWERS LEFT: replace the rounded human knuckle fist with the ORIGINAL pointed angular black and lavender mechanical gauntlet and tightly folded claws seen on the original approved base. Carry its long tapered black armour prongs, purple shell, red inset and tucked small orange claw tips into the existing raised-arm orientation. It must read as the same distinctive elongated animal-head-like mechanical armour from the base, NOT a human boxing fist and NOT a newly invented literal wolf head. Keep the same bent elbow and wrist position. Keep the viewers right lowered arm and every other pixel unchanged.",
+    "masterAt": [
+      0,
+      0
+    ],
+    "lattice": {
+      "cell": 9.797,
+      "offset": [
+        0.3,
+        0.3
+      ],
+      "equal": 6907,
+      "cells": 7423,
+      "share": 0.9305
+    },
+    "taken": {
+      "how": "the new part outside the silhouette and what hangs together with it",
+      "pictureEqual": 6956,
+      "cellsTaken": 469,
+      "newCells": 72,
+      "cellsEmptied": 73
+    },
+    "masterCellsKept": 7026,
+    "masterCells": 7423,
+    "masterKeptShare": 0.9465,
+    "newColours": 1,
+    "edge": {
+      "keyMixed": {
+        "removed": 0,
+        "darkened": 0
+      },
+      "keyTinted": 0,
+      "keyNear": 0,
+      "keyHoles": 0,
+      "keyInked": 1,
+      "keySpill": {
+        "removed": 0,
+        "recoloured": 0
+      },
+      "islandCells": 0
+    },
+    "outline": {
+      "line": [
+        0,
+        0,
+        24
+      ],
+      "specks": 4,
+      "bareCells": 2,
+      "lineCellsAdded": 3,
+      "closed": true,
+      "offset": [
+        0,
+        0
+      ],
+      "mode": "rule"
+    },
+    "source": {
+      "image": "/workspace/generated_images/exec-52513895-a004-42e1-8f4b-e97e3349c360.png",
+      "sha256": "68c9fa312c8684702f0628965ccc87a37f859c07f781f26aeb5663c427249c62"
+    },
+    "files": {
+      "sprite": "mecha-gauntlet.png",
+      "review": "mecha-gauntlet-review.png"
+    }
+  }
+}

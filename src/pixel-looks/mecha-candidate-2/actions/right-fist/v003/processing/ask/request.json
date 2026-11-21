@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "d07126ddbac7ca0cf88e0341ca9a9324a8b0ceb73a9d79a9af42c05b8dcda20a",
+  "size": [
+   112,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Correct ONLY the raised right hand and gauntlet on the VIEWERS LEFT: replace the rounded human knuckle fist with the ORIGINAL pointed angular black and lavender mechanical gauntlet and tightly folded claws seen on the original approved base. Carry its long tapered black armour prongs, purple shell, red inset and tucked small orange claw tips into the existing raised-arm orientation. It must read as the same distinctive elongated animal-head-like mechanical armour from the base, NOT a human boxing fist and NOT a newly invented literal wolf head. Keep the same bent elbow and wrist position. Keep the viewers right lowered arm and every other pixel unchanged.",
+ "outline": "rule"
+}

@@ -1,0 +1,18 @@
+{
+  "mecha-armoured-right-hand-6x.png": "65952f3b1546ee612f08178ecbbac1bf28ea4e944f2df53aa3f9ebc9dd605d57",
+  "specification.json": "8b09aea7cf2817325604cd50af09d951beca3b3fe4bd675708749a45a7c4d117",
+  "before-after.png": "d0e65e8f19537d16f3fbe06240882f9b21920f7c4481e788715365ef7a222fde",
+  "report.txt": "20050d08bfe50d153bcacc697953a19b6c521edb74ee63d43a30c29eeab3d8b3",
+  "mecha-armoured-right-hand-1x.png": "a4430a2de5e6d4e4b3bbf6a50c51931b185562738e0a03a5486c80e5e8580a8e",
+  "mecha-armoured-right-hand.bmp": "f6c7cf3a1598360734575c02e6fd942ec3633fe28aa48175440e53ca5cb6e089",
+  "processing/pose_fit.py": "ecf5e89f86dd86a13897c212156e54a2c2b9eb955cc0f2922f23cdb73fde18b0",
+  "processing/generated-source.png": "68c9fa312c8684702f0628965ccc87a37f859c07f781f26aeb5663c427249c62",
+  "processing/package.py": "cae9db4e95a972ac54d76e6eb46d293ea59c316d954c63108159bde2c005dd89",
+  "processing/ask/prompt.txt": "6bc0f8fca7613bb5af742a78204deb7c9df8ca8d6743376984534922d0fd0fe6",
+  "processing/ask/reference.png": "26a1c6aac7f89bb2bf4d7160aa0011b0c4b44f3c1309ed04fe7f8132314da45e",
+  "processing/ask/master.png": "d07126ddbac7ca0cf88e0341ca9a9324a8b0ceb73a9d79a9af42c05b8dcda20a",
+  "processing/ask/request.json": "5ba471ac58882e6e4acde72c1030c4834c9e098aff867635adcfb699cf5e60e2",
+  "processing/pose/mecha-gauntlet.png": "dbe11d167c5b0eee11c43b4cb892fc2dc37f374a3a906884904e2c03e84f1de1",
+  "processing/pose/mecha-gauntlet-review.png": "2488e62bef4a4e49831a32ca2b15a9dd6472e477fdbd513777d588ab40fb8fc0",
+  "processing/pose/mecha-gauntlet.json": "2c519abb7ae7b97e00aaacac249b59dbb90dc9e66d6d0488e3f6c8deda90121f"
+}
