@@ -1,0 +1,2 @@
+Removed the detached dark pin in front of the anatomical right leg (viewers left). Exactly 18 foreground pixels within [22,82,31,85) replaced with background palette index 0. All other pixels and palette entries match right-fist v001 exactly.
+Native 144x112, same 16 stored and used palette entries, opaque teal RGB(88,120,120). Preview uses exact 6x nearest-neighbour. Indexed BMP included. Original v001 retained. No additional generation or editor/game-file changes. Game-import compatibility not verified.

@@ -1,0 +1,26 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_entries": 16,
+  "palette_identical_to_v001": true,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "opaque": true,
+  "removed_component_bounds_xyxy_exclusive": [
+    22,
+    82,
+    31,
+    85
+  ],
+  "removed_pixels": 18,
+  "all_other_pixels_unchanged": true,
+  "method": "remove only the detached connected component explicitly identified by the user; replace its indices with background index 0",
+  "previous_version": "../v001",
+  "game_import_compatibility": "not verified"
+}
