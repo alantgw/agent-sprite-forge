@@ -1,0 +1,29 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_palette_entries": 16,
+  "palette_identical_to_base": true,
+  "opaque_teal_rgb": [
+    88,
+    120,
+    120
+  ],
+  "method": "masked cut-out of actual approved base right forearm; vertical flip and integer translation, no resampling or image generation",
+  "source_crop_xyxy_exclusive": [
+    18,
+    51,
+    41,
+    85
+  ],
+  "destination_crop_top_left": [
+    22,
+    29
+  ],
+  "posture": "right forearm raised; left arm as approved base",
+  "detached_pin_absent": true,
+  "game_import_compatibility": "not verified",
+  "review": "awaiting user visual feedback"
+}
