@@ -1,0 +1,123 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "view",
+ "name": "transition-1",
+ "size": [
+  123,
+  86
+ ],
+ "cells": 5937,
+ "colours": 30,
+ "palette": [
+  "#000002",
+  "#000018",
+  "#02020c",
+  "#100813",
+  "#111338",
+  "#1f1e1c",
+  "#282268",
+  "#2e0b13",
+  "#36318c",
+  "#382450",
+  "#5044a8",
+  "#520c11",
+  "#645bc1",
+  "#71349d",
+  "#762e04",
+  "#7674dc",
+  "#8c1010",
+  "#8f450c",
+  "#94364e",
+  "#9c4cda",
+  "#a265c7",
+  "#a284d2",
+  "#a9610c",
+  "#b8150e",
+  "#ba6cf6",
+  "#be324a",
+  "#c27e13",
+  "#cc90f6",
+  "#d6aef1",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 25.0,
+  "row": 85
+ },
+ "anchor": [
+  25.5,
+  86
+ ],
+ "view": "custom",
+ "lattice": {
+  "cell": 6.93,
+  "offset": [
+   -0.2,
+   -0.2
+  ],
+  "equal": 7378,
+  "cells": 7846,
+  "share": 0.9404
+ },
+ "rulerEqualShare": 0.9404,
+ "heightRows": 71,
+ "masterHeightRows": 101,
+ "solesBelowMasters": -2.93,
+ "ownLattice": {
+  "shift": [
+   -1.5,
+   0.5
+  ],
+  "flat": 14226,
+  "flatUnshifted": 13962,
+  "cells": 17152
+ },
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 74
+  },
+  "keyTinted": 25,
+  "keyNear": 0,
+  "keyHoles": 2,
+  "keyInked": 9,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "newColours": 16,
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 2,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "key": "green",
+ "howZoom": 7,
+ "warnings": [
+  "the new view's body is 71 rows tall, the master's 101: it is not the same height; generate again"
+ ],
+ "source": {
+  "image": "/workspace/generated_images/exec-2b74b96c-a06a-4bff-8e89-1b9f78c91826.png",
+  "sha256": "3bf015c6bff2c6d81f8d78960e45f0ba5d26b9906ee665914002223684e7898d"
+ },
+ "files": {
+  "sprite": "transition-1.png",
+  "how": "transition-1-how.png",
+  "review": "transition-1-review.png",
+  "grounds": "transition-1-grounds.png"
+ }
+}

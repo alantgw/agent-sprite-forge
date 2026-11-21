@@ -1,0 +1,473 @@
+{
+  "sequence_order": [
+    "endpoints/start-right-fist-v004.png",
+    "transition-1-1x.png",
+    "transition-2-1x.png",
+    "transition-3-1x.png",
+    "endpoints/end-airborne-kick-v001.png"
+  ],
+  "sprites": [
+    {
+      "order": 1,
+      "pose": "Crouch / weight shift",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        123,
+        86
+      ],
+      "placement": [
+        10,
+        23
+      ],
+      "bounds_xyxy_exclusive": [
+        10,
+        23,
+        133,
+        109
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_identical_to_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "transition-1",
+        "size": [
+          123,
+          86
+        ],
+        "cells": 5937,
+        "colours": 30,
+        "palette": [
+          "#000002",
+          "#000018",
+          "#02020c",
+          "#100813",
+          "#111338",
+          "#1f1e1c",
+          "#282268",
+          "#2e0b13",
+          "#36318c",
+          "#382450",
+          "#5044a8",
+          "#520c11",
+          "#645bc1",
+          "#71349d",
+          "#762e04",
+          "#7674dc",
+          "#8c1010",
+          "#8f450c",
+          "#94364e",
+          "#9c4cda",
+          "#a265c7",
+          "#a284d2",
+          "#a9610c",
+          "#b8150e",
+          "#ba6cf6",
+          "#be324a",
+          "#c27e13",
+          "#cc90f6",
+          "#d6aef1",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 25.0,
+          "row": 85
+        },
+        "anchor": [
+          25.5,
+          86
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7378,
+          "cells": 7846,
+          "share": 0.9404
+        },
+        "rulerEqualShare": 0.9404,
+        "heightRows": 71,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -2.93,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.5
+          ],
+          "flat": 14226,
+          "flatUnshifted": 13962,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 74
+          },
+          "keyTinted": 25,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 9,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 71 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-2b74b96c-a06a-4bff-8e89-1b9f78c91826.png",
+          "sha256": "3bf015c6bff2c6d81f8d78960e45f0ba5d26b9906ee665914002223684e7898d"
+        },
+        "files": {
+          "sprite": "transition-1.png",
+          "how": "transition-1-how.png",
+          "review": "transition-1-review.png",
+          "grounds": "transition-1-grounds.png"
+        }
+      }
+    },
+    {
+      "order": 2,
+      "pose": "Airborne knee lift",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        124,
+        86
+      ],
+      "placement": [
+        10,
+        15
+      ],
+      "bounds_xyxy_exclusive": [
+        10,
+        15,
+        134,
+        101
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_identical_to_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "transition-2",
+        "size": [
+          124,
+          86
+        ],
+        "cells": 5519,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#110814",
+          "#111338",
+          "#1f1e1c",
+          "#2b2060",
+          "#2e0b13",
+          "#36318c",
+          "#4c0a14",
+          "#583d8a",
+          "#614eb9",
+          "#762e04",
+          "#7674dc",
+          "#800e12",
+          "#8c64a0",
+          "#94364e",
+          "#97440a",
+          "#a286da",
+          "#a54bdb",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d22227",
+          "#d6a8ed",
+          "#e3caf6",
+          "#e68a18",
+          "#e6b486",
+          "#f5e3f7"
+        ],
+        "feet": {
+          "middle": 44.0,
+          "row": 84
+        },
+        "anchor": [
+          44.5,
+          85
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7278,
+          "cells": 7846,
+          "share": 0.9276
+        },
+        "rulerEqualShare": 0.9276,
+        "heightRows": 83,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -14.0,
+        "ownLattice": {
+          "shift": [
+            0.5,
+            0.0
+          ],
+          "flat": 13598,
+          "flatUnshifted": 13614,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 61
+          },
+          "keyTinted": 20,
+          "keyNear": 0,
+          "keyHoles": 4,
+          "keyInked": 5,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 2
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 7,
+          "lineCellsAdded": 7,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 83 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-df5e8d0a-ce48-42e8-8fc0-d6bace671cf6.png",
+          "sha256": "0132dbe496efaac29d0274cda4fdbcdc5860cc04b258b36a3b1a0d10075a4573"
+        },
+        "files": {
+          "sprite": "transition-2.png",
+          "how": "transition-2-how.png",
+          "review": "transition-2-review.png",
+          "grounds": "transition-2-grounds.png"
+        }
+      }
+    },
+    {
+      "order": 3,
+      "pose": "Partial kick extension",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        122,
+        79
+      ],
+      "placement": [
+        10,
+        17
+      ],
+      "bounds_xyxy_exclusive": [
+        10,
+        17,
+        132,
+        96
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_identical_to_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "transition-3",
+        "size": [
+          122,
+          79
+        ],
+        "cells": 5357,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e0812",
+          "#111338",
+          "#1f1e1c",
+          "#2a205e",
+          "#2e0b13",
+          "#36318c",
+          "#462e5c",
+          "#4c0913",
+          "#5950b2",
+          "#704a72",
+          "#762e04",
+          "#7674dc",
+          "#8a0e12",
+          "#94364e",
+          "#967da6",
+          "#9686e4",
+          "#ae4212",
+          "#b34ed2",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d31612",
+          "#d8acec",
+          "#e08a12",
+          "#e3caf6",
+          "#f0def2"
+        ],
+        "feet": {
+          "middle": 47.5,
+          "row": 77
+        },
+        "anchor": [
+          48.0,
+          78
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7396,
+          "cells": 7846,
+          "share": 0.9426
+        },
+        "rulerEqualShare": 0.9426,
+        "heightRows": 78,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -21.0,
+        "ownLattice": {
+          "shift": [
+            -2.5,
+            0.0
+          ],
+          "flat": 14078,
+          "flatUnshifted": 13869,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 24
+          },
+          "keyTinted": 10,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 2,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 78 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-c732caac-367f-4ac3-bd4a-aadda3b431cb.png",
+          "sha256": "4746cb6beeaaed29c13d5053c7df9bb8273fdb35a70cda07c69eb627308acd50"
+        },
+        "files": {
+          "sprite": "transition-3.png",
+          "how": "transition-3-how.png",
+          "review": "transition-3-review.png",
+          "grounds": "transition-3-grounds.png"
+        }
+      }
+    }
+  ],
+  "endpoints_unchanged": true,
+  "static_sprites_only": true,
+  "game_import_compatibility": "not verified"
+}

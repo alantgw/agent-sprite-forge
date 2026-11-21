@@ -1,0 +1,16 @@
+Three intermediate static sprites from accepted right-fist v004 to accepted airborne-kick v001.
+Order: start -> crouch/weight shift -> airborne knee chamber -> partial extension -> final kick. Endpoint PNGs copied byte-for-byte for review; originals untouched. No animation or runtime spritesheet generated. The sequence contact image is a visual review only.
+
+Each intermediate is 144x112 indexed PNG, exact original 16-entry palette, opaque teal RGB(88,120,120). Actual used colour counts are recorded per frame; unused base colours are not artificially forced into artwork. All source poses extracted on the ruler grid and placed without resizing. Crouch is aligned to the original y=109 foot line; later poses rise and change height intentionally. Native PNG, exact 6x nearest-neighbour preview and indexed BMP provided for each.
+
+Method: host image_gen using approved base ruler, both endpoint sprites and preceding intermediate for continuity; repository pixel-looks ask-view/view custom full-body pose extraction, existing runtime WIDE=2048x1024 layout and narrowed strict ruler fit, temporary expanded extraction palette to preserve hues followed by exact original-palette lock. Original gauntlet design, pale upper mane and red trailing appendages are the identity guides. No opponent/debris/effects or new human-like fists intended. No repository/editor source or game-file changes.
+
+These are generated key-pose in-betweens rather than a claim of pixel-identical body parts throughout or a tested smooth animation. Three additional poses reduce the large change in stance, but silhouette, limb lengths, gauntlets and clusters require user visual review. A linear interpolation is not substituted for drawn leg articulation. No game-import compatibility claim.
+
+Published warnings retained verbatim (the upright-view height comparison also flags intentional crouch and airborne poses):
+
+Transition 1: ["the new view's body is 71 rows tall, the master's 101: it is not the same height; generate again"]; ruler equality see record.
+
+Transition 2: ["the new view's body is 83 rows tall, the master's 101: it is not the same height; generate again"]; ruler equality see record.
+
+Transition 3: ["the new view's body is 78 rows tall, the master's 101: it is not the same height; generate again"]; ruler equality see record.
