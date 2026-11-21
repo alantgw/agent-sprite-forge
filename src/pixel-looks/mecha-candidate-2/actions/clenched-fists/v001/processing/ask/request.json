@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "03825c6ef20b56cbc301429d3958bdc453e88b80c735a41fe4feda300a64ae09",
+  "size": [
+   112,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Close BOTH raised hands into TIGHTLY CLENCHED PUNCHING FISTS. All four black mechanical fingers fold tightly into the palm, thumb wraps over the folded fingers; show a compact knuckle ridge and solid closed fist silhouette, with orange claw tips tucked against the palm. No spread fingers, no open palm, no grabbing gesture. Both fists remain raised at the exact existing wrist positions. Everything except the two hands remains pixel for pixel unchanged, including wrists, forearms, shoulders, head, mane, torso, legs, feet and tail.",
+ "outline": "rule"
+}

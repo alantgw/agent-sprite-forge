@@ -1,0 +1,3 @@
+Correction: both raised hands are tightly clenched punching fists, rather than an open grabbing gesture.
+144x112 indexed PNG with the exact approved 16-entry palette, all entries used; opaque teal RGB(88,120,120). Exact 6x nearest-neighbour preview and indexed BMP included.
+Repository pixel-looks ask-pose/pose generated the hand correction, with the existing runtime ruler-fit search and temporary one-colour extraction workaround. Final pixels are locked to the approved palette. Only the two documented hand regions are composited into the prior action sprite; every other pixel is verified identical. No editor or repository source changes; no game-import compatibility claim.

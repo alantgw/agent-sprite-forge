@@ -1,0 +1,137 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_entries": 16,
+  "palette_identical_to_approved_base": true,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "opaque": true,
+  "changed_pixels": 487,
+  "changes_confined_to_hand_boxes_xyxy_exclusive": [
+    [
+      21,
+      27,
+      44,
+      53
+    ],
+    [
+      84,
+      36,
+      112,
+      60
+    ]
+  ],
+  "all_pixels_outside_boxes_identical": true,
+  "method": "repository ask-pose/pose; original palette lock; hand-region-only compositing",
+  "art_source": "host_image",
+  "game_import_compatible": "not verified",
+  "pose_record": {
+    "schema": "generate2dsprite.pixel_look.v2",
+    "tool": "pixel_look",
+    "kind": "pose",
+    "name": "mecha-fists",
+    "size": [
+      112,
+      102
+    ],
+    "cells": 7149,
+    "colours": 16,
+    "palette": [
+      "#000018",
+      "#02020c",
+      "#026704",
+      "#111338",
+      "#1f1e1c",
+      "#2e0b13",
+      "#36318c",
+      "#5d2412",
+      "#762e04",
+      "#7674dc",
+      "#94364e",
+      "#b8150e",
+      "#ba6cf6",
+      "#c27e13",
+      "#cc90f6",
+      "#e3caf6"
+    ],
+    "feet": {
+      "middle": 72.0,
+      "row": 101
+    },
+    "anchor": [
+      72.5,
+      102
+    ],
+    "change": "Close BOTH raised hands into TIGHTLY CLENCHED PUNCHING FISTS. All four black mechanical fingers fold tightly into the palm, thumb wraps over the folded fingers; show a compact knuckle ridge and solid closed fist silhouette, with orange claw tips tucked against the palm. No spread fingers, no open palm, no grabbing gesture. Both fists remain raised at the exact existing wrist positions. Everything except the two hands remains pixel for pixel unchanged, including wrists, forearms, shoulders, head, mane, torso, legs, feet and tail.",
+    "masterAt": [
+      0,
+      0
+    ],
+    "lattice": {
+      "cell": 9.797,
+      "offset": [
+        0.3,
+        0.3
+      ],
+      "equal": 6610,
+      "cells": 7296,
+      "share": 0.906
+    },
+    "taken": {
+      "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+      "pictureEqual": 6707,
+      "cellsTaken": 532,
+      "newCells": 2,
+      "cellsEmptied": 149
+    },
+    "masterCellsKept": 6766,
+    "masterCells": 7296,
+    "masterKeptShare": 0.9274,
+    "newColours": 1,
+    "edge": {
+      "keyMixed": {
+        "removed": 0,
+        "darkened": 0
+      },
+      "keyTinted": 0,
+      "keyNear": 0,
+      "keyHoles": 0,
+      "keyInked": 1,
+      "keySpill": {
+        "removed": 0,
+        "recoloured": 0
+      },
+      "islandCells": 0
+    },
+    "outline": {
+      "line": [
+        0,
+        0,
+        24
+      ],
+      "specks": 0,
+      "bareCells": 0,
+      "lineCellsAdded": 0,
+      "closed": true,
+      "offset": [
+        0,
+        0
+      ],
+      "mode": "rule"
+    },
+    "source": {
+      "image": "/workspace/generated_images/exec-b6e086da-defc-42f9-84dd-d5fa884c1bcc.png",
+      "sha256": "8f94db7ebea5923cd4b7898e5ee53ff5366351760959593bebe965adce2957b8"
+    },
+    "files": {
+      "sprite": "mecha-fists.png",
+      "review": "mecha-fists-review.png"
+    }
+  }
+}

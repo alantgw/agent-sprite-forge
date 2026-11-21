@@ -1,0 +1,18 @@
+{
+  "hand-correction-comparison.png": "b3cc1f4c688c0d02ee92c474bd6ebad332bc110906c619353395ccec2120e885",
+  "specification.json": "609a207e2a30b43eb835667f56ab37705ed55ee866df76a38becfdfc19e79ff9",
+  "report.txt": "3314a4c08f1fcdbeeb6172a5c8cc57f8c7fc06935c647015baa986ebf9853b50",
+  "mecha-clenched-fists-6x.png": "48a09966fc7d8ade60ee20857c02f0e39018815a44ee83df980589b015e2bb95",
+  "mecha-clenched-fists-1x.png": "6becd86f17c0063c6a257291d6067304ea18ee87929ad094ae29536963d6f7ac",
+  "mecha-clenched-fists.bmp": "5e66278616e4c17d77b63507dff349a5d2bff964e75af9fd423855ac66118cb9",
+  "processing/pose_fit.py": "ecf5e89f86dd86a13897c212156e54a2c2b9eb955cc0f2922f23cdb73fde18b0",
+  "processing/generated-source.png": "8f94db7ebea5923cd4b7898e5ee53ff5366351760959593bebe965adce2957b8",
+  "processing/package.py": "f8f7b5eeca5f08d6a780dad65e1b303c75f9b6b07eda9cc7b2f94b99089a9de0",
+  "processing/ask/prompt.txt": "cbfa4d9f40eea6487a487a79909c25d49da7efad5d7f60e64627391b0cf10592",
+  "processing/ask/reference.png": "1526b0d2960effafae2e889c7198a04c2a866eb32bba64b1dc1ad7f72f659a86",
+  "processing/ask/master.png": "03825c6ef20b56cbc301429d3958bdc453e88b80c735a41fe4feda300a64ae09",
+  "processing/ask/request.json": "39609cfd5874eac45e1cbd2fd4fb259a9185f3ba62c033af870d6a58fca8d306",
+  "processing/pose/mecha-fists-review.png": "db26f69757e77b92715e1816ef65546c5f3f99bd6bea420cbe11ef7cd68b0080",
+  "processing/pose/mecha-fists.png": "5f5a7092ca72f3b715d39b519b428574f436cc1f2cd5063b5d0904fe4248badd",
+  "processing/pose/mecha-fists.json": "34157e083d19b59eb384419a662a3bf9241d029d75d419e9b5047fbb9ee6f22e"
+}
