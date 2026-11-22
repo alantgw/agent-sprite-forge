@@ -1,0 +1,355 @@
+{
+  "revision": "v005",
+  "purpose": "two reciprocal poses for repeated A-B-A-B punching, not independent poses",
+  "sequence": [
+    "frame-A-left-punch-1x.png",
+    "frame-B-right-punch-1x.png"
+  ],
+  "frames": [
+    {
+      "file": "frame-A-left-punch-1x.png",
+      "pose": "A: left punch / right retracts",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ]
+    },
+    {
+      "file": "frame-B-right-punch-1x.png",
+      "pose": "B: right punch / left retracts",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ]
+    }
+  ],
+  "pixels_outside_arm_chest_mask_identical_between_frames": true,
+  "head_upper_hair_identical": true,
+  "hips_legs_feet_identical": true,
+  "shared_body_source": "frame B, with lower loose strands removed",
+  "arm_chest_mask_polygon": [
+    [
+      15,
+      45
+    ],
+    [
+      61,
+      45
+    ],
+    [
+      61,
+      58
+    ],
+    [
+      90,
+      58
+    ],
+    [
+      92,
+      48
+    ],
+    [
+      116,
+      48
+    ],
+    [
+      122,
+      61
+    ],
+    [
+      117,
+      77
+    ],
+    [
+      91,
+      78
+    ],
+    [
+      89,
+      72
+    ],
+    [
+      57,
+      72
+    ],
+    [
+      48,
+      66
+    ],
+    [
+      15,
+      65
+    ]
+  ],
+  "frame_A_registration_shift": [
+    0,
+    0
+  ],
+  "changed_pixels_between_frames": 1474,
+  "detached_composite_fragment_pixels_removed": 26,
+  "preview_timing_ms_per_frame": 140,
+  "slow_preview_ms_per_frame": 260,
+  "preview_loop": "infinite; illustrative timing, not fixed playback requirement",
+  "effects": "none",
+  "game_import_compatibility": "not verified",
+  "workflow_records": {
+    "A": {
+      "schema": "generate2dsprite.pixel_look.v2",
+      "tool": "pixel_look",
+      "kind": "view",
+      "name": "frame-A",
+      "size": [
+        116,
+        102
+      ],
+      "cells": 7019,
+      "colours": 30,
+      "palette": [
+        "#000001",
+        "#000018",
+        "#02020c",
+        "#0f0912",
+        "#111338",
+        "#154021",
+        "#1f1e1c",
+        "#2a2262",
+        "#2e0b13",
+        "#36318c",
+        "#510c12",
+        "#553868",
+        "#6050b6",
+        "#762e04",
+        "#7674dc",
+        "#806493",
+        "#900e0e",
+        "#94364e",
+        "#9e4d08",
+        "#a34edb",
+        "#a689ce",
+        "#ae426c",
+        "#b8150e",
+        "#ba6cf6",
+        "#c27e13",
+        "#cc90f6",
+        "#d6adee",
+        "#dd8d15",
+        "#e3caf6",
+        "#efdced"
+      ],
+      "feet": {
+        "middle": 84.5,
+        "row": 101
+      },
+      "anchor": [
+        85.0,
+        102
+      ],
+      "view": "custom",
+      "lattice": {
+        "cell": 6.93,
+        "offset": [
+          0.8,
+          -0.2
+        ],
+        "equal": 6971,
+        "cells": 7846,
+        "share": 0.8885
+      },
+      "rulerEqualShare": 0.8885,
+      "heightRows": 102,
+      "masterHeightRows": 101,
+      "solesBelowMasters": -0.07,
+      "ownLattice": {
+        "shift": [
+          -3.0,
+          -0.5
+        ],
+        "flat": 13054,
+        "flatUnshifted": 12526,
+        "cells": 17152
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 63
+        },
+        "keyTinted": 23,
+        "keyNear": 0,
+        "keyHoles": 5,
+        "keyInked": 12,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 1
+        },
+        "islandCells": 0
+      },
+      "newColours": 16,
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 9,
+        "bareCells": 1,
+        "lineCellsAdded": 1,
+        "closed": true,
+        "offset": [
+          0,
+          0
+        ],
+        "mode": "rule"
+      },
+      "key": "green",
+      "howZoom": 8,
+      "warnings": [],
+      "source": {
+        "image": "/workspace/generated_images/exec-6c008a90-08ee-482c-9340-21750e02ed14.png",
+        "sha256": "4ada878e64caaf02bbca39165ac768938ad3a959035875e250518ab4e3b6960c"
+      },
+      "files": {
+        "sprite": "frame-A.png",
+        "how": "frame-A-how.png",
+        "review": "frame-A-review.png",
+        "grounds": "frame-A-grounds.png"
+      }
+    },
+    "B": {
+      "schema": "generate2dsprite.pixel_look.v2",
+      "tool": "pixel_look",
+      "kind": "view",
+      "name": "frame-B",
+      "size": [
+        119,
+        102
+      ],
+      "cells": 6419,
+      "colours": 30,
+      "palette": [
+        "#000000",
+        "#000018",
+        "#02020c",
+        "#0b0806",
+        "#111338",
+        "#1f1e1c",
+        "#2c245d",
+        "#2e0b13",
+        "#36318c",
+        "#48090c",
+        "#483a60",
+        "#6050b4",
+        "#762e04",
+        "#7674dc",
+        "#806f88",
+        "#94364e",
+        "#943804",
+        "#9e88de",
+        "#aa50d2",
+        "#b49fc6",
+        "#b53346",
+        "#b8150e",
+        "#ba6cf6",
+        "#c27e13",
+        "#cc90f6",
+        "#d31a0a",
+        "#d4b0ea",
+        "#dd8805",
+        "#e3caf6",
+        "#ecdeef"
+      ],
+      "feet": {
+        "middle": 90.5,
+        "row": 101
+      },
+      "anchor": [
+        91.0,
+        102
+      ],
+      "view": "custom",
+      "lattice": {
+        "cell": 6.88,
+        "offset": [
+          3.0,
+          3.0
+        ],
+        "equal": 5692,
+        "cells": 7846,
+        "share": 0.7255
+      },
+      "rulerEqualShare": 0.7255,
+      "heightRows": 102,
+      "masterHeightRows": 101,
+      "solesBelowMasters": -0.15,
+      "ownLattice": {
+        "shift": [
+          -2.0,
+          -1.0
+        ],
+        "flat": 13532,
+        "flatUnshifted": 13327,
+        "cells": 17152
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 52
+        },
+        "keyTinted": 14,
+        "keyNear": 0,
+        "keyHoles": 1,
+        "keyInked": 18,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 4
+        },
+        "islandCells": 0
+      },
+      "newColours": 16,
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 1,
+        "bareCells": 2,
+        "lineCellsAdded": 2,
+        "closed": true,
+        "offset": [
+          0,
+          0
+        ],
+        "mode": "rule"
+      },
+      "key": "green",
+      "howZoom": 8,
+      "warnings": [],
+      "source": {
+        "image": "/workspace/generated_images/exec-3bde408b-c7af-4176-97e5-439a93a931af.png",
+        "sha256": "7e1f905ced1071df03d78b3ac01f68b2c7384b3bc5edf2de41c44cecead6b2b2"
+      },
+      "files": {
+        "sprite": "frame-B.png",
+        "how": "frame-B-how.png",
+        "review": "frame-B-review.png",
+        "grounds": "frame-B-grounds.png"
+      }
+    }
+  }
+}
