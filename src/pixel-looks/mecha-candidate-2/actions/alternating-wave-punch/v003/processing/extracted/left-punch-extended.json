@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "left-punch-extended",
+ "size": [
+  111,
+  102
+ ],
+ "cells": 6576,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#030502",
+  "#111338",
+  "#1f1e1c",
+  "#292357",
+  "#2e0b13",
+  "#36318c",
+  "#450c0f",
+  "#5955b1",
+  "#762e04",
+  "#7674dc",
+  "#8f8ce2",
+  "#94364e",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d42115",
+  "#e28a15",
+  "#e3caf6",
+  "#eedef5"
+ ],
+ "feet": {
+  "middle": 74.5,
+  "row": 101
+ },
+ "anchor": [
+  75.0,
+  102
+ ],
+ "change": "Extend the active LEFT arm toward image-left by forty percent more shoulder-to-gauntlet reach, keeping its horizontal palm-down beast gauntlet. Pull the inactive RIGHT arm backward toward image-right behind the body, upper arm swept back with elbow only slightly bent. Its hand must move away from chest, back beside the rear hip. Not a folded arm or raised guard. Remove the old folded gauntlet on image-left. Keep head, mane, chest, waist, legs, feet and tail unchanged.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 9.797,
+  "offset": [
+   0.82,
+   -0.2
+  ],
+  "equal": 4900,
+  "cells": 6889,
+  "share": 0.7113
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5170,
+  "cellsTaken": 1512,
+  "newCells": 135,
+  "cellsEmptied": 446
+ },
+ "masterCellsKept": 5513,
+ "masterCells": 6889,
+ "masterKeptShare": 0.8003,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 4
+  },
+  "keyTinted": 2,
+  "keyNear": 1,
+  "keyHoles": 1,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 1,
+  "bareCells": 1,
+  "lineCellsAdded": 1,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-7f98ad32-df2c-4f0e-836a-e8738f9d6dcc.png",
+  "sha256": "de0689c04e989ad21b2b23a82a55dd126f053a0d9aac40e973fb935782f1e487"
+ },
+ "files": {
+  "sprite": "left-punch-extended.png",
+  "review": "left-punch-extended-review.png"
+ }
+}

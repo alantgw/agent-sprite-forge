@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "c98d746a77e44bb80bdb8735cb78f79bad595d979bd5fb9e6af66590821c5cb0",
+  "size": [
+   111,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Extend the active LEFT arm toward image-left by forty percent more shoulder-to-gauntlet reach, keeping its horizontal palm-down beast gauntlet. Pull the inactive RIGHT arm backward toward image-right behind the body, upper arm swept back with elbow only slightly bent. Its hand must move away from chest, back beside the rear hip. Not a folded arm or raised guard. Remove the old folded gauntlet on image-left. Keep head, mane, chest, waist, legs, feet and tail unchanged.",
+ "outline": "rule"
+}
