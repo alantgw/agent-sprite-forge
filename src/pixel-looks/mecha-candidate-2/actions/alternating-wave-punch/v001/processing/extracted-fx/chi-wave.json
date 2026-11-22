@@ -1,0 +1,94 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "master",
+ "name": "chi-wave",
+ "size": [
+  23,
+  13
+ ],
+ "cells": 186,
+ "colours": 3,
+ "palette": [
+  "#fd0100",
+  "#fe01c5",
+  "#feedfb"
+ ],
+ "feet": {
+  "middle": 11.0,
+  "row": 11
+ },
+ "anchor": [
+  11.5,
+  12
+ ],
+ "key": "green",
+ "howZoom": 24,
+ "read": {
+  "method": "walk",
+  "cellPx": [
+   36.333,
+   29.0
+  ],
+  "purity": {
+   "walk": 0.9917
+  },
+  "key": [
+   3,
+   248,
+   3
+  ],
+  "edge": {
+   "keyMixed": {
+    "removed": 0,
+    "darkened": 0
+   },
+   "keyTinted": 0,
+   "keyNear": 0,
+   "keyHoles": 0,
+   "keyInked": 0,
+   "keySpill": {
+    "removed": 0,
+    "recoloured": 0
+   },
+   "islandCells": 0
+  },
+  "outline": {
+   "mode": "drawn",
+   "line": null,
+   "specks": 0,
+   "bareCells": 0,
+   "lineCellsAdded": 0,
+   "closed": false,
+   "offset": [
+    0,
+    0
+   ]
+  },
+  "proportions": {
+   "mode": "blocks",
+   "blockPx": [
+    34.78,
+    29.0
+   ],
+   "blocksTallerBy": 0.8337,
+   "sizeInBlocks": [
+    23,
+    13
+   ],
+   "rowsDoubled": [],
+   "columnsDoubled": []
+  }
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-2e79e134-5bbf-43ea-8e5e-363441b26ad8.png",
+  "sha256": "11569e755b4185adbd4262444b67ca875d0ca797c90bb69d6a58e1db4e814a98"
+ },
+ "files": {
+  "sprite": "chi-wave.png",
+  "how": "chi-wave-how.png",
+  "review": "chi-wave-review.png",
+  "grounds": "chi-wave-grounds.png"
+ },
+ "note": "The sprite's size comes from the picture: one pixel a block, and where the picture's blocks are not square, rows or columns doubled so that the figure keeps its proportions (read.proportions). Look at the review picture, and at the sprite's edge on every ground, before anything is made from it."
+}

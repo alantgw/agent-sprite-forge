@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "src/pixel-looks/mecha-candidate-2/v001/mecha-final-1x.png",
+ "masterHeight": 112,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-punch-redesign-v001/deliverables/A-right-punch-1x.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    112
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-punch-redesign-v001/deliverables/B-left-punch-1x.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    112
+   ],
+   "firstDiffersBy": 0
+  }
+ ],
+ "firstDrawingDiffers": [],
+ "verdict": "same",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}

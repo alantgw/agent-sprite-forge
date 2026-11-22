@@ -1,0 +1,121 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "view",
+ "name": "right-punch",
+ "size": [
+  120,
+  102
+ ],
+ "cells": 7472,
+ "colours": 30,
+ "palette": [
+  "#000001",
+  "#000018",
+  "#02020c",
+  "#0f0910",
+  "#111338",
+  "#1f1e1c",
+  "#251f5c",
+  "#2e0b13",
+  "#36318c",
+  "#443163",
+  "#500e10",
+  "#5042a2",
+  "#6056c1",
+  "#745e92",
+  "#762e04",
+  "#7674dc",
+  "#860e0f",
+  "#94364e",
+  "#964609",
+  "#9b7aae",
+  "#a24eda",
+  "#a289e4",
+  "#b2650d",
+  "#b8150e",
+  "#ba3a47",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#ceaeec",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 84.0,
+  "row": 101
+ },
+ "anchor": [
+  84.5,
+  102
+ ],
+ "view": "custom",
+ "lattice": {
+  "cell": 6.93,
+  "offset": [
+   -0.2,
+   -0.2
+  ],
+  "equal": 6942,
+  "cells": 7846,
+  "share": 0.8848
+ },
+ "rulerEqualShare": 0.8848,
+ "heightRows": 100,
+ "masterHeightRows": 101,
+ "solesBelowMasters": -0.07,
+ "ownLattice": {
+  "shift": [
+   2.5,
+   -0.5
+  ],
+  "flat": 12842,
+  "flatUnshifted": 12684,
+  "cells": 17152
+ },
+ "edge": {
+  "keyMixed": {
+   "removed": 1,
+   "darkened": 50
+  },
+  "keyTinted": 10,
+  "keyNear": 0,
+  "keyHoles": 3,
+  "keyInked": 16,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 2
+  },
+  "islandCells": 0
+ },
+ "newColours": 16,
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 9,
+  "bareCells": 3,
+  "lineCellsAdded": 3,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "key": "green",
+ "howZoom": 8,
+ "warnings": [],
+ "source": {
+  "image": "/workspace/generated_images/exec-8647ab1c-d0b6-4c3a-8431-354177eaf643.png",
+  "sha256": "305cdba73cfd1c28833be08c614e2f19a5c22788f1ba434ebe4b3bdac0ca7292"
+ },
+ "files": {
+  "sprite": "right-punch.png",
+  "how": "right-punch-how.png",
+  "review": "right-punch-review.png",
+  "grounds": "right-punch-grounds.png"
+ }
+}
