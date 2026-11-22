@@ -1,0 +1,13 @@
+Two static firing-punch poses from approved Candidate 2: anatomical left arm reaches across chest, then anatomical right arm extends from the far/viewer-left shoulder while left retracts. Both face and shoot toward viewers left from same camera; not a whole-character mirror. Only mecha poses; light wave, beam, flare, glow, trails, screen UI and all other effects excluded.
+
+USER COLOUR REQUIREMENT: original approved base colours retained; video used only for body/arm placement. Original 16-entry indexed palette matches byte-for-byte, opaque teal RGB(88,120,120). Actual used counts recorded per pose. No video dark/red lighting copied. Head, legs and physical trailing strands identical between final sprites; arm/connecting chest regions carry the swap. These are model-assisted posed edits rather than literal cut-outs of the base.
+
+Method: video inspected at 2fps overview and 10fps close-ups, with .3s and .7s crops as pose-only references. Built-in host image_gen followed by repository ask-view/view on measured master ruler grid, existing 2048x1024 intermediate accommodation and narrowed strict fitting, expanded intermediate palette then exact base-palette lock. Both source takes were 1774x887. Native grid images padded at the same integer position without resizing. Previews are exact 6x nearest-neighbour; indexed BMPs included. No editor/source/game files modified. Video and screenshots retained locally, not republished to repository.
+
+Published upright-height warnings (crouched forward-lean pose deliberately shorter vertically, retained for visual review):
+
+Pose 1: ["the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"]
+
+Pose 2: ["the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"]
+
+No claim of frame-perfect video tracing, tested smooth animation or game-import compatibility.

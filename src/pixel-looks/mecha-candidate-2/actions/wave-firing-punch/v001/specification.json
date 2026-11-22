@@ -1,0 +1,314 @@
+{
+  "poses": [
+    {
+      "pose": "Left-arm firing punch",
+      "native_file": "left-punch-1x.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "bounds_xyxy_exclusive": [
+        7,
+        7,
+        136,
+        106
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_identical_to_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "workflow_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "punch-1",
+        "size": [
+          129,
+          99
+        ],
+        "cells": 7363,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0f0a10",
+          "#111338",
+          "#1f1e1c",
+          "#2b215a",
+          "#2e0b13",
+          "#36318c",
+          "#4a0a10",
+          "#4a376e",
+          "#5a4cb0",
+          "#624c69",
+          "#680c0f",
+          "#762e04",
+          "#7674dc",
+          "#81669a",
+          "#920e0f",
+          "#94364e",
+          "#a24ecf",
+          "#a2510a",
+          "#a28ad9",
+          "#b24674",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d4aeec",
+          "#e3caf6",
+          "#e89434"
+        ],
+        "feet": {
+          "middle": 99.0,
+          "row": 97
+        },
+        "anchor": [
+          99.5,
+          98
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.88,
+          "offset": [
+            3.0,
+            3.0
+          ],
+          "equal": 6573,
+          "cells": 7846,
+          "share": 0.8378
+        },
+        "rulerEqualShare": 0.8378,
+        "heightRows": 93,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -2.5,
+            0.0
+          ],
+          "flat": 12972,
+          "flatUnshifted": 12830,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 94
+          },
+          "keyTinted": 10,
+          "keyNear": 0,
+          "keyHoles": 6,
+          "keyInked": 33,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 12,
+          "lineCellsAdded": 12,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-d878a20b-c192-4d89-9451-a5a7e96e5529.png",
+          "sha256": "5fc823f838b44cd86d3a8df7d154e65dd5118fa087fe8876643eae79c0d41e18"
+        },
+        "files": {
+          "sprite": "punch-1.png",
+          "how": "punch-1-how.png",
+          "review": "punch-1-review.png",
+          "grounds": "punch-1-grounds.png"
+        }
+      }
+    },
+    {
+      "pose": "Right-arm firing punch",
+      "native_file": "right-punch-1x.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "bounds_xyxy_exclusive": [
+        7,
+        7,
+        136,
+        106
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_identical_to_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "workflow_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "punch-2",
+        "size": [
+          129,
+          98
+        ],
+        "cells": 7341,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e090e",
+          "#111338",
+          "#1f1e1c",
+          "#282060",
+          "#2e0b13",
+          "#36318c",
+          "#520710",
+          "#543a6c",
+          "#6250bc",
+          "#6c518b",
+          "#762e04",
+          "#7674dc",
+          "#8a0d0f",
+          "#94364e",
+          "#9f4a08",
+          "#a184e7",
+          "#a68cad",
+          "#b24cea",
+          "#b8150e",
+          "#ba6cf6",
+          "#bc4058",
+          "#c27e13",
+          "#cc90f6",
+          "#d8afec",
+          "#e3caf6",
+          "#e5962b",
+          "#f2ddf0"
+        ],
+        "feet": {
+          "middle": 99.0,
+          "row": 97
+        },
+        "anchor": [
+          99.5,
+          98
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.88,
+          "offset": [
+            3.0,
+            3.0
+          ],
+          "equal": 6426,
+          "cells": 7846,
+          "share": 0.819
+        },
+        "rulerEqualShare": 0.819,
+        "heightRows": 93,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.0
+          ],
+          "flat": 12934,
+          "flatUnshifted": 12802,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 69
+          },
+          "keyTinted": 19,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 29,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 5
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 7,
+          "bareCells": 16,
+          "lineCellsAdded": 17,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-86af62a5-0bdd-4743-a8ae-c9e87957e2ac.png",
+          "sha256": "e7b2a0532d0df15af9413cd96c5e9ab63dd44de482972567f2d199d96e00ef14"
+        },
+        "files": {
+          "sprite": "punch-2.png",
+          "how": "punch-2-how.png",
+          "review": "punch-2-review.png",
+          "grounds": "punch-2-grounds.png"
+        }
+      }
+    }
+  ],
+  "same_viewpoint_and_direction": true,
+  "direction": "viewers left for both",
+  "not_a_whole_sprite_mirror": true,
+  "pixels_outside_arm_and_chest_regions_identical_between_poses": true,
+  "video_colours_copied": false,
+  "palette_source": "approved Candidate 2 v001 original palette",
+  "beam_and_all_effects_excluded": true,
+  "video": {
+    "filename": "1-ScreenRecording_11-22-2026-07-58-46_1.mov",
+    "sha256": "0abd3710c4861d44b48dbc333fc31d7bcc8da878403850127a5fe84eaccd0d33",
+    "duration_seconds": 2.281667,
+    "inspected_at_fps": 10,
+    "pose_reference_times_seconds": [
+      0.3,
+      0.7
+    ],
+    "published": false
+  },
+  "route": "host image_gen; repository pixel-looks ask-view/view; exact original-palette lock; region-limited arm swap",
+  "game_import_compatibility": "not verified"
+}
