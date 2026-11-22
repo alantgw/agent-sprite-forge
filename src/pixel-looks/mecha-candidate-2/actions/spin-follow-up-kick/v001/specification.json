@@ -1,0 +1,633 @@
+{
+  "sequence_order": [
+    "endpoint/approved-first-kick-1x.png",
+    "spin-kick-1-1x.png",
+    "spin-kick-2-1x.png",
+    "spin-kick-3-1x.png",
+    "spin-kick-4-1x.png"
+  ],
+  "new_sprite_count": 4,
+  "source_video": {
+    "filename": "1-ScreenRecording_11-22-2026-07-34-53_1.mov",
+    "sha256": "4e814001ffe6758f84de3d07a954f0d98bd839743bd86ba646029acb1e5bdacc",
+    "duration_seconds": 6.74,
+    "inspected_action_region_seconds": [
+      1.1,
+      2.2
+    ],
+    "inspection_samples_seconds": [
+      1.12,
+      1.3,
+      1.55,
+      1.78,
+      1.94,
+      2.1
+    ],
+    "uploaded_to_repository": false
+  },
+  "sprites": [
+    {
+      "order": 1,
+      "pose": "Retract / begin turn",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        102,
+        88
+      ],
+      "bounds_xyxy_exclusive": [
+        21,
+        12,
+        123,
+        100
+      ],
+      "stored_palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "spin-1",
+        "size": [
+          102,
+          88
+        ],
+        "cells": 5405,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e0a12",
+          "#111338",
+          "#1f1e1c",
+          "#26205e",
+          "#2e0b13",
+          "#36318c",
+          "#480a13",
+          "#5444aa",
+          "#563868",
+          "#680c11",
+          "#6a5ebe",
+          "#709a3c",
+          "#762e04",
+          "#7674dc",
+          "#941010",
+          "#94364e",
+          "#a186c9",
+          "#a450db",
+          "#ad3e70",
+          "#b8150e",
+          "#ba540e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d2aeee",
+          "#e3caf6",
+          "#f5dcf4"
+        ],
+        "feet": {
+          "middle": 16.5,
+          "row": 86
+        },
+        "anchor": [
+          17.0,
+          87
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7518,
+          "cells": 7846,
+          "share": 0.9582
+        },
+        "rulerEqualShare": 0.9582,
+        "heightRows": 82,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -15.93,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.5
+          ],
+          "flat": 13982,
+          "flatUnshifted": 13861,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 47
+          },
+          "keyTinted": 30,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 19,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 6
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 3,
+          "lineCellsAdded": 3,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 9,
+        "warnings": [
+          "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-03f28259-0614-4ce0-9965-275a59a0dcda.png",
+          "sha256": "5b18e5a17c08b23a43031d737b4ab2b21ce01f51488dd54c2db93ba37aaa2240"
+        },
+        "files": {
+          "sprite": "spin-1.png",
+          "how": "spin-1-how.png",
+          "review": "spin-1-review.png",
+          "grounds": "spin-1-grounds.png"
+        }
+      }
+    },
+    {
+      "order": 2,
+      "pose": "Back-facing half turn",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        111,
+        95
+      ],
+      "bounds_xyxy_exclusive": [
+        16,
+        8,
+        127,
+        103
+      ],
+      "stored_palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "spin-2",
+        "size": [
+          111,
+          95
+        ],
+        "cells": 5819,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#040c0a",
+          "#100815",
+          "#111338",
+          "#1f1e1c",
+          "#262066",
+          "#2e0b13",
+          "#36318c",
+          "#500d14",
+          "#5143b0",
+          "#682e6a",
+          "#6858ca",
+          "#6a5680",
+          "#762e04",
+          "#7674dc",
+          "#8c0e11",
+          "#94364e",
+          "#9b88e8",
+          "#a84ee9",
+          "#ae4e0a",
+          "#b73c79",
+          "#b8150e",
+          "#ba6cf6",
+          "#be88c9",
+          "#c27e13",
+          "#cc90f6",
+          "#d3b0f2",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 49.5,
+          "row": 93
+        },
+        "anchor": [
+          50.0,
+          94
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7360,
+          "cells": 7846,
+          "share": 0.9381
+        },
+        "rulerEqualShare": 0.9381,
+        "heightRows": 94,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -8.0,
+        "ownLattice": {
+          "shift": [
+            -2.0,
+            0.0
+          ],
+          "flat": 14455,
+          "flatUnshifted": 13835,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 14
+          },
+          "keyTinted": 3,
+          "keyNear": 1,
+          "keyHoles": 1,
+          "keyInked": 7,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 4,
+          "bareCells": 8,
+          "lineCellsAdded": 8,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-470afa02-0f1f-4285-98d8-1ee69d114dd5.png",
+          "sha256": "51fc0dd1df08dfaa9bfe060856d9eab8841d9058bee168aaa3da56f1867c9a64"
+        },
+        "files": {
+          "sprite": "spin-2.png",
+          "how": "spin-2-how.png",
+          "review": "spin-2-review.png",
+          "grounds": "spin-2-grounds.png"
+        }
+      }
+    },
+    {
+      "order": 3,
+      "pose": "Opposite-side knee chamber",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        109,
+        106
+      ],
+      "bounds_xyxy_exclusive": [
+        17,
+        3,
+        126,
+        109
+      ],
+      "stored_palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "spin-3",
+        "size": [
+          109,
+          106
+        ],
+        "cells": 5792,
+        "colours": 30,
+        "palette": [
+          "#000002",
+          "#000018",
+          "#02020c",
+          "#0c0a13",
+          "#111338",
+          "#1f1e1c",
+          "#2a1c4c",
+          "#2c2468",
+          "#2e0b13",
+          "#36318c",
+          "#4a0d15",
+          "#5042a4",
+          "#641414",
+          "#683d6e",
+          "#6a57c0",
+          "#762e04",
+          "#7674dc",
+          "#901215",
+          "#94364e",
+          "#9a7ec8",
+          "#9e530e",
+          "#a050db",
+          "#b2325a",
+          "#b8150e",
+          "#ba6cf6",
+          "#c09edf",
+          "#c27e13",
+          "#cc90f6",
+          "#d9b1f0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 51.0,
+          "row": 104
+        },
+        "anchor": [
+          51.5,
+          105
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7331,
+          "cells": 7846,
+          "share": 0.9344
+        },
+        "rulerEqualShare": 0.9344,
+        "heightRows": 102,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.93,
+        "ownLattice": {
+          "shift": [
+            -2.5,
+            0.5
+          ],
+          "flat": 13839,
+          "flatUnshifted": 13396,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 47
+          },
+          "keyTinted": 7,
+          "keyNear": 1,
+          "keyHoles": 2,
+          "keyInked": 15,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 3
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-5dc665c6-d1c6-404f-ab49-82c2047cd329.png",
+          "sha256": "a47dea46c7e7a1437721bdf514b2bde39cebb9348c9c7bf8b41356c6580cfd5d"
+        },
+        "files": {
+          "sprite": "spin-3.png",
+          "how": "spin-3-how.png",
+          "review": "spin-3-review.png",
+          "grounds": "spin-3-grounds.png"
+        }
+      }
+    },
+    {
+      "order": 4,
+      "pose": "Complete turn / second kick",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        124,
+        91
+      ],
+      "bounds_xyxy_exclusive": [
+        10,
+        10,
+        134,
+        101
+      ],
+      "stored_palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_approved_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "spin-4",
+        "size": [
+          124,
+          91
+        ],
+        "cells": 5529,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0c0a12",
+          "#111338",
+          "#1f1e1c",
+          "#292056",
+          "#2e0b13",
+          "#36318c",
+          "#530e14",
+          "#563668",
+          "#5c50b5",
+          "#762e04",
+          "#7674dc",
+          "#8e1012",
+          "#8e5096",
+          "#9178a2",
+          "#924208",
+          "#94364e",
+          "#a288e0",
+          "#a94fda",
+          "#b8150e",
+          "#ba6cf6",
+          "#be2f48",
+          "#c27e13",
+          "#cc90f6",
+          "#ceaaea",
+          "#de901e",
+          "#e3caf6",
+          "#f0def3"
+        ],
+        "feet": {
+          "middle": 44.5,
+          "row": 89
+        },
+        "anchor": [
+          45.0,
+          90
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 6803,
+          "cells": 7846,
+          "share": 0.8671
+        },
+        "rulerEqualShare": 0.8671,
+        "heightRows": 82,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -10.0,
+        "ownLattice": {
+          "shift": [
+            2.0,
+            0.0
+          ],
+          "flat": 13726,
+          "flatUnshifted": 13690,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 50
+          },
+          "keyTinted": 8,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 26,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 9
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 5,
+          "bareCells": 5,
+          "lineCellsAdded": 5,
+          "closed": true,
+          "offset": [
+            0,
+            -1
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-3288e1f5-eb50-4b20-8cff-eeff29c75771.png",
+          "sha256": "2262ef07e8ce1e77e1d09d8331c38c0cd294685ffcadeec90508c6341385790f"
+        },
+        "files": {
+          "sprite": "spin-4.png",
+          "how": "spin-4-how.png",
+          "review": "spin-4-review.png",
+          "grounds": "spin-4-grounds.png"
+        }
+      }
+    }
+  ],
+  "effects_opponent_ui_excluded_from_sprites": true,
+  "palette_source": "approved Candidate 2 v001",
+  "route": "host image_gen and repository pixel-looks ask-view/view grid extraction, then original palette lock",
+  "limitations": [
+    "Four designed key poses summarize the turn; not a frame-by-frame video trace or an animated transition.",
+    "Rear armour hidden in references is inferred from existing plate shapes.",
+    "Frames centered on shared native canvas; game-specific root registration and timing remain unverified.",
+    "No game-import compatibility claim."
+  ]
+}
