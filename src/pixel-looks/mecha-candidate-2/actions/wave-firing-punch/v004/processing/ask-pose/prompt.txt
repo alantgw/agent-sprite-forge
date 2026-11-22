@@ -1,0 +1,9 @@
+Create exactly ONE square image.
+
+One image is attached: a pixel-art game sprite on a flat green (#00FF00) background, shown enlarged. Every square of 8 px in it is one pixel of the sprite.
+
+Reproduce the attached image: the same single figure at exactly the same size and in the same place on the canvas, the same pixel art on the same coarse, regular square pixel grid, every pixel exactly as large as in the attached image, one flat colour per pixel, hard edges, the same dark outline one pixel wide, the same colours.
+
+THE ONLY CHANGE: Repose only upper torso and arms: lean the same chest forward modestly from the waist, keeping its original width and volume, and move the same head a little forward with the lean without changing helmet/head size. Anatomical LEFT arm (viewer-right shoulder) drives a short horizontal punch across chest toward viewer LEFT, original gauntlet palm faces DOWN through forearm roll and wrist stays straight. Anatomical RIGHT arm retracts naturally beside rear ribs with connected bent elbow. Keep original limb thickness, actual armour shapes, waist size and proportions exactly. All loose mane/red strands gather behind/up from head, not behind feet; keep tips within original figure height. Do NOT redesign or restyle, enlarge muscles or round armour, shrink chest, lengthen legs or exaggerate the head. Legs, feet, hips and layered waist remain exactly as the approved base at their existing positions, pixel for pixel.
+
+Everything that the change does not name is NOT redrawn: it stays exactly as it is, pixel for pixel, in the same place. The background stays the same flat pure green (#00FF00) everywhere, with no shadow and nothing else in the picture.

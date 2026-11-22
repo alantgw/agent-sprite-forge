@@ -1,0 +1,127 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "master",
+ "name": "left-punch",
+ "size": [
+  105,
+  106
+ ],
+ "cells": 5853,
+ "colours": 32,
+ "palette": [
+  "#01000a",
+  "#01020e",
+  "#04020c",
+  "#140711",
+  "#181652",
+  "#251d1c",
+  "#2f2e91",
+  "#321e3a",
+  "#3b0710",
+  "#4c3c54",
+  "#4c45b4",
+  "#5a080f",
+  "#683c83",
+  "#6a64d9",
+  "#765c7d",
+  "#7874e4",
+  "#7c2c02",
+  "#8f81ed",
+  "#9880a2",
+  "#994b07",
+  "#b02d36",
+  "#bfaacc",
+  "#c660f9",
+  "#c87706",
+  "#cb140f",
+  "#d48109",
+  "#d4a6f7",
+  "#d61710",
+  "#e7c7f5",
+  "#eacff6",
+  "#f2b470",
+  "#fcf1f6"
+ ],
+ "feet": {
+  "middle": 72.0,
+  "row": 105
+ },
+ "anchor": [
+  72.5,
+  106
+ ],
+ "key": "green",
+ "howZoom": 9,
+ "read": {
+  "method": "walk",
+  "cellPx": [
+   9.667,
+   10.0
+  ],
+  "purity": {
+   "walk": 0.9482
+  },
+  "key": [
+   2,
+   249,
+   3
+  ],
+  "edge": {
+   "keyMixed": {
+    "removed": 0,
+    "darkened": 1
+   },
+   "keyTinted": 1,
+   "keyNear": 0,
+   "keyHoles": 0,
+   "keyInked": 0,
+   "keySpill": {
+    "removed": 0,
+    "recoloured": 0
+   },
+   "islandCells": 0
+  },
+  "outline": {
+   "line": [
+    1,
+    2,
+    14
+   ],
+   "specks": 4,
+   "bareCells": 9,
+   "lineCellsAdded": 10,
+   "closed": true,
+   "offset": [
+    0,
+    0
+   ],
+   "mode": "rule"
+  },
+  "proportions": {
+   "mode": "blocks",
+   "blockPx": [
+    9.7,
+    9.88
+   ],
+   "blocksTallerBy": 1.0194,
+   "sizeInBlocks": [
+    105,
+    106
+   ],
+   "rowsDoubled": [],
+   "columnsDoubled": []
+  }
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-707570e4-cc7a-4e1d-9d08-eb60c5f7b16f.png",
+  "sha256": "f6d9a08052e0a2d65b7a776e4aa670950904b27415868f3d08ecab2ed925adfb"
+ },
+ "files": {
+  "sprite": "left-punch.png",
+  "how": "left-punch-how.png",
+  "review": "left-punch-review.png",
+  "grounds": "left-punch-grounds.png"
+ },
+ "note": "The sprite's size comes from the picture: one pixel a block, and where the picture's blocks are not square, rows or columns doubled so that the figure keeps its proportions (read.proportions). Look at the review picture, and at the sprite's edge on every ground, before anything is made from it."
+}

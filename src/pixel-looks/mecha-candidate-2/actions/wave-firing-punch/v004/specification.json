@@ -1,0 +1,314 @@
+{
+  "revision": "v004",
+  "intent": "keep original base thickness/proportions by editing approved sprite instead of redesigning body",
+  "sprites": [
+    {
+      "pose": "left-arm punch",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "source_grid_size": [
+        105,
+        106
+      ],
+      "placement": [
+        16,
+        3
+      ],
+      "lower_body_restored_from_original_base": true,
+      "waist_and_selected_leg_foot_pixels_identical_to_base": true,
+      "torso_restored_from_base_beneath_foreground_arm": true,
+      "source_master_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "master",
+        "name": "left-punch",
+        "size": [
+          105,
+          106
+        ],
+        "cells": 5853,
+        "colours": 32,
+        "palette": [
+          "#01000a",
+          "#01020e",
+          "#04020c",
+          "#140711",
+          "#181652",
+          "#251d1c",
+          "#2f2e91",
+          "#321e3a",
+          "#3b0710",
+          "#4c3c54",
+          "#4c45b4",
+          "#5a080f",
+          "#683c83",
+          "#6a64d9",
+          "#765c7d",
+          "#7874e4",
+          "#7c2c02",
+          "#8f81ed",
+          "#9880a2",
+          "#994b07",
+          "#b02d36",
+          "#bfaacc",
+          "#c660f9",
+          "#c87706",
+          "#cb140f",
+          "#d48109",
+          "#d4a6f7",
+          "#d61710",
+          "#e7c7f5",
+          "#eacff6",
+          "#f2b470",
+          "#fcf1f6"
+        ],
+        "feet": {
+          "middle": 72.0,
+          "row": 105
+        },
+        "anchor": [
+          72.5,
+          106
+        ],
+        "key": "green",
+        "howZoom": 9,
+        "read": {
+          "method": "walk",
+          "cellPx": [
+            9.667,
+            10.0
+          ],
+          "purity": {
+            "walk": 0.9482
+          },
+          "key": [
+            2,
+            249,
+            3
+          ],
+          "edge": {
+            "keyMixed": {
+              "removed": 0,
+              "darkened": 1
+            },
+            "keyTinted": 1,
+            "keyNear": 0,
+            "keyHoles": 0,
+            "keyInked": 0,
+            "keySpill": {
+              "removed": 0,
+              "recoloured": 0
+            },
+            "islandCells": 0
+          },
+          "outline": {
+            "line": [
+              1,
+              2,
+              14
+            ],
+            "specks": 4,
+            "bareCells": 9,
+            "lineCellsAdded": 10,
+            "closed": true,
+            "offset": [
+              0,
+              0
+            ],
+            "mode": "rule"
+          },
+          "proportions": {
+            "mode": "blocks",
+            "blockPx": [
+              9.7,
+              9.88
+            ],
+            "blocksTallerBy": 1.0194,
+            "sizeInBlocks": [
+              105,
+              106
+            ],
+            "rowsDoubled": [],
+            "columnsDoubled": []
+          }
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-707570e4-cc7a-4e1d-9d08-eb60c5f7b16f.png",
+          "sha256": "f6d9a08052e0a2d65b7a776e4aa670950904b27415868f3d08ecab2ed925adfb"
+        },
+        "files": {
+          "sprite": "left-punch.png",
+          "how": "left-punch-how.png",
+          "review": "left-punch-review.png",
+          "grounds": "left-punch-grounds.png"
+        },
+        "note": "The sprite's size comes from the picture: one pixel a block, and where the picture's blocks are not square, rows or columns doubled so that the figure keeps its proportions (read.proportions). Look at the review picture, and at the sprite's edge on every ground, before anything is made from it."
+      }
+    },
+    {
+      "pose": "right-arm punch",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "source_grid_size": [
+        104,
+        106
+      ],
+      "placement": [
+        16,
+        3
+      ],
+      "lower_body_restored_from_original_base": true,
+      "waist_and_selected_leg_foot_pixels_identical_to_base": true,
+      "torso_restored_from_base_beneath_foreground_arm": true,
+      "source_master_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "master",
+        "name": "right-punch",
+        "size": [
+          104,
+          106
+        ],
+        "cells": 6007,
+        "colours": 32,
+        "palette": [
+          "#01010d",
+          "#01020c",
+          "#04020d",
+          "#120812",
+          "#161240",
+          "#201b1a",
+          "#2d2a87",
+          "#333093",
+          "#340811",
+          "#3e2c55",
+          "#54749a",
+          "#605172",
+          "#635cd0",
+          "#68348f",
+          "#7371e0",
+          "#752c03",
+          "#7a0c10",
+          "#883e0a",
+          "#9880a6",
+          "#a03244",
+          "#b71410",
+          "#b9a0c8",
+          "#bb61f6",
+          "#bf69f7",
+          "#c07a0a",
+          "#c8820c",
+          "#c9140f",
+          "#cc96f5",
+          "#e1c2f5",
+          "#e5caf6",
+          "#f2e1f2",
+          "#f6c8b7"
+        ],
+        "feet": {
+          "middle": 72.0,
+          "row": 105
+        },
+        "anchor": [
+          72.5,
+          106
+        ],
+        "key": "green",
+        "howZoom": 9,
+        "read": {
+          "method": "walk",
+          "cellPx": [
+            9.667,
+            10.0
+          ],
+          "purity": {
+            "walk": 0.9579
+          },
+          "key": [
+            2,
+            249,
+            2
+          ],
+          "edge": {
+            "keyMixed": {
+              "removed": 0,
+              "darkened": 0
+            },
+            "keyTinted": 1,
+            "keyNear": 0,
+            "keyHoles": 0,
+            "keyInked": 1,
+            "keySpill": {
+              "removed": 0,
+              "recoloured": 0
+            },
+            "islandCells": 0
+          },
+          "outline": {
+            "line": [
+              1,
+              2,
+              12
+            ],
+            "specks": 5,
+            "bareCells": 5,
+            "lineCellsAdded": 6,
+            "closed": true,
+            "offset": [
+              0,
+              0
+            ],
+            "mode": "rule"
+          },
+          "proportions": {
+            "mode": "blocks",
+            "blockPx": [
+              9.8,
+              9.9
+            ],
+            "blocksTallerBy": 1.0101,
+            "sizeInBlocks": [
+              104,
+              106
+            ],
+            "rowsDoubled": [],
+            "columnsDoubled": []
+          }
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-1baee942-7e4c-4fd7-b166-ac02363ddc77.png",
+          "sha256": "eb9500a57e138ff39e7ae8813abe6aa0ebaec5e5386fee7da2c46a3cf2592a28"
+        },
+        "files": {
+          "sprite": "right-punch.png",
+          "how": "right-punch-how.png",
+          "review": "right-punch-review.png",
+          "grounds": "right-punch-grounds.png"
+        },
+        "note": "The sprite's size comes from the picture: one pixel a block, and where the picture's blocks are not square, rows or columns doubled so that the figure keeps its proportions (read.proportions). Look at the review picture, and at the sprite's edge on every ground, before anything is made from it."
+      }
+    }
+  ],
+  "visual_review_required": true,
+  "game_import_compatibility": "not verified"
+}

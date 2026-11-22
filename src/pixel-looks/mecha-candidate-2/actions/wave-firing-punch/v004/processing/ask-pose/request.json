@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+  "size": [
+   112,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Repose only upper torso and arms: lean the same chest forward modestly from the waist, keeping its original width and volume, and move the same head a little forward with the lean without changing helmet/head size. Anatomical LEFT arm (viewer-right shoulder) drives a short horizontal punch across chest toward viewer LEFT, original gauntlet palm faces DOWN through forearm roll and wrist stays straight. Anatomical RIGHT arm retracts naturally beside rear ribs with connected bent elbow. Keep original limb thickness, actual armour shapes, waist size and proportions exactly. All loose mane/red strands gather behind/up from head, not behind feet; keep tips within original figure height. Do NOT redesign or restyle, enlarge muscles or round armour, shrink chest, lengthen legs or exaggerate the head. Legs, feet, hips and layered waist remain exactly as the approved base at their existing positions, pixel for pixel.",
+ "outline": "rule"
+}
