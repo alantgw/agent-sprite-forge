@@ -1,0 +1,9 @@
+Body-build revision after user rejected v002 as too thin overall. Base image was given priority over thin pose reference for silhouette/body mass; v002 guided gesture only. Built-in host image generation, followed by repository pixel-looks ask-view/view grid extraction with existing runtime 2048x1024 layout and narrowed strict ruler fit. Expanded intermediate palette then final original-palette lock. Native extracted cells padded to144x112 without resizing, common bottom line y109. No uniform horizontal stretch was used to fake bulk. The actual helmet, chest/waist and legs were reposed/redrawn by image model and need visual review; this is not literal reuse of unchanged original body pixels. Original bright base palette is exactly retained.
+
+Restored heavy torso, layered waist, thick short legs and large feet are artistic targets, not numerically certified identical proportions. The body tilt was balanced against maintaining broad chest mass. Sources and prompt stages retained. No beams/effects, ROM changes, editor/source changes or game-import compatibility claim.
+
+Published height warnings, verbatim, from upright-reference comparison of crouching poses:
+
+Pose 1: ["the new view's body is 87 rows tall, the master's 101: it is not the same height; generate again"]
+
+Pose 2: ["the new view's body is 86 rows tall, the master's 101: it is not the same height; generate again"]

@@ -1,0 +1,313 @@
+{
+  "revision": "v003",
+  "intent": "correct thin/long-limbed v002 toward approved broad compact body proportions",
+  "sprites": [
+    {
+      "pose": "left-punch",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        112,
+        105
+      ],
+      "bounds_xyxy_exclusive": [
+        24,
+        4,
+        136,
+        109
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "punch-1",
+        "size": [
+          112,
+          105
+        ],
+        "cells": 8075,
+        "colours": 30,
+        "palette": [
+          "#000000",
+          "#000018",
+          "#02020c",
+          "#0c0706",
+          "#111338",
+          "#1f1e1c",
+          "#262160",
+          "#2e0b13",
+          "#36318c",
+          "#4e3e92",
+          "#50080f",
+          "#5b58bf",
+          "#762e04",
+          "#7674dc",
+          "#9286ec",
+          "#9432c8",
+          "#94364e",
+          "#983a04",
+          "#987e9f",
+          "#b8150e",
+          "#ba6cf6",
+          "#c04d5a",
+          "#c27e13",
+          "#cc90f6",
+          "#cdacec",
+          "#ce50f7",
+          "#e3caf6",
+          "#e88a08",
+          "#ea2112",
+          "#f3dff4"
+        ],
+        "feet": {
+          "middle": 14.0,
+          "row": 104
+        },
+        "anchor": [
+          14.5,
+          105
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.88,
+          "offset": [
+            3.0,
+            3.0
+          ],
+          "equal": 5246,
+          "cells": 7846,
+          "share": 0.6686
+        },
+        "rulerEqualShare": 0.6686,
+        "heightRows": 87,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -3.0,
+            0.0
+          ],
+          "flat": 11956,
+          "flatUnshifted": 11924,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 59
+          },
+          "keyTinted": 9,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 23,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 6
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 14,
+          "lineCellsAdded": 12,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 87 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-604c2fcb-5832-4003-92e7-2851b0a753d0.png",
+          "sha256": "2218f34f9ab3ffa9b1c2936eb6273e5da13200d469830a8a2cf119faa8cad266"
+        },
+        "files": {
+          "sprite": "punch-1.png",
+          "how": "punch-1-how.png",
+          "review": "punch-1-review.png",
+          "grounds": "punch-1-grounds.png"
+        }
+      }
+    },
+    {
+      "pose": "right-punch",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_size": [
+        118,
+        105
+      ],
+      "bounds_xyxy_exclusive": [
+        18,
+        4,
+        136,
+        109
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15,
+      "palette_matches_base": true,
+      "opaque_teal_rgb": [
+        88,
+        120,
+        120
+      ],
+      "record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "punch-2",
+        "size": [
+          118,
+          105
+        ],
+        "cells": 8071,
+        "colours": 30,
+        "palette": [
+          "#000000",
+          "#000018",
+          "#02020c",
+          "#0d080b",
+          "#111338",
+          "#1f1e1c",
+          "#252063",
+          "#2e0b13",
+          "#36318c",
+          "#4c3faa",
+          "#4d0912",
+          "#63416c",
+          "#6656c7",
+          "#762e04",
+          "#7674dc",
+          "#8c3b08",
+          "#94364e",
+          "#9f85e8",
+          "#a36b9a",
+          "#b44252",
+          "#b8150e",
+          "#ba4af2",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d6afef",
+          "#da1a13",
+          "#e08c0a",
+          "#e3caf6",
+          "#fae6ee"
+        ],
+        "feet": {
+          "middle": 20.0,
+          "row": 104
+        },
+        "anchor": [
+          20.5,
+          105
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 6657,
+          "cells": 7846,
+          "share": 0.8485
+        },
+        "rulerEqualShare": 0.8485,
+        "heightRows": 86,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -1.0,
+            0.0
+          ],
+          "flat": 12139,
+          "flatUnshifted": 12104,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 57
+          },
+          "keyTinted": 12,
+          "keyNear": 0,
+          "keyHoles": 4,
+          "keyInked": 22,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 1,
+          "bareCells": 14,
+          "lineCellsAdded": 12,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 86 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-d897eb6e-7c5e-4afa-b70a-c97015ec4e18.png",
+          "sha256": "fb5f1bcc3c01f638ec2b5776041f4b07cc83f2840a6ea4536b0fecf59faee9ca"
+        },
+        "files": {
+          "sprite": "punch-2.png",
+          "how": "punch-2-how.png",
+          "review": "punch-2-review.png",
+          "grounds": "punch-2-grounds.png"
+        }
+      }
+    }
+  ],
+  "requirements_retained": [
+    "forward torso lean",
+    "horizontal short punch, palm facing down",
+    "original gauntlet identity",
+    "natural retracted inactive arm",
+    "all flowing strands behind/up from head; none behind feet",
+    "original colours; no video shading",
+    "no beam or effects"
+  ],
+  "visual_acceptance": "awaiting user review",
+  "game_import_compatibility": "not verified"
+}
