@@ -1,0 +1,21 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "/workspace/work/mecha-punch-option2-v001/master.png",
+ "masterHeight": 100,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-punch-option2-v001/extracted/left-punch-retracted.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    100
+   ],
+   "firstDiffersBy": 0
+  }
+ ],
+ "firstDrawingDiffers": [],
+ "verdict": "same",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}

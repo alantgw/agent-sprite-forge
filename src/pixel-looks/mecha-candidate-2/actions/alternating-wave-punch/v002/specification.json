@@ -1,0 +1,141 @@
+{
+  "option": 2,
+  "status": "for review; option 1 remains accepted final",
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_colours": 15,
+  "occupied_bounds_exclusive": [
+    25,
+    7,
+    136,
+    109
+  ],
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "change_mask_exclusive": [
+    30,
+    40,
+    66,
+    77
+  ],
+  "pixels_changed_from_option1": 502,
+  "all_pixels_outside_inactive_arm_box_identical_to_option1": true,
+  "right_punch_frame_identical_bytes_to_option1": true,
+  "art_source": "host_image",
+  "route": "built-in image_gen",
+  "extraction": {
+    "schema": "generate2dsprite.pixel_look.v2",
+    "tool": "pixel_look",
+    "kind": "pose",
+    "name": "left-punch-retracted",
+    "size": [
+      111,
+      102
+    ],
+    "cells": 6880,
+    "colours": 22,
+    "palette": [
+      "#000018",
+      "#02020c",
+      "#0d070e",
+      "#111338",
+      "#1f1e1c",
+      "#272561",
+      "#2e0b13",
+      "#36318c",
+      "#531a13",
+      "#5d4eb8",
+      "#762e04",
+      "#7674dc",
+      "#94364e",
+      "#954706",
+      "#a084e9",
+      "#ad3177",
+      "#b8150e",
+      "#ba6cf6",
+      "#c27e13",
+      "#cc90f6",
+      "#e02e2e",
+      "#e3caf6"
+    ],
+    "feet": {
+      "middle": 74.5,
+      "row": 101
+    },
+    "anchor": [
+      75.0,
+      102
+    ],
+    "change": "ONLY the non-punching RIGHT arm, visible on the image LEFT, is chambered BACK rather than hanging down in front. Raise its bent elbow rearward and tuck the beast-armour gauntlet tightly beside the upper waist/ribs, partly behind the torso silhouette: a pulled-back cocked punch, not a low dangling hand. The gauntlet sits near lower chest height, angled forward, elbow drawn back. Preserve the existing extended LEFT arm across the chest, head, face, shoulders, hair, torso, hips, legs, feet, tail and all proportions exactly. No effects.",
+    "masterAt": [
+      0,
+      0
+    ],
+    "lattice": {
+      "cell": 9.797,
+      "offset": [
+        0.32,
+        -0.2
+      ],
+      "equal": 6342,
+      "cells": 7062,
+      "share": 0.898
+    },
+    "taken": {
+      "how": "the new part outside the silhouette and what hangs together with it",
+      "pictureEqual": 6420,
+      "cellsTaken": 516,
+      "newCells": 26,
+      "cellsEmptied": 208
+    },
+    "masterCellsKept": 6572,
+    "masterCells": 7062,
+    "masterKeptShare": 0.9306,
+    "newColours": 8,
+    "edge": {
+      "keyMixed": {
+        "removed": 0,
+        "darkened": 1
+      },
+      "keyTinted": 0,
+      "keyNear": 0,
+      "keyHoles": 0,
+      "keyInked": 0,
+      "keySpill": {
+        "removed": 0,
+        "recoloured": 0
+      },
+      "islandCells": 0
+    },
+    "outline": {
+      "line": [
+        0,
+        0,
+        24
+      ],
+      "specks": 0,
+      "bareCells": 0,
+      "lineCellsAdded": 0,
+      "closed": true,
+      "offset": [
+        0,
+        0
+      ],
+      "mode": "rule"
+    },
+    "source": {
+      "image": "/workspace/generated_images/exec-1282dc35-a1af-4c1a-bfab-d948eba73016.png",
+      "sha256": "5946f945b703f949fd047a302055c06c7da632c81726ad4679bf3a311c4cdca2"
+    },
+    "files": {
+      "sprite": "left-punch-retracted.png",
+      "review": "left-punch-retracted-review.png"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "6000a784fc628cd13cf41357d9934bd80ce09a8f4f225f4657c6c4381cf3bbf4",
+  "size": [
+   111,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "ONLY the non-punching RIGHT arm, visible on the image LEFT, is chambered BACK rather than hanging down in front. Raise its bent elbow rearward and tuck the beast-armour gauntlet tightly beside the upper waist/ribs, partly behind the torso silhouette: a pulled-back cocked punch, not a low dangling hand. The gauntlet sits near lower chest height, angled forward, elbow drawn back. Preserve the existing extended LEFT arm across the chest, head, face, shoulders, hair, torso, hips, legs, feet, tail and all proportions exactly. No effects.",
+ "outline": "rule"
+}
