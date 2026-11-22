@@ -1,0 +1,11 @@
+Latest correction order: first forward lean and natural inactive arm; then user clarified horizontal punch with palm down (not wrist flexion); then shorter hands/reach and no duplicate lower hair. Final source images incorporate these requirements. Upright, drooping-hand and long-reach intermediate sources are retained in workspace but are not presented as final artwork.
+
+Method: built-in host image_gen targeted edits with approved base identity and video pose references. Repository pixel-looks ask-view/view uses approved standing master as grid ruler. Existing runtime 2048x1024 intermediate accommodation and strict narrowed grid fit are retained; expanded intermediate palette preserves hues, followed by exact original 16-entry palette lock with no dithering. Source images are 1774x887. One intermediate source failed the 60% ruler agreement gate (58%); it was regenerated against the approved reference, not forced through the gate. Final ruler matches: left 89.50%, right 86.29%. Separate sprites are extracted on the source lattice, padded to 144x112 without resizing and right-edge aligned with complete upper strand tips.
+
+These images are intended to correct the pose, not to claim exact frame tracing. Rear-arm foreshortening and gauntlet orientation still require user visual approval. No editor/source/game files modified. No animation or game-import compatibility claim. Original video screenshots remain local, not republished. Original approved palette retained exactly; no dark video shading copied.
+
+Published upright-height warnings retained verbatim; forward-leaning/crouched posture changes vertical body envelope:
+
+Pose 1: ["the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"]
+
+Pose 2: ["the new view's body is 109 rows tall, the master's 101: it is not the same height; generate again"]
