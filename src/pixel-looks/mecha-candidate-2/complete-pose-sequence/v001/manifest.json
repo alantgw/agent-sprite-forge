@@ -1,0 +1,301 @@
+{
+  "pose_count": 10,
+  "native_canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "original_pixels_unchanged": true,
+  "sequence": [
+    {
+      "name": "01-standing",
+      "pose": "Standing - approved Candidate 2",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/v001",
+      "files": {
+        "native": {
+          "path": "native/01-standing.png",
+          "sha256": "20af2ede2118bee9ca5a769836e4a20bef02cdd6843a05e03d9249c02ca9dd8b",
+          "source_file": "src/pixel-looks/mecha-candidate-2/v001/mecha-final-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/01-standing.png",
+          "sha256": "5c919986a7421d8bed95e440ad7efc01d87648d498ef36b50a6954168c1d5b6f",
+          "source_file": "src/pixel-looks/mecha-candidate-2/v001/mecha-final-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/01-standing.bmp",
+          "sha256": "2af7daaf3dea0c9f90326cb6f6e9ce6a0bc0cd08187997571a792bec99e5adbb",
+          "source_file": "src/pixel-looks/mecha-candidate-2/v001/mecha-final-indexed.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 16
+    },
+    {
+      "name": "02-right-fist-up",
+      "pose": "Raised right arm - v004",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/right-fist/v004",
+      "files": {
+        "native": {
+          "path": "native/02-right-fist-up.png",
+          "sha256": "6e30103fd624adb82e033e99b8c95e6b9d4afe09cac4806b857998242470a37c",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/right-fist/v004/mecha-base-arm-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/02-right-fist-up.png",
+          "sha256": "6a76e0c443b06a8afd3cd41094efe0d1e06a60b3daf34a6cbce9f69dcd803748",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/right-fist/v004/mecha-base-arm-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/02-right-fist-up.bmp",
+          "sha256": "8b1e99a083cf1f42d594a2be421f1f7f1ba0b8b6456039a66584d5243e861ce5",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/right-fist/v004/mecha-base-arm.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 16
+    },
+    {
+      "name": "03-kick-transition-1",
+      "pose": "Crouch / weight shift",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001",
+      "files": {
+        "native": {
+          "path": "native/03-kick-transition-1.png",
+          "sha256": "bc374262bdde01f2d923e672176ca375124c486640135e4e0a5fc6c2042cfedb",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-1-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/03-kick-transition-1.png",
+          "sha256": "b602b40f7015ac944707b595d168cc16b60db79eb025de7b2477c023e04941a8",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-1-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/03-kick-transition-1.bmp",
+          "sha256": "7adf53c508be6319d260abbb6586f9550d77f802d917785d4470d21e20be0d69",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-1.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "04-kick-transition-2",
+      "pose": "Airborne knee lift",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001",
+      "files": {
+        "native": {
+          "path": "native/04-kick-transition-2.png",
+          "sha256": "572ce6042e333e798c7939549818ef0a9e86455cfa67e073ff091f4e4d1fdd2f",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-2-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/04-kick-transition-2.png",
+          "sha256": "a2bdbc27dc6ac9150e9dd396db54289296e31396d045d7128b5765ba882660a2",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-2-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/04-kick-transition-2.bmp",
+          "sha256": "af8a9c5647757cd29f702809b2bd05755c9380ee2b61ad91329cf34205b7e55c",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-2.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "05-kick-transition-3",
+      "pose": "Partial kick extension",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001",
+      "files": {
+        "native": {
+          "path": "native/05-kick-transition-3.png",
+          "sha256": "72fbe094781b8b3a04c1f72f077b49c8767a4bbba26ce93a876af0ce3c0af3dc",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-3-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/05-kick-transition-3.png",
+          "sha256": "eda57b760eaeaaed0723fb467c4c78c8d6e66fa2afa020281ab1704c023af03d",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-3-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/05-kick-transition-3.bmp",
+          "sha256": "831a6b27fe13ffaa74e70f3277d299a781a2b6b6ad1aefdb63e66033b97f5bf9",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/kick-transition/v001/transition-3.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "06-airborne-kick",
+      "pose": "First airborne kick",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/airborne-kick/v001",
+      "files": {
+        "native": {
+          "path": "native/06-airborne-kick.png",
+          "sha256": "98cd59749865b516c955b005431d2c5b1122aa6b22d2a2d86b2835727fcbe5c8",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/airborne-kick/v001/mecha-airborne-kick-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/06-airborne-kick.png",
+          "sha256": "056ba243f6af8454a2effb434275006d1aa41dce266a36c11a5aed66b90693d2",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/airborne-kick/v001/mecha-airborne-kick-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/06-airborne-kick.bmp",
+          "sha256": "b07584001c56399bef52b77a5899aa2365e82dea15b3593776641e16a057ffcf",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/airborne-kick/v001/mecha-airborne-kick.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "07-spin-kick-1",
+      "pose": "Retract / begin spin",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001",
+      "files": {
+        "native": {
+          "path": "native/07-spin-kick-1.png",
+          "sha256": "8601885b27f38d9d00df865c731cfed6098ace74fb060a61cb905780fd12c04b",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-1-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/07-spin-kick-1.png",
+          "sha256": "30cd19b311989239c976b8b55a5a81b86c8f0a65e76ae51fe8a6db95080b17eb",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-1-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/07-spin-kick-1.bmp",
+          "sha256": "0a05212f61a01fb3993132fce62e73c53b4ef230c60d792a6547fdae25b7b153",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-1.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "08-spin-kick-2",
+      "pose": "Rear-facing half-turn",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001",
+      "files": {
+        "native": {
+          "path": "native/08-spin-kick-2.png",
+          "sha256": "a2d0873072507623c80fa3520a2856bccfa7d8620ba286a07e2937cf940b924b",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-2-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/08-spin-kick-2.png",
+          "sha256": "1785ac0e5333cb3bff39b2add93dec4f38850b4cd96b39bc766f536c3ce58525",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-2-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/08-spin-kick-2.bmp",
+          "sha256": "db7419c782a80e0036662ec946ffb479746baeca984ac00b0dc3e599bda60fd9",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-2.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "09-spin-kick-3",
+      "pose": "Opposite-side knee chamber",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001",
+      "files": {
+        "native": {
+          "path": "native/09-spin-kick-3.png",
+          "sha256": "e4567a90f5418f0ec73227c7859cc0ec04cd460e2ab1db8b037614d1219a8b9c",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-3-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/09-spin-kick-3.png",
+          "sha256": "8356e257de9b8d98ce10bf72dabc56222e21e602c09fb3b38dbd43f24b126b70",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-3-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/09-spin-kick-3.bmp",
+          "sha256": "d104cefdc49f17a39f466cf239c765fe4ff23f7a493fab850d1991b57a5ba0db",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-3.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    },
+    {
+      "name": "10-spin-kick-4",
+      "pose": "Complete turn / second kick",
+      "source_directory": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001",
+      "files": {
+        "native": {
+          "path": "native/10-spin-kick-4.png",
+          "sha256": "3c1ee6848a3f58d705f874f208da8dcad02c837e16fc53af48aad5a9c1191a54",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-4-1x.png"
+        },
+        "previews-6x": {
+          "path": "previews-6x/10-spin-kick-4.png",
+          "sha256": "2fc9c3a2bdfeb325e4084bd0c3dc661425fcbfeb57946dab9b261c1de5f50aaf",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-4-6x.png"
+        },
+        "indexed-bmp": {
+          "path": "indexed-bmp/10-spin-kick-4.bmp",
+          "sha256": "b009430bedde97e012dcec837ca50f6915a4e979c3b80d98c19283106b6da1f1",
+          "source_file": "src/pixel-looks/mecha-candidate-2/actions/spin-follow-up-kick/v001/spin-kick-4.bmp"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_palette_entries": 15
+    }
+  ],
+  "notes": [
+    "Latest selected pose versions only; superseded trials remain in original historical folders.",
+    "Static sprite collection and review overview, not a timed animation.",
+    "No game-import compatibility verified."
+  ]
+}
