@@ -1,0 +1,12 @@
+Native PNG readback:144x112/P/exact original16-entry palette/no transparency.15 used foreground/background entries. All6x PNGs are exact nearest-neighbour images. GIF decoded frames equal intended enlarged native frames;10 frames each. Strict ruler gate passed for all ten sources; per-source match values and every height warning retained in specification.json. No anatomical correctness claim from numeric checks. Source image compare pages retained. Two flight sprites use explicit upward placement; no per-frame scaling.
+- `native/01-ready-guard.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- `native/03-low-dash.png`: the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again
+- `native/04-close-strike.png`: the new view's body is 74 rows tall, the master's 101: it is not the same height; generate again
+- `native/05-rising-uppercut.png`: the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again
+- `native/06-pursuit-launch.png`: the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again
+- `native/07-airborne-rush.png`: the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again
+- `native/08-landing-brace.png`: the new view's body is 90 rows tall, the master's 101: it is not the same height; generate again
+- `native/09-palm-charge.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- `native/10-palm-release.png`: the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again
+
+LINEUP verdict=differs. firstDrawingDiffers=01,03,04,05,06,07,08,09,10; heights99,82,74,92,93,93,90,99,97 against master101. Full record:processing/lineup/lineup.json.

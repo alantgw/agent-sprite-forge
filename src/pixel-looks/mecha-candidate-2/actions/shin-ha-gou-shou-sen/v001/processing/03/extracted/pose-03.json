@@ -1,0 +1,123 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "view",
+ "name": "pose-03",
+ "size": [
+  122,
+  90
+ ],
+ "cells": 6841,
+ "colours": 30,
+ "palette": [
+  "#000001",
+  "#000018",
+  "#02020c",
+  "#0d0a10",
+  "#111338",
+  "#1f1e1c",
+  "#28205c",
+  "#2e0b13",
+  "#36318c",
+  "#4f385e",
+  "#5042a8",
+  "#520c11",
+  "#6858c4",
+  "#709894",
+  "#762e04",
+  "#7674dc",
+  "#8c0e0f",
+  "#926ca6",
+  "#94364e",
+  "#a484e6",
+  "#a64f0a",
+  "#a850e7",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d4aeec",
+  "#d58864",
+  "#e3caf6",
+  "#e72112"
+ ],
+ "feet": {
+  "middle": 17.5,
+  "row": 89
+ },
+ "anchor": [
+  18.0,
+  90
+ ],
+ "view": "custom",
+ "lattice": {
+  "cell": 6.93,
+  "offset": [
+   -0.2,
+   -1.2
+  ],
+  "equal": 6625,
+  "cells": 7846,
+  "share": 0.8444
+ },
+ "rulerEqualShare": 0.8444,
+ "heightRows": 82,
+ "masterHeightRows": 101,
+ "solesBelowMasters": -3.0,
+ "ownLattice": {
+  "shift": [
+   -1.5,
+   0.0
+  ],
+  "flat": 13144,
+  "flatUnshifted": 12936,
+  "cells": 17152
+ },
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 37
+  },
+  "keyTinted": 6,
+  "keyNear": 0,
+  "keyHoles": 5,
+  "keyInked": 22,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 3
+  },
+  "islandCells": 0
+ },
+ "newColours": 16,
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 4,
+  "bareCells": 1,
+  "lineCellsAdded": 1,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "key": "green",
+ "howZoom": 7,
+ "warnings": [
+  "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+ ],
+ "source": {
+  "image": "/workspace/generated_images/exec-7ebd7a6d-5ec5-496a-b6d9-ddd9d133d7ae.png",
+  "sha256": "acead47f99489c25ec2ba7131244414729ccdfe323cc105e6d5f8419861b7cc4"
+ },
+ "files": {
+  "sprite": "pose-03.png",
+  "how": "pose-03-how.png",
+  "review": "pose-03-review.png",
+  "grounds": "pose-03-grounds.png"
+ }
+}

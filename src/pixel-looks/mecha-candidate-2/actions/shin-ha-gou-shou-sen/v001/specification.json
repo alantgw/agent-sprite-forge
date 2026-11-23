@@ -1,0 +1,479 @@
+{
+  "version": "v001",
+  "status": "draft for visual review",
+  "asset": "ten condensed key poses for Shin Ha Gou Shou Sen sequence",
+  "art_source": "host_image",
+  "route": "built-in image_gen, no paid API invoked",
+  "method": "ten individual ask-view/custom pose generations beside approved base ruler, strict lattice extraction, exact original-palette mapping, integer placement only; no native resize",
+  "body_palette_exactly_matches_approved_base": true,
+  "opaque_teal_rgb": [
+    88,
+    120,
+    120
+  ],
+  "frames": [
+    {
+      "id": "01",
+      "pose": "ready-guard",
+      "file": "native/01-ready-guard.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        17,
+        8
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 360,
+      "reference_part": 1,
+      "reference_time_s": 0.2,
+      "strict_ruler_equal_share": 0.7957,
+      "body_height_rows": 99,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "02",
+      "pose": "power-crouch",
+      "file": "native/02-power-crouch.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        11,
+        8
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 450,
+      "reference_part": 2,
+      "reference_time_s": 3.2,
+      "strict_ruler_equal_share": 0.8304,
+      "body_height_rows": 101,
+      "master_body_height_rows": 101,
+      "warnings": []
+    },
+    {
+      "id": "03",
+      "pose": "low-dash",
+      "file": "native/03-low-dash.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        11,
+        19,
+        133,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        11,
+        19
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 150,
+      "reference_part": 3,
+      "reference_time_s": 4.2,
+      "strict_ruler_equal_share": 0.8444,
+      "body_height_rows": 82,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "04",
+      "pose": "close-strike",
+      "file": "native/04-close-strike.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        7,
+        11,
+        136,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        7,
+        11
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 140,
+      "reference_part": 3,
+      "reference_time_s": 6.5,
+      "strict_ruler_equal_share": 0.817,
+      "body_height_rows": 74,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 74 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "05",
+      "pose": "rising-uppercut",
+      "file": "native/05-rising-uppercut.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        11,
+        4,
+        132,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        11,
+        4
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 200,
+      "reference_part": 3,
+      "reference_time_s": 7.7,
+      "strict_ruler_equal_share": 0.8402,
+      "body_height_rows": 92,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "06",
+      "pose": "pursuit-launch",
+      "file": "native/06-pursuit-launch.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        19,
+        5,
+        125,
+        99
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        19,
+        5
+      ],
+      "airborne_lift_px": 10,
+      "preview_hold_ms": 150,
+      "reference_part": 4,
+      "reference_time_s": 0.9,
+      "strict_ruler_equal_share": 0.8615,
+      "body_height_rows": 93,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "07",
+      "pose": "airborne-rush",
+      "file": "native/07-airborne-rush.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        5,
+        5,
+        138,
+        100
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        5,
+        5
+      ],
+      "airborne_lift_px": 9,
+      "preview_hold_ms": 150,
+      "reference_part": 4,
+      "reference_time_s": 1.8,
+      "strict_ruler_equal_share": 0.8286,
+      "body_height_rows": 93,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "08",
+      "pose": "landing-brace",
+      "file": "native/08-landing-brace.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        8,
+        19,
+        136,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        8,
+        19
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 240,
+      "reference_part": 5,
+      "reference_time_s": 2.6,
+      "strict_ruler_equal_share": 0.8222,
+      "body_height_rows": 90,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 90 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "09",
+      "pose": "palm-charge",
+      "file": "native/09-palm-charge.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        9,
+        8
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 450,
+      "reference_part": 5,
+      "reference_time_s": 4.1,
+      "strict_ruler_equal_share": 0.842,
+      "body_height_rows": 99,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    },
+    {
+      "id": "10",
+      "pose": "palm-release",
+      "file": "native/10-palm-release.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ],
+      "used_colours": 15,
+      "stored_palette_entries": 16,
+      "placement_xy": [
+        7,
+        12
+      ],
+      "airborne_lift_px": 0,
+      "preview_hold_ms": 650,
+      "reference_part": 5,
+      "reference_time_s": 6.2,
+      "strict_ruler_equal_share": 0.8579,
+      "body_height_rows": 97,
+      "master_body_height_rows": 101,
+      "warnings": [
+        "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "file": "native/01-ready-guard.png",
+      "warning": "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/03-low-dash.png",
+      "warning": "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/04-close-strike.png",
+      "warning": "the new view's body is 74 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/05-rising-uppercut.png",
+      "warning": "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/06-pursuit-launch.png",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/07-airborne-rush.png",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/08-landing-brace.png",
+      "warning": "the new view's body is 90 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/09-palm-charge.png",
+      "warning": "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/10-palm-release.png",
+      "warning": "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+    }
+  ],
+  "source_video_handling": "six user-provided Drive segments inspected locally in provided order; original videos and screenshots private, not in repository",
+  "source_display_rotation": "video metadata90deg rotation honoured before pose inspection",
+  "timing": "condensed illustration, not original44second playback",
+  "motion_limits": "ten distinct key poses, no interpolated in-betweens, no enemy or effects, fast obscured pursuit reconstructed from visible entry/exit",
+  "game_import_compatibility": "not verified",
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-video-ten-v001/ask/master.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-01/pose-01.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-02/pose-02.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-03/pose-03.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          82
+        ],
+        "firstDiffersBy": -19
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-04/pose-04.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          74
+        ],
+        "firstDiffersBy": -27
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-05/pose-05.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-06/pose-06.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-07/pose-07.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-08/pose-08.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          90
+        ],
+        "firstDiffersBy": -11
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-09/pose-09.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-video-ten-v001/extracted-10/pose-10.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-video-ten-v001/extracted-01/pose-01.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-03/pose-03.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-04/pose-04.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-05/pose-05.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-06/pose-06.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-07/pose-07.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-08/pose-08.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-09/pose-09.png",
+      "/workspace/work/mecha-video-ten-v001/extracted-10/pose-10.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  }
+}

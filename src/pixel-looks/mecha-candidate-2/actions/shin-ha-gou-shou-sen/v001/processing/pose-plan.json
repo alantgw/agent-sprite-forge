@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "name": "ready-guard",
+    "part": 1,
+    "time": 0.2,
+    "pose": "Ready guard facing three-quarter left: both original beast gauntlets raised in front of lower chest, elbows bent naturally, wide planted feet, slight forward lean. Keep both hands separate and original base-like thickness."
+  },
+  {
+    "id": "02",
+    "name": "power-crouch",
+    "part": 2,
+    "time": 3.2,
+    "pose": "Power-up crouch: knees bend and hips lower, torso inclines a little forward, both beast gauntlets open outward beside ribs with elbows spread, head stays lifted looking left. Mane swept upward/back. No energy aura."
+  },
+  {
+    "id": "03",
+    "name": "low-dash",
+    "part": 3,
+    "time": 4.2,
+    "pose": "Low forward rush toward image left: torso leans forward, lead knee bent forward and rear leg pushing back, one gauntlet leading near chest and other swept slightly back beside waist, hair and red tails stream right. Compact mecha anatomy, not a long human runner."
+  },
+  {
+    "id": "04",
+    "name": "close-strike",
+    "part": 3,
+    "time": 6.5,
+    "pose": "Close-range forward gauntlet strike to image left: wide low braced stance, torso twisted left, near beast gauntlet drives forward at chest level with palm down, other arm chambered near shoulder partly hidden by chest. No opponent, no grasped object."
+  },
+  {
+    "id": "05",
+    "name": "rising-uppercut",
+    "part": 3,
+    "time": 7.7,
+    "pose": "Rising strike follow-through: image-left beast gauntlet thrust upward beside and just above head, elbow opening upwards as if launching an opponent. Other arm braces near ribs, bent lead knee rises slightly, trailing foot below hips. Mane and red ribbons sweep right. No opponent."
+  },
+  {
+    "id": "06",
+    "name": "pursuit-launch",
+    "part": 4,
+    "time": 0.9,
+    "pose": "Pursuit launch: coil into a forward crouch then spring diagonally up-left, both knees bent beneath body, elbows tucked with beast gauntlets close and braced, face looking up-left. Show full figure alone, airborne without shadow or effects."
+  },
+  {
+    "id": "07",
+    "name": "airborne-rush",
+    "part": 4,
+    "time": 1.8,
+    "pose": "Fast airborne follow-up toward upper-left: body pitched diagonally forward, leading gauntlet reaches left-up, other gauntlet held close behind shoulder, front knee drawn in and rear leg extended back slightly. Whole mane and red ribbons flow right. Maintain original short thick limbs and head size, no motion streaks."
+  },
+  {
+    "id": "08",
+    "name": "landing-brace",
+    "part": 5,
+    "time": 2.6,
+    "pose": "Landing and reset: wide deeply bent knees, body low but broad, both clawed beast gauntlets spread outward beside chest with tips forward, shoulders squared three-quarter left. Face focused left. Hair settles high behind head. No rocks, enemy, smoke or ground effects."
+  },
+  {
+    "id": "09",
+    "name": "palm-charge",
+    "part": 5,
+    "time": 4.1,
+    "pose": "Final palm-strike windup: wide planted stance, torso leaning left, image-left arm extended partway toward image-left with original beast gauntlet claws slightly spread into an open mechanical palm, palm faces left/outward; other gauntlet pulled to shoulder beside chest partly occluded. No human hand, no energy ball."
+  },
+  {
+    "id": "10",
+    "name": "palm-release",
+    "part": 5,
+    "time": 6.2,
+    "pose": "Final full palm thrust toward image-left: same wide braced stance as palm windup, torso twists forward, striking arm fully extends at chest height, original armoured beast gauntlet open with short original claws and palm facing left, opposite gauntlet retracted near shoulder behind chest. Hair flows back to right. No enemy, beam, energy ball or effect."
+  }
+]

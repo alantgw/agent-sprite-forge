@@ -1,0 +1,112 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "/workspace/work/mecha-video-ten-v001/ask/master.png",
+ "masterHeight": 101,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-01/pose-01.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-02/pose-02.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-03/pose-03.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    82
+   ],
+   "firstDiffersBy": -19
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-04/pose-04.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    74
+   ],
+   "firstDiffersBy": -27
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-05/pose-05.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-06/pose-06.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    93
+   ],
+   "firstDiffersBy": -8
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-07/pose-07.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    93
+   ],
+   "firstDiffersBy": -8
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-08/pose-08.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    90
+   ],
+   "firstDiffersBy": -11
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-09/pose-09.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-ten-v001/extracted-10/pose-10.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  }
+ ],
+ "firstDrawingDiffers": [
+  "/workspace/work/mecha-video-ten-v001/extracted-01/pose-01.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-03/pose-03.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-04/pose-04.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-05/pose-05.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-06/pose-06.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-07/pose-07.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-08/pose-08.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-09/pose-09.png",
+  "/workspace/work/mecha-video-ten-v001/extracted-10/pose-10.png"
+ ],
+ "verdict": "differs",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}
