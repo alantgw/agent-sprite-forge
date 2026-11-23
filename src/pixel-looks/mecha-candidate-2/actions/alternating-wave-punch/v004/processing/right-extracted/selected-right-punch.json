@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "selected-right-punch",
+ "size": [
+  117,
+  102
+ ],
+ "cells": 6883,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0c080c",
+  "#111338",
+  "#1f1e1c",
+  "#262263",
+  "#2e0b13",
+  "#36318c",
+  "#54090e",
+  "#5a46aa",
+  "#762e04",
+  "#7674dc",
+  "#8f2e09",
+  "#94364e",
+  "#9c58e5",
+  "#b25808",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d8b0f8",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 80.5,
+  "row": 101
+ },
+ "anchor": [
+  81.0,
+  102
+ ],
+ "change": "Left punching arm across chest extends only twenty percent farther toward image-left, same thickness and gauntlet size. Opposite right arm on image-left is pulled back to shoulder level, partly occluded by chest, not hanging down, not behind the body. Keep torso and all other anatomy unchanged.",
+ "masterAt": [
+  6,
+  0
+ ],
+ "lattice": {
+  "cell": 9.797,
+  "offset": [
+   0.32,
+   -0.2
+  ],
+  "equal": 5398,
+  "cells": 7062,
+  "share": 0.7644
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5557,
+  "cellsTaken": 1706,
+  "newCells": 279,
+  "cellsEmptied": 459
+ },
+ "masterCellsKept": 5635,
+ "masterCells": 7062,
+ "masterKeptShare": 0.7979,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 5
+  },
+  "keyTinted": 1,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 1,
+  "lineCellsAdded": 1,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-323c3ee1-8f4b-4cee-bea9-281e7ff4ec31.png",
+  "sha256": "a30cb6516d017db8243ce17388be8c65e7aa5eb046656fcdcd721b4c2ebb023b"
+ },
+ "files": {
+  "sprite": "selected-right-punch.png",
+  "review": "selected-right-punch-review.png"
+ }
+}

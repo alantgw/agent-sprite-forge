@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 8,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  8,
+  13
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "6000a784fc628cd13cf41357d9934bd80ce09a8f4f225f4657c6c4381cf3bbf4",
+  "size": [
+   111,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Left punching arm across chest extends only twenty percent farther toward image-left, same thickness and gauntlet size. Opposite right arm on image-left is pulled back to shoulder level, partly occluded by chest, not hanging down, not behind the body. Keep torso and all other anatomy unchanged.",
+ "outline": "rule"
+}

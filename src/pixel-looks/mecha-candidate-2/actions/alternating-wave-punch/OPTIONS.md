@@ -6,3 +6,5 @@
 [Compare base and both left-punch options](v002/option-comparison.png)
 
 - **[Revised option 2](v003/README.md)** — longer left punch, opposite arm swept behind body instead of folded beside chest. Prior options preserved.
+
+- **[Selected first-image loop](v004/README.md)** — user reselected the first longer left-punch image; paired with newly generated right punch. Normal and slow effect-free loops.
