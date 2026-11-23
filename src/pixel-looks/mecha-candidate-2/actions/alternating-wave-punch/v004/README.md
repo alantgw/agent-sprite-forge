@@ -1,5 +1,7 @@
 # Selected first image — alternating left/right punch loop
 
+**Approved by the user on 2026-11-23.** Saved as the accepted alternating left/right punch loop. Final option 1 remains preserved separately.
+
 Uses the first image explicitly reattached by the user (generated source exec-885e0b6d), not subsequent shortened-punch attempts. A reciprocal right punch was generated from that image, exchanging the arms without mirroring the character. The selected longer left reach is deliberately retained; no claim that it matches the superseded20% target.
 
 ![Alternating punches](alternating-loop.gif)

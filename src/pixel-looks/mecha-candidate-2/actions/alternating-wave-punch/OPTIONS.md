@@ -7,4 +7,4 @@
 
 - **[Revised option 2](v003/README.md)** — longer left punch, opposite arm swept behind body instead of folded beside chest. Prior options preserved.
 
-- **[Selected first-image loop](v004/README.md)** — user reselected the first longer left-punch image; paired with newly generated right punch. Normal and slow effect-free loops.
+- **[Approved alternating punch loop — v004](v004/README.md)** — accepted by the user on 2026-11-23. Selected longer left punch paired with reciprocal right punch; normal and slow effect-free loops.

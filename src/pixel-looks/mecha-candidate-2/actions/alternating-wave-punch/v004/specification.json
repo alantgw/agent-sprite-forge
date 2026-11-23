@@ -262,5 +262,11 @@
       }
     }
   ],
-  "game_import_compatibility": "not verified"
+  "game_import_compatibility": "not verified",
+  "approval": {
+    "status": "user_approved",
+    "date": "2026-11-23",
+    "scope": "two sprites and alternating punch loop",
+    "asset_commit": "c4a8761"
+  }
 }
