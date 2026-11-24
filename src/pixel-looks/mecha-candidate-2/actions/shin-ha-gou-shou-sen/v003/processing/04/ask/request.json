@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 10,
+ "canvas": [
+  1536,
+  1536
+ ],
+ "masterAt": [
+  13,
+  30
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "c67f488fbdd399adef7c52545c60e92b19c81fe86173088d455845ea846fb0e2",
+  "size": [
+   127,
+   92
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1536x1536",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1536x1536 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "ONLY exchange arms from windup to an explosive LEFT punch toward image-left: the arm from image-right shoulder swings across chest and fully extends horizontally left, beast gauntlet palm-down, clawed tip left. Other right arm retracts tightly beside its own shoulder partly occluded by chest, not behind body. Preserve head, mane, torso proportions, waist, legs, feet and tail exactly. No motion lines.",
+ "outline": "rule"
+}

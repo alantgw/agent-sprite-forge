@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 10,
+ "canvas": [
+  1536,
+  1536
+ ],
+ "masterAt": [
+  13,
+  30
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "c67f488fbdd399adef7c52545c60e92b19c81fe86173088d455845ea846fb0e2",
+  "size": [
+   127,
+   92
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1536x1536",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1536x1536 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "ONLY arms: after left punch, bring left gauntlet back beside image-right shoulder, not high behind head; load the RIGHT arm on image-left for its punch by drawing its elbow back and gauntlet close to image-left ribs/shoulder, partly hidden by torso. Both gauntlets are close-in chambered, distinct, wrists straight; this is the opposite recoil phase from original wide left-arm windup. Preserve head, body, legs and feet exactly.",
+ "outline": "rule"
+}

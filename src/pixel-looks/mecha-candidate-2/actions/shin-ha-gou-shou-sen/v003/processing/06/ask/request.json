@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 10,
+ "canvas": [
+  1536,
+  1536
+ ],
+ "masterAt": [
+  13,
+  30
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "c67f488fbdd399adef7c52545c60e92b19c81fe86173088d455845ea846fb0e2",
+  "size": [
+   127,
+   92
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1536x1536",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1536x1536 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "ONLY arms: deliver explosive RIGHT punch horizontally toward image-left from the image-left shoulder. Extend that arm fully left, palm down, wrist straight, original angular beast gauntlet. LEFT arm from image-right shoulder retracts beside that shoulder, partly occluded by chest, not behind the back. Same punch target height and similar gauntlet size as other arm. Preserve head, mane, torso, hips, legs, feet and tail exactly. Do not mirror entire mecha.",
+ "outline": "rule"
+}

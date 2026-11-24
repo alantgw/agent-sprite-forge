@@ -1,0 +1,10 @@
+Source master strict fits passed at original threshold. Pose sampling exceptions documented in README; same verified lattice/key cleaner/outline rule, no gate bypass.03–06 share exact protected head/lower-body pixels; all use original red-eye palette.01,02,09,10 native files copied byte-for-byte from v002. Ten native frames144x112/P/original16-entry palette15used/no transparency. Preview scaling nearest. Four-frame loop GIF decoded images match native enlargement. Full-demo GIF readback matches every intended time interval.
+
+- `native/03-combo-chamber-left.png`: the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again
+- `native/07-rising-launch.png`: the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again
+- `native/08-diving-followthrough.png`: the new view's body is 70 rows tall, the master's 101: it is not the same height; generate again
+- Inherited `native/01-ready-guard.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- Inherited `native/09-palm-charge.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- Inherited `native/10-palm-release.png`: the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again
+
+Lineup verdict=differs:01=99,02=101,03=92,04=92,05=92,06=92,07=97,08=70,09=99,10=97 versus standing master101. firstDrawingDiffers=01,03,04,05,06,07,08,09,10. Four combo poses all92; no central-column height drift between them. Low stance/flight pose flags retained for visual review. Full record:processing/lineup/lineup.json.

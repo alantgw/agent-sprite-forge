@@ -1,0 +1,1467 @@
+{
+  "source_version": "v003",
+  "source_commit": "packaged separately",
+  "source_hashes": {
+    "01-ready-guard.png": "4307647ae4590d7e5e180e752c2e74eda042b12ee723b9716dcf4ede928cac31",
+    "02-power-crouch.png": "931527ae55b777b4856b1239e58bef93060072f8c0cb8f9761f2fc9f9d289b19",
+    "03-combo-chamber-left.png": "1b4504358e678fe24d065e2fc2235f5f7810f6e7b77e5a50cc98c68041450c8e",
+    "04-combo-left-hit.png": "229bffb113487506db994f6aa9a4c7c4535738b9b6fcc6844ce546a53cd6dc77",
+    "05-combo-chamber-right.png": "a8e90a074c0a6af56b0d9ad74dd446a073e7ceefcbf1eb18cfc9cca26c8721ae",
+    "06-combo-right-hit.png": "f165598b991e327a9994d81e3f408277f70b54d53d08fb899a166d55da899793",
+    "07-rising-launch.png": "26f0c0c0bc1e869606ccb855a054e8d8edd2aaa21b27f27ffc4769e619457dc8",
+    "08-diving-followthrough.png": "1434aba87176b10a24363e3f5cbfe2fe3b005adcaa47b1e52bac1afcbd6515ca",
+    "09-palm-charge.png": "8ed40dee6af4da11e0f018904e287d5ae5d3fb141b2ad7e40629a6178af06cea",
+    "10-palm-release.png": "f6a789352710cf846e8d87320034f85b2d3606828f72db53d27898e2b462a081"
+  },
+  "source_sprite_count": 10,
+  "added_character_drawings": 0,
+  "native_sprite_canvas": [
+    144,
+    112
+  ],
+  "stage_native": [
+    384,
+    160
+  ],
+  "stage_display_scale": 3,
+  "render_tick_ms": 50,
+  "duration_ms": 6050,
+  "normal_duration_ms": 6050,
+  "slow_duration_ms": 12100,
+  "loop": "infinite inspection replay; finish-to-start resets deliberately",
+  "effects": "none; no opponent or new FX",
+  "method": "opaque teal keyed for compositing only; native sprite pixels unchanged; integer position lerp and held key poses; no body morphing",
+  "combo_repeats": 4,
+  "steps": [
+    {
+      "pose": 1,
+      "duration_ms": 350,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "pose": 2,
+      "duration_ms": 450,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 250,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : WINDUP"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : COUNTER WINDUP"
+    },
+    {
+      "pose": 6,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : WINDUP"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : COUNTER WINDUP"
+    },
+    {
+      "pose": 6,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : WINDUP"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : COUNTER WINDUP"
+    },
+    {
+      "pose": 6,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : WINDUP"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : COUNTER WINDUP"
+    },
+    {
+      "pose": 6,
+      "duration_ms": 100,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "pose": 7,
+      "duration_ms": 350,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        185,
+        119
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "pose": 8,
+      "duration_ms": 400,
+      "start_root": [
+        185,
+        119
+      ],
+      "end_root": [
+        125,
+        148
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "pose": 2,
+      "duration_ms": 200,
+      "start_root": [
+        125,
+        148
+      ],
+      "end_root": [
+        125,
+        148
+      ],
+      "phase": "4  LAND & BRACE"
+    },
+    {
+      "pose": 9,
+      "duration_ms": 900,
+      "start_root": [
+        125,
+        148
+      ],
+      "end_root": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "pose": 10,
+      "duration_ms": 200,
+      "start_root": [
+        125,
+        148
+      ],
+      "end_root": [
+        117,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "pose": 10,
+      "duration_ms": 800,
+      "start_root": [
+        117,
+        148
+      ],
+      "end_root": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "pose": 1,
+      "duration_ms": 550,
+      "start_root": [
+        117,
+        148
+      ],
+      "end_root": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 50,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 100,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 150,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 200,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 250,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 300,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  GUARD"
+    },
+    {
+      "t_ms": 350,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 400,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 450,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 500,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 550,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 600,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 650,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 700,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 750,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 800,
+      "pose": 3,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 850,
+      "pose": 3,
+      "root_xy": [
+        266,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 900,
+      "pose": 3,
+      "root_xy": [
+        247,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 950,
+      "pose": 3,
+      "root_xy": [
+        228,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1050,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : WINDUP"
+    },
+    {
+      "t_ms": 1100,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : WINDUP"
+    },
+    {
+      "t_ms": 1150,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 1250,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 1300,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 1350,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 1450,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : WINDUP"
+    },
+    {
+      "t_ms": 1500,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : WINDUP"
+    },
+    {
+      "t_ms": 1550,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 1650,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 1700,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 1750,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 1850,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : WINDUP"
+    },
+    {
+      "t_ms": 1900,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : WINDUP"
+    },
+    {
+      "t_ms": 1950,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 2050,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 2100,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 2150,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2250,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : WINDUP"
+    },
+    {
+      "t_ms": 2300,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : WINDUP"
+    },
+    {
+      "t_ms": 2350,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 2450,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 2500,
+      "pose": 5,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : COUNTER WINDUP"
+    },
+    {
+      "t_ms": 2550,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 6,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2650,
+      "pose": 7,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2700,
+      "pose": 7,
+      "root_xy": [
+        206,
+        143
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2750,
+      "pose": 7,
+      "root_xy": [
+        202,
+        138
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 7,
+      "root_xy": [
+        198,
+        134
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2850,
+      "pose": 7,
+      "root_xy": [
+        193,
+        129
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2900,
+      "pose": 7,
+      "root_xy": [
+        189,
+        124
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 2950,
+      "pose": 7,
+      "root_xy": [
+        185,
+        119
+      ],
+      "phase": "3  RISING LAUNCH"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 8,
+      "root_xy": [
+        185,
+        119
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3050,
+      "pose": 8,
+      "root_xy": [
+        176,
+        123
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3100,
+      "pose": 8,
+      "root_xy": [
+        168,
+        127
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3150,
+      "pose": 8,
+      "root_xy": [
+        159,
+        131
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 8,
+      "root_xy": [
+        151,
+        136
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3250,
+      "pose": 8,
+      "root_xy": [
+        142,
+        140
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3300,
+      "pose": 8,
+      "root_xy": [
+        134,
+        144
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3350,
+      "pose": 8,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "3  DIVING PURSUIT"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 2,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  LAND & BRACE"
+    },
+    {
+      "t_ms": 3450,
+      "pose": 2,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  LAND & BRACE"
+    },
+    {
+      "t_ms": 3500,
+      "pose": 2,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  LAND & BRACE"
+    },
+    {
+      "t_ms": 3550,
+      "pose": 2,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  LAND & BRACE"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3650,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3700,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3750,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3850,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3900,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3950,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4050,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4100,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4150,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4250,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4300,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4350,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4450,
+      "pose": 9,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4500,
+      "pose": 10,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4550,
+      "pose": 10,
+      "root_xy": [
+        122,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 10,
+      "root_xy": [
+        120,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4650,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4700,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4750,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4850,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4900,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4950,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5050,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5100,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5150,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5200,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5250,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5300,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5350,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5400,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5450,
+      "pose": 10,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5500,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5550,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5600,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5650,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5700,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5750,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5800,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5850,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5900,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5950,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 6000,
+      "pose": 1,
+      "root_xy": [
+        117,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "limits": "compressed staging of the six-part video, not literal44-second timing or60fps character animation"
+}

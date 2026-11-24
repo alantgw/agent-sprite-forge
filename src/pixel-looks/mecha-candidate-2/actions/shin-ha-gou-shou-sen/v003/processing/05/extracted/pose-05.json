@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-05",
+ "size": [
+  119,
+  92
+ ],
+ "cells": 6706,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0e080d",
+  "#111338",
+  "#1f1e1c",
+  "#261e64",
+  "#2e0b13",
+  "#36318c",
+  "#541310",
+  "#5e4bb8",
+  "#762e04",
+  "#7674dc",
+  "#821212",
+  "#94364e",
+  "#a155e3",
+  "#a44608",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d09fe8",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 95.0,
+  "row": 91
+ },
+ "anchor": [
+  95.5,
+  92
+ ],
+ "change": "ONLY arms: after left punch, bring left gauntlet back beside image-right shoulder, not high behind head; load the RIGHT arm on image-left for its punch by drawing its elbow back and gauntlet close to image-left ribs/shoulder, partly hidden by torso. Both gauntlets are close-in chambered, distinct, wrists straight; this is the opposite recoil phase from original wide left-arm windup. Preserve head, body, legs and feet exactly.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.17,
+   0.2
+  ],
+  "equal": 5712,
+  "cells": 7353,
+  "share": 0.7768
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5838,
+  "cellsTaken": 1574,
+  "newCells": 240,
+  "cellsEmptied": 890
+ },
+ "masterCellsKept": 6020,
+ "masterCells": 7353,
+ "masterKeptShare": 0.8187,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 5
+  },
+  "keyTinted": 1,
+  "keyNear": 0,
+  "keyHoles": 1,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 2,
+  "bareCells": 5,
+  "lineCellsAdded": 6,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-a185ba6a-e0b6-41a1-b87d-61eb3f6dc07e.png",
+  "sha256": "4b33dacd2441cb09f09e52f7b56ec7ce0cad10779c2f8ab4b4776f9784f88071"
+ },
+ "files": {
+  "sprite": "pose-05.png",
+  "review": "pose-05-review.png"
+ }
+}

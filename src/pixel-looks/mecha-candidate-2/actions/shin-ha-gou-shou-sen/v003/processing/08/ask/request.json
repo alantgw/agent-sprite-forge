@@ -1,0 +1,31 @@
+{
+  "schema": "generate2dsprite.pixel_look_request.v1",
+  "tool": "pixel_look",
+  "kind": "view",
+  "key": "green",
+  "cell": 8,
+  "canvas": [
+    2048,
+    1024
+  ],
+  "masterAt": [
+    8,
+    13
+  ],
+  "master": {
+    "file": "master.png",
+    "sha256": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+    "size": [
+      112,
+      102
+    ]
+  },
+  "references": [
+    "reference.png"
+  ],
+  "size": "2048x1024",
+  "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 2048x1024 --out-dir <take>; then pixel_look.py view --image <take>/generated.png --request <this folder>",
+  "view": "custom",
+  "viewWords": "Airborne DOWNWARD pursuit strike diagonally toward lower-left: body pitched forward45degrees, head and chest low-left, both beast gauntlets thrust toward lower-left below chin in a staggered double-arm smash, wrists straight, knees and short legs tucked back toward upper-right. Mane and red ribbons stream up/right, a clear descending diagonal silhouette distinct from rising uppercut. Same original compact mechanical body, angular armour and red eye. No enemy, no energy or streaks.",
+  "outline": "rule"
+}

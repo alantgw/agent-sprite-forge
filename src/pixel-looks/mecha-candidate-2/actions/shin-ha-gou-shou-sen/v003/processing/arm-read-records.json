@@ -1,0 +1,197 @@
+{
+  "arm_rows": [
+    28,
+    83
+  ],
+  "protected_head_polygon": [
+    [
+      46,
+      17
+    ],
+    [
+      113,
+      17
+    ],
+    [
+      115,
+      25
+    ],
+    [
+      106,
+      31
+    ],
+    [
+      98,
+      45
+    ],
+    [
+      83,
+      62
+    ],
+    [
+      58,
+      71
+    ],
+    [
+      44,
+      64
+    ],
+    [
+      32,
+      50
+    ],
+    [
+      38,
+      37
+    ]
+  ],
+  "poses": [
+    {
+      "id": "04",
+      "verified_lattice": {
+        "cell": 8.164,
+        "offset": [
+          0.17,
+          0.2
+        ],
+        "equal": 5294,
+        "cells": 7353,
+        "share": 0.72
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 11
+        },
+        "keyTinted": 2,
+        "keyNear": 0,
+        "keyHoles": 0,
+        "keyInked": 1,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 0
+        },
+        "islandCells": 0
+      },
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 5,
+        "bareCells": 5,
+        "lineCellsAdded": 5,
+        "closed": true,
+        "offset": [
+          -9,
+          -17
+        ],
+        "mode": "rule"
+      },
+      "source": {
+        "image": "/workspace/generated_images/exec-00ccd128-8e9a-43ce-a21e-2531cf07947c.png",
+        "sha256": "6cca274089c3d52780ebf4d90a7b80b9316f8c1ccbb7c2a4aefabe4b17ded5dd"
+      },
+      "pixels_outside_arm_mask_equal_common_master": true
+    },
+    {
+      "id": "05",
+      "verified_lattice": {
+        "cell": 8.164,
+        "offset": [
+          0.17,
+          0.2
+        ],
+        "equal": 5712,
+        "cells": 7353,
+        "share": 0.7768
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 7
+        },
+        "keyTinted": 3,
+        "keyNear": 0,
+        "keyHoles": 1,
+        "keyInked": 1,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 0
+        },
+        "islandCells": 0
+      },
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 7,
+        "bareCells": 8,
+        "lineCellsAdded": 10,
+        "closed": true,
+        "offset": [
+          -14,
+          -17
+        ],
+        "mode": "rule"
+      },
+      "source": {
+        "image": "/workspace/generated_images/exec-a185ba6a-e0b6-41a1-b87d-61eb3f6dc07e.png",
+        "sha256": "4b33dacd2441cb09f09e52f7b56ec7ce0cad10779c2f8ab4b4776f9784f88071"
+      },
+      "pixels_outside_arm_mask_equal_common_master": true
+    },
+    {
+      "id": "06",
+      "verified_lattice": {
+        "cell": 8.164,
+        "offset": [
+          0.17,
+          0.2
+        ],
+        "equal": 5682,
+        "cells": 7353,
+        "share": 0.7727
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 4
+        },
+        "keyTinted": 0,
+        "keyNear": 0,
+        "keyHoles": 0,
+        "keyInked": 1,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 0
+        },
+        "islandCells": 0
+      },
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 6,
+        "bareCells": 2,
+        "lineCellsAdded": 2,
+        "closed": true,
+        "offset": [
+          -3,
+          -17
+        ],
+        "mode": "rule"
+      },
+      "source": {
+        "image": "/workspace/generated_images/exec-393a3003-0a34-42c5-a2c7-cdc87b92af12.png",
+        "sha256": "023c31cb98dff24487d4ea66292e62249475f62d11f3e9709f79ef55cee39246"
+      },
+      "pixels_outside_arm_mask_equal_common_master": true
+    }
+  ]
+}

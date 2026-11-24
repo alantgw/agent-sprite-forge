@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-04",
+ "size": [
+  124,
+  92
+ ],
+ "cells": 6698,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0f0811",
+  "#111338",
+  "#1f1e1c",
+  "#272263",
+  "#2e0b13",
+  "#36318c",
+  "#50110c",
+  "#513fa6",
+  "#715ac8",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#991a08",
+  "#b66a10",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d9aaf4",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 100.0,
+  "row": 91
+ },
+ "anchor": [
+  100.5,
+  92
+ ],
+ "change": "ONLY exchange arms from windup to an explosive LEFT punch toward image-left: the arm from image-right shoulder swings across chest and fully extends horizontally left, beast gauntlet palm-down, clawed tip left. Other right arm retracts tightly beside its own shoulder partly occluded by chest, not behind body. Preserve head, mane, torso proportions, waist, legs, feet and tail exactly. No motion lines.",
+ "masterAt": [
+  5,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.17,
+   0.2
+  ],
+  "equal": 5294,
+  "cells": 7353,
+  "share": 0.72
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5407,
+  "cellsTaken": 2224,
+  "newCells": 334,
+  "cellsEmptied": 988
+ },
+ "masterCellsKept": 5463,
+ "masterCells": 7353,
+ "masterKeptShare": 0.743,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 11
+  },
+  "keyTinted": 2,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 1,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 3,
+  "bareCells": 2,
+  "lineCellsAdded": 2,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-00ccd128-8e9a-43ce-a21e-2531cf07947c.png",
+  "sha256": "6cca274089c3d52780ebf4d90a7b80b9316f8c1ccbb7c2a4aefabe4b17ded5dd"
+ },
+ "files": {
+  "sprite": "pose-04.png",
+  "review": "pose-04-review.png"
+ }
+}

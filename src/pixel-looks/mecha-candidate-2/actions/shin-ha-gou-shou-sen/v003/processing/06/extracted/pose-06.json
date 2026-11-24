@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-06",
+ "size": [
+  138,
+  92
+ ],
+ "cells": 7417,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#10080f",
+  "#111338",
+  "#1f1e1c",
+  "#2c2360",
+  "#2e0b13",
+  "#36318c",
+  "#56120c",
+  "#762e04",
+  "#7674dc",
+  "#8455d2",
+  "#94364e",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d6a8f2",
+  "#e3caf6",
+  "#e6891f",
+  "#e71d15",
+  "#f4e3f2"
+ ],
+ "feet": {
+  "middle": 106.0,
+  "row": 91
+ },
+ "anchor": [
+  106.5,
+  92
+ ],
+ "change": "ONLY arms: deliver explosive RIGHT punch horizontally toward image-left from the image-left shoulder. Extend that arm fully left, palm down, wrist straight, original angular beast gauntlet. LEFT arm from image-right shoulder retracts beside that shoulder, partly occluded by chest, not behind the back. Same punch target height and similar gauntlet size as other arm. Preserve head, mane, torso, hips, legs, feet and tail exactly. Do not mirror entire mecha.",
+ "masterAt": [
+  11,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.17,
+   0.2
+  ],
+  "equal": 5682,
+  "cells": 7353,
+  "share": 0.7727
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5796,
+  "cellsTaken": 1028,
+  "newCells": 332,
+  "cellsEmptied": 266
+ },
+ "masterCellsKept": 6658,
+ "masterCells": 7353,
+ "masterKeptShare": 0.9055,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 2
+  },
+  "keyTinted": 0,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 2,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-393a3003-0a34-42c5-a2c7-cdc87b92af12.png",
+  "sha256": "023c31cb98dff24487d4ea66292e62249475f62d11f3e9709f79ef55cee39246"
+ },
+ "files": {
+  "sprite": "pose-06.png",
+  "review": "pose-06-review.png"
+ }
+}

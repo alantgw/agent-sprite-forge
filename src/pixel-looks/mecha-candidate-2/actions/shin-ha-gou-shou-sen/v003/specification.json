@@ -1,0 +1,1276 @@
+{
+  "version": "v003",
+  "status": "redesigned middle for visual review",
+  "unique_sprite_count": 10,
+  "newly_redesigned_ids": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+  ],
+  "byte_unchanged_ids": [
+    "01",
+    "02",
+    "09",
+    "10"
+  ],
+  "combo_sequence": [
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "combo_ms_per_frame": 100,
+  "combo_slow_ms_per_frame": 220,
+  "combo_repeats_in_full_demo": 4,
+  "palette_exactly_matches_original": true,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "frames": [
+    {
+      "id": "01",
+      "name": "ready-guard",
+      "file": "native/01-ready-guard.png",
+      "unchanged_from_v002": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ]
+    },
+    {
+      "id": "02",
+      "name": "power-crouch",
+      "file": "native/02-power-crouch.png",
+      "unchanged_from_v002": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "03",
+      "name": "combo-chamber-left",
+      "file": "native/03-combo-chamber-left.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        51,
+        59,
+        54,
+        62
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-03",
+        "size": [
+          127,
+          92
+        ],
+        "cells": 7353,
+        "colours": 31,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#0e0a12",
+          "#111338",
+          "#1f1e1c",
+          "#282164",
+          "#2e0b13",
+          "#2e233e",
+          "#36318c",
+          "#540c12",
+          "#55966f",
+          "#563e6d",
+          "#5645aa",
+          "#6a5dc6",
+          "#762e04",
+          "#7674dc",
+          "#8c1010",
+          "#94364e",
+          "#a051d8",
+          "#a287e0",
+          "#a35007",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c44560",
+          "#cc90f6",
+          "#ceb0ed",
+          "#e3caf6",
+          "#f1ddf6"
+        ],
+        "feet": {
+          "middle": 95.0,
+          "row": 91
+        },
+        "anchor": [
+          95.5,
+          92
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7476,
+          "cells": 7846,
+          "share": 0.9528
+        },
+        "rulerEqualShare": 0.9528,
+        "heightRows": 92,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            -2.5,
+            0.0
+          ],
+          "flat": 13297,
+          "flatUnshifted": 12970,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 44
+          },
+          "keyTinted": 10,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 11,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 1,
+          "lineCellsAdded": 1,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-0276eca6-ed23-43ea-9eba-f18c5c911c11.png",
+          "sha256": "4033d63b1dd232287b3e6304c06e612cecbdafa3877bb122ced26f8309cb70c9"
+        },
+        "files": {
+          "sprite": "pose-03.png",
+          "how": "pose-03-how.png",
+          "review": "pose-03-review.png",
+          "grounds": "pose-03-grounds.png"
+        }
+      },
+      "warnings": [
+        "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+      ],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        141,
+        109
+      ]
+    },
+    {
+      "id": "04",
+      "name": "combo-left-hit",
+      "file": "native/04-combo-left-hit.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        51,
+        59,
+        54,
+        62
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-04",
+        "size": [
+          124,
+          92
+        ],
+        "cells": 6698,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0f0811",
+          "#111338",
+          "#1f1e1c",
+          "#272263",
+          "#2e0b13",
+          "#36318c",
+          "#50110c",
+          "#513fa6",
+          "#715ac8",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#991a08",
+          "#b66a10",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d9aaf4",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 100.0,
+          "row": 91
+        },
+        "anchor": [
+          100.5,
+          92
+        ],
+        "change": "ONLY exchange arms from windup to an explosive LEFT punch toward image-left: the arm from image-right shoulder swings across chest and fully extends horizontally left, beast gauntlet palm-down, clawed tip left. Other right arm retracts tightly beside its own shoulder partly occluded by chest, not behind body. Preserve head, mane, torso proportions, waist, legs, feet and tail exactly. No motion lines.",
+        "masterAt": [
+          5,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5294,
+          "cells": 7353,
+          "share": 0.72
+        },
+        "taken": {
+          "how": "the new part outside the silhouette and what hangs together with it",
+          "pictureEqual": 5407,
+          "cellsTaken": 2224,
+          "newCells": 334,
+          "cellsEmptied": 988
+        },
+        "masterCellsKept": 5463,
+        "masterCells": 7353,
+        "masterKeptShare": 0.743,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 11
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-00ccd128-8e9a-43ce-a21e-2531cf07947c.png",
+          "sha256": "6cca274089c3d52780ebf4d90a7b80b9316f8c1ccbb7c2a4aefabe4b17ded5dd"
+        },
+        "files": {
+          "sprite": "pose-04.png",
+          "review": "pose-04-review.png"
+        }
+      },
+      "warnings": [],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "05",
+      "name": "combo-chamber-right",
+      "file": "native/05-combo-chamber-right.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        51,
+        59,
+        54,
+        62
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-05",
+        "size": [
+          119,
+          92
+        ],
+        "cells": 6706,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e080d",
+          "#111338",
+          "#1f1e1c",
+          "#261e64",
+          "#2e0b13",
+          "#36318c",
+          "#541310",
+          "#5e4bb8",
+          "#762e04",
+          "#7674dc",
+          "#821212",
+          "#94364e",
+          "#a155e3",
+          "#a44608",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d09fe8",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 95.0,
+          "row": 91
+        },
+        "anchor": [
+          95.5,
+          92
+        ],
+        "change": "ONLY arms: after left punch, bring left gauntlet back beside image-right shoulder, not high behind head; load the RIGHT arm on image-left for its punch by drawing its elbow back and gauntlet close to image-left ribs/shoulder, partly hidden by torso. Both gauntlets are close-in chambered, distinct, wrists straight; this is the opposite recoil phase from original wide left-arm windup. Preserve head, body, legs and feet exactly.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5712,
+          "cells": 7353,
+          "share": 0.7768
+        },
+        "taken": {
+          "how": "the new part outside the silhouette and what hangs together with it",
+          "pictureEqual": 5838,
+          "cellsTaken": 1574,
+          "newCells": 240,
+          "cellsEmptied": 890
+        },
+        "masterCellsKept": 6020,
+        "masterCells": 7353,
+        "masterKeptShare": 0.8187,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 5
+          },
+          "keyTinted": 1,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 5,
+          "lineCellsAdded": 6,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-a185ba6a-e0b6-41a1-b87d-61eb3f6dc07e.png",
+          "sha256": "4b33dacd2441cb09f09e52f7b56ec7ce0cad10779c2f8ab4b4776f9784f88071"
+        },
+        "files": {
+          "sprite": "pose-05.png",
+          "review": "pose-05-review.png"
+        }
+      },
+      "warnings": [],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "06",
+      "name": "combo-right-hit",
+      "file": "native/06-combo-right-hit.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        51,
+        59,
+        54,
+        62
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-06",
+        "size": [
+          138,
+          92
+        ],
+        "cells": 7417,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#10080f",
+          "#111338",
+          "#1f1e1c",
+          "#2c2360",
+          "#2e0b13",
+          "#36318c",
+          "#56120c",
+          "#762e04",
+          "#7674dc",
+          "#8455d2",
+          "#94364e",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d6a8f2",
+          "#e3caf6",
+          "#e6891f",
+          "#e71d15",
+          "#f4e3f2"
+        ],
+        "feet": {
+          "middle": 106.0,
+          "row": 91
+        },
+        "anchor": [
+          106.5,
+          92
+        ],
+        "change": "ONLY arms: deliver explosive RIGHT punch horizontally toward image-left from the image-left shoulder. Extend that arm fully left, palm down, wrist straight, original angular beast gauntlet. LEFT arm from image-right shoulder retracts beside that shoulder, partly occluded by chest, not behind the back. Same punch target height and similar gauntlet size as other arm. Preserve head, mane, torso, hips, legs, feet and tail exactly. Do not mirror entire mecha.",
+        "masterAt": [
+          11,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5682,
+          "cells": 7353,
+          "share": 0.7727
+        },
+        "taken": {
+          "how": "the new part outside the silhouette and what hangs together with it",
+          "pictureEqual": 5796,
+          "cellsTaken": 1028,
+          "newCells": 332,
+          "cellsEmptied": 266
+        },
+        "masterCellsKept": 6658,
+        "masterCells": 7353,
+        "masterKeptShare": 0.9055,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 2
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-393a3003-0a34-42c5-a2c7-cdc87b92af12.png",
+          "sha256": "023c31cb98dff24487d4ea66292e62249475f62d11f3e9709f79ef55cee39246"
+        },
+        "files": {
+          "sprite": "pose-06.png",
+          "review": "pose-06-review.png"
+        }
+      },
+      "warnings": [],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "07",
+      "name": "rising-launch",
+      "file": "native/07-rising-launch.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        60,
+        36,
+        64,
+        38
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-07",
+        "size": [
+          106,
+          98
+        ],
+        "cells": 6675,
+        "colours": 31,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#10080e",
+          "#111338",
+          "#1f1e1c",
+          "#282068",
+          "#2e0b13",
+          "#36318c",
+          "#4c3361",
+          "#5240a7",
+          "#54090d",
+          "#6558cc",
+          "#762e04",
+          "#7674dc",
+          "#7a628c",
+          "#7eac69",
+          "#8e0c0d",
+          "#94364e",
+          "#a38ad9",
+          "#b05b09",
+          "#b64eec",
+          "#b8150e",
+          "#ba6cf6",
+          "#c2286c",
+          "#c27e13",
+          "#cc90f6",
+          "#ccace8",
+          "#e3caf6",
+          "#f2def8"
+        ],
+        "feet": {
+          "middle": 60.5,
+          "row": 96
+        },
+        "anchor": [
+          61.0,
+          97
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.88,
+          "offset": [
+            4.0,
+            3.0
+          ],
+          "equal": 6357,
+          "cells": 7846,
+          "share": 0.8102
+        },
+        "rulerEqualShare": 0.8102,
+        "heightRows": 97,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -6.0,
+        "ownLattice": {
+          "shift": [
+            1.5,
+            0.0
+          ],
+          "flat": 12359,
+          "flatUnshifted": 12252,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 69
+          },
+          "keyTinted": 1,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 41,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 14,
+          "bareCells": 11,
+          "lineCellsAdded": 12,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 9,
+        "warnings": [
+          "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-c5cc8cff-2d65-4639-b8a9-10e33946bf03.png",
+          "sha256": "faf2afe60e4e59dae5709bcc4111a342d435464a04e11064101b364bbe0fedc4"
+        },
+        "files": {
+          "sprite": "pose-07.png",
+          "how": "pose-07-how.png",
+          "review": "pose-07-review.png",
+          "grounds": "pose-07-grounds.png"
+        }
+      },
+      "warnings": [
+        "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+      ],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        19,
+        11,
+        125,
+        109
+      ]
+    },
+    {
+      "id": "08",
+      "name": "diving-followthrough",
+      "file": "native/08-diving-followthrough.png",
+      "unchanged_from_v002": false,
+      "eye_box_exclusive": [
+        45,
+        66,
+        48,
+        69
+      ],
+      "extraction_record": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-08",
+        "size": [
+          129,
+          107
+        ],
+        "cells": 7389,
+        "colours": 31,
+        "palette": [
+          "#000002",
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#027a04",
+          "#0d0a11",
+          "#111338",
+          "#1f1e1c",
+          "#271d68",
+          "#2e0b13",
+          "#36318c",
+          "#3a221f",
+          "#48295d",
+          "#520a11",
+          "#5a44b8",
+          "#644e80",
+          "#762e04",
+          "#7674dc",
+          "#8e0d0f",
+          "#94364e",
+          "#9e82d2",
+          "#a149e8",
+          "#a65404",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d21710",
+          "#d3aff2",
+          "#de8c0a",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 6.0,
+          "row": 106
+        },
+        "anchor": [
+          6.5,
+          107
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 6512,
+          "cells": 7846,
+          "share": 0.83
+        },
+        "rulerEqualShare": 0.83,
+        "heightRows": 70,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -3.07,
+        "ownLattice": {
+          "shift": [
+            -2.0,
+            -0.5
+          ],
+          "flat": 12435,
+          "flatUnshifted": 12027,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 83
+          },
+          "keyTinted": 4,
+          "keyNear": 0,
+          "keyHoles": 4,
+          "keyInked": 57,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 4,
+          "bareCells": 8,
+          "lineCellsAdded": 8,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 70 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-adc700ba-b8f4-440e-a574-0346ab314d96.png",
+          "sha256": "297e489a0fea281e7531d3b550db99619ceff5f0aa5c1cf098a193693cafc16b"
+        },
+        "files": {
+          "sprite": "pose-08.png",
+          "how": "pose-08-how.png",
+          "review": "pose-08-review.png",
+          "grounds": "pose-08-grounds.png"
+        }
+      },
+      "warnings": [
+        "the new view's body is 70 rows tall, the master's 101: it is not the same height; generate again"
+      ],
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        2,
+        136,
+        109
+      ]
+    },
+    {
+      "id": "09",
+      "name": "palm-charge",
+      "file": "native/09-palm-charge.png",
+      "unchanged_from_v002": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ]
+    },
+    {
+      "id": "10",
+      "name": "palm-release",
+      "file": "native/10-palm-release.png",
+      "unchanged_from_v002": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ]
+    }
+  ],
+  "common_body_mask": {
+    "arm_rows": [
+      28,
+      83
+    ],
+    "protected_head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "poses": [
+      {
+        "id": "04",
+        "verified_lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5294,
+          "cells": 7353,
+          "share": 0.72
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 11
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 5,
+          "bareCells": 5,
+          "lineCellsAdded": 5,
+          "closed": true,
+          "offset": [
+            -9,
+            -17
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-00ccd128-8e9a-43ce-a21e-2531cf07947c.png",
+          "sha256": "6cca274089c3d52780ebf4d90a7b80b9316f8c1ccbb7c2a4aefabe4b17ded5dd"
+        },
+        "pixels_outside_arm_mask_equal_common_master": true
+      },
+      {
+        "id": "05",
+        "verified_lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5712,
+          "cells": 7353,
+          "share": 0.7768
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 7
+          },
+          "keyTinted": 3,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 7,
+          "bareCells": 8,
+          "lineCellsAdded": 10,
+          "closed": true,
+          "offset": [
+            -14,
+            -17
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-a185ba6a-e0b6-41a1-b87d-61eb3f6dc07e.png",
+          "sha256": "4b33dacd2441cb09f09e52f7b56ec7ce0cad10779c2f8ab4b4776f9784f88071"
+        },
+        "pixels_outside_arm_mask_equal_common_master": true
+      },
+      {
+        "id": "06",
+        "verified_lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5682,
+          "cells": 7353,
+          "share": 0.7727
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 4
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            -3,
+            -17
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-393a3003-0a34-42c5-a2c7-cdc87b92af12.png",
+          "sha256": "023c31cb98dff24487d4ea66292e62249475f62d11f3e9709f79ef55cee39246"
+        },
+        "pixels_outside_arm_mask_equal_common_master": true
+      }
+    ]
+  },
+  "method": "host image_gen;03/07/08 ask-view/view beside original ruler;04-06 ask-pose/pose against03; full changed-arm lattice read to remove stale withdrawn-arm pixels, head/legs protected. Same strict fits retained.",
+  "processing_limitations": "default pose statistics crashes on contracting silhouette; runtime-only comparison-array fix. Default connected-change retention left old rear-arm cells; complete arm-region sampling uses same verified lattice, repository key cleaner and contour rule. No editor or repository source change.",
+  "eye_policy": "original red core184,21,14, shadow46,11,19; no orange/white eyes",
+  "game_import_compatibility": "not verified",
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/base.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/01-ready-guard.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/02-power-crouch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/07-rising-launch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/08-diving-followthrough.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          70
+        ],
+        "firstDiffersBy": -31
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/09-palm-charge.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/10-palm-release.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/01-ready-guard.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/07-rising-launch.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/08-diving-followthrough.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/09-palm-charge.png",
+      "/workspace/work/mecha-combo-v003/deliverables/processing/lineup-inputs/10-palm-release.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  }
+}
