@@ -1,0 +1,172 @@
+{
+  "method": "exact file copies; no regeneration, pixel modification or resampling",
+  "native_count": 20,
+  "native_canvas": [
+    144,
+    112
+  ],
+  "background": "opaque teal RGB88,120,120",
+  "palette_entries": 16,
+  "files": [
+    {
+      "file": "v008/native/01-ready-guard.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "4307647ae4590d7e5e180e752c2e74eda042b12ee723b9716dcf4ede928cac31"
+    },
+    {
+      "file": "v008/native/02-power-crouch.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "931527ae55b777b4856b1239e58bef93060072f8c0cb8f9761f2fc9f9d289b19"
+    },
+    {
+      "file": "v008/native/03-combo-chamber-left.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "1b4504358e678fe24d065e2fc2235f5f7810f6e7b77e5a50cc98c68041450c8e"
+    },
+    {
+      "file": "v008/native/04-combo-left-hit.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "49a3f0a7bcd38ff11e4d37ff9dddbebefc1505b350b49d84ded07c430c48a169"
+    },
+    {
+      "file": "v008/native/05-combo-chamber-right.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "a8e90a074c0a6af56b0d9ad74dd446a073e7ceefcbf1eb18cfc9cca26c8721ae"
+    },
+    {
+      "file": "v008/native/06-combo-right-hit.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "f165598b991e327a9994d81e3f408277f70b54d53d08fb899a166d55da899793"
+    },
+    {
+      "file": "v008/native/07-forward-far-side-kick.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "0a68d29138b31a34a2d5e106a26e58dd0cca814ac07394edc9a2e03ee84c70bc"
+    },
+    {
+      "file": "v008/native/08-grounded-uppercut.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "8634112c45e86d6af08c21b93ecf967293e675d0d82d0fe04f0c7ff56c6b3056"
+    },
+    {
+      "file": "v008/native/09-palm-charge.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "8ed40dee6af4da11e0f018904e287d5ae5d3fb141b2ad7e40629a6178af06cea"
+    },
+    {
+      "file": "v008/native/10-palm-release.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "f6a789352710cf846e8d87320034f85b2d3606828f72db53d27898e2b462a081"
+    },
+    {
+      "file": "v010/native/01-ready-guard.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "4307647ae4590d7e5e180e752c2e74eda042b12ee723b9716dcf4ede928cac31"
+    },
+    {
+      "file": "v010/native/02-power-crouch.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "931527ae55b777b4856b1239e58bef93060072f8c0cb8f9761f2fc9f9d289b19"
+    },
+    {
+      "file": "v010/native/03-combo-chamber-left.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "1b4504358e678fe24d065e2fc2235f5f7810f6e7b77e5a50cc98c68041450c8e"
+    },
+    {
+      "file": "v010/native/04-combo-left-hit.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "49a3f0a7bcd38ff11e4d37ff9dddbebefc1505b350b49d84ded07c430c48a169"
+    },
+    {
+      "file": "v010/native/05-combo-chamber-right.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "a8e90a074c0a6af56b0d9ad74dd446a073e7ceefcbf1eb18cfc9cca26c8721ae"
+    },
+    {
+      "file": "v010/native/06-combo-right-hit.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "f165598b991e327a9994d81e3f408277f70b54d53d08fb899a166d55da899793"
+    },
+    {
+      "file": "v010/native/07-selected-turning-kick.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "03c517eb973e21a0f3d87a8f12b10058bd9e567638a7752ad7686fc248745cd6"
+    },
+    {
+      "file": "v010/native/08-grounded-uppercut.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "8634112c45e86d6af08c21b93ecf967293e675d0d82d0fe04f0c7ff56c6b3056"
+    },
+    {
+      "file": "v010/native/09-palm-charge.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "8ed40dee6af4da11e0f018904e287d5ae5d3fb141b2ad7e40629a6178af06cea"
+    },
+    {
+      "file": "v010/native/10-palm-release.png",
+      "size": [
+        144,
+        112
+      ],
+      "sha256": "f6a789352710cf846e8d87320034f85b2d3606828f72db53d27898e2b462a081"
+    }
+  ]
+}
