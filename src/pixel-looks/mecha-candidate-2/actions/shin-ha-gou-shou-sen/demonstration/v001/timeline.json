@@ -1,0 +1,1314 @@
+{
+  "source_version": "v002",
+  "source_commit": "876a50a",
+  "source_hashes": {
+    "01-ready-guard.png": "4307647ae4590d7e5e180e752c2e74eda042b12ee723b9716dcf4ede928cac31",
+    "02-power-crouch.png": "931527ae55b777b4856b1239e58bef93060072f8c0cb8f9761f2fc9f9d289b19",
+    "03-low-dash.png": "0bb866bb1846d295537e3af1ef38c252624f8dc2b8c191e24f40293313b7f3e3",
+    "04-close-strike.png": "219105c58ff8b1e84080ad97a8c5f7dc960f7236a94263f706b41841984fcc86",
+    "05-rising-uppercut.png": "cdd37c587bb0c0ce0ce95325d65f4784deab6f33996e2f08be476f33c0bb5c79",
+    "06-pursuit-launch.png": "4d6623fa580febf171057ca3aee4336897b54fb386623ef3f378ddec7ba5124c",
+    "07-airborne-rush.png": "8e343a78a60d617d6e7d7160cbb80ee240519b08cf102e35c924bbd04c065cca",
+    "08-landing-brace.png": "8e5fef0b50f77945b11784ba41442f39df98abffd3fe164db64daf96d8e581a9",
+    "09-palm-charge.png": "8ed40dee6af4da11e0f018904e287d5ae5d3fb141b2ad7e40629a6178af06cea",
+    "10-palm-release.png": "f6a789352710cf846e8d87320034f85b2d3606828f72db53d27898e2b462a081"
+  },
+  "source_sprite_count": 10,
+  "added_character_drawings": 0,
+  "native_sprite_canvas": [
+    144,
+    112
+  ],
+  "stage_native": [
+    384,
+    160
+  ],
+  "stage_display_scale": 3,
+  "render_tick_ms": 50,
+  "duration_ms": 6000,
+  "normal_duration_ms": 6000,
+  "slow_duration_ms": 12000,
+  "loop": "infinite inspection replay; finish-to-start resets deliberately",
+  "effects": "none; no opponent or new FX",
+  "method": "opaque teal keyed for compositing only; native sprite pixels unchanged; integer position lerp and held key poses; no body morphing",
+  "steps": [
+    {
+      "pose": 1,
+      "duration_ms": 500,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "pose": 2,
+      "duration_ms": 650,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "pose": 3,
+      "duration_ms": 450,
+      "start_root": [
+        284,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 150,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        195,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 200,
+      "start_root": [
+        195,
+        148
+      ],
+      "end_root": [
+        190,
+        140
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "pose": 4,
+      "duration_ms": 150,
+      "start_root": [
+        190,
+        148
+      ],
+      "end_root": [
+        181,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "pose": 5,
+      "duration_ms": 250,
+      "start_root": [
+        181,
+        148
+      ],
+      "end_root": [
+        178,
+        137
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "pose": 6,
+      "duration_ms": 350,
+      "start_root": [
+        178,
+        145
+      ],
+      "end_root": [
+        161,
+        118
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "pose": 7,
+      "duration_ms": 350,
+      "start_root": [
+        161,
+        118
+      ],
+      "end_root": [
+        112,
+        128
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "pose": 8,
+      "duration_ms": 150,
+      "start_root": [
+        112,
+        128
+      ],
+      "end_root": [
+        107,
+        148
+      ],
+      "phase": "4  LANDING"
+    },
+    {
+      "pose": 8,
+      "duration_ms": 350,
+      "start_root": [
+        107,
+        148
+      ],
+      "end_root": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "pose": 9,
+      "duration_ms": 900,
+      "start_root": [
+        107,
+        148
+      ],
+      "end_root": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "pose": 10,
+      "duration_ms": 200,
+      "start_root": [
+        107,
+        148
+      ],
+      "end_root": [
+        99,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "pose": 10,
+      "duration_ms": 800,
+      "start_root": [
+        99,
+        148
+      ],
+      "end_root": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "pose": 1,
+      "duration_ms": 550,
+      "start_root": [
+        99,
+        148
+      ],
+      "end_root": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 50,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 100,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 150,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 200,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 250,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 300,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 350,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 400,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 450,
+      "pose": 1,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  READY GUARD"
+    },
+    {
+      "t_ms": 500,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 550,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 600,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 650,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 700,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 750,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 800,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 850,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 900,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 950,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 1050,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 1100,
+      "pose": 2,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "1  POWER UP"
+    },
+    {
+      "t_ms": 1150,
+      "pose": 3,
+      "root_xy": [
+        284,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 3,
+      "root_xy": [
+        275,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1250,
+      "pose": 3,
+      "root_xy": [
+        266,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1300,
+      "pose": 3,
+      "root_xy": [
+        256,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1350,
+      "pose": 3,
+      "root_xy": [
+        247,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 3,
+      "root_xy": [
+        238,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1450,
+      "pose": 3,
+      "root_xy": [
+        228,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1500,
+      "pose": 3,
+      "root_xy": [
+        219,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1550,
+      "pose": 3,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  LOW DASH"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 4,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 1650,
+      "pose": 4,
+      "root_xy": [
+        202,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 1700,
+      "pose": 4,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 1750,
+      "pose": 5,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 5,
+      "root_xy": [
+        193,
+        145
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 1850,
+      "pose": 5,
+      "root_xy": [
+        192,
+        143
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 1900,
+      "pose": 5,
+      "root_xy": [
+        190,
+        140
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 1950,
+      "pose": 4,
+      "root_xy": [
+        190,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 4,
+      "root_xy": [
+        186,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 2050,
+      "pose": 4,
+      "root_xy": [
+        181,
+        148
+      ],
+      "phase": "2  CLOSE STRIKE"
+    },
+    {
+      "t_ms": 2100,
+      "pose": 5,
+      "root_xy": [
+        181,
+        148
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 2150,
+      "pose": 5,
+      "root_xy": [
+        180,
+        145
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 5,
+      "root_xy": [
+        180,
+        142
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 2250,
+      "pose": 5,
+      "root_xy": [
+        179,
+        140
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 2300,
+      "pose": 5,
+      "root_xy": [
+        178,
+        137
+      ],
+      "phase": "2  RISING HIT"
+    },
+    {
+      "t_ms": 2350,
+      "pose": 6,
+      "root_xy": [
+        178,
+        145
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 6,
+      "root_xy": [
+        175,
+        140
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2450,
+      "pose": 6,
+      "root_xy": [
+        172,
+        136
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2500,
+      "pose": 6,
+      "root_xy": [
+        170,
+        132
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2550,
+      "pose": 6,
+      "root_xy": [
+        167,
+        127
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 6,
+      "root_xy": [
+        164,
+        122
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2650,
+      "pose": 6,
+      "root_xy": [
+        161,
+        118
+      ],
+      "phase": "3  PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 2700,
+      "pose": 7,
+      "root_xy": [
+        161,
+        118
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 2750,
+      "pose": 7,
+      "root_xy": [
+        153,
+        120
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 7,
+      "root_xy": [
+        145,
+        121
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 2850,
+      "pose": 7,
+      "root_xy": [
+        136,
+        123
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 2900,
+      "pose": 7,
+      "root_xy": [
+        128,
+        125
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 2950,
+      "pose": 7,
+      "root_xy": [
+        120,
+        126
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 7,
+      "root_xy": [
+        112,
+        128
+      ],
+      "phase": "3  AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3050,
+      "pose": 8,
+      "root_xy": [
+        112,
+        128
+      ],
+      "phase": "4  LANDING"
+    },
+    {
+      "t_ms": 3100,
+      "pose": 8,
+      "root_xy": [
+        110,
+        138
+      ],
+      "phase": "4  LANDING"
+    },
+    {
+      "t_ms": 3150,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  LANDING"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3250,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3300,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3350,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3450,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3500,
+      "pose": 8,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  BRACE"
+    },
+    {
+      "t_ms": 3550,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3650,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3700,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3750,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3850,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3900,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 3950,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4050,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4100,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4150,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4250,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4300,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4350,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 9,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "4  PALM WINDUP"
+    },
+    {
+      "t_ms": 4450,
+      "pose": 10,
+      "root_xy": [
+        107,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4500,
+      "pose": 10,
+      "root_xy": [
+        104,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4550,
+      "pose": 10,
+      "root_xy": [
+        102,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  PALM STRIKE"
+    },
+    {
+      "t_ms": 4650,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4700,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4750,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4850,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4900,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 4950,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5050,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5100,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5150,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5200,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5250,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5300,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5350,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5400,
+      "pose": 10,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "5  FINISH HOLD"
+    },
+    {
+      "t_ms": 5450,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5500,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5550,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5600,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5650,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5700,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5750,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5800,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5850,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5900,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 5950,
+      "pose": 1,
+      "root_xy": [
+        99,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "limits": "compressed staging of the six-part video, not literal44-second timing or60fps character animation"
+}
