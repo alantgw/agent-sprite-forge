@@ -1,0 +1,17 @@
+[
+  {
+    "id": "04",
+    "source": "/workspace/generated_images/exec-1a7bdff3-28de-4c05-8328-70e863728860.png",
+    "prompt": "Change ONLY the LEFT arm rooted in IMAGE RIGHT shoulder: swing it from its long rearward windup into a horizontal punch toward image-left. Place its punching forearm slightly BELOW the guarding right gauntlet, across LOWER CHEST, so the two arms remain separated. KEEP the RIGHT ARM/GAUNTLET ON IMAGE LEFT EXACTLY PIXEL IDENTICAL in the original forward guard position: same height, same distance from head, same rotation, same claws, do not pull it inward or backward. The new left punch passes below it; guard may be partly occluded only at its lowest edge. Active gauntlet stays original angular beast-shaped black/red/lavender shell, palm down, not human fist. Head, face/red eye, mane, torso, legs/feet/tail all unchanged in position and shape. Coarse original square pixel grid, same source canvas and pure green. No extra arms/effects/text."
+  },
+  {
+    "id": "07",
+    "source": "/workspace/generated_images/exec-bb470102-cb85-44da-951e-5afe26a557ff.png",
+    "prompt": "Edit FIRST wide pixel-art ruler reference. LEFT robot stays EXACTLY unchanged. In blank RIGHT half add ONE same mecha using SECOND approved base for body/design and THIRD cropped screenshot ONLY for pose. Pose is the screenshot's LOW FORWARD KICK toward IMAGE LEFT: crouch very low, torso almost horizontal, head/horns forward-left, leading LEG extends horizontally left at low waist level with original BLACK/RED CLAWED FOOT and lavender armoured SHIN visibly attached, sole/front aimed left. The other leg folds beneath/behind low hips as support. Both original beast gauntlet ARMS are braced near chest, not the kicking extremity. Face stays visible, dark RED eye only. Complete mane and red rear ribbons sweep right following low forward motion. Keep original short thick limbs, broad compact mecha proportions, same head/body scale and coarse square pixel cell size as left ruler. Armour angular planar/bevelled, not round. No human hand or foot, no enemy, no struck object, no beam/white impact flash, dust, rocks, ground shadow, text or UI. Full isolated sprite fits right half with margin, pure green background. Wide2:1."
+  },
+  {
+    "id": "08",
+    "source": "/workspace/generated_images/exec-7312d759-978f-473d-af15-c323a5842b6e.png",
+    "prompt": "Edit FIRST wide pixel-art reference: preserve LEFT ruler sprite exactly, add ONE same character on blank RIGHT half. SECOND is authoritative approved body, colour and angular armour; THIRD cropped screenshot is exact POSE guide. Make the screenshot's GROUNDED UPPERCUT FOLLOW-THROUGH: BOTH original clawed FEET firmly planted wide apart on same ground line, knees bent. Torso twists left, image-left beast gauntlet curls UP above/just beside forehead with forearm nearly VERTICAL and elbow bent, fist oriented upward. Other beast gauntlet pulled close beside ribs/chest. The mecha is NOT airborne, no raised knee, no scissor legs. Mane and rear ribbons flow fully to right. Original2–3head proportions, broad chest, short sturdy limbs, identical head/body scale and coarse square pixel cell size as left ruler. Same angular mechanical armour, beast gauntlet shells and orange claws; no human fist or literal animal face. Eye dark RED as base, not yellow/white. Compact full pose fits roughly100–105 native cells high with margins. Pure green, no opponent, aura, dust, rocks, ground shadow, text or effects. Wide2:1."
+  }
+]

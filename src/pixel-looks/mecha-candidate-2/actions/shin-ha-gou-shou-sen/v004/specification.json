@@ -1,0 +1,577 @@
+{
+  "version": "v004",
+  "status": "for visual review",
+  "sequence": [
+    "dash",
+    "07 kick",
+    "08 grounded uppercut",
+    "03/04/05/06 loop x4",
+    "09/10 palm"
+  ],
+  "new_ids": [
+    "04",
+    "07",
+    "08"
+  ],
+  "byte_unchanged_ids": [
+    "01",
+    "02",
+    "03",
+    "05",
+    "06",
+    "09",
+    "10"
+  ],
+  "right_guard_lock_box_exclusive": [
+    14,
+    51,
+    48,
+    76
+  ],
+  "right_guard_pixels_equal_03": true,
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "frames": [
+    {
+      "id": "01",
+      "file": "native/01-ready-guard.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ]
+    },
+    {
+      "id": "02",
+      "file": "native/02-power-crouch.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "03",
+      "file": "native/03-combo-chamber-left.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        141,
+        109
+      ]
+    },
+    {
+      "id": "04",
+      "file": "native/04-combo-left-hit.png",
+      "byte_unchanged_from_v003": false,
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-04",
+        "size": [
+          119,
+          92
+        ],
+        "cells": 6644,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#030409",
+          "#111338",
+          "#1f1e1c",
+          "#242268",
+          "#2e0b13",
+          "#36318c",
+          "#50140c",
+          "#5e4eb9",
+          "#762e04",
+          "#7674dc",
+          "#92180d",
+          "#94364e",
+          "#9c6adb",
+          "#b8150e",
+          "#b86910",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#dbacf6",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 95.0,
+          "row": 91
+        },
+        "anchor": [
+          95.5,
+          92
+        ],
+        "change": "LEFT arm only swings across chest into punch. RIGHT hand/gauntlet on image-left stays in EXACT same guard position as03, not retracted or moved. Left punching forearm passes below guarding right hand so both shapes remain readable. Head/body/legs/hair unchanged.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.2
+          ],
+          "equal": 5090,
+          "cells": 7353,
+          "share": 0.6922
+        },
+        "taken": {
+          "how": "the new part outside the silhouette and what hangs together with it",
+          "pictureEqual": 5241,
+          "cellsTaken": 2189,
+          "newCells": 134,
+          "cellsEmptied": 843
+        },
+        "masterCellsKept": 5298,
+        "masterCells": 7353,
+        "masterKeptShare": 0.7205,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 3
+          },
+          "keyTinted": 1,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-1a7bdff3-28de-4c05-8328-70e863728860.png",
+          "sha256": "111f35ac1861f3bcc3bb4fb1cd9e88ece4060a3f47f503c1243d8a0049031773"
+        },
+        "files": {
+          "sprite": "pose-04.png",
+          "review": "pose-04-review.png"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "05",
+      "file": "native/05-combo-chamber-right.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "06",
+      "file": "native/06-combo-right-hit.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "07",
+      "file": "native/07-low-forward-kick.png",
+      "byte_unchanged_from_v003": false,
+      "eye_box_exclusive": [
+        56,
+        65,
+        60,
+        68
+      ],
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-07",
+        "size": [
+          127,
+          85
+        ],
+        "cells": 6744,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#027e26",
+          "#0e0a12",
+          "#111338",
+          "#1f1e1c",
+          "#281e5a",
+          "#2e0b13",
+          "#36318c",
+          "#483266",
+          "#5040a7",
+          "#530c0f",
+          "#6254c0",
+          "#762e04",
+          "#766195",
+          "#7674dc",
+          "#860e0e",
+          "#94364e",
+          "#a089dc",
+          "#a15806",
+          "#a446d4",
+          "#b53450",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ceaeec",
+          "#e3caf6",
+          "#f4d8e6"
+        ],
+        "feet": {
+          "middle": 79.0,
+          "row": 84
+        },
+        "anchor": [
+          79.5,
+          85
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7152,
+          "cells": 7846,
+          "share": 0.9115
+        },
+        "rulerEqualShare": 0.9115,
+        "heightRows": 85,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -3.0,
+        "ownLattice": {
+          "shift": [
+            0.5,
+            0.0
+          ],
+          "flat": 12900,
+          "flatUnshifted": 12885,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 1,
+            "darkened": 59
+          },
+          "keyTinted": 11,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 24,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 6
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 13,
+          "bareCells": 15,
+          "lineCellsAdded": 15,
+          "closed": true,
+          "offset": [
+            -1,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 85 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-bb470102-cb85-44da-951e-5afe26a557ff.png",
+          "sha256": "3b5d8d9f814a2df484dc4bd4db5aa881989841f9dd3e863ce9cc96c3255311ea"
+        },
+        "files": {
+          "sprite": "pose-07.png",
+          "how": "pose-07-how.png",
+          "review": "pose-07-review.png",
+          "grounds": "pose-07-grounds.png"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        8,
+        24,
+        135,
+        109
+      ]
+    },
+    {
+      "id": "08",
+      "file": "native/08-grounded-uppercut.png",
+      "byte_unchanged_from_v003": false,
+      "eye_box_exclusive": [
+        59,
+        41,
+        62,
+        43
+      ],
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-08",
+        "size": [
+          122,
+          97
+        ],
+        "cells": 7248,
+        "colours": 30,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e080e",
+          "#111338",
+          "#1f1e1c",
+          "#26205e",
+          "#2e0b13",
+          "#36318c",
+          "#4e46a4",
+          "#510b11",
+          "#543d63",
+          "#6258bd",
+          "#762e04",
+          "#766490",
+          "#7674dc",
+          "#880e11",
+          "#9151d8",
+          "#94364e",
+          "#9d8bdc",
+          "#aa410a",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c8acea",
+          "#cc90f6",
+          "#da4c80",
+          "#e08d06",
+          "#e3caf6",
+          "#ece2f4"
+        ],
+        "feet": {
+          "middle": 46.0,
+          "row": 96
+        },
+        "anchor": [
+          46.5,
+          97
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 6709,
+          "cells": 7846,
+          "share": 0.8551
+        },
+        "rulerEqualShare": 0.8551,
+        "heightRows": 97,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.14,
+        "ownLattice": {
+          "shift": [
+            3.5,
+            -1.0
+          ],
+          "flat": 12526,
+          "flatUnshifted": 12311,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 82
+          },
+          "keyTinted": 12,
+          "keyNear": 0,
+          "keyHoles": 4,
+          "keyInked": 37,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 16,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 15,
+          "bareCells": 13,
+          "lineCellsAdded": 12,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-7312d759-978f-473d-af15-c323a5842b6e.png",
+          "sha256": "b900c21a5dc5acc879228b3f0f3e89051235e8fd19bd2504998b50daa09522fa"
+        },
+        "files": {
+          "sprite": "pose-08.png",
+          "how": "pose-08-how.png",
+          "review": "pose-08-review.png",
+          "grounds": "pose-08-grounds.png"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        12,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "09",
+      "file": "native/09-palm-charge.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ]
+    },
+    {
+      "id": "10",
+      "file": "native/10-palm-release.png",
+      "byte_unchanged_from_v003": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ]
+    }
+  ],
+  "game_import_compatibility": "not verified"
+}

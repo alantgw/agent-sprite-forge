@@ -1,0 +1,99 @@
+{
+  "arm_rows": [
+    28,
+    83
+  ],
+  "protected_head_polygon": [
+    [
+      46,
+      17
+    ],
+    [
+      113,
+      17
+    ],
+    [
+      115,
+      25
+    ],
+    [
+      106,
+      31
+    ],
+    [
+      98,
+      45
+    ],
+    [
+      83,
+      62
+    ],
+    [
+      58,
+      71
+    ],
+    [
+      44,
+      64
+    ],
+    [
+      32,
+      50
+    ],
+    [
+      38,
+      37
+    ]
+  ],
+  "poses": [
+    {
+      "id": "04",
+      "verified_lattice": {
+        "cell": 8.164,
+        "offset": [
+          0.17,
+          0.2
+        ],
+        "equal": 5090,
+        "cells": 7353,
+        "share": 0.6922
+      },
+      "edge": {
+        "keyMixed": {
+          "removed": 0,
+          "darkened": 3
+        },
+        "keyTinted": 2,
+        "keyNear": 0,
+        "keyHoles": 0,
+        "keyInked": 0,
+        "keySpill": {
+          "removed": 0,
+          "recoloured": 0
+        },
+        "islandCells": 0
+      },
+      "outline": {
+        "line": [
+          0,
+          0,
+          24
+        ],
+        "specks": 1,
+        "bareCells": 1,
+        "lineCellsAdded": 1,
+        "closed": true,
+        "offset": [
+          -14,
+          -17
+        ],
+        "mode": "rule"
+      },
+      "source": {
+        "image": "/workspace/generated_images/exec-1a7bdff3-28de-4c05-8328-70e863728860.png",
+        "sha256": "111f35ac1861f3bcc3bb4fb1cd9e88ece4060a3f47f503c1243d8a0049031773"
+      },
+      "pixels_outside_arm_mask_equal_common_master": true
+    }
+  ]
+}

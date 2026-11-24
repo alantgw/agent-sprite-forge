@@ -1,0 +1,9 @@
+{
+  "native_canvas_palette_and_opaque_background": "passed",
+  "unchanged_native_sha_comparison": "passed:01,02,03,05,06,09,10",
+  "right_guard_04_equals_03": "passed exact box14,51,48,76",
+  "combo_gif_four_frame_decode": "passed",
+  "full_gif_decode_all_118_intervals": "passed normal and slow",
+  "height_lineup_verdict": "differs; see processing/lineup/lineup.json",
+  "visual_review": "pending user review"
+}

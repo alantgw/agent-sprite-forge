@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-04",
+ "size": [
+  119,
+  92
+ ],
+ "cells": 6644,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#030409",
+  "#111338",
+  "#1f1e1c",
+  "#242268",
+  "#2e0b13",
+  "#36318c",
+  "#50140c",
+  "#5e4eb9",
+  "#762e04",
+  "#7674dc",
+  "#92180d",
+  "#94364e",
+  "#9c6adb",
+  "#b8150e",
+  "#b86910",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#dbacf6",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 95.0,
+  "row": 91
+ },
+ "anchor": [
+  95.5,
+  92
+ ],
+ "change": "LEFT arm only swings across chest into punch. RIGHT hand/gauntlet on image-left stays in EXACT same guard position as03, not retracted or moved. Left punching forearm passes below guarding right hand so both shapes remain readable. Head/body/legs/hair unchanged.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.17,
+   0.2
+  ],
+  "equal": 5090,
+  "cells": 7353,
+  "share": 0.6922
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5241,
+  "cellsTaken": 2189,
+  "newCells": 134,
+  "cellsEmptied": 843
+ },
+ "masterCellsKept": 5298,
+ "masterCells": 7353,
+ "masterKeptShare": 0.7205,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 3
+  },
+  "keyTinted": 1,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-1a7bdff3-28de-4c05-8328-70e863728860.png",
+  "sha256": "111f35ac1861f3bcc3bb4fb1cd9e88ece4060a3f47f503c1243d8a0049031773"
+ },
+ "files": {
+  "sprite": "pose-04.png",
+  "review": "pose-04-review.png"
+ }
+}
