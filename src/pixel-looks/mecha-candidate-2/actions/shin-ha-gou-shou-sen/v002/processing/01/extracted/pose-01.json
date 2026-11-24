@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-01",
+ "size": [
+  110,
+  101
+ ],
+ "cells": 7177,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0d0819",
+  "#111338",
+  "#1f1e1c",
+  "#25225b",
+  "#2e0b13",
+  "#36318c",
+  "#3d3a39",
+  "#4d4ba8",
+  "#6761c1",
+  "#762e04",
+  "#7674dc",
+  "#780e10",
+  "#94364e",
+  "#a08ae7",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#ceaeef",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 80.0,
+  "row": 100
+ },
+ "anchor": [
+  80.5,
+  101
+ ],
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   -0.3,
+   0.67
+  ],
+  "equal": 5247,
+  "cells": 7166,
+  "share": 0.7322
+ },
+ "taken": {
+  "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+  "pictureEqual": 5762,
+  "cellsTaken": 1178,
+  "newCells": 29,
+  "cellsEmptied": 18
+ },
+ "masterCellsKept": 6023,
+ "masterCells": 7166,
+ "masterKeptShare": 0.8405,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 7
+  },
+  "keyTinted": 2,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-af2f6622-e5cb-42b2-9aaa-9e8b99c0b635.png",
+  "sha256": "1b12d04c456e892f0f1d91e5cd256f02b12f04540a9bc2f703e7e5fdd9e8ed14"
+ },
+ "files": {
+  "sprite": "pose-01.png",
+  "review": "pose-01-review.png"
+ }
+}

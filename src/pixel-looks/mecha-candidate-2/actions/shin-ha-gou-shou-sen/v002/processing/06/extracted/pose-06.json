@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-06",
+ "size": [
+  106,
+  94
+ ],
+ "cells": 5938,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0d081d",
+  "#111338",
+  "#1f1e1c",
+  "#251e5c",
+  "#2e0b13",
+  "#36318c",
+  "#56120a",
+  "#5c48ba",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#9d7fec",
+  "#b32f0b",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d3aaf7",
+  "#e3caf6",
+  "#ea7001"
+ ],
+ "feet": {
+  "middle": 66.5,
+  "row": 92
+ },
+ "anchor": [
+  67.0,
+  93
+ ],
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.2,
+   0.2
+  ],
+  "equal": 4237,
+  "cells": 5953,
+  "share": 0.7117
+ },
+ "taken": {
+  "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+  "pictureEqual": 4927,
+  "cellsTaken": 818,
+  "newCells": 0,
+  "cellsEmptied": 17
+ },
+ "masterCellsKept": 5141,
+ "masterCells": 5953,
+ "masterKeptShare": 0.8636,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 4
+  },
+  "keyTinted": 0,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 2,
+  "lineCellsAdded": 2,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-e76d1c0e-ada8-4105-9d92-2b1f4417574a.png",
+  "sha256": "34cfec71e0003b5aaee607939bbbc832292caeef7389a06da7dc4aa55808e1cc"
+ },
+ "files": {
+  "sprite": "pose-06.png",
+  "review": "pose-06-review.png"
+ }
+}

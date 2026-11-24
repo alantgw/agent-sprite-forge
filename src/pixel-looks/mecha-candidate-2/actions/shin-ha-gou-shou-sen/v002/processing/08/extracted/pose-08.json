@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-08",
+ "size": [
+  128,
+  90
+ ],
+ "cells": 7378,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0e0918",
+  "#111338",
+  "#1f1e1c",
+  "#282062",
+  "#2e0b13",
+  "#36318c",
+  "#5149b3",
+  "#760e0e",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#9548e7",
+  "#a086e6",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#c72e3c",
+  "#cc90f6",
+  "#ccabec",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 60.0,
+  "row": 89
+ },
+ "anchor": [
+  60.5,
+  90
+ ],
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.2,
+   0.2
+  ],
+  "equal": 5197,
+  "cells": 7376,
+  "share": 0.7046
+ },
+ "taken": {
+  "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+  "pictureEqual": 5760,
+  "cellsTaken": 1329,
+  "newCells": 22,
+  "cellsEmptied": 20
+ },
+ "masterCellsKept": 6069,
+ "masterCells": 7376,
+ "masterKeptShare": 0.8228,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 3
+  },
+  "keyTinted": 0,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-470d9027-a355-42bb-9677-157972bd15a7.png",
+  "sha256": "6ad1b966ff4c142267aec722d0e7e0c29facdfbe60c4f23f22eddf51d1670bea"
+ },
+ "files": {
+  "sprite": "pose-08.png",
+  "review": "pose-08-review.png"
+ }
+}

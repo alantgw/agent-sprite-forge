@@ -1,0 +1,12 @@
+Exact red-eye checks:all10 boxes contain index11 RGB(184,21,14), none contain indices8,9,12,13,14,15; black/dark eye surrounds retained. Other face pixels inside documented restore box identical to v001. Native PNG144x112/P/exact palette16/no transparency. Eye recolouring changes only eye boxes. GIF decoded pixels match intended nearest frames. Both failed source reads rejected and regenerated. Inherited height warnings:
+- `native/01-ready-guard.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- `native/03-low-dash.png`: the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again
+- `native/04-close-strike.png`: the new view's body is 74 rows tall, the master's 101: it is not the same height; generate again
+- `native/05-rising-uppercut.png`: the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again
+- `native/06-pursuit-launch.png`: the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again
+- `native/07-airborne-rush.png`: the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again
+- `native/08-landing-brace.png`: the new view's body is 90 rows tall, the master's 101: it is not the same height; generate again
+- `native/09-palm-charge.png`: the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again
+- `native/10-palm-release.png`: the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again
+
+New v002 lineup verdict=differs: poses01,03,04,05,06,07,08,09,10 have central-column heights99,82,74,92,93,93,90,99,97 against standing master101; pose02=101. These exactly match v001 heights: armour changes introduced no central-column body-height change. Full file list and machine-readable record:processing/lineup/lineup.json. This preserves existing pose-height review flags rather than declaring all checks passed.

@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-02",
+ "size": [
+  122,
+  101
+ ],
+ "cells": 7881,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#09050f",
+  "#111338",
+  "#1f1e1c",
+  "#251f62",
+  "#2e0b13",
+  "#36318c",
+  "#5e50bb",
+  "#600a0e",
+  "#762e04",
+  "#7674dc",
+  "#8d130d",
+  "#94364e",
+  "#9b84e6",
+  "#b0580c",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#d6b0f5",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 83.0,
+  "row": 100
+ },
+ "anchor": [
+  83.5,
+  101
+ ],
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.2,
+   0.17
+  ],
+  "equal": 5556,
+  "cells": 7914,
+  "share": 0.702
+ },
+ "taken": {
+  "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+  "pictureEqual": 6301,
+  "cellsTaken": 1220,
+  "newCells": 3,
+  "cellsEmptied": 38
+ },
+ "masterCellsKept": 6704,
+ "masterCells": 7914,
+ "masterKeptShare": 0.8471,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 4
+  },
+  "keyTinted": 3,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 2,
+  "lineCellsAdded": 2,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-e21a4fa2-d030-4c1d-adf5-6d32ac5c4808.png",
+  "sha256": "8f198b57065edf16d1208200e040b913d03ef18738c06688df6ea45362d37661"
+ },
+ "files": {
+  "sprite": "pose-02.png",
+  "review": "pose-02-review.png"
+ }
+}

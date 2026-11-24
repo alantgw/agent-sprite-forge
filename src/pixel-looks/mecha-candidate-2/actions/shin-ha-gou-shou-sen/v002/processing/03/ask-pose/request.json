@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 10,
+ "canvas": [
+  1536,
+  1536
+ ],
+ "masterAt": [
+  15,
+  31
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "5b1f461fffa322af7e0bb8115b1504970a320677c7f8b9ac601921714db9d5da",
+  "size": [
+   122,
+   90
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1536x1536",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1536x1536 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "outline": "rule"
+}

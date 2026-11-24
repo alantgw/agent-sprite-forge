@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-07",
+ "size": [
+  133,
+  95
+ ],
+ "cells": 6388,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#0b0915",
+  "#111338",
+  "#1f1e1c",
+  "#2e0b13",
+  "#33204f",
+  "#36318c",
+  "#5a41a7",
+  "#6d6a66",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#a07ce6",
+  "#a8460c",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#dbb0f6",
+  "#e3caf6",
+  "#ef880c"
+ ],
+ "feet": {
+  "middle": 98.0,
+  "row": 92
+ },
+ "anchor": [
+  98.5,
+  93
+ ],
+ "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.17,
+   0.17
+  ],
+  "equal": 4234,
+  "cells": 6386,
+  "share": 0.663
+ },
+ "taken": {
+  "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+  "pictureEqual": 4746,
+  "cellsTaken": 1328,
+  "newCells": 4,
+  "cellsEmptied": 3
+ },
+ "masterCellsKept": 5065,
+ "masterCells": 6386,
+ "masterKeptShare": 0.7931,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 0
+  },
+  "keyTinted": 0,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 1,
+  "lineCellsAdded": 1,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-5d127b81-3f39-4ad9-881c-fd71905190a2.png",
+  "sha256": "4fd104f8d61e11a793e3ad46705d3cfeb5fa18b198a7fe669b2f8a7c619c684b"
+ },
+ "files": {
+  "sprite": "pose-07.png",
+  "review": "pose-07-review.png"
+ }
+}

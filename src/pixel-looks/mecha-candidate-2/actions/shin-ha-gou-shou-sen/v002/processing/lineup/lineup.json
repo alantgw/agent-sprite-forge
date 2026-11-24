@@ -1,0 +1,112 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/base.png",
+ "masterHeight": 101,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/01-ready-guard.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/02-power-crouch.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/03-low-dash.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    82
+   ],
+   "firstDiffersBy": -19
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/04-close-strike.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    74
+   ],
+   "firstDiffersBy": -27
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/05-rising-uppercut.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/06-pursuit-launch.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    93
+   ],
+   "firstDiffersBy": -8
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/07-airborne-rush.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    93
+   ],
+   "firstDiffersBy": -8
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/08-landing-brace.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    90
+   ],
+   "firstDiffersBy": -11
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/09-palm-charge.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/10-palm-release.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  }
+ ],
+ "firstDrawingDiffers": [
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/01-ready-guard.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/03-low-dash.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/04-close-strike.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/05-rising-uppercut.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/06-pursuit-launch.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/07-airborne-rush.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/08-landing-brace.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/09-palm-charge.png",
+  "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/10-palm-release.png"
+ ],
+ "verdict": "differs",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}

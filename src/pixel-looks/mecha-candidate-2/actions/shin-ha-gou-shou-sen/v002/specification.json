@@ -1,0 +1,1775 @@
+{
+  "version": "v002",
+  "status": "amendment for visual review",
+  "art_source": "host_image",
+  "route": "built-in image_gen; no paid API invoked",
+  "changes": "angular mechanical armour, fixed original-base red eye palette; same10 poses",
+  "eye_main_rgb": [
+    184,
+    21,
+    14
+  ],
+  "eye_shades_rgb": [
+    [
+      46,
+      11,
+      19
+    ],
+    [
+      148,
+      54,
+      78
+    ]
+  ],
+  "eye_policy": "all visible eye cores use palette11 and only base red shades6/10, no orange/yellow/white/pink eye highlights",
+  "frames": [
+    {
+      "id": "01",
+      "file": "native/01-ready-guard.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ],
+      "placement_xy": [
+        17,
+        8
+      ],
+      "eye_box_exclusive": [
+        60,
+        48,
+        63,
+        50
+      ],
+      "face_restore_box_exclusive": [
+        51,
+        40,
+        74,
+        59
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        10,
+        11
+      ],
+      "colour_correction_pixels": 2,
+      "changed_pixels_vs_v001": 1026,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-01",
+        "size": [
+          110,
+          101
+        ],
+        "cells": 7177,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0d0819",
+          "#111338",
+          "#1f1e1c",
+          "#25225b",
+          "#2e0b13",
+          "#36318c",
+          "#3d3a39",
+          "#4d4ba8",
+          "#6761c1",
+          "#762e04",
+          "#7674dc",
+          "#780e10",
+          "#94364e",
+          "#a08ae7",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ceaeef",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 80.0,
+          "row": 100
+        },
+        "anchor": [
+          80.5,
+          101
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            -0.3,
+            0.67
+          ],
+          "equal": 5247,
+          "cells": 7166,
+          "share": 0.7322
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 5762,
+          "cellsTaken": 1178,
+          "newCells": 29,
+          "cellsEmptied": 18
+        },
+        "masterCellsKept": 6023,
+        "masterCells": 7166,
+        "masterKeptShare": 0.8405,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 7
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-af2f6622-e5cb-42b2-9aaa-9e8b99c0b635.png",
+          "sha256": "1b12d04c456e892f0f1d91e5cd256f02b12f04540a9bc2f703e7e5fdd9e8ed14"
+        },
+        "files": {
+          "sprite": "pose-01.png",
+          "review": "pose-01-review.png"
+        }
+      }
+    },
+    {
+      "id": "02",
+      "file": "native/02-power-crouch.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ],
+      "placement_xy": [
+        11,
+        8
+      ],
+      "eye_box_exclusive": [
+        57,
+        49,
+        60,
+        51
+      ],
+      "face_restore_box_exclusive": [
+        48,
+        40,
+        71,
+        61
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        11
+      ],
+      "colour_correction_pixels": 0,
+      "changed_pixels_vs_v001": 1162,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-02",
+        "size": [
+          122,
+          101
+        ],
+        "cells": 7881,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#09050f",
+          "#111338",
+          "#1f1e1c",
+          "#251f62",
+          "#2e0b13",
+          "#36318c",
+          "#5e50bb",
+          "#600a0e",
+          "#762e04",
+          "#7674dc",
+          "#8d130d",
+          "#94364e",
+          "#9b84e6",
+          "#b0580c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d6b0f5",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 83.0,
+          "row": 100
+        },
+        "anchor": [
+          83.5,
+          101
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.2,
+            0.17
+          ],
+          "equal": 5556,
+          "cells": 7914,
+          "share": 0.702
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 6301,
+          "cellsTaken": 1220,
+          "newCells": 3,
+          "cellsEmptied": 38
+        },
+        "masterCellsKept": 6704,
+        "masterCells": 7914,
+        "masterKeptShare": 0.8471,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 4
+          },
+          "keyTinted": 3,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-e21a4fa2-d030-4c1d-adf5-6d32ac5c4808.png",
+          "sha256": "8f198b57065edf16d1208200e040b913d03ef18738c06688df6ea45362d37661"
+        },
+        "files": {
+          "sprite": "pose-02.png",
+          "review": "pose-02-review.png"
+        }
+      }
+    },
+    {
+      "id": "03",
+      "file": "native/03-low-dash.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        19,
+        133,
+        109
+      ],
+      "placement_xy": [
+        11,
+        19
+      ],
+      "eye_box_exclusive": [
+        42,
+        62,
+        45,
+        64
+      ],
+      "face_restore_box_exclusive": [
+        35,
+        54,
+        60,
+        74
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        11
+      ],
+      "colour_correction_pixels": 1,
+      "changed_pixels_vs_v001": 974,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-03",
+        "size": [
+          122,
+          90
+        ],
+        "cells": 6839,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0b0811",
+          "#111338",
+          "#1f1e1c",
+          "#282363",
+          "#2e0b13",
+          "#36318c",
+          "#4b130d",
+          "#5648af",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#9580eb",
+          "#9c340c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c5610d",
+          "#cc90f6",
+          "#cfb0f5",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 17.5,
+          "row": 89
+        },
+        "anchor": [
+          18.0,
+          90
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.2,
+            0.2
+          ],
+          "equal": 4872,
+          "cells": 6841,
+          "share": 0.7122
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 5552,
+          "cellsTaken": 1027,
+          "newCells": 10,
+          "cellsEmptied": 12
+        },
+        "masterCellsKept": 5826,
+        "masterCells": 6841,
+        "masterKeptShare": 0.8516,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 2
+          },
+          "keyTinted": 1,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-d010a842-7af4-4fae-9b12-77c0e0e69524.png",
+          "sha256": "b0080ed2de9e9a4767a2d82bcd0a347856d04eacb8d35d900dc4c7fc600437fb"
+        },
+        "files": {
+          "sprite": "pose-03.png",
+          "review": "pose-03-review.png"
+        }
+      }
+    },
+    {
+      "id": "04",
+      "file": "native/04-close-strike.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        11,
+        136,
+        109
+      ],
+      "placement_xy": [
+        7,
+        11
+      ],
+      "eye_box_exclusive": [
+        71,
+        53,
+        75,
+        55
+      ],
+      "face_restore_box_exclusive": [
+        62,
+        44,
+        83,
+        64
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        10,
+        11
+      ],
+      "colour_correction_pixels": 1,
+      "changed_pixels_vs_v001": 1441,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-04",
+        "size": [
+          129,
+          98
+        ],
+        "cells": 7610,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#080812",
+          "#111338",
+          "#1f1e1c",
+          "#272360",
+          "#2e0b13",
+          "#36318c",
+          "#44403f",
+          "#645ac7",
+          "#762e04",
+          "#7674dc",
+          "#933502",
+          "#9390f3",
+          "#94364e",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ddaff6",
+          "#df810b",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 21.0,
+          "row": 97
+        },
+        "anchor": [
+          21.5,
+          98
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.7
+          ],
+          "equal": 5175,
+          "cells": 7607,
+          "share": 0.6803
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 5778,
+          "cellsTaken": 1596,
+          "newCells": 7,
+          "cellsEmptied": 4
+        },
+        "masterCellsKept": 6019,
+        "masterCells": 7607,
+        "masterKeptShare": 0.7912,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 1
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-cf0581dd-ddaa-4c80-bab2-f96e80f5185b.png",
+          "sha256": "5b8584bd772d2e63c61f461881b8b478664593b4f2db3a65db1423f3b1456b09"
+        },
+        "files": {
+          "sprite": "pose-04.png",
+          "review": "pose-04-review.png"
+        }
+      }
+    },
+    {
+      "id": "05",
+      "file": "native/05-rising-uppercut.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        4,
+        132,
+        109
+      ],
+      "placement_xy": [
+        11,
+        4
+      ],
+      "eye_box_exclusive": [
+        56,
+        40,
+        59,
+        42
+      ],
+      "face_restore_box_exclusive": [
+        48,
+        32,
+        66,
+        49
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        11
+      ],
+      "colour_correction_pixels": 1,
+      "changed_pixels_vs_v001": 1472,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-05",
+        "size": [
+          121,
+          105
+        ],
+        "cells": 6661,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0a0813",
+          "#111338",
+          "#1f1e1c",
+          "#252162",
+          "#2e0b13",
+          "#36318c",
+          "#4b0b12",
+          "#5751b6",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#99370a",
+          "#9c85e5",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cbaef0",
+          "#cc90f6",
+          "#da8a0e",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 64.0,
+          "row": 103
+        },
+        "anchor": [
+          64.5,
+          104
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            -0.33,
+            0.17
+          ],
+          "equal": 4499,
+          "cells": 6656,
+          "share": 0.6759
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 4787,
+          "cellsTaken": 1582,
+          "newCells": 11,
+          "cellsEmptied": 6
+        },
+        "masterCellsKept": 5087,
+        "masterCells": 6656,
+        "masterKeptShare": 0.7643,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 7
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-56cb2a28-66cf-4ee8-a633-a9b9041c098b.png",
+          "sha256": "6379b90ce819faa8487359754ebd522f64648453a58cfae498998247a2e580a6"
+        },
+        "files": {
+          "sprite": "pose-05.png",
+          "review": "pose-05-review.png"
+        }
+      }
+    },
+    {
+      "id": "06",
+      "file": "native/06-pursuit-launch.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        19,
+        5,
+        125,
+        99
+      ],
+      "placement_xy": [
+        19,
+        5
+      ],
+      "eye_box_exclusive": [
+        41,
+        36,
+        45,
+        39
+      ],
+      "face_restore_box_exclusive": [
+        30,
+        29,
+        48,
+        48
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        5,
+        10,
+        11
+      ],
+      "colour_correction_pixels": 1,
+      "changed_pixels_vs_v001": 754,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-06",
+        "size": [
+          106,
+          94
+        ],
+        "cells": 5938,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0d081d",
+          "#111338",
+          "#1f1e1c",
+          "#251e5c",
+          "#2e0b13",
+          "#36318c",
+          "#56120a",
+          "#5c48ba",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#9d7fec",
+          "#b32f0b",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d3aaf7",
+          "#e3caf6",
+          "#ea7001"
+        ],
+        "feet": {
+          "middle": 66.5,
+          "row": 92
+        },
+        "anchor": [
+          67.0,
+          93
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.2,
+            0.2
+          ],
+          "equal": 4237,
+          "cells": 5953,
+          "share": 0.7117
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 4927,
+          "cellsTaken": 818,
+          "newCells": 0,
+          "cellsEmptied": 17
+        },
+        "masterCellsKept": 5141,
+        "masterCells": 5953,
+        "masterKeptShare": 0.8636,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 4
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-e76d1c0e-ada8-4105-9d92-2b1f4417574a.png",
+          "sha256": "34cfec71e0003b5aaee607939bbbc832292caeef7389a06da7dc4aa55808e1cc"
+        },
+        "files": {
+          "sprite": "pose-06.png",
+          "review": "pose-06-review.png"
+        }
+      }
+    },
+    {
+      "id": "07",
+      "file": "native/07-airborne-rush.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        5,
+        5,
+        138,
+        100
+      ],
+      "placement_xy": [
+        5,
+        5
+      ],
+      "eye_box_exclusive": [
+        55,
+        35,
+        58,
+        37
+      ],
+      "face_restore_box_exclusive": [
+        45,
+        26,
+        65,
+        48
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        10,
+        11
+      ],
+      "colour_correction_pixels": 2,
+      "changed_pixels_vs_v001": 1134,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-07",
+        "size": [
+          133,
+          95
+        ],
+        "cells": 6388,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0b0915",
+          "#111338",
+          "#1f1e1c",
+          "#2e0b13",
+          "#33204f",
+          "#36318c",
+          "#5a41a7",
+          "#6d6a66",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#a07ce6",
+          "#a8460c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#dbb0f6",
+          "#e3caf6",
+          "#ef880c"
+        ],
+        "feet": {
+          "middle": 98.0,
+          "row": 92
+        },
+        "anchor": [
+          98.5,
+          93
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.17,
+            0.17
+          ],
+          "equal": 4234,
+          "cells": 6386,
+          "share": 0.663
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 4746,
+          "cellsTaken": 1328,
+          "newCells": 4,
+          "cellsEmptied": 3
+        },
+        "masterCellsKept": 5065,
+        "masterCells": 6386,
+        "masterKeptShare": 0.7931,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 0
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 1,
+          "lineCellsAdded": 1,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-5d127b81-3f39-4ad9-881c-fd71905190a2.png",
+          "sha256": "4fd104f8d61e11a793e3ad46705d3cfeb5fa18b198a7fe669b2f8a7c619c684b"
+        },
+        "files": {
+          "sprite": "pose-07.png",
+          "review": "pose-07-review.png"
+        }
+      }
+    },
+    {
+      "id": "08",
+      "file": "native/08-landing-brace.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        8,
+        19,
+        136,
+        109
+      ],
+      "placement_xy": [
+        8,
+        19
+      ],
+      "eye_box_exclusive": [
+        63,
+        59,
+        66,
+        62
+      ],
+      "face_restore_box_exclusive": [
+        51,
+        52,
+        74,
+        72
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        1,
+        2,
+        6,
+        10,
+        11
+      ],
+      "colour_correction_pixels": 5,
+      "changed_pixels_vs_v001": 1283,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-08",
+        "size": [
+          128,
+          90
+        ],
+        "cells": 7378,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e0918",
+          "#111338",
+          "#1f1e1c",
+          "#282062",
+          "#2e0b13",
+          "#36318c",
+          "#5149b3",
+          "#760e0e",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#9548e7",
+          "#a086e6",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c72e3c",
+          "#cc90f6",
+          "#ccabec",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 60.0,
+          "row": 89
+        },
+        "anchor": [
+          60.5,
+          90
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.2,
+            0.2
+          ],
+          "equal": 5197,
+          "cells": 7376,
+          "share": 0.7046
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 5760,
+          "cellsTaken": 1329,
+          "newCells": 22,
+          "cellsEmptied": 20
+        },
+        "masterCellsKept": 6069,
+        "masterCells": 7376,
+        "masterKeptShare": 0.8228,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 3
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-470d9027-a355-42bb-9677-157972bd15a7.png",
+          "sha256": "6ad1b966ff4c142267aec722d0e7e0c29facdfbe60c4f23f22eddf51d1670bea"
+        },
+        "files": {
+          "sprite": "pose-08.png",
+          "review": "pose-08-review.png"
+        }
+      }
+    },
+    {
+      "id": "09",
+      "file": "native/09-palm-charge.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ],
+      "placement_xy": [
+        9,
+        8
+      ],
+      "eye_box_exclusive": [
+        74,
+        50,
+        78,
+        52
+      ],
+      "face_restore_box_exclusive": [
+        60,
+        40,
+        82,
+        61
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        11
+      ],
+      "colour_correction_pixels": 3,
+      "changed_pixels_vs_v001": 503,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-09",
+        "size": [
+          125,
+          101
+        ],
+        "cells": 7674,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#04090e",
+          "#111338",
+          "#1f1e1c",
+          "#23206a",
+          "#2e0b13",
+          "#36318c",
+          "#4e1c06",
+          "#5b53ba",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#9a540a",
+          "#9c8bf0",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#da180c",
+          "#e3caf6",
+          "#f1eef0"
+        ],
+        "feet": {
+          "middle": 60.5,
+          "row": 100
+        },
+        "anchor": [
+          61.0,
+          101
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            -0.33,
+            0.17
+          ],
+          "equal": 6100,
+          "cells": 7684,
+          "share": 0.7939
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 6634,
+          "cellsTaken": 542,
+          "newCells": 17,
+          "cellsEmptied": 27
+        },
+        "masterCellsKept": 7160,
+        "masterCells": 7684,
+        "masterKeptShare": 0.9318,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 0
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-0ee0d6b8-c5fc-49ed-8b4b-4c483e8dcf96.png",
+          "sha256": "988eade27695eb73f5be4da80e298668f67b7bf09676f0c4d5d8b325dad50e1a"
+        },
+        "files": {
+          "sprite": "pose-09.png",
+          "review": "pose-09-review.png"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "file": "native/10-palm-release.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "stored_palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ],
+      "placement_xy": [
+        7,
+        12
+      ],
+      "eye_box_exclusive": [
+        67,
+        50,
+        70,
+        52
+      ],
+      "face_restore_box_exclusive": [
+        56,
+        42,
+        79,
+        62
+      ],
+      "eye_core_palette_index": 11,
+      "eye_core_rgb": [
+        184,
+        21,
+        14
+      ],
+      "eye_shade_palette_indices": [
+        6,
+        10
+      ],
+      "eye_region_palette_indices": [
+        2,
+        6,
+        11
+      ],
+      "colour_correction_pixels": 1,
+      "changed_pixels_vs_v001": 1178,
+      "face_outside_eye_identical_to_v001": true,
+      "pose_extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-10",
+        "size": [
+          130,
+          97
+        ],
+        "cells": 7498,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0b0410",
+          "#111338",
+          "#1f1e1c",
+          "#252364",
+          "#2e0b13",
+          "#36318c",
+          "#5d150c",
+          "#6054ac",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#988ae6",
+          "#b14719",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#caaaf0",
+          "#cc90f6",
+          "#d88740",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 57.5,
+          "row": 96
+        },
+        "anchor": [
+          58.0,
+          97
+        ],
+        "change": "Only sharpen mechanical armour: angular planar shoulders, bevelled original beast gauntlets, wedge-shaped layered knee/shin/feet plates, dark joint gaps. Preserve pose, body thickness, gauntlet identity, whole head, eye pixels and colours. Keep round luminous circles and flowing hair.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            -0.3,
+            0.17
+          ],
+          "equal": 5349,
+          "cells": 7499,
+          "share": 0.7133
+        },
+        "taken": {
+          "how": "the differing groups of 10 cells or more (nothing new lies outside the silhouette)",
+          "pictureEqual": 5869,
+          "cellsTaken": 1278,
+          "newCells": 6,
+          "cellsEmptied": 7
+        },
+        "masterCellsKept": 6229,
+        "masterCells": 7499,
+        "masterKeptShare": 0.8306,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 3
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 0,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-f83ce6c8-7e45-4065-b6ed-17ef3d2f694d.png",
+          "sha256": "12de20d188a93310adb799f3833e807085a5083329def5e6eac56cd4c425cf1c"
+        },
+        "files": {
+          "sprite": "pose-10.png",
+          "review": "pose-10-review.png"
+        }
+      }
+    }
+  ],
+  "original_v001_unchanged": true,
+  "failed_takes": "01 equality50%,09 equality57% rejected and regenerated; no gate bypass",
+  "inherited_pose_height_warnings": [
+    {
+      "file": "native/01-ready-guard.png",
+      "warning": "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/03-low-dash.png",
+      "warning": "the new view's body is 82 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/04-close-strike.png",
+      "warning": "the new view's body is 74 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/05-rising-uppercut.png",
+      "warning": "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/06-pursuit-launch.png",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/07-airborne-rush.png",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/08-landing-brace.png",
+      "warning": "the new view's body is 90 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/09-palm-charge.png",
+      "warning": "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "file": "native/10-palm-release.png",
+      "warning": "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+    }
+  ],
+  "game_import_compatibility": "not verified",
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/base.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/01-ready-guard.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/02-power-crouch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/03-low-dash.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          82
+        ],
+        "firstDiffersBy": -19
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/04-close-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          74
+        ],
+        "firstDiffersBy": -27
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/05-rising-uppercut.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/06-pursuit-launch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/07-airborne-rush.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/08-landing-brace.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          90
+        ],
+        "firstDiffersBy": -11
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/09-palm-charge.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/10-palm-release.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/01-ready-guard.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/03-low-dash.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/04-close-strike.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/05-rising-uppercut.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/06-pursuit-launch.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/07-airborne-rush.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/08-landing-brace.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/09-palm-charge.png",
+      "/workspace/work/mecha-angular-v002/deliverables/processing/lineup-inputs/10-palm-release.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  }
+}
