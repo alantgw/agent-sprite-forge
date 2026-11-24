@@ -1,0 +1,437 @@
+{
+  "version": "v005",
+  "status": "for visual review",
+  "changes": {
+    "04": "restore long left punch; raise to occlude lower face; right guard drawn back and partly occluded, still in front of torso",
+    "07": "anatomical left leg kicks diagonally to image upper-right; right leg supports"
+  },
+  "sequence": [
+    "dash",
+    "07 upward-right left kick",
+    "08 grounded uppercut",
+    "03/04/05/06 loop x4",
+    "09/10 palm"
+  ],
+  "changed_ids": [
+    "04",
+    "07"
+  ],
+  "byte_unchanged_ids": [
+    "01",
+    "02",
+    "03",
+    "05",
+    "06",
+    "08",
+    "09",
+    "10"
+  ],
+  "frames": [
+    {
+      "id": "01",
+      "file": "native/01-ready-guard.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ]
+    },
+    {
+      "id": "02",
+      "file": "native/02-power-crouch.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "03",
+      "file": "native/03-combo-chamber-left.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        141,
+        109
+      ]
+    },
+    {
+      "id": "04",
+      "file": "native/04-combo-left-hit.png",
+      "byte_unchanged_from_v004": false,
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "pose",
+        "name": "pose-04",
+        "size": [
+          124,
+          92
+        ],
+        "cells": 6627,
+        "colours": 22,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#111338",
+          "#120610",
+          "#1f1e1c",
+          "#282168",
+          "#2e0b13",
+          "#36318c",
+          "#530d0d",
+          "#5c48b8",
+          "#762e04",
+          "#7674dc",
+          "#850e11",
+          "#94364e",
+          "#9a52d6",
+          "#a34c07",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#daacf4",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 100.0,
+          "row": 91
+        },
+        "anchor": [
+          100.5,
+          92
+        ],
+        "change": "Keep long extended left punch unchanged. Bring guarding right beast gauntlet slightly forward from tucked position, at upper chest beside face, behind punching left forearm; partly occluded by left punch. No other change.",
+        "masterAt": [
+          0,
+          0
+        ],
+        "lattice": {
+          "cell": 8.164,
+          "offset": [
+            0.2,
+            0.2
+          ],
+          "equal": 5351,
+          "cells": 6687,
+          "share": 0.8002
+        },
+        "taken": {
+          "how": "the new part outside the silhouette and what hangs together with it",
+          "pictureEqual": 5524,
+          "cellsTaken": 1322,
+          "newCells": 248,
+          "cellsEmptied": 307
+        },
+        "masterCellsKept": 5613,
+        "masterCells": 6687,
+        "masterKeptShare": 0.8394,
+        "newColours": 8,
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 2
+          },
+          "keyTinted": 0,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 0,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 1,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "source": {
+          "image": "/workspace/generated_images/exec-212a32a8-b97a-4fa0-9044-2a7728a7317b.png",
+          "sha256": "b59664830794f5cc714780d4116810721a9057d404ae261e513798203a4c7a79"
+        },
+        "files": {
+          "sprite": "pose-04.png",
+          "review": "pose-04-review.png"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "05",
+      "file": "native/05-combo-chamber-right.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "06",
+      "file": "native/06-combo-right-hit.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "07",
+      "file": "native/07-left-upward-right-kick.png",
+      "byte_unchanged_from_v004": false,
+      "eye_box_exclusive": [
+        64,
+        37,
+        68,
+        39
+      ],
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-07",
+        "size": [
+          121,
+          101
+        ],
+        "cells": 6931,
+        "colours": 24,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e0a11",
+          "#111338",
+          "#1f1e1c",
+          "#29245e",
+          "#2e0b13",
+          "#36318c",
+          "#4f4070",
+          "#520e14",
+          "#6152b0",
+          "#762e04",
+          "#7674dc",
+          "#901612",
+          "#94364e",
+          "#9e7adf",
+          "#b65415",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d0aeee",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 32.0,
+          "row": 100
+        },
+        "anchor": [
+          32.5,
+          101
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7486,
+          "cells": 7846,
+          "share": 0.9541
+        },
+        "rulerEqualShare": 0.9541,
+        "heightRows": 101,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            -4.0,
+            0.0
+          ],
+          "flat": 12920,
+          "flatUnshifted": 12809,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 66
+          },
+          "keyTinted": 6,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 39,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 3
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 7,
+          "lineCellsAdded": 7,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-f85e6faa-3317-4256-8c30-941928a699eb.png",
+          "sha256": "f655f0fbcc7b4a4120ad048b298df5522f044f4746b0be872513f8857246d777"
+        },
+        "files": {
+          "sprite": "pose-07.png",
+          "how": "pose-07-how.png",
+          "review": "pose-07-review.png",
+          "grounds": "pose-07-grounds.png"
+        }
+      },
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        132,
+        109
+      ]
+    },
+    {
+      "id": "08",
+      "file": "native/08-grounded-uppercut.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        12,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "09",
+      "file": "native/09-palm-charge.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ]
+    },
+    {
+      "id": "10",
+      "file": "native/10-palm-release.png",
+      "byte_unchanged_from_v004": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ]
+    }
+  ],
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "game_import_compatibility": "not verified"
+}

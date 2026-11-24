@@ -1,0 +1,15 @@
+{
+  "native_canvas_palette_opaque_background": "passed",
+  "eight_unchanged_native_sha": "passed",
+  "original_red_eye_lock": "retained04; corrected07",
+  "combo_gif_four_frame_decode": "passed",
+  "full_gif_decode_118_intervals": "passed normal and slow",
+  "strict_master_fits": {
+    "04": 0.8002,
+    "07": 0.9541
+  },
+  "07_height_rows": 101,
+  "standing_master_height_rows": 101,
+  "lineup_verdict": "differs; posed height warnings preserved",
+  "visual_review": "pending"
+}

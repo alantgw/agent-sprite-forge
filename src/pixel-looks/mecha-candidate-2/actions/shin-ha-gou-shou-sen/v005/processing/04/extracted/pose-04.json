@@ -1,0 +1,109 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "pose-04",
+ "size": [
+  124,
+  92
+ ],
+ "cells": 6627,
+ "colours": 22,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#111338",
+  "#120610",
+  "#1f1e1c",
+  "#282168",
+  "#2e0b13",
+  "#36318c",
+  "#530d0d",
+  "#5c48b8",
+  "#762e04",
+  "#7674dc",
+  "#850e11",
+  "#94364e",
+  "#9a52d6",
+  "#a34c07",
+  "#b8150e",
+  "#ba6cf6",
+  "#c27e13",
+  "#cc90f6",
+  "#daacf4",
+  "#e3caf6"
+ ],
+ "feet": {
+  "middle": 100.0,
+  "row": 91
+ },
+ "anchor": [
+  100.5,
+  92
+ ],
+ "change": "Keep long extended left punch unchanged. Bring guarding right beast gauntlet slightly forward from tucked position, at upper chest beside face, behind punching left forearm; partly occluded by left punch. No other change.",
+ "masterAt": [
+  0,
+  0
+ ],
+ "lattice": {
+  "cell": 8.164,
+  "offset": [
+   0.2,
+   0.2
+  ],
+  "equal": 5351,
+  "cells": 6687,
+  "share": 0.8002
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5524,
+  "cellsTaken": 1322,
+  "newCells": 248,
+  "cellsEmptied": 307
+ },
+ "masterCellsKept": 5613,
+ "masterCells": 6687,
+ "masterKeptShare": 0.8394,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 2
+  },
+  "keyTinted": 0,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 0,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 1,
+  "bareCells": 0,
+  "lineCellsAdded": 0,
+  "closed": true,
+  "offset": [
+   0,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-212a32a8-b97a-4fa0-9044-2a7728a7317b.png",
+  "sha256": "b59664830794f5cc714780d4116810721a9057d404ae261e513798203a4c7a79"
+ },
+ "files": {
+  "sprite": "pose-04.png",
+  "review": "pose-04-review.png"
+ }
+}

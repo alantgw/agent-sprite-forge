@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 10,
+ "canvas": [
+  1536,
+  1536
+ ],
+ "masterAt": [
+  14,
+  30
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "c4752e662547f501bd3b2d02267ad471c81da896aa6f40d5bf4b11665955d95e",
+  "size": [
+   124,
+   92
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1536x1536",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1536x1536 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "Keep long extended left punch unchanged. Bring guarding right beast gauntlet slightly forward from tucked position, at upper chest beside face, behind punching left forearm; partly occluded by left punch. No other change.",
+ "outline": "rule"
+}
