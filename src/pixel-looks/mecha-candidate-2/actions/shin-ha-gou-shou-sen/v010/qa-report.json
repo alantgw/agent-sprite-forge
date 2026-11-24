@@ -1,0 +1,235 @@
+{
+  "latest04": "exact byte copy ofv005",
+  "nine_other_native_files": "unchanged fromv009",
+  "07_extraction": {
+    "schema": "generate2dsprite.pixel_look.v2",
+    "tool": "pixel_look",
+    "kind": "view",
+    "name": "pose-07",
+    "size": [
+      122,
+      100
+    ],
+    "cells": 5913,
+    "colours": 24,
+    "palette": [
+      "#000018",
+      "#020201",
+      "#02020c",
+      "#111338",
+      "#1f1e1c",
+      "#2a2553",
+      "#2e0b13",
+      "#36318c",
+      "#490209",
+      "#5f4688",
+      "#762e04",
+      "#7674dc",
+      "#796db7",
+      "#820606",
+      "#94364e",
+      "#b8150e",
+      "#b944ee",
+      "#ba6cf6",
+      "#c27e13",
+      "#cc90f6",
+      "#e21003",
+      "#e3caf6",
+      "#e8b2f0",
+      "#ec9204"
+    ],
+    "feet": {
+      "middle": 66.5,
+      "row": 99
+    },
+    "anchor": [
+      67.0,
+      100
+    ],
+    "view": "custom",
+    "lattice": {
+      "cell": 6.88,
+      "offset": [
+        4.0,
+        3.0
+      ],
+      "equal": 5200,
+      "cells": 7846,
+      "share": 0.6628
+    },
+    "rulerEqualShare": 0.6628,
+    "heightRows": 99,
+    "masterHeightRows": 101,
+    "solesBelowMasters": -2.0,
+    "ownLattice": {
+      "shift": [
+        -4.0,
+        0.0
+      ],
+      "flat": 12871,
+      "flatUnshifted": 12812,
+      "cells": 17152
+    },
+    "edge": {
+      "keyMixed": {
+        "removed": 0,
+        "darkened": 72
+      },
+      "keyTinted": 23,
+      "keyNear": 0,
+      "keyHoles": 1,
+      "keyInked": 5,
+      "keySpill": {
+        "removed": 0,
+        "recoloured": 5
+      },
+      "islandCells": 0
+    },
+    "newColours": 10,
+    "outline": {
+      "line": [
+        0,
+        0,
+        24
+      ],
+      "specks": 7,
+      "bareCells": 11,
+      "lineCellsAdded": 11,
+      "closed": true,
+      "offset": [
+        0,
+        0
+      ],
+      "mode": "rule"
+    },
+    "key": "green",
+    "howZoom": 7,
+    "warnings": [
+      "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+    ],
+    "source": {
+      "image": "/workspace/generated_images/exec-471c5011-8bbe-490f-9006-882a15189da3.png",
+      "sha256": "8390ee9a7360ddb6b99882d5deea12ff0d4f37ecfa71996eeea215a6b6fac56d"
+    },
+    "files": {
+      "sprite": "pose-07.png",
+      "how": "pose-07-how.png",
+      "review": "pose-07-review.png",
+      "grounds": "pose-07-grounds.png"
+    }
+  },
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/01-ready-guard.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/02-power-crouch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/07-selected-turning-kick.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/09-palm-charge.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/10-palm-release.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/01-ready-guard.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/07-selected-turning-kick.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/09-palm-charge.png",
+      "/workspace/work/mecha-sequence-v010/deliverables/processing/lineup-inputs/10-palm-release.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  },
+  "gif_decode": "passed118 intervals normal/slow",
+  "visual_review": "pending"
+}
