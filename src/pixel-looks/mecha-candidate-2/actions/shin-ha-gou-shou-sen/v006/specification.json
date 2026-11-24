@@ -1,0 +1,185 @@
+{
+  "version": "v006",
+  "change": "07 exact horizontal pixel reflection; robot faces image-left and raised foot points upper-left. Mirrored pose, not a new anatomical left/right redesign.",
+  "source_version": "v005",
+  "unchanged_native_count": 9,
+  "frames": [
+    {
+      "id": "01",
+      "file": "native/01-ready-guard.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ]
+    },
+    {
+      "id": "02",
+      "file": "native/02-power-crouch.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "03",
+      "file": "native/03-combo-chamber-left.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        141,
+        109
+      ]
+    },
+    {
+      "id": "04",
+      "file": "native/04-combo-left-hit.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "05",
+      "file": "native/05-combo-chamber-right.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "06",
+      "file": "native/06-combo-right-hit.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "07",
+      "file": "native/07-upward-kick-facing-left.png",
+      "byte_unchanged_from_v005": false,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        12,
+        8,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "08",
+      "file": "native/08-grounded-uppercut.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        12,
+        133,
+        109
+      ]
+    },
+    {
+      "id": "09",
+      "file": "native/09-palm-charge.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ]
+    },
+    {
+      "id": "10",
+      "file": "native/10-palm-release.png",
+      "byte_unchanged_from_v005": true,
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ]
+    }
+  ],
+  "palette_and_eye_colours": "identical to v005; no interpolation or recolouring",
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "game_import_compatibility": "not verified"
+}
