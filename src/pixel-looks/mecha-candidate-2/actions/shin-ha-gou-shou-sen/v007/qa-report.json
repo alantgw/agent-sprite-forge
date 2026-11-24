@@ -1,0 +1,10 @@
+{
+  "native_dimensions_palette_background": "144x112 P; original16 entries;15 used; opaque teal",
+  "unchanged_native_files": "9 byte-identical tov006",
+  "latest04": "byte-identical tov005 long punch with lower-face overlap",
+  "07_ruler_match": 0.9621,
+  "07_height_warning": "the new view's body is 85 rows tall, the master's 101: it is not the same height; generate again",
+  "lineup": "differs; full records retained",
+  "gif_decode_118_intervals": "passed normal and slow",
+  "visual_review": "pending"
+}

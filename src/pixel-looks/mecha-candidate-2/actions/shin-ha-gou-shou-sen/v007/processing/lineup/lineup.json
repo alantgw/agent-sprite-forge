@@ -1,0 +1,112 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+ "masterHeight": 101,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/01-ready-guard.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/02-power-crouch.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/07-left-cross-rising-kick.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    85
+   ],
+   "firstDiffersBy": -16
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/09-palm-charge.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/10-palm-release.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  }
+ ],
+ "firstDrawingDiffers": [
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/01-ready-guard.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/07-left-cross-rising-kick.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/09-palm-charge.png",
+  "work/mecha-sequence-v007/deliverables/processing/lineup-inputs/10-palm-release.png"
+ ],
+ "verdict": "differs",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}
