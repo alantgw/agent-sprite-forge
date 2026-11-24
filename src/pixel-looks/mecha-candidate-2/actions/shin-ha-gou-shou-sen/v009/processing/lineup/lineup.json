@@ -1,0 +1,112 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+ "masterHeight": 101,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/01-ready-guard.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/02-power-crouch.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/07-turning-kick-option-b.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    98
+   ],
+   "firstDiffersBy": -3
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/09-palm-charge.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/10-palm-release.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  }
+ ],
+ "firstDrawingDiffers": [
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/01-ready-guard.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/03-combo-chamber-left.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/04-combo-left-hit.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/05-combo-chamber-right.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/06-combo-right-hit.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/07-turning-kick-option-b.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/08-grounded-uppercut.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/09-palm-charge.png",
+  "/workspace/work/mecha-sequence-v009/deliverables/processing/lineup-inputs/10-palm-release.png"
+ ],
+ "verdict": "differs",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}
