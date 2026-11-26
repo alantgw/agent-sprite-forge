@@ -1,0 +1,26 @@
+{
+  "rejected": [
+    {
+      "id": "27",
+      "source": "/workspace/generated_images/exec-50541a4f-fd2d-479e-b793-bf98737b263e.png",
+      "prompt": "Edit FIRST reference, a wide green two-character composition. Preserve the whole LEFT standing ruler exactly unchanged. Edit ONLY the RIGHT mecha, the same approved character, same original colours, red eyes, angular armour, broad compact build, short thick limbs and pixel size. SECOND reference is the approved punch/palm artwork: preserve its actual articulated mechanical hand, short gold-tipped digits, original wrist/forearm armour behind the hand. The right seed's ACTIVE ARM must stay the SAME arm throughout, not switch sides. Complete hair/ribbons inside right panel; flat green background, one full right figure only. NO enemy, aura, beam, glow trail, hit flash, dust, shadow, scenery, labels or UI. This must convey power through the BODY POSE, not effects. Deep PALM WINDUP. Pull the active open palm BACK beside upper ribs/rear shoulder, well away from the target, elbow folded behind waist line but hand still visible beside torso. Turn waist and shoulders away from target left, compress rear knee and load rear foot, front foot braced wide. Head looks LEFT along target line. Palm/forearm must NOT be already stretched out. Mechanical fingers visibly open, upright palm, not closed fist. Broad coiled torso leaning slightly forward, a clear explosive windup for the next strike.",
+      "reason": "open palm swapped to wrong arm"
+    },
+    {
+      "id": "29",
+      "source": "/workspace/generated_images/exec-e4371d65-8d2e-4ef7-815e-c35df3e386e5.png",
+      "prompt": "Edit FIRST reference, a wide green two-character composition. Preserve the whole LEFT standing ruler exactly unchanged. Edit ONLY the RIGHT mecha, the same approved character, same original colours, red eyes, angular armour, broad compact build, short thick limbs and pixel size. SECOND reference is the approved punch/palm artwork: preserve its actual articulated mechanical hand, short gold-tipped digits, original wrist/forearm armour behind the hand. The right seed's ACTIVE ARM must stay the SAME arm throughout, not switch sides. Complete hair/ribbons inside right panel; flat green background, one full right figure only. NO enemy, aura, beam, glow trail, hit flash, dust, shadow, scenery, labels or UI. This must convey power through the BODY POSE, not effects. Decisive PALM HEEL IMPACT toward LEFT. Deep grounded forward lunge: FRONT knee bent sharply, REAR leg pushes firmly into ground, heel drives pelvis; waist, chest and shoulder rotate through a single force line into the active palm. Strong forward torso lean about30degrees, head/chin tucked partly behind upper arm, neck compact. Active arm nearly extends HORIZONTALLY at head/chest height, original SHORT THICK arm, modest20percent more reach than right seed, not a long thin human arm. OPEN articulated robot PALM upright, PALM HEEL leads left, four fingers and thumb splayed with original short GOLD CLAW TIPS, recognizable lavender/black palm and red-black forearm armour behind wrist. A slightly more side-on shoulder/waist than seed makes the push force visible. The opposite closed hand pulls tight by rear ribs, does not punch. Original broad feet grip ground. Mane/red ribbons stream rear-right due to the driving body. The palm must read unmistakably as an OPEN-HAND finishing strike, not another fist, not a narrow pointed capsule.",
+      "reason": "fingertips cross ruler/right-panel divider"
+    },
+    {
+      "id": "16",
+      "source": "/workspace/generated_images/exec-9e61999f-434d-4386-9aed-46af51d538a5.png",
+      "prompt": "Edit the FIRST wide picture: the LEFT standing ruler must remain absolutely unchanged, in the same place. Repose ONLY the RIGHT mecha, which is the corrected LEFT-REAR horizontal sweep-kick character. This right figure is the character identity and back-armour reference; SECOND picture shows approved hand articulation. Preserve its ORIGINAL lavender/purple, red/black, gold claws, red eyes, pale mane and red rear ribbons, broad compact head/body ratio and short thick limbs. Keep actual mechanical knuckles and clawed hands, with forearm armour behind wrists, not solid shield-like hand caps. Use the same coarse pixel size as the left figure. ONE complete right figure inside frame with complete hair/ribbons, same flat green background. No enemy, aura, flashes, trails, dust, shadow, UI or text. Motion is torso/waist rotating to the mecha's RIGHT with a HORIZONTAL sweep below head level, not merely lifting a leg high. The specific phase is: LAND after rotating sweep: back-left quarter still visible, head turns over shoulder toward LEFT target again, torso begins pivot into the next leftward uppercut. Left foot lowers into a wide grounded stance, right support leg braced. Right closed hand drops near hip to load uppercut, left guards cheek. No jump, no high foot, no neutral pause.",
+      "reason": "extra clawed appendage at waist, visible in native review"
+    }
+  ],
+  "provider_error": {
+    "id": "24",
+    "action": "same host image_gen request retried successfully; no pipeline substitution"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "clips": [
+    {
+      "part": 1,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "b66521a0063ba73b66ab08bba642d8e899e9affed6e31a9d89cfce96d00a109b",
+      "duration_seconds": 3.605
+    },
+    {
+      "part": 2,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "6e1dd0e839bc895f12d9fdf701791d2ccc8119830e107f7631c60bfbfbc90aa3",
+      "duration_seconds": 8.01
+    },
+    {
+      "part": 3,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "57f2a5ec75bcd8802ecbeff2d9f1198d8a59a2a63f526a6fb8fe526e7b65392a",
+      "duration_seconds": 7.973333
+    },
+    {
+      "part": 4,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "d1ce8c25035602ebfec7be42df43a218127d7a987d8d14e32d80d47e35bfe2c7",
+      "duration_seconds": 7.98
+    },
+    {
+      "part": 5,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "9278a5e004b396e33057f609cbbaeaf0e24ab093e42313b20942312e66c02cd7",
+      "duration_seconds": 8.271678
+    },
+    {
+      "part": 6,
+      "file_name": "ScreenRecording_11-23-2026 23-32-31_1.MOV",
+      "private_clip_uploaded_to_repository": false,
+      "sha256": "9c03a5e2dda190acbde5027228d1af1cea88ce412df8712418bd257fd33a70fd",
+      "duration_seconds": 7.853333
+    }
+  ],
+  "inspection": "Revisited original parts3,4,5 at closer time intervals for enemy displacement and attack order; all six clips retained privately.",
+  "mapping": "Heavy front strike -> uppercut -> rising kick -> second uppercut -> alternating pursuit punches -> palm. Hit direction and pauses are interpreted; no 1:1 timing/physics claim.",
+  "scope": "Mecha body only, no enemy/VFX inside sprites. Recoil power interpreted through body mechanics, advancing ground steps and impact holds. Private supplied video/screenshots not redistributed.",
+  "observations": [
+    "Part3 around4.8-5.0s: forward heavy hit, enemy driven away.",
+    "Part3 around6.4-6.6s: uppercut lifts enemy.",
+    "Part3 around6.6-7.0s: kick pushes enemy farther back/up.",
+    "Part3 around7.2-7.6s: second uppercut launches enemy high.",
+    "Part4: airborne pursuit contacts; actor follows the target rather than punching in place.",
+    "Part5: finishing palm; long effects/camera cuts condensed."
+  ],
+  "user_clarification": "Juno was a typo for JUMP ATTACK. Latest instruction overrides previous inferred airborne pursuit: grounded dash, uppercuts and alternating punches.",
+  "current_pose_authority": "Three latest user screenshots: left-rear body planes, pelvis+torso turning right in a lateral sweeping kick, not front-facing high leg lift.",
+  "current_sequence": "Forward heavy punch -> uppercut -> rotating horizontal sweep kick -> grounded uppercut -> grounded left/right combination -> palm."
+}

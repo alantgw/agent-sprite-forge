@@ -1,0 +1,9 @@
+{
+  "corrections": [
+    "ground dash into heavy punch, no extra lead jab",
+    "waist+torso clockwise rotation and left-rear body planes, horizontal sweep below head",
+    "palm deep windup, hip/shoulder drive, leg bracing and distinct palm heel"
+  ],
+  "not_changed": "144x112 original palette, opaque teal, no effects/enemy inside sprites; earlier versions and original references preserved",
+  "reference_canvas": "2048x1024 to fit original112x102 ruler at8px cells; native canvas unchanged"
+}

@@ -1,0 +1,11 @@
+Create exactly ONE wide landscape image (3:2), the same size and layout as the attached image.
+
+One image is attached: on its left half stands a pixel-art game sprite on a flat green (#00FF00) background, shown enlarged. Every square of 8 px in it is one pixel of the sprite. The right half is empty.
+
+Reproduce the attached image: the same figure on the left, at exactly the same size and in the same place, the same pixel art on the same coarse, regular square pixel grid, one flat colour per pixel, hard edges, the same dark outline one pixel wide, the same colours.
+
+THE ONLY CHANGE: in the empty right half, add a SECOND figure: the SAME character GROUND COMBO RIGHT heavy punch slightly up-left at lower-face height, waist rotates into strike, front knee bends and rear foot drives a short follow-up STEP with ground contact. Right fist has original gold curled knuckles, left hand chambered near ribs, same broad body and original planted stance. No jump or flight.
+
+The second figure is drawn by the same pixel artist on the same pixel grid, with pixels exactly as large as the first figure's. It is exactly as tall as the first figure: its highest point and the soles of its feet are on the same two horizontal lines as the first figure's. It has the same head size, the same body and legs, the same colours, the same kind of outline and the same kind of shading. It is not taller, not thinner and not more detailed than the first figure.
+
+The two figures stand well apart and do not touch. The background stays the same flat pure green (#00FF00) everywhere, with no shadow, no floor, no text and nothing else in the picture.

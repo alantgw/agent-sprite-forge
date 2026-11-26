@@ -1,0 +1,325 @@
+[
+  {
+    "id": "01",
+    "name": "ground-dash-drive",
+    "group": "dash",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/01-dash-drive.png",
+    "previous_slot": "01",
+    "pose": "Low forward grounded dash into first heavy punch, facing image-left, leading foot skims ground and rear toe pushes; body forward with both actual closed fists chambered, no jumping or flying.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/04-heavy-drive.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/01"
+  },
+  {
+    "id": "02",
+    "name": "ground-dash-plant",
+    "group": "dash",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/02-dash-plant.png",
+    "previous_slot": "02",
+    "pose": "Plant the forward step facing image-left, both feet close to ground, wide compact low body, left shoulder loaded for heavy cross; no separate jab.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/04-heavy-drive.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/02"
+  },
+  {
+    "id": "03",
+    "name": "heavy-chamber",
+    "group": "heavy",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/03-heavy-lead-strike.png",
+    "previous_slot": "03",
+    "pose": "Grounded heavy cross WINDUP, no jab: left fist pulled near shoulder/ribs, right hand guards cheek, knees bent and hips coiled to drive forward. Keep short thick arms and broad base proportions.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/04-heavy-drive.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/03"
+  },
+  {
+    "id": "04",
+    "name": "heavy-drive",
+    "group": "heavy",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/04-heavy-drive.png",
+    "previous_slot": "04"
+  },
+  {
+    "id": "05",
+    "name": "heavy-impact",
+    "group": "heavy",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/05-heavy-impact.png",
+    "previous_slot": "05"
+  },
+  {
+    "id": "06",
+    "name": "heavy-followthrough",
+    "group": "heavy",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/06-heavy-followthrough.png",
+    "previous_slot": "06"
+  },
+  {
+    "id": "07",
+    "name": "uppercut-one-coil",
+    "group": "uppercut1",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/08-uppercut-one-coil.png",
+    "previous_slot": "08"
+  },
+  {
+    "id": "08",
+    "name": "uppercut-one-drive",
+    "group": "uppercut1",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/09-uppercut-one-drive.png",
+    "previous_slot": "09"
+  },
+  {
+    "id": "09",
+    "name": "uppercut-one-impact",
+    "group": "uppercut1",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/10-uppercut-one-impact.png",
+    "previous_slot": "10"
+  },
+  {
+    "id": "10",
+    "name": "sweep-kick-load",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/10-uppercut-one-impact.png",
+    "previous_slot": "10",
+    "pose": "Kick LOAD immediately after uppercut. Face image-left, torso inclines forward; left knee just crosses pelvis at waist height, hands close to ribs, planted right knee bends. Waist starts turning to its right, shoulders lag. Original FRONT-LEFT body mostly visible, but left back shoulder edge begins to turn into view. No high kick, foot not extended.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/10"
+  },
+  {
+    "id": "11",
+    "name": "sweep-kick-left-rear",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/11-uppercut-one-follow.png",
+    "previous_slot": "11",
+    "pose": "Quarter-turn COIL of sweep kick: LEFT-REAR half of body and large left back shoulder plane now visible, chest mostly hidden. Head still looks over left shoulder toward image-left. Waist/pelvis have rotated to mecha own right more than shoulders. Left knee held across LOW waist, shin folded. Supporting right foot pivots; both closed hands guard shoulders. Foot stays below waist/chest, no vertical kick.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/11"
+  },
+  {
+    "id": "12",
+    "name": "sweep-kick-drive",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/12-kick-chamber.png",
+    "previous_slot": "12",
+    "pose": "DRIVE horizontal rotating kick LEFT TO RIGHT: camera sees LEFT-REAR body as waist and torso turn right together. Head follows toward image-right, left leg partly extends laterally RIGHT at waist height with knee still bent. Foot and shin point right together below chin; angular support leg and broad planted foot. Most chest hidden, actual left back armour visible.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/12"
+  },
+  {
+    "id": "13",
+    "name": "sweep-kick-impact",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/13-kick-drive.png",
+    "previous_slot": "13",
+    "pose": "Horizontal rotating sweep IMPACT to image-right from LEFT-REAR view. Pelvis/torso turned right, left leg extends at waist/lower-chest height below head, supporting right knee bent, torso forward. This is the new rear-left pilot, not prior high kick.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/13"
+  },
+  {
+    "id": "14",
+    "name": "sweep-kick-back-through",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/14-kick-impact.png",
+    "previous_slot": "14",
+    "pose": "Sweep FOLLOWTHROUGH: turn farther to its right until FULL BACK faces viewer, head face hidden. Left kicking leg continues its rightward horizontal arc AWAY from camera beyond body, foreshortened and partly occluded by right rear waist armour. Foot stays at waist height, never above shoulders. Support right foot pivots, torso/hips rotate together, mane and red ribbons lag toward left. Actual back shoulder planes, not front chest or orb.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/14"
+  },
+  {
+    "id": "15",
+    "name": "sweep-kick-back-retract",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/15-kick-turn-follow.png",
+    "previous_slot": "15",
+    "pose": "RETRACT after rotational sweep, full back/left-rear predominant. Left knee folds after sweeping right, foot drops toward ground, right planted knee absorbs torque. Torso continues rotation and head starts looking around toward image-left, only small left cheek edge visible. No second kick; closed hands by ribs. Correct base back armour, thick segmented limbs.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/15"
+  },
+  {
+    "id": "16",
+    "name": "sweep-kick-land-link",
+    "group": "kick",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/16-kick-uppercut-link.png",
+    "previous_slot": "16",
+    "pose": "LAND after rotating sweep: back-left quarter still visible, head turns over shoulder toward LEFT target again, torso begins pivot into the next leftward uppercut. Left foot lowers into a wide grounded stance, right support leg braced. Right closed hand drops near hip to load uppercut, left guards cheek. No jump, no high foot, no neutral pause.",
+    "pose_seed": "/workspace/generated_images/exec-61e2e02c-3bd1-4568-b289-d765cefc0324.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/16"
+  },
+  {
+    "id": "17",
+    "name": "uppercut-two-coil",
+    "group": "uppercut2",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/17-uppercut-two-coil.png",
+    "previous_slot": "17"
+  },
+  {
+    "id": "18",
+    "name": "ground-uppercut-two-drive",
+    "group": "uppercut2",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/18-uppercut-two-drive.png",
+    "previous_slot": "18",
+    "pose": "SECOND UPPERCUT drive upward-left with BOTH FEET FIRMLY PLANTED, knees bent opening into hip drive, torso forward, closed right fist from image-left at chin height, opposite clenched hand guards ribs. No leap, no tucked airborne knees.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/10-uppercut-one-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/18"
+  },
+  {
+    "id": "19",
+    "name": "ground-uppercut-two-impact",
+    "group": "uppercut2",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/19-uppercut-two-impact.png",
+    "previous_slot": "19",
+    "pose": "SECOND UPPERCUT IMPACT upward-left from grounded wide stance, both feet planted and rear heel drives, right closed fist just above forehead and bent elbow, hips/chest rotate upward with no jump. Opposite fist near ribs. Compact body, head between broad shoulders.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/10-uppercut-one-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/19"
+  },
+  {
+    "id": "20",
+    "name": "ground-uppercut-two-follow",
+    "group": "uppercut2",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/20-uppercut-two-rise.png",
+    "previous_slot": "20",
+    "pose": "Grounded upward followthrough, both feet planted; source pose reused, stage remains grounded."
+  },
+  {
+    "id": "21",
+    "name": "ground-combo-left-load",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/21-combo-left-load.png",
+    "previous_slot": "21",
+    "pose": "GROUND COMBO left punch LOAD: original common wide planted stance, both feet on floor in exactly same positions as seed. Left closed fist chambered near chest/shoulder, right clenched hand guards cheek, torso leans20degrees forward with waist coiled. No jump, no tucked knees.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/21"
+  },
+  {
+    "id": "22",
+    "name": "ground-combo-left-hit",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/22-combo-left-hit.png",
+    "previous_slot": "22",
+    "pose": "GROUND COMBO LEFT cross-body punch HIT toward image-left at chin height. Left arm from image-right shoulder crosses chest and lower face, short thick forearm, original curled gold knuckles lead left, opposite right hand pulled beside shoulder partly hidden. Both feet stay planted in seed common stance. Forward waist/shoulder drive, no jump.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/22"
+  },
+  {
+    "id": "23",
+    "name": "ground-combo-right-load",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/23-combo-right-load.png",
+    "previous_slot": "23",
+    "pose": "GROUND COMBO right punch DRIVE halfway left at chin height, elbow bent, left hand retracts to shoulder/chest partly occluded. Original curled gold knuckles and forearm armour, original common stance with BOTH FEET PLANTED in same positions as seed. Waist turns into right punch, no jump.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/23"
+  },
+  {
+    "id": "24",
+    "name": "ground-combo-right-hit",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/24-combo-right-hit.png",
+    "previous_slot": "24",
+    "pose": "GROUND COMBO RIGHT punch HIT left at chin level, right hand from image-left shoulder nearly extends, original gold curled knuckles and forearm armour, left closed hand pulled near shoulder/ribs. SAME planted wide common stance and broad forward torso, both feet on floor, no jump.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/24"
+  },
+  {
+    "id": "25",
+    "name": "ground-combo-left-pursuit",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/25-combo-left-pursuit.png",
+    "previous_slot": "25",
+    "pose": "GROUND COMBO LEFT heavy cross punch slightly down-left at chest height; waist rotates more into strike, torso inclines forward25degrees, rear toe pushes and front foot plants a short follow-up STEP. Both feet stay close to floor, never flying. Active left forearm crosses chest, right closed hand at shoulder partly occluded. Original broad body and short thick arms.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/25"
+  },
+  {
+    "id": "26",
+    "name": "ground-combo-right-pursuit",
+    "group": "combo",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/26-combo-right-pursuit.png",
+    "previous_slot": "26",
+    "pose": "GROUND COMBO RIGHT heavy punch slightly up-left at lower-face height, waist rotates into strike, front knee bends and rear foot drives a short follow-up STEP with ground contact. Right fist has original gold curled knuckles, left hand chambered near ribs, same broad body and original planted stance. No jump or flight.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png",
+    "request": "/workspace/work/mecha-impact-v003/requests/26"
+  },
+  {
+    "id": "27",
+    "name": "palm-deep-coil",
+    "group": "palm",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/27-palm-load.png",
+    "previous_slot": "27",
+    "pose": "Power palm windup, facing image-left: clear wide grounded low lunge, torso twisted away, active mechanical palm pulled close beside rear ribs, fingers open, opposite hand guards cheek. The palm is NOT already extended. Rear leg loads and hips coil.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/29-palm-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests-wide/27",
+    "reference_canvas": [
+      2304,
+      1024
+    ]
+  },
+  {
+    "id": "28",
+    "name": "palm-hip-drive",
+    "group": "palm",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/28-palm-drive.png",
+    "previous_slot": "28",
+    "pose": "Power palm drive facing image-left: rear foot pushes, hips rotate forward and shoulder follows; open articulated palm moves halfway out at chest height, wrist straight, elbow still bent. Keep original gauntlet behind wrist, visibly separated open fingers and gold claw tips, no forearm-nose substitute.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/29-palm-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests-wide/28",
+    "reference_canvas": [
+      2304,
+      1024
+    ]
+  },
+  {
+    "id": "29",
+    "name": "palm-root-impact",
+    "group": "palm",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/29-palm-impact.png",
+    "previous_slot": "29",
+    "pose": "Power palm IMPACT facing image-left: broad deep braced lunge, front knee bent, rear leg drives straight through hip, strong forward torso; active arm nearly extended horizontal at face height, PALM HEEL leading left with open articulated clawed hand upright and clear at native scale. Fingers spread, short gold tips, original mechanical hand and forearm from approved palm. Opposite fist tight by ribs. Head/chin partly behind upper arm, not leaning back. No beam or hit FX.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/29-palm-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests-wide/29",
+    "reference_canvas": [
+      2304,
+      1024
+    ]
+  },
+  {
+    "id": "30",
+    "name": "palm-driven-follow",
+    "group": "palm",
+    "new": true,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/30-palm-followthrough.png",
+    "previous_slot": "30",
+    "pose": "Power palm committed followthrough left: same open palm fully forward, body lower and shoulder/waist turned farther into hit, rear heel drives, near knee braced and chest forward. Keep actual articulated palm open, no pointed armour tip as hand; complete mane/ribbons stream right. Hold attack, not idle.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/impact-flow/v002/native/29-palm-impact.png",
+    "request": "/workspace/work/mecha-impact-v003/requests-wide/30",
+    "reference_canvas": [
+      2304,
+      1024
+    ]
+  }
+]

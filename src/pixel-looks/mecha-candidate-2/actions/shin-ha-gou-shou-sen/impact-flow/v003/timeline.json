@@ -1,0 +1,2364 @@
+{
+  "unique_drawings": 30,
+  "new_drawings": 22,
+  "retained_drawings": 8,
+  "dash_drawings": 2,
+  "attack_drawings": 28,
+  "kick_drawings": 7,
+  "stage_native": [
+    360,
+    160
+  ],
+  "display_scale": 4,
+  "tick_ms": 40,
+  "duration_ms": 5360,
+  "no_jump_attacks": true,
+  "ground_baseline": 145,
+  "combo_repeats": 3,
+  "combo_pose_cycle": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "sequence": [
+    "heavy",
+    "uppercut1",
+    "rotating_horizontal_kick",
+    "uppercut2",
+    "ground_left_right_combo",
+    "palm"
+  ],
+  "method": "Static native drawings, held impacts and integer ground translation. Kick is anchored at support foot; palm anchored at rear foot. No vertical lift, morphing or effects. Last-to-first is inspection replay reset.",
+  "steps": [
+    {
+      "pose": 1,
+      "ms": 200,
+      "start_root": [
+        290,
+        145
+      ],
+      "end_root": [
+        240,
+        145
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "pose": 2,
+      "ms": 120,
+      "start_root": [
+        240,
+        145
+      ],
+      "end_root": [
+        230,
+        145
+      ],
+      "phase": "GROUND PLANT"
+    },
+    {
+      "pose": 3,
+      "ms": 160,
+      "start_root": [
+        230,
+        145
+      ],
+      "end_root": [
+        230,
+        145
+      ],
+      "phase": "HEAVY / CHAMBER"
+    },
+    {
+      "pose": 4,
+      "ms": 80,
+      "start_root": [
+        230,
+        145
+      ],
+      "end_root": [
+        222,
+        145
+      ],
+      "phase": "HEAVY / DRIVE"
+    },
+    {
+      "pose": 5,
+      "ms": 160,
+      "start_root": [
+        222,
+        145
+      ],
+      "end_root": [
+        218,
+        145
+      ],
+      "phase": "HEAVY / IMPACT"
+    },
+    {
+      "pose": 6,
+      "ms": 120,
+      "start_root": [
+        218,
+        145
+      ],
+      "end_root": [
+        212,
+        145
+      ],
+      "phase": "HEAVY / FOLLOW"
+    },
+    {
+      "pose": 7,
+      "ms": 160,
+      "start_root": [
+        212,
+        145
+      ],
+      "end_root": [
+        208,
+        145
+      ],
+      "phase": "UPPERCUT 1 / COIL"
+    },
+    {
+      "pose": 8,
+      "ms": 80,
+      "start_root": [
+        208,
+        145
+      ],
+      "end_root": [
+        202,
+        145
+      ],
+      "phase": "UPPERCUT 1 / DRIVE"
+    },
+    {
+      "pose": 9,
+      "ms": 160,
+      "start_root": [
+        202,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "UPPERCUT 1 / IMPACT"
+    },
+    {
+      "pose": 10,
+      "ms": 160,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / LOAD"
+    },
+    {
+      "pose": 11,
+      "ms": 120,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / LEFT-REAR TURN"
+    },
+    {
+      "pose": 12,
+      "ms": 80,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / HORIZONTAL DRIVE"
+    },
+    {
+      "pose": 13,
+      "ms": 160,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / SWEEP IMPACT"
+    },
+    {
+      "pose": 14,
+      "ms": 120,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / BACK FOLLOWTHROUGH"
+    },
+    {
+      "pose": 15,
+      "ms": 120,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / BACK RECOVERY"
+    },
+    {
+      "pose": 16,
+      "ms": 160,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        200,
+        145
+      ],
+      "phase": "ROTATING KICK / PIVOT LANDING"
+    },
+    {
+      "pose": 17,
+      "ms": 160,
+      "start_root": [
+        200,
+        145
+      ],
+      "end_root": [
+        196,
+        145
+      ],
+      "phase": "UPPERCUT 2 / COIL"
+    },
+    {
+      "pose": 18,
+      "ms": 80,
+      "start_root": [
+        196,
+        145
+      ],
+      "end_root": [
+        190,
+        145
+      ],
+      "phase": "UPPERCUT 2 / DRIVE"
+    },
+    {
+      "pose": 19,
+      "ms": 160,
+      "start_root": [
+        190,
+        145
+      ],
+      "end_root": [
+        184,
+        145
+      ],
+      "phase": "UPPERCUT 2 / IMPACT"
+    },
+    {
+      "pose": 20,
+      "ms": 120,
+      "start_root": [
+        184,
+        145
+      ],
+      "end_root": [
+        180,
+        145
+      ],
+      "phase": "UPPERCUT 2 / GROUNDED FOLLOW"
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        180,
+        145
+      ],
+      "end_root": [
+        178,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT LOAD"
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        178,
+        145
+      ],
+      "end_root": [
+        174,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        174,
+        145
+      ],
+      "end_root": [
+        172,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT DRIVE"
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        172,
+        145
+      ],
+      "end_root": [
+        168,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT HIT"
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        168,
+        145
+      ],
+      "end_root": [
+        164,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT FOLLOW"
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        164,
+        145
+      ],
+      "end_root": [
+        160,
+        145
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT FOLLOW"
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        160,
+        145
+      ],
+      "end_root": [
+        158,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT LOAD"
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        158,
+        145
+      ],
+      "end_root": [
+        154,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        154,
+        145
+      ],
+      "end_root": [
+        152,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT DRIVE"
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        152,
+        145
+      ],
+      "end_root": [
+        148,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT HIT"
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        148,
+        145
+      ],
+      "end_root": [
+        144,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT FOLLOW"
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        144,
+        145
+      ],
+      "end_root": [
+        140,
+        145
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT FOLLOW"
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        140,
+        145
+      ],
+      "end_root": [
+        138,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT LOAD"
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        138,
+        145
+      ],
+      "end_root": [
+        134,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        134,
+        145
+      ],
+      "end_root": [
+        132,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT DRIVE"
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        132,
+        145
+      ],
+      "end_root": [
+        128,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT HIT"
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        128,
+        145
+      ],
+      "end_root": [
+        124,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT FOLLOW"
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        124,
+        145
+      ],
+      "end_root": [
+        120,
+        145
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT FOLLOW"
+    },
+    {
+      "pose": 27,
+      "ms": 440,
+      "start_root": [
+        150,
+        145
+      ],
+      "end_root": [
+        150,
+        145
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "pose": 28,
+      "ms": 80,
+      "start_root": [
+        150,
+        145
+      ],
+      "end_root": [
+        150,
+        145
+      ],
+      "phase": "PALM / HIP DRIVE"
+    },
+    {
+      "pose": 29,
+      "ms": 280,
+      "start_root": [
+        150,
+        145
+      ],
+      "end_root": [
+        150,
+        145
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "pose": 30,
+      "ms": 440,
+      "start_root": [
+        150,
+        145
+      ],
+      "end_root": [
+        150,
+        145
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        290,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "t_ms": 40,
+      "pose": 1,
+      "root_xy": [
+        278,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "t_ms": 80,
+      "pose": 1,
+      "root_xy": [
+        265,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "t_ms": 120,
+      "pose": 1,
+      "root_xy": [
+        252,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "t_ms": 160,
+      "pose": 1,
+      "root_xy": [
+        240,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND DASH"
+    },
+    {
+      "t_ms": 200,
+      "pose": 2,
+      "root_xy": [
+        240,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND PLANT"
+    },
+    {
+      "t_ms": 240,
+      "pose": 2,
+      "root_xy": [
+        235,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND PLANT"
+    },
+    {
+      "t_ms": 280,
+      "pose": 2,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND PLANT"
+    },
+    {
+      "t_ms": 320,
+      "pose": 3,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / CHAMBER"
+    },
+    {
+      "t_ms": 360,
+      "pose": 3,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / CHAMBER"
+    },
+    {
+      "t_ms": 400,
+      "pose": 3,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / CHAMBER"
+    },
+    {
+      "t_ms": 440,
+      "pose": 3,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / CHAMBER"
+    },
+    {
+      "t_ms": 480,
+      "pose": 4,
+      "root_xy": [
+        230,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / DRIVE"
+    },
+    {
+      "t_ms": 520,
+      "pose": 4,
+      "root_xy": [
+        222,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / DRIVE"
+    },
+    {
+      "t_ms": 560,
+      "pose": 5,
+      "root_xy": [
+        222,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / IMPACT"
+    },
+    {
+      "t_ms": 600,
+      "pose": 5,
+      "root_xy": [
+        222,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / IMPACT"
+    },
+    {
+      "t_ms": 640,
+      "pose": 5,
+      "root_xy": [
+        221,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / IMPACT"
+    },
+    {
+      "t_ms": 680,
+      "pose": 5,
+      "root_xy": [
+        218,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / IMPACT"
+    },
+    {
+      "t_ms": 720,
+      "pose": 6,
+      "root_xy": [
+        218,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / FOLLOW"
+    },
+    {
+      "t_ms": 760,
+      "pose": 6,
+      "root_xy": [
+        215,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / FOLLOW"
+    },
+    {
+      "t_ms": 800,
+      "pose": 6,
+      "root_xy": [
+        212,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "HEAVY / FOLLOW"
+    },
+    {
+      "t_ms": 840,
+      "pose": 7,
+      "root_xy": [
+        212,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / COIL"
+    },
+    {
+      "t_ms": 880,
+      "pose": 7,
+      "root_xy": [
+        211,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / COIL"
+    },
+    {
+      "t_ms": 920,
+      "pose": 7,
+      "root_xy": [
+        209,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / COIL"
+    },
+    {
+      "t_ms": 960,
+      "pose": 7,
+      "root_xy": [
+        208,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / COIL"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 8,
+      "root_xy": [
+        208,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / DRIVE"
+    },
+    {
+      "t_ms": 1040,
+      "pose": 8,
+      "root_xy": [
+        202,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / DRIVE"
+    },
+    {
+      "t_ms": 1080,
+      "pose": 9,
+      "root_xy": [
+        202,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / IMPACT"
+    },
+    {
+      "t_ms": 1120,
+      "pose": 9,
+      "root_xy": [
+        202,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / IMPACT"
+    },
+    {
+      "t_ms": 1160,
+      "pose": 9,
+      "root_xy": [
+        201,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / IMPACT"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 9,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 1 / IMPACT"
+    },
+    {
+      "t_ms": 1240,
+      "pose": 10,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        48,
+        108
+      ],
+      "phase": "ROTATING KICK / LOAD"
+    },
+    {
+      "t_ms": 1280,
+      "pose": 10,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        48,
+        108
+      ],
+      "phase": "ROTATING KICK / LOAD"
+    },
+    {
+      "t_ms": 1320,
+      "pose": 10,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        48,
+        108
+      ],
+      "phase": "ROTATING KICK / LOAD"
+    },
+    {
+      "t_ms": 1360,
+      "pose": 10,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        48,
+        108
+      ],
+      "phase": "ROTATING KICK / LOAD"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 11,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        84,
+        108
+      ],
+      "phase": "ROTATING KICK / LEFT-REAR TURN"
+    },
+    {
+      "t_ms": 1440,
+      "pose": 11,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        84,
+        108
+      ],
+      "phase": "ROTATING KICK / LEFT-REAR TURN"
+    },
+    {
+      "t_ms": 1480,
+      "pose": 11,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        84,
+        108
+      ],
+      "phase": "ROTATING KICK / LEFT-REAR TURN"
+    },
+    {
+      "t_ms": 1520,
+      "pose": 12,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / HORIZONTAL DRIVE"
+    },
+    {
+      "t_ms": 1560,
+      "pose": 12,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / HORIZONTAL DRIVE"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 13,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / SWEEP IMPACT"
+    },
+    {
+      "t_ms": 1640,
+      "pose": 13,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / SWEEP IMPACT"
+    },
+    {
+      "t_ms": 1680,
+      "pose": 13,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / SWEEP IMPACT"
+    },
+    {
+      "t_ms": 1720,
+      "pose": 13,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        73,
+        108
+      ],
+      "phase": "ROTATING KICK / SWEEP IMPACT"
+    },
+    {
+      "t_ms": 1760,
+      "pose": 14,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 14,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 1840,
+      "pose": 14,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 1880,
+      "pose": 15,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        53,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK RECOVERY"
+    },
+    {
+      "t_ms": 1920,
+      "pose": 15,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        53,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK RECOVERY"
+    },
+    {
+      "t_ms": 1960,
+      "pose": 15,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        53,
+        108
+      ],
+      "phase": "ROTATING KICK / BACK RECOVERY"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 16,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        28,
+        108
+      ],
+      "phase": "ROTATING KICK / PIVOT LANDING"
+    },
+    {
+      "t_ms": 2040,
+      "pose": 16,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        28,
+        108
+      ],
+      "phase": "ROTATING KICK / PIVOT LANDING"
+    },
+    {
+      "t_ms": 2080,
+      "pose": 16,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        28,
+        108
+      ],
+      "phase": "ROTATING KICK / PIVOT LANDING"
+    },
+    {
+      "t_ms": 2120,
+      "pose": 16,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        28,
+        108
+      ],
+      "phase": "ROTATING KICK / PIVOT LANDING"
+    },
+    {
+      "t_ms": 2160,
+      "pose": 17,
+      "root_xy": [
+        200,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / COIL"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 17,
+      "root_xy": [
+        199,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / COIL"
+    },
+    {
+      "t_ms": 2240,
+      "pose": 17,
+      "root_xy": [
+        197,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / COIL"
+    },
+    {
+      "t_ms": 2280,
+      "pose": 17,
+      "root_xy": [
+        196,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / COIL"
+    },
+    {
+      "t_ms": 2320,
+      "pose": 18,
+      "root_xy": [
+        196,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / DRIVE"
+    },
+    {
+      "t_ms": 2360,
+      "pose": 18,
+      "root_xy": [
+        190,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / DRIVE"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 19,
+      "root_xy": [
+        190,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / IMPACT"
+    },
+    {
+      "t_ms": 2440,
+      "pose": 19,
+      "root_xy": [
+        190,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / IMPACT"
+    },
+    {
+      "t_ms": 2480,
+      "pose": 19,
+      "root_xy": [
+        188,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / IMPACT"
+    },
+    {
+      "t_ms": 2520,
+      "pose": 19,
+      "root_xy": [
+        184,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / IMPACT"
+    },
+    {
+      "t_ms": 2560,
+      "pose": 20,
+      "root_xy": [
+        184,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / GROUNDED FOLLOW"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 20,
+      "root_xy": [
+        182,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / GROUNDED FOLLOW"
+    },
+    {
+      "t_ms": 2640,
+      "pose": 20,
+      "root_xy": [
+        180,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "UPPERCUT 2 / GROUNDED FOLLOW"
+    },
+    {
+      "t_ms": 2680,
+      "pose": 21,
+      "root_xy": [
+        180,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 2720,
+      "pose": 21,
+      "root_xy": [
+        178,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 2760,
+      "pose": 22,
+      "root_xy": [
+        178,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 22,
+      "root_xy": [
+        174,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 2840,
+      "pose": 23,
+      "root_xy": [
+        174,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 2880,
+      "pose": 23,
+      "root_xy": [
+        172,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 2920,
+      "pose": 24,
+      "root_xy": [
+        172,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 2960,
+      "pose": 24,
+      "root_xy": [
+        168,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 25,
+      "root_xy": [
+        168,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3040,
+      "pose": 25,
+      "root_xy": [
+        164,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3080,
+      "pose": 26,
+      "root_xy": [
+        164,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3120,
+      "pose": 26,
+      "root_xy": [
+        160,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 1/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3160,
+      "pose": 21,
+      "root_xy": [
+        160,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 21,
+      "root_xy": [
+        158,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 3240,
+      "pose": 22,
+      "root_xy": [
+        158,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3280,
+      "pose": 22,
+      "root_xy": [
+        154,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3320,
+      "pose": 23,
+      "root_xy": [
+        154,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 3360,
+      "pose": 23,
+      "root_xy": [
+        152,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 24,
+      "root_xy": [
+        152,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3440,
+      "pose": 24,
+      "root_xy": [
+        148,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3480,
+      "pose": 25,
+      "root_xy": [
+        148,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3520,
+      "pose": 25,
+      "root_xy": [
+        144,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3560,
+      "pose": 26,
+      "root_xy": [
+        144,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 26,
+      "root_xy": [
+        140,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 2/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3640,
+      "pose": 21,
+      "root_xy": [
+        140,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 3680,
+      "pose": 21,
+      "root_xy": [
+        138,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT LOAD"
+    },
+    {
+      "t_ms": 3720,
+      "pose": 22,
+      "root_xy": [
+        138,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3760,
+      "pose": 22,
+      "root_xy": [
+        134,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 23,
+      "root_xy": [
+        134,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 3840,
+      "pose": 23,
+      "root_xy": [
+        132,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT DRIVE"
+    },
+    {
+      "t_ms": 3880,
+      "pose": 24,
+      "root_xy": [
+        132,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3920,
+      "pose": 24,
+      "root_xy": [
+        128,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3960,
+      "pose": 25,
+      "root_xy": [
+        128,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 25,
+      "root_xy": [
+        124,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 4040,
+      "pose": 26,
+      "root_xy": [
+        124,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 4080,
+      "pose": 26,
+      "root_xy": [
+        120,
+        145
+      ],
+      "anchor": [
+        72,
+        108
+      ],
+      "phase": "GROUND COMBO 3/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 4120,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4160,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4240,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4280,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4320,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4360,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4440,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4480,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4520,
+      "pose": 27,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        103,
+        108
+      ],
+      "phase": "PALM / DEEP COIL"
+    },
+    {
+      "t_ms": 4560,
+      "pose": 28,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        108,
+        108
+      ],
+      "phase": "PALM / HIP DRIVE"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 28,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        108,
+        108
+      ],
+      "phase": "PALM / HIP DRIVE"
+    },
+    {
+      "t_ms": 4640,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4680,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4720,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4760,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4840,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4880,
+      "pose": 29,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        117,
+        108
+      ],
+      "phase": "PALM / HEEL IMPACT"
+    },
+    {
+      "t_ms": 4920,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 4960,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5040,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5080,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5120,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5160,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5200,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5240,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5280,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    },
+    {
+      "t_ms": 5320,
+      "pose": 30,
+      "root_xy": [
+        150,
+        145
+      ],
+      "anchor": [
+        119,
+        108
+      ],
+      "phase": "PALM / COMMITTED FOLLOW"
+    }
+  ],
+  "gif_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 85,
+      "checked_time_intervals": 134,
+      "duration_ms": 5360,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 85,
+      "checked_time_intervals": 134,
+      "duration_ms": 10720,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-labelled.gif",
+      "encoded_frames": 85,
+      "checked_time_intervals": 134,
+      "duration_ms": 5360,
+      "readback_matches": true
+    },
+    {
+      "file": "rotating-kick-detail.gif",
+      "encoded_frames": 7,
+      "checked_time_intervals": 31,
+      "duration_ms": 2480,
+      "readback_matches": true
+    },
+    {
+      "file": "palm-detail.gif",
+      "encoded_frames": 4,
+      "checked_time_intervals": 31,
+      "duration_ms": 2480,
+      "readback_matches": true
+    }
+  ]
+}
