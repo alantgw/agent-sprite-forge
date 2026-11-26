@@ -1,0 +1,11 @@
+{
+  "rejected_previous_work": "impact-v001: over-specified rigid gauntlet nose, suppressed real digit articulation, support-leg deformation",
+  "authority": [
+    "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/v001/mecha-final-1x.png",
+    "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png",
+    "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png",
+    "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/09-palm-charge.png",
+    "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png"
+  ],
+  "principle": "Actual fist and palm may have hand-like articulation. Match approved pose references exactly; never replace hand with a single shield-like gauntlet cap."
+}

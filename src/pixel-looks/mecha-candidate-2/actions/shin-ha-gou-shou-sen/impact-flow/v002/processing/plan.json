@@ -1,0 +1,245 @@
+[
+  {
+    "id": "01",
+    "name": "dash-drive",
+    "group": "dash",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/video-rebuild/v001/native/05-dash-drive.png"
+  },
+  {
+    "id": "02",
+    "name": "dash-plant",
+    "group": "dash",
+    "new": false,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/video-rebuild/v001/native/04-launch-load.png"
+  },
+  {
+    "id": "03",
+    "name": "heavy-lead-strike",
+    "group": "heavy",
+    "new": true,
+    "pose": "Short forward lead strike before the heavy cross, facing left; active attacking pose.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  {
+    "id": "04",
+    "name": "heavy-drive",
+    "group": "heavy",
+    "new": true,
+    "pose": "Heavy straight punch DRIVE halfway toward image-left. Rear leg pushes, hips rotate forward, left shoulder from image-right drives through, left elbow still bent90degrees across lower chest. Opposite gauntlet beside cheek partly occluded. Upper body leans forward strongly, heavy planted stance.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  {
+    "id": "05",
+    "name": "heavy-impact",
+    "group": "heavy",
+    "new": false,
+    "pose": "PILOT heavy impact",
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png",
+    "reason": "Previously user-approved attack endpoint, exact file reuse"
+  },
+  {
+    "id": "06",
+    "name": "heavy-followthrough",
+    "group": "heavy",
+    "new": true,
+    "pose": "Heavy straight punch FOLLOWTHROUGH toward image-left. Left gauntlet fully forward horizontally at lower face height, rear leg straightens into force, torso rotates10degrees further into blow, head red eye just visible above forearm. Opposite gauntlet tucked beside chest. Strong forward weight, no overlong arm.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  {
+    "id": "07",
+    "name": "heavy-retract-link",
+    "group": "heavy",
+    "new": true,
+    "pose": "Attack LINK after heavy punch: left gauntlet retracts only partway toward chest, torso remains driven forward over lead foot; opposite anatomical RIGHT gauntlet on image-left drops beside hip to coil directly into uppercut. Both feet planted, no neutral standing pause.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  {
+    "id": "08",
+    "name": "uppercut-one-coil",
+    "group": "uppercut1",
+    "new": true,
+    "pose": "FIRST UPPERCUT coiled windup. Both knees bend deeply, right gauntlet on image-left beside right hip with striking nose directed upward-left, elbow tucked back. Left gauntlet guards chest. Torso FORWARD and broad, chin looking up-left, head sits directly between shoulders, no long neck.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "09",
+    "name": "uppercut-one-drive",
+    "group": "uppercut1",
+    "new": true,
+    "pose": "FIRST UPPERCUT halfway DRIVE. Right elbow rises in front of chest, original gauntlet shell just below chin angled upward-left; hips begin rise and rotate. Left guard beside ribs. Both feet still planted wide, head looks toward gauntlet path. Thick short forearm and no human fist.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "10",
+    "name": "uppercut-one-impact",
+    "group": "uppercut1",
+    "new": false,
+    "pose": "FIRST UPPERCUT IMPACT: right gauntlet on image-left raised just above forehead, elbow bent70degrees, nose/claws aimed UP-left, not broad palm facing camera. Shoulder follows into upward hit, knees open but bothfeetgrounded. Other gauntlet near ribs, broad compact torso, no stretched neck.",
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png",
+    "reason": "Previously user-approved attack endpoint, exact file reuse"
+  },
+  {
+    "id": "11",
+    "name": "uppercut-one-follow",
+    "group": "uppercut1",
+    "new": true,
+    "pose": "FIRST UPPERCUT FOLLOWTHROUGH: raised right gauntlet remains above forehead but elbow opens slightly more, hips rise over planted lead foot, trailing heel lifts. Torso turns modestly left, left guard pulled to chest. No leap yet; this transitions directly into kick chamber.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "12",
+    "name": "kick-chamber",
+    "group": "kick",
+    "new": true,
+    "pose": "LEFT LEG rising kick CHAMBER. Left thigh from image-right hip crosses waist toward robot own RIGHT-front-up direction, knee high, shin folded with narrow clawed FOOT side profile. Right support foot plants, torso leans FORWARD over hip, hips start turn to own right more than shoulders. Both gauntlets tucked near chest.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v008/native/07-forward-far-side-kick.png"
+  },
+  {
+    "id": "13",
+    "name": "kick-drive",
+    "group": "kick",
+    "new": true,
+    "pose": "LEFT LEG rising side kick DRIVE halfway. Thigh/knee/shin/toes point together toward target upper-left in picture, robot own right-front-up AWAY from viewer, not sole toward viewer. Knee still partly bent, side armour visible. Right support foot pivots, hips turn more than upper torso, upper body FORWARD. Gauntlets guard ribs.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v008/native/07-forward-far-side-kick.png"
+  },
+  {
+    "id": "14",
+    "name": "kick-impact",
+    "group": "kick",
+    "new": false,
+    "pose": "LEFT LEG powerful rotating rising SIDE KICK IMPACT to front upper-left, robot-relative right-up. Whole left leg almost extends from image-right hip across pelvis; narrow side-view foot/toes point same direction away from camera, no sole toward viewer. Upper body leans FORWARD, small rightward yaw, hips rotate farther right, near shoulder back panel visible. Face partly left, guard gauntlets near chest.",
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v008/native/07-forward-far-side-kick.png",
+    "reason": "User-retained v8 kick, left-facing for target continuity; v10 right-facing option preserved separately"
+  },
+  {
+    "id": "15",
+    "name": "kick-turn-follow",
+    "group": "kick",
+    "new": true,
+    "pose": "Rotating kick FOLLOWTHROUGH: LEFT leg still extended upper-left after impact, pelvis rotates farther to robot own right AWAY from camera, near back/side shoulder plate turns into view, upper torso follows only a little. Head looks over shoulder toward target left, body FORWARD not backward. Right support foot pivots. Mane/red ribbons curl around turn, original gauntlets guard chest.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v008/native/07-forward-far-side-kick.png"
+  },
+  {
+    "id": "16",
+    "name": "kick-uppercut-link",
+    "group": "kick",
+    "new": true,
+    "pose": "Attack LINK from rotating kick into second uppercut: left knee retracts after kick, foot lowers toward landing, body three-quarter away-left, torso already twists forward-left. Right original gauntlet on image-left lowers beside hip ready to rise; left gauntlet guards cheek. Bent support leg, no neutral standing or back-facing idle pose.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v008/native/07-forward-far-side-kick.png"
+  },
+  {
+    "id": "17",
+    "name": "uppercut-two-coil",
+    "group": "uppercut2",
+    "new": true,
+    "pose": "SECOND UPPERCUT coiled after kick: lower deeper attacking crouch, chest leaning FORWARD over lead knee, right gauntlet image-left beside hip aimed up-left, left guard beside shoulder, rear leg bent strongly ready to spring. Compact head between broad shoulders, no tall neck.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "18",
+    "name": "uppercut-two-drive",
+    "group": "uppercut2",
+    "new": true,
+    "pose": "SECOND UPPERCUT explosive DRIVE: right gauntlet sweeps from hip through chest toward upper-left, elbow bent90degrees and shoulder follows. Rear heel leaves ground and bothkneesdrive upward; head looks toward raised target, left gauntlet tight beside chest. Strong forward-up motion, no long limb.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "19",
+    "name": "uppercut-two-impact",
+    "group": "uppercut2",
+    "new": true,
+    "pose": "SECOND UPPERCUT strong HIGH IMPACT: right original gauntlet nose aimed UP-left just above forehead, elbow opens to90degrees, torso rises following hit, both feet just leave ground with knees bent. Left gauntlet guards ribs. Same head/body size as ruler; compact full pose should stay close to original standing height, arm not stretched above entire head.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "20",
+    "name": "uppercut-two-rise",
+    "group": "uppercut2",
+    "new": true,
+    "pose": "SECOND UPPERCUT rising FOLLOWTHROUGH into pursuit: right gauntlet extended diagonally up-left just beyond forehead, other gauntlet retracts beside shoulder. Both knees tuck under hips, body tilts forward30degrees and rises. Mane/rear ribbons flow down-right; no standing recovery.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "21",
+    "name": "combo-left-load",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE rapid combo LEFT ATTACK LOAD. Torso inclined forward25degrees facing left, knees bent compact under hips, left gauntlet from image-right shoulder chambered near chest ready to drive horizontally, right gauntlet guards cheek. Same bodywidth/head/foot size, full limbs inside frame, attacking not passive guard.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png"
+  },
+  {
+    "id": "22",
+    "name": "combo-left-hit",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE combo LEFT PUNCH HIT horizontally toward image-left at lower-face level. Left gauntlet from image-right shoulder crosses front of chest and chin, elbow nearly open but SHORT THICK arm, right guard beside cheek partly hidden. Knees bent beneath compact hips, torso forward, red eye above forearm. Original mechanical gauntlet shell nose first, NOT glove or human palm.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png"
+  },
+  {
+    "id": "23",
+    "name": "combo-right-load",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE combo RIGHT ATTACK LOAD: left striking gauntlet retracts beside upper chest, right gauntlet from image-left shoulder drives HALFWAY forward at chin level with elbow bent90degrees. Body stays forward, knees tucked, head unchanged, same short thick limb proportions. A live attacking transition, no neutral stance.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png"
+  },
+  {
+    "id": "24",
+    "name": "combo-right-hit",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE combo RIGHT PUNCH HIT toward image-left. Right gauntlet from image-left shoulder horizontal at lower-face height, left guard pulled near shoulder partly occluded by chest. Knees bent under broad hips, torso twists forward and red eye visible. Original gauntlet shell aimed nose-first, not a human fist.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png"
+  },
+  {
+    "id": "25",
+    "name": "combo-left-pursuit",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE continuing combo LEFT HEAVY CROSS toward image-left and slightly DOWN to follow falling target. Left gauntlet crosses chin, right guard near shoulder, torso leans further forward35degrees, lead knee bent beneath chest and rear knee slightly back. Short thick arm, same head/body scale, original mechanical shell/claws retained.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/left-punch-1x.png"
+  },
+  {
+    "id": "26",
+    "name": "combo-right-pursuit",
+    "group": "combo",
+    "new": true,
+    "pose": "AIRBORNE continuing combo RIGHT HEAVY CROSS toward image-left and slightly UP at head level. Right gauntlet nose aimed forward-up, left retracts chest, torso rotates back toward left while bothkneesbend beneath hips. Dynamic pursuit body, not standing. Original SHORT THICK arms and mechanical shell identity.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/alternating-wave-punch/v004/right-punch-1x.png"
+  },
+  {
+    "id": "27",
+    "name": "palm-load",
+    "group": "palm",
+    "new": false,
+    "pose": "FINAL PALM attacking WINDUP after pursuing punches: BOTH feet plant wide, torso forward, image-left original mechanical gauntlet opens its SHORT original claw tips a little while pulled near chest; opposite gauntlet retracted near shoulder. Same long tapered spiked forearm shell remains intact, no black human glove/palm or five long fingers. Broad braced weight, no neutral guard.",
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/09-palm-charge.png",
+    "reason": "Previously user-approved attack endpoint, exact file reuse"
+  },
+  {
+    "id": "28",
+    "name": "palm-drive",
+    "group": "palm",
+    "new": true,
+    "pose": "FINAL PALM HALF DRIVE toward image-left. Broad planted low stance, near shoulder drives forward, elbow half bent, SAME mechanical gauntlet shell extends halfway while its short original claw tips spread modestly. Lavender-white V rim and red faceted armour remain visible, no red-X bare palm or human fingers. Rear gauntlet beside chest partly hidden. Head looks along strike.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png"
+  },
+  {
+    "id": "29",
+    "name": "palm-impact",
+    "group": "palm",
+    "new": false,
+    "pose": "FINAL PALM IMPACT fully forward toward image-left: wide braced planted legs, torso drives FORWARD over lead knee, near arm nearly extends at chest/face height. Original LONG TAPERED SPIKED MECHANICAL GAUNTLET stays intact and its few SHORT CLAW TIPS spread to push; show V-rim and red faceted armour inset, NOT flat black human glove or five-finger fan. Rear gauntlet pulled shoulder beside chest. Same short thick arm/head proportions.",
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png",
+    "reason": "Previously user-approved attack endpoint, exact file reuse"
+  },
+  {
+    "id": "30",
+    "name": "palm-followthrough",
+    "group": "palm",
+    "new": true,
+    "pose": "FINAL PALM FOLLOWTHROUGH: still fully committed to leftward push, torso twists a little farther forward, rear leg braces and head looks over extended forearm. Keep original pointed mechanical gauntlet shell, V-rim, red armour and few SHORT claw tips spread slightly, not human hand. Opposite gauntlet tight beside ribs. Mane/ribbons stream right. Hold attack, no neutral recovery.",
+    "pose_seed": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png"
+  }
+]

@@ -1,0 +1,2879 @@
+{
+  "unique_drawings": 30,
+  "newly_generated_drawings": 23,
+  "dash_drawings": 2,
+  "attack_drawings": 28,
+  "stage_native": [
+    480,
+    220
+  ],
+  "display_scale": 3,
+  "tick_ms": 40,
+  "duration_ms": 5160,
+  "combo_repeats": 3,
+  "combo_pose_cycle": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "sequence": [
+    "heavy",
+    "uppercut1",
+    "kick",
+    "uppercut2",
+    "combo",
+    "palm"
+  ],
+  "method": "Held drawings, hit stops and integer whole-sprite pursuit. Target reference is diagram-only approximate recoil, not measured physics. Last-to-first is replay reset.",
+  "steps": [
+    {
+      "pose": 1,
+      "ms": 200,
+      "start_root": [
+        390,
+        195
+      ],
+      "end_root": [
+        335,
+        195
+      ],
+      "phase": "DASH / 2 drawings only",
+      "target_start": [
+        227,
+        163,
+        0
+      ],
+      "target_end": [
+        227,
+        163,
+        0
+      ],
+      "hit": false
+    },
+    {
+      "pose": 2,
+      "ms": 120,
+      "start_root": [
+        335,
+        195
+      ],
+      "end_root": [
+        322,
+        195
+      ],
+      "phase": "PLANT INTO HEAVY PUNCH",
+      "target_start": [
+        227,
+        163,
+        0
+      ],
+      "target_end": [
+        227,
+        163,
+        0
+      ],
+      "hit": false
+    },
+    {
+      "pose": 3,
+      "ms": 80,
+      "start_root": [
+        322,
+        195
+      ],
+      "end_root": [
+        319,
+        195
+      ],
+      "phase": "1  HEAVY STRAIGHT / lead strike",
+      "target_start": [
+        227,
+        163,
+        0
+      ],
+      "target_end": [
+        227,
+        163,
+        0
+      ],
+      "hit": false
+    },
+    {
+      "pose": 4,
+      "ms": 80,
+      "start_root": [
+        319,
+        195
+      ],
+      "end_root": [
+        306,
+        195
+      ],
+      "phase": "1  HEAVY STRAIGHT / drive",
+      "target_start": [
+        227,
+        163,
+        0
+      ],
+      "target_end": [
+        227,
+        163,
+        0
+      ],
+      "hit": false
+    },
+    {
+      "pose": 5,
+      "ms": 160,
+      "start_root": [
+        306,
+        195
+      ],
+      "end_root": [
+        300,
+        195
+      ],
+      "phase": "1  HEAVY STRAIGHT / IMPACT",
+      "target_start": [
+        227,
+        163,
+        0
+      ],
+      "target_end": [
+        205,
+        158,
+        -10
+      ],
+      "hit": true
+    },
+    {
+      "pose": 6,
+      "ms": 120,
+      "start_root": [
+        300,
+        195
+      ],
+      "end_root": [
+        291,
+        195
+      ],
+      "phase": "1  HEAVY STRAIGHT / follow",
+      "target_start": [
+        205,
+        158,
+        -10
+      ],
+      "target_end": [
+        205,
+        158,
+        -10
+      ],
+      "hit": false
+    },
+    {
+      "pose": 7,
+      "ms": 120,
+      "start_root": [
+        291,
+        195
+      ],
+      "end_root": [
+        260,
+        195
+      ],
+      "phase": "1  HEAVY STRAIGHT / link",
+      "target_start": [
+        205,
+        158,
+        -10
+      ],
+      "target_end": [
+        205,
+        158,
+        -10
+      ],
+      "hit": false
+    },
+    {
+      "pose": 8,
+      "ms": 160,
+      "start_root": [
+        260,
+        195
+      ],
+      "end_root": [
+        255,
+        195
+      ],
+      "phase": "2  UPPERCUT / coil",
+      "target_start": [
+        205,
+        158,
+        -10
+      ],
+      "target_end": [
+        205,
+        158,
+        -10
+      ],
+      "hit": false
+    },
+    {
+      "pose": 9,
+      "ms": 80,
+      "start_root": [
+        255,
+        195
+      ],
+      "end_root": [
+        248,
+        195
+      ],
+      "phase": "2  UPPERCUT / drive",
+      "target_start": [
+        205,
+        158,
+        -10
+      ],
+      "target_end": [
+        205,
+        158,
+        -10
+      ],
+      "hit": false
+    },
+    {
+      "pose": 10,
+      "ms": 160,
+      "start_root": [
+        248,
+        195
+      ],
+      "end_root": [
+        245,
+        195
+      ],
+      "phase": "2  UPPERCUT / IMPACT",
+      "target_start": [
+        205,
+        158,
+        -10
+      ],
+      "target_end": [
+        195,
+        122,
+        -18
+      ],
+      "hit": true
+    },
+    {
+      "pose": 11,
+      "ms": 120,
+      "start_root": [
+        245,
+        195
+      ],
+      "end_root": [
+        251,
+        195
+      ],
+      "phase": "2  UPPERCUT / lift",
+      "target_start": [
+        195,
+        122,
+        -18
+      ],
+      "target_end": [
+        195,
+        122,
+        -18
+      ],
+      "hit": false
+    },
+    {
+      "pose": 12,
+      "ms": 160,
+      "start_root": [
+        251,
+        195
+      ],
+      "end_root": [
+        268,
+        195
+      ],
+      "phase": "3  TURNING KICK / chamber",
+      "target_start": [
+        195,
+        122,
+        -18
+      ],
+      "target_end": [
+        195,
+        122,
+        -18
+      ],
+      "hit": false
+    },
+    {
+      "pose": 13,
+      "ms": 80,
+      "start_root": [
+        268,
+        195
+      ],
+      "end_root": [
+        267,
+        195
+      ],
+      "phase": "3  TURNING KICK / drive",
+      "target_start": [
+        195,
+        122,
+        -18
+      ],
+      "target_end": [
+        195,
+        122,
+        -18
+      ],
+      "hit": false
+    },
+    {
+      "pose": 14,
+      "ms": 160,
+      "start_root": [
+        267,
+        195
+      ],
+      "end_root": [
+        260,
+        195
+      ],
+      "phase": "3  TURNING KICK / IMPACT",
+      "target_start": [
+        195,
+        122,
+        -18
+      ],
+      "target_end": [
+        165,
+        96,
+        -30
+      ],
+      "hit": true
+    },
+    {
+      "pose": 15,
+      "ms": 120,
+      "start_root": [
+        260,
+        195
+      ],
+      "end_root": [
+        244,
+        195
+      ],
+      "phase": "3  TURNING KICK / turn through",
+      "target_start": [
+        165,
+        96,
+        -30
+      ],
+      "target_end": [
+        165,
+        96,
+        -30
+      ],
+      "hit": false
+    },
+    {
+      "pose": 16,
+      "ms": 120,
+      "start_root": [
+        244,
+        195
+      ],
+      "end_root": [
+        228,
+        195
+      ],
+      "phase": "3  TURNING KICK / attack link",
+      "target_start": [
+        165,
+        96,
+        -30
+      ],
+      "target_end": [
+        165,
+        96,
+        -30
+      ],
+      "hit": false
+    },
+    {
+      "pose": 17,
+      "ms": 160,
+      "start_root": [
+        228,
+        195
+      ],
+      "end_root": [
+        223,
+        195
+      ],
+      "phase": "4  SECOND UPPERCUT / coil",
+      "target_start": [
+        165,
+        96,
+        -30
+      ],
+      "target_end": [
+        165,
+        96,
+        -30
+      ],
+      "hit": false
+    },
+    {
+      "pose": 18,
+      "ms": 80,
+      "start_root": [
+        223,
+        195
+      ],
+      "end_root": [
+        219,
+        182
+      ],
+      "phase": "4  SECOND UPPERCUT / drive",
+      "target_start": [
+        165,
+        96,
+        -30
+      ],
+      "target_end": [
+        165,
+        96,
+        -30
+      ],
+      "hit": false
+    },
+    {
+      "pose": 19,
+      "ms": 160,
+      "start_root": [
+        219,
+        182
+      ],
+      "end_root": [
+        215,
+        160
+      ],
+      "phase": "4  SECOND UPPERCUT / IMPACT",
+      "target_start": [
+        165,
+        96,
+        -30
+      ],
+      "target_end": [
+        145,
+        62,
+        -22
+      ],
+      "hit": true
+    },
+    {
+      "pose": 20,
+      "ms": 160,
+      "start_root": [
+        215,
+        160
+      ],
+      "end_root": [
+        225,
+        132
+      ],
+      "phase": "4  SECOND UPPERCUT / rising pursuit",
+      "target_start": [
+        145,
+        62,
+        -22
+      ],
+      "target_end": [
+        145,
+        62,
+        -22
+      ],
+      "hit": false
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        225,
+        132
+      ],
+      "end_root": [
+        222,
+        120
+      ],
+      "phase": "5  AIR COMBO 1/3 / left load",
+      "target_start": [
+        145,
+        62,
+        -22
+      ],
+      "target_end": [
+        145,
+        62,
+        -22
+      ],
+      "hit": false
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        222,
+        120
+      ],
+      "end_root": [
+        218,
+        115
+      ],
+      "phase": "5  AIR COMBO 1/3 / LEFT HIT",
+      "target_start": [
+        145,
+        62,
+        -22
+      ],
+      "target_end": [
+        137,
+        68,
+        -12
+      ],
+      "hit": true
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        218,
+        115
+      ],
+      "end_root": [
+        214,
+        114
+      ],
+      "phase": "5  AIR COMBO 1/3 / right drive",
+      "target_start": [
+        137,
+        68,
+        -12
+      ],
+      "target_end": [
+        137,
+        68,
+        -12
+      ],
+      "hit": false
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        214,
+        114
+      ],
+      "end_root": [
+        210,
+        112
+      ],
+      "phase": "5  AIR COMBO 1/3 / RIGHT HIT",
+      "target_start": [
+        137,
+        68,
+        -12
+      ],
+      "target_end": [
+        129,
+        60,
+        -20
+      ],
+      "hit": true
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        210,
+        112
+      ],
+      "end_root": [
+        202,
+        120
+      ],
+      "phase": "5  AIR COMBO 1/3 / LEFT FOLLOW",
+      "target_start": [
+        129,
+        60,
+        -20
+      ],
+      "target_end": [
+        121,
+        68,
+        -10
+      ],
+      "hit": true
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        202,
+        120
+      ],
+      "end_root": [
+        194,
+        114
+      ],
+      "phase": "5  AIR COMBO 1/3 / RIGHT FOLLOW",
+      "target_start": [
+        121,
+        68,
+        -10
+      ],
+      "target_end": [
+        113,
+        62,
+        -18
+      ],
+      "hit": true
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        193,
+        114
+      ],
+      "end_root": [
+        190,
+        120
+      ],
+      "phase": "5  AIR COMBO 2/3 / left load",
+      "target_start": [
+        113,
+        62,
+        -18
+      ],
+      "target_end": [
+        113,
+        62,
+        -18
+      ],
+      "hit": false
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        190,
+        120
+      ],
+      "end_root": [
+        186,
+        115
+      ],
+      "phase": "5  AIR COMBO 2/3 / LEFT HIT",
+      "target_start": [
+        113,
+        62,
+        -18
+      ],
+      "target_end": [
+        105,
+        68,
+        -12
+      ],
+      "hit": true
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        186,
+        115
+      ],
+      "end_root": [
+        182,
+        114
+      ],
+      "phase": "5  AIR COMBO 2/3 / right drive",
+      "target_start": [
+        105,
+        68,
+        -12
+      ],
+      "target_end": [
+        105,
+        68,
+        -12
+      ],
+      "hit": false
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        182,
+        114
+      ],
+      "end_root": [
+        178,
+        112
+      ],
+      "phase": "5  AIR COMBO 2/3 / RIGHT HIT",
+      "target_start": [
+        105,
+        68,
+        -12
+      ],
+      "target_end": [
+        97,
+        60,
+        -20
+      ],
+      "hit": true
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        178,
+        112
+      ],
+      "end_root": [
+        170,
+        120
+      ],
+      "phase": "5  AIR COMBO 2/3 / LEFT FOLLOW",
+      "target_start": [
+        97,
+        60,
+        -20
+      ],
+      "target_end": [
+        89,
+        68,
+        -10
+      ],
+      "hit": true
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        170,
+        120
+      ],
+      "end_root": [
+        162,
+        114
+      ],
+      "phase": "5  AIR COMBO 2/3 / RIGHT FOLLOW",
+      "target_start": [
+        89,
+        68,
+        -10
+      ],
+      "target_end": [
+        81,
+        62,
+        -18
+      ],
+      "hit": true
+    },
+    {
+      "pose": 21,
+      "ms": 80,
+      "start_root": [
+        161,
+        114
+      ],
+      "end_root": [
+        158,
+        120
+      ],
+      "phase": "5  AIR COMBO 3/3 / left load",
+      "target_start": [
+        81,
+        62,
+        -18
+      ],
+      "target_end": [
+        81,
+        62,
+        -18
+      ],
+      "hit": false
+    },
+    {
+      "pose": 22,
+      "ms": 80,
+      "start_root": [
+        158,
+        120
+      ],
+      "end_root": [
+        154,
+        115
+      ],
+      "phase": "5  AIR COMBO 3/3 / LEFT HIT",
+      "target_start": [
+        81,
+        62,
+        -18
+      ],
+      "target_end": [
+        73,
+        68,
+        -12
+      ],
+      "hit": true
+    },
+    {
+      "pose": 23,
+      "ms": 80,
+      "start_root": [
+        154,
+        115
+      ],
+      "end_root": [
+        150,
+        114
+      ],
+      "phase": "5  AIR COMBO 3/3 / right drive",
+      "target_start": [
+        73,
+        68,
+        -12
+      ],
+      "target_end": [
+        73,
+        68,
+        -12
+      ],
+      "hit": false
+    },
+    {
+      "pose": 24,
+      "ms": 80,
+      "start_root": [
+        150,
+        114
+      ],
+      "end_root": [
+        146,
+        112
+      ],
+      "phase": "5  AIR COMBO 3/3 / RIGHT HIT",
+      "target_start": [
+        73,
+        68,
+        -12
+      ],
+      "target_end": [
+        65,
+        60,
+        -20
+      ],
+      "hit": true
+    },
+    {
+      "pose": 25,
+      "ms": 80,
+      "start_root": [
+        146,
+        112
+      ],
+      "end_root": [
+        138,
+        120
+      ],
+      "phase": "5  AIR COMBO 3/3 / LEFT FOLLOW",
+      "target_start": [
+        65,
+        60,
+        -20
+      ],
+      "target_end": [
+        57,
+        68,
+        -10
+      ],
+      "hit": true
+    },
+    {
+      "pose": 26,
+      "ms": 80,
+      "start_root": [
+        138,
+        120
+      ],
+      "end_root": [
+        130,
+        114
+      ],
+      "phase": "5  AIR COMBO 3/3 / RIGHT FOLLOW",
+      "target_start": [
+        57,
+        68,
+        -10
+      ],
+      "target_end": [
+        49,
+        62,
+        -18
+      ],
+      "hit": true
+    },
+    {
+      "pose": 27,
+      "ms": 320,
+      "start_root": [
+        130,
+        114
+      ],
+      "end_root": [
+        132,
+        195
+      ],
+      "phase": "6  PALM / plant and load",
+      "target_start": [
+        49,
+        62,
+        -18
+      ],
+      "target_end": [
+        49,
+        147,
+        -5
+      ],
+      "hit": false
+    },
+    {
+      "pose": 28,
+      "ms": 120,
+      "start_root": [
+        132,
+        195
+      ],
+      "end_root": [
+        129,
+        195
+      ],
+      "phase": "6  PALM / drive",
+      "target_start": [
+        49,
+        147,
+        -5
+      ],
+      "target_end": [
+        49,
+        163,
+        0
+      ],
+      "hit": false
+    },
+    {
+      "pose": 29,
+      "ms": 200,
+      "start_root": [
+        129,
+        195
+      ],
+      "end_root": [
+        126,
+        195
+      ],
+      "phase": "6  PALM / IMPACT",
+      "target_start": [
+        49,
+        163,
+        0
+      ],
+      "target_end": [
+        -5,
+        145,
+        -38
+      ],
+      "hit": true
+    },
+    {
+      "pose": 30,
+      "ms": 480,
+      "start_root": [
+        126,
+        195
+      ],
+      "end_root": [
+        122,
+        195
+      ],
+      "phase": "6  PALM / committed followthrough",
+      "target_start": [
+        -5,
+        145,
+        -38
+      ],
+      "target_end": [
+        -65,
+        125,
+        -60
+      ],
+      "hit": false
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        390,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "DASH / 2 drawings only"
+    },
+    {
+      "t_ms": 40,
+      "pose": 1,
+      "root_xy": [
+        376,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "DASH / 2 drawings only"
+    },
+    {
+      "t_ms": 80,
+      "pose": 1,
+      "root_xy": [
+        362,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "DASH / 2 drawings only"
+    },
+    {
+      "t_ms": 120,
+      "pose": 1,
+      "root_xy": [
+        349,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "DASH / 2 drawings only"
+    },
+    {
+      "t_ms": 160,
+      "pose": 1,
+      "root_xy": [
+        335,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "DASH / 2 drawings only"
+    },
+    {
+      "t_ms": 200,
+      "pose": 2,
+      "root_xy": [
+        335,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "PLANT INTO HEAVY PUNCH"
+    },
+    {
+      "t_ms": 240,
+      "pose": 2,
+      "root_xy": [
+        328,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "PLANT INTO HEAVY PUNCH"
+    },
+    {
+      "t_ms": 280,
+      "pose": 2,
+      "root_xy": [
+        322,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "PLANT INTO HEAVY PUNCH"
+    },
+    {
+      "t_ms": 320,
+      "pose": 3,
+      "root_xy": [
+        322,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "1  HEAVY STRAIGHT / lead strike"
+    },
+    {
+      "t_ms": 360,
+      "pose": 3,
+      "root_xy": [
+        319,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "1  HEAVY STRAIGHT / lead strike"
+    },
+    {
+      "t_ms": 400,
+      "pose": 4,
+      "root_xy": [
+        319,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "1  HEAVY STRAIGHT / drive"
+    },
+    {
+      "t_ms": 440,
+      "pose": 4,
+      "root_xy": [
+        306,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "1  HEAVY STRAIGHT / drive"
+    },
+    {
+      "t_ms": 480,
+      "pose": 5,
+      "root_xy": [
+        306,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0,
+      "phase": "1  HEAVY STRAIGHT / IMPACT"
+    },
+    {
+      "t_ms": 520,
+      "pose": 5,
+      "root_xy": [
+        306,
+        195
+      ],
+      "target_xy": [
+        227,
+        163
+      ],
+      "target_angle": 0,
+      "phase": "1  HEAVY STRAIGHT / IMPACT"
+    },
+    {
+      "t_ms": 560,
+      "pose": 5,
+      "root_xy": [
+        304,
+        195
+      ],
+      "target_xy": [
+        220,
+        161
+      ],
+      "target_angle": -3.3333333333333326,
+      "phase": "1  HEAVY STRAIGHT / IMPACT"
+    },
+    {
+      "t_ms": 600,
+      "pose": 5,
+      "root_xy": [
+        300,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / IMPACT"
+    },
+    {
+      "t_ms": 640,
+      "pose": 6,
+      "root_xy": [
+        300,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / follow"
+    },
+    {
+      "t_ms": 680,
+      "pose": 6,
+      "root_xy": [
+        296,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / follow"
+    },
+    {
+      "t_ms": 720,
+      "pose": 6,
+      "root_xy": [
+        291,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / follow"
+    },
+    {
+      "t_ms": 760,
+      "pose": 7,
+      "root_xy": [
+        291,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / link"
+    },
+    {
+      "t_ms": 800,
+      "pose": 7,
+      "root_xy": [
+        276,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / link"
+    },
+    {
+      "t_ms": 840,
+      "pose": 7,
+      "root_xy": [
+        260,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "1  HEAVY STRAIGHT / link"
+    },
+    {
+      "t_ms": 880,
+      "pose": 8,
+      "root_xy": [
+        260,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / coil"
+    },
+    {
+      "t_ms": 920,
+      "pose": 8,
+      "root_xy": [
+        258,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / coil"
+    },
+    {
+      "t_ms": 960,
+      "pose": 8,
+      "root_xy": [
+        257,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / coil"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 8,
+      "root_xy": [
+        255,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / coil"
+    },
+    {
+      "t_ms": 1040,
+      "pose": 9,
+      "root_xy": [
+        255,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / drive"
+    },
+    {
+      "t_ms": 1080,
+      "pose": 9,
+      "root_xy": [
+        248,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10.0,
+      "phase": "2  UPPERCUT / drive"
+    },
+    {
+      "t_ms": 1120,
+      "pose": 10,
+      "root_xy": [
+        248,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10,
+      "phase": "2  UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 1160,
+      "pose": 10,
+      "root_xy": [
+        248,
+        195
+      ],
+      "target_xy": [
+        205,
+        158
+      ],
+      "target_angle": -10,
+      "phase": "2  UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 10,
+      "root_xy": [
+        247,
+        195
+      ],
+      "target_xy": [
+        202,
+        146
+      ],
+      "target_angle": -12.666666666666666,
+      "phase": "2  UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 1240,
+      "pose": 10,
+      "root_xy": [
+        245,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "2  UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 1280,
+      "pose": 11,
+      "root_xy": [
+        245,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "2  UPPERCUT / lift"
+    },
+    {
+      "t_ms": 1320,
+      "pose": 11,
+      "root_xy": [
+        248,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "2  UPPERCUT / lift"
+    },
+    {
+      "t_ms": 1360,
+      "pose": 11,
+      "root_xy": [
+        251,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "2  UPPERCUT / lift"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 12,
+      "root_xy": [
+        251,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / chamber"
+    },
+    {
+      "t_ms": 1440,
+      "pose": 12,
+      "root_xy": [
+        257,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / chamber"
+    },
+    {
+      "t_ms": 1480,
+      "pose": 12,
+      "root_xy": [
+        262,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / chamber"
+    },
+    {
+      "t_ms": 1520,
+      "pose": 12,
+      "root_xy": [
+        268,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / chamber"
+    },
+    {
+      "t_ms": 1560,
+      "pose": 13,
+      "root_xy": [
+        268,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / drive"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 13,
+      "root_xy": [
+        267,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18.0,
+      "phase": "3  TURNING KICK / drive"
+    },
+    {
+      "t_ms": 1640,
+      "pose": 14,
+      "root_xy": [
+        267,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18,
+      "phase": "3  TURNING KICK / IMPACT"
+    },
+    {
+      "t_ms": 1680,
+      "pose": 14,
+      "root_xy": [
+        267,
+        195
+      ],
+      "target_xy": [
+        195,
+        122
+      ],
+      "target_angle": -18,
+      "phase": "3  TURNING KICK / IMPACT"
+    },
+    {
+      "t_ms": 1720,
+      "pose": 14,
+      "root_xy": [
+        265,
+        195
+      ],
+      "target_xy": [
+        185,
+        113
+      ],
+      "target_angle": -22.0,
+      "phase": "3  TURNING KICK / IMPACT"
+    },
+    {
+      "t_ms": 1760,
+      "pose": 14,
+      "root_xy": [
+        260,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / IMPACT"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 15,
+      "root_xy": [
+        260,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / turn through"
+    },
+    {
+      "t_ms": 1840,
+      "pose": 15,
+      "root_xy": [
+        252,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / turn through"
+    },
+    {
+      "t_ms": 1880,
+      "pose": 15,
+      "root_xy": [
+        244,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / turn through"
+    },
+    {
+      "t_ms": 1920,
+      "pose": 16,
+      "root_xy": [
+        244,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / attack link"
+    },
+    {
+      "t_ms": 1960,
+      "pose": 16,
+      "root_xy": [
+        236,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / attack link"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 16,
+      "root_xy": [
+        228,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "3  TURNING KICK / attack link"
+    },
+    {
+      "t_ms": 2040,
+      "pose": 17,
+      "root_xy": [
+        228,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / coil"
+    },
+    {
+      "t_ms": 2080,
+      "pose": 17,
+      "root_xy": [
+        226,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / coil"
+    },
+    {
+      "t_ms": 2120,
+      "pose": 17,
+      "root_xy": [
+        225,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / coil"
+    },
+    {
+      "t_ms": 2160,
+      "pose": 17,
+      "root_xy": [
+        223,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / coil"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 18,
+      "root_xy": [
+        223,
+        195
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / drive"
+    },
+    {
+      "t_ms": 2240,
+      "pose": 18,
+      "root_xy": [
+        219,
+        182
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30.0,
+      "phase": "4  SECOND UPPERCUT / drive"
+    },
+    {
+      "t_ms": 2280,
+      "pose": 19,
+      "root_xy": [
+        219,
+        182
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30,
+      "phase": "4  SECOND UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 2320,
+      "pose": 19,
+      "root_xy": [
+        219,
+        182
+      ],
+      "target_xy": [
+        165,
+        96
+      ],
+      "target_angle": -30,
+      "phase": "4  SECOND UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 2360,
+      "pose": 19,
+      "root_xy": [
+        218,
+        175
+      ],
+      "target_xy": [
+        158,
+        85
+      ],
+      "target_angle": -27.333333333333336,
+      "phase": "4  SECOND UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 19,
+      "root_xy": [
+        215,
+        160
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "4  SECOND UPPERCUT / IMPACT"
+    },
+    {
+      "t_ms": 2440,
+      "pose": 20,
+      "root_xy": [
+        215,
+        160
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "4  SECOND UPPERCUT / rising pursuit"
+    },
+    {
+      "t_ms": 2480,
+      "pose": 20,
+      "root_xy": [
+        218,
+        151
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "4  SECOND UPPERCUT / rising pursuit"
+    },
+    {
+      "t_ms": 2520,
+      "pose": 20,
+      "root_xy": [
+        222,
+        141
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "4  SECOND UPPERCUT / rising pursuit"
+    },
+    {
+      "t_ms": 2560,
+      "pose": 20,
+      "root_xy": [
+        225,
+        132
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "4  SECOND UPPERCUT / rising pursuit"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 21,
+      "root_xy": [
+        225,
+        132
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "5  AIR COMBO 1/3 / left load"
+    },
+    {
+      "t_ms": 2640,
+      "pose": 21,
+      "root_xy": [
+        222,
+        120
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "5  AIR COMBO 1/3 / left load"
+    },
+    {
+      "t_ms": 2680,
+      "pose": 22,
+      "root_xy": [
+        222,
+        120
+      ],
+      "target_xy": [
+        145,
+        62
+      ],
+      "target_angle": -22.0,
+      "phase": "5  AIR COMBO 1/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 2720,
+      "pose": 22,
+      "root_xy": [
+        218,
+        115
+      ],
+      "target_xy": [
+        137,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 1/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 2760,
+      "pose": 23,
+      "root_xy": [
+        218,
+        115
+      ],
+      "target_xy": [
+        137,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 1/3 / right drive"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 23,
+      "root_xy": [
+        214,
+        114
+      ],
+      "target_xy": [
+        137,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 1/3 / right drive"
+    },
+    {
+      "t_ms": 2840,
+      "pose": 24,
+      "root_xy": [
+        214,
+        114
+      ],
+      "target_xy": [
+        137,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 1/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 2880,
+      "pose": 24,
+      "root_xy": [
+        210,
+        112
+      ],
+      "target_xy": [
+        129,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 1/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 2920,
+      "pose": 25,
+      "root_xy": [
+        210,
+        112
+      ],
+      "target_xy": [
+        129,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 1/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 2960,
+      "pose": 25,
+      "root_xy": [
+        202,
+        120
+      ],
+      "target_xy": [
+        121,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 1/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 26,
+      "root_xy": [
+        202,
+        120
+      ],
+      "target_xy": [
+        121,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 1/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3040,
+      "pose": 26,
+      "root_xy": [
+        194,
+        114
+      ],
+      "target_xy": [
+        113,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 1/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3080,
+      "pose": 21,
+      "root_xy": [
+        193,
+        114
+      ],
+      "target_xy": [
+        113,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 2/3 / left load"
+    },
+    {
+      "t_ms": 3120,
+      "pose": 21,
+      "root_xy": [
+        190,
+        120
+      ],
+      "target_xy": [
+        113,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 2/3 / left load"
+    },
+    {
+      "t_ms": 3160,
+      "pose": 22,
+      "root_xy": [
+        190,
+        120
+      ],
+      "target_xy": [
+        113,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 2/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 22,
+      "root_xy": [
+        186,
+        115
+      ],
+      "target_xy": [
+        105,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 2/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3240,
+      "pose": 23,
+      "root_xy": [
+        186,
+        115
+      ],
+      "target_xy": [
+        105,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 2/3 / right drive"
+    },
+    {
+      "t_ms": 3280,
+      "pose": 23,
+      "root_xy": [
+        182,
+        114
+      ],
+      "target_xy": [
+        105,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 2/3 / right drive"
+    },
+    {
+      "t_ms": 3320,
+      "pose": 24,
+      "root_xy": [
+        182,
+        114
+      ],
+      "target_xy": [
+        105,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 2/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3360,
+      "pose": 24,
+      "root_xy": [
+        178,
+        112
+      ],
+      "target_xy": [
+        97,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 2/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 25,
+      "root_xy": [
+        178,
+        112
+      ],
+      "target_xy": [
+        97,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 2/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3440,
+      "pose": 25,
+      "root_xy": [
+        170,
+        120
+      ],
+      "target_xy": [
+        89,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 2/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3480,
+      "pose": 26,
+      "root_xy": [
+        170,
+        120
+      ],
+      "target_xy": [
+        89,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 2/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3520,
+      "pose": 26,
+      "root_xy": [
+        162,
+        114
+      ],
+      "target_xy": [
+        81,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 2/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 3560,
+      "pose": 21,
+      "root_xy": [
+        161,
+        114
+      ],
+      "target_xy": [
+        81,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 3/3 / left load"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 21,
+      "root_xy": [
+        158,
+        120
+      ],
+      "target_xy": [
+        81,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 3/3 / left load"
+    },
+    {
+      "t_ms": 3640,
+      "pose": 22,
+      "root_xy": [
+        158,
+        120
+      ],
+      "target_xy": [
+        81,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 3/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3680,
+      "pose": 22,
+      "root_xy": [
+        154,
+        115
+      ],
+      "target_xy": [
+        73,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 3/3 / LEFT HIT"
+    },
+    {
+      "t_ms": 3720,
+      "pose": 23,
+      "root_xy": [
+        154,
+        115
+      ],
+      "target_xy": [
+        73,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 3/3 / right drive"
+    },
+    {
+      "t_ms": 3760,
+      "pose": 23,
+      "root_xy": [
+        150,
+        114
+      ],
+      "target_xy": [
+        73,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 3/3 / right drive"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 24,
+      "root_xy": [
+        150,
+        114
+      ],
+      "target_xy": [
+        73,
+        68
+      ],
+      "target_angle": -12.0,
+      "phase": "5  AIR COMBO 3/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3840,
+      "pose": 24,
+      "root_xy": [
+        146,
+        112
+      ],
+      "target_xy": [
+        65,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 3/3 / RIGHT HIT"
+    },
+    {
+      "t_ms": 3880,
+      "pose": 25,
+      "root_xy": [
+        146,
+        112
+      ],
+      "target_xy": [
+        65,
+        60
+      ],
+      "target_angle": -20.0,
+      "phase": "5  AIR COMBO 3/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3920,
+      "pose": 25,
+      "root_xy": [
+        138,
+        120
+      ],
+      "target_xy": [
+        57,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 3/3 / LEFT FOLLOW"
+    },
+    {
+      "t_ms": 3960,
+      "pose": 26,
+      "root_xy": [
+        138,
+        120
+      ],
+      "target_xy": [
+        57,
+        68
+      ],
+      "target_angle": -10.0,
+      "phase": "5  AIR COMBO 3/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 26,
+      "root_xy": [
+        130,
+        114
+      ],
+      "target_xy": [
+        49,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "5  AIR COMBO 3/3 / RIGHT FOLLOW"
+    },
+    {
+      "t_ms": 4040,
+      "pose": 27,
+      "root_xy": [
+        130,
+        114
+      ],
+      "target_xy": [
+        49,
+        62
+      ],
+      "target_angle": -18.0,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4080,
+      "pose": 27,
+      "root_xy": [
+        130,
+        126
+      ],
+      "target_xy": [
+        49,
+        74
+      ],
+      "target_angle": -16.142857142857142,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4120,
+      "pose": 27,
+      "root_xy": [
+        131,
+        137
+      ],
+      "target_xy": [
+        49,
+        86
+      ],
+      "target_angle": -14.285714285714286,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4160,
+      "pose": 27,
+      "root_xy": [
+        131,
+        149
+      ],
+      "target_xy": [
+        49,
+        98
+      ],
+      "target_angle": -12.428571428571429,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 27,
+      "root_xy": [
+        131,
+        160
+      ],
+      "target_xy": [
+        49,
+        111
+      ],
+      "target_angle": -10.571428571428573,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4240,
+      "pose": 27,
+      "root_xy": [
+        131,
+        172
+      ],
+      "target_xy": [
+        49,
+        123
+      ],
+      "target_angle": -8.714285714285714,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4280,
+      "pose": 27,
+      "root_xy": [
+        132,
+        183
+      ],
+      "target_xy": [
+        49,
+        135
+      ],
+      "target_angle": -6.857142857142858,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4320,
+      "pose": 27,
+      "root_xy": [
+        132,
+        195
+      ],
+      "target_xy": [
+        49,
+        147
+      ],
+      "target_angle": -5.0,
+      "phase": "6  PALM / plant and load"
+    },
+    {
+      "t_ms": 4360,
+      "pose": 28,
+      "root_xy": [
+        132,
+        195
+      ],
+      "target_xy": [
+        49,
+        147
+      ],
+      "target_angle": -5.0,
+      "phase": "6  PALM / drive"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 28,
+      "root_xy": [
+        130,
+        195
+      ],
+      "target_xy": [
+        49,
+        155
+      ],
+      "target_angle": -2.5,
+      "phase": "6  PALM / drive"
+    },
+    {
+      "t_ms": 4440,
+      "pose": 28,
+      "root_xy": [
+        129,
+        195
+      ],
+      "target_xy": [
+        49,
+        163
+      ],
+      "target_angle": 0.0,
+      "phase": "6  PALM / drive"
+    },
+    {
+      "t_ms": 4480,
+      "pose": 29,
+      "root_xy": [
+        129,
+        195
+      ],
+      "target_xy": [
+        49,
+        163
+      ],
+      "target_angle": 0,
+      "phase": "6  PALM / IMPACT"
+    },
+    {
+      "t_ms": 4520,
+      "pose": 29,
+      "root_xy": [
+        129,
+        195
+      ],
+      "target_xy": [
+        49,
+        163
+      ],
+      "target_angle": 0,
+      "phase": "6  PALM / IMPACT"
+    },
+    {
+      "t_ms": 4560,
+      "pose": 29,
+      "root_xy": [
+        129,
+        195
+      ],
+      "target_xy": [
+        49,
+        163
+      ],
+      "target_angle": 0,
+      "phase": "6  PALM / IMPACT"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 29,
+      "root_xy": [
+        128,
+        195
+      ],
+      "target_xy": [
+        22,
+        154
+      ],
+      "target_angle": -19.0,
+      "phase": "6  PALM / IMPACT"
+    },
+    {
+      "t_ms": 4640,
+      "pose": 29,
+      "root_xy": [
+        126,
+        195
+      ],
+      "target_xy": [
+        -5,
+        145
+      ],
+      "target_angle": -38.0,
+      "phase": "6  PALM / IMPACT"
+    },
+    {
+      "t_ms": 4680,
+      "pose": 30,
+      "root_xy": [
+        126,
+        195
+      ],
+      "target_xy": [
+        -5,
+        145
+      ],
+      "target_angle": -38.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4720,
+      "pose": 30,
+      "root_xy": [
+        126,
+        195
+      ],
+      "target_xy": [
+        -10,
+        143
+      ],
+      "target_angle": -40.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4760,
+      "pose": 30,
+      "root_xy": [
+        125,
+        195
+      ],
+      "target_xy": [
+        -16,
+        141
+      ],
+      "target_angle": -42.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 30,
+      "root_xy": [
+        125,
+        195
+      ],
+      "target_xy": [
+        -21,
+        140
+      ],
+      "target_angle": -44.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4840,
+      "pose": 30,
+      "root_xy": [
+        125,
+        195
+      ],
+      "target_xy": [
+        -27,
+        138
+      ],
+      "target_angle": -46.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4880,
+      "pose": 30,
+      "root_xy": [
+        124,
+        195
+      ],
+      "target_xy": [
+        -32,
+        136
+      ],
+      "target_angle": -48.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4920,
+      "pose": 30,
+      "root_xy": [
+        124,
+        195
+      ],
+      "target_xy": [
+        -38,
+        134
+      ],
+      "target_angle": -50.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 4960,
+      "pose": 30,
+      "root_xy": [
+        123,
+        195
+      ],
+      "target_xy": [
+        -43,
+        132
+      ],
+      "target_angle": -52.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 30,
+      "root_xy": [
+        123,
+        195
+      ],
+      "target_xy": [
+        -49,
+        130
+      ],
+      "target_angle": -54.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 5040,
+      "pose": 30,
+      "root_xy": [
+        123,
+        195
+      ],
+      "target_xy": [
+        -54,
+        129
+      ],
+      "target_angle": -56.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 5080,
+      "pose": 30,
+      "root_xy": [
+        122,
+        195
+      ],
+      "target_xy": [
+        -60,
+        127
+      ],
+      "target_angle": -58.0,
+      "phase": "6  PALM / committed followthrough"
+    },
+    {
+      "t_ms": 5120,
+      "pose": 30,
+      "root_xy": [
+        122,
+        195
+      ],
+      "target_xy": [
+        -65,
+        125
+      ],
+      "target_angle": -60.0,
+      "phase": "6  PALM / committed followthrough"
+    }
+  ],
+  "gif_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 116,
+      "checked_time_intervals": 129,
+      "duration_ms": 5160,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 116,
+      "checked_time_intervals": 129,
+      "duration_ms": 10320,
+      "readback_matches": true
+    },
+    {
+      "file": "hit-reference.gif",
+      "encoded_frames": 120,
+      "checked_time_intervals": 129,
+      "duration_ms": 5160,
+      "readback_matches": true
+    },
+    {
+      "file": "hit-reference-slow.gif",
+      "encoded_frames": 120,
+      "checked_time_intervals": 129,
+      "duration_ms": 10320,
+      "readback_matches": true
+    }
+  ]
+}

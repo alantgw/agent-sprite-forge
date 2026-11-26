@@ -1,0 +1,475 @@
+{
+  "unique_native_drawings": 30,
+  "new_generated_drawings": 23,
+  "unchanged_approved_attack_endpoints": 5,
+  "unchanged_dash_drawings": 2,
+  "canvas": [
+    144,
+    112
+  ],
+  "stored_palette_entries": 16,
+  "actual_used_colours_by_pose": {
+    "01": 15,
+    "02": 15,
+    "03": 15,
+    "04": 15,
+    "05": 15,
+    "06": 15,
+    "07": 15,
+    "08": 15,
+    "09": 15,
+    "10": 15,
+    "11": 15,
+    "12": 15,
+    "13": 15,
+    "14": 15,
+    "15": 15,
+    "16": 15,
+    "17": 15,
+    "18": 15,
+    "19": 15,
+    "20": 15,
+    "21": 15,
+    "22": 15,
+    "23": 15,
+    "24": 15,
+    "25": 15,
+    "26": 15,
+    "27": 15,
+    "28": 15,
+    "29": 15,
+    "30": 15
+  },
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "alpha": "fully opaque teal",
+  "nearest_previews": 6,
+  "gif_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 116,
+      "checked_time_intervals": 129,
+      "duration_ms": 5160,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 116,
+      "checked_time_intervals": 129,
+      "duration_ms": 10320,
+      "readback_matches": true
+    },
+    {
+      "file": "hit-reference.gif",
+      "encoded_frames": 120,
+      "checked_time_intervals": 129,
+      "duration_ms": 5160,
+      "readback_matches": true
+    },
+    {
+      "file": "hit-reference-slow.gif",
+      "encoded_frames": 120,
+      "checked_time_intervals": 129,
+      "duration_ms": 10320,
+      "readback_matches": true
+    }
+  ],
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/01-dash-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          80
+        ],
+        "firstDiffersBy": -21
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/02-dash-plant.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          78
+        ],
+        "firstDiffersBy": -23
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/03-heavy-lead-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/04-heavy-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          91
+        ],
+        "firstDiffersBy": -10
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/05-heavy-impact.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/06-heavy-followthrough.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          91
+        ],
+        "firstDiffersBy": -10
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/07-heavy-retract-link.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/08-uppercut-one-coil.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          95
+        ],
+        "firstDiffersBy": -6
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/09-uppercut-one-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          100
+        ],
+        "firstDiffersBy": -1
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/10-uppercut-one-impact.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/11-uppercut-one-follow.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          98
+        ],
+        "firstDiffersBy": -3
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/12-kick-chamber.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          104
+        ],
+        "firstDiffersBy": 3
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/13-kick-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          98
+        ],
+        "firstDiffersBy": -3
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/14-kick-impact.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          96
+        ],
+        "firstDiffersBy": -5
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/15-kick-turn-follow.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          95
+        ],
+        "firstDiffersBy": -6
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/16-kick-uppercut-link.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          96
+        ],
+        "firstDiffersBy": -5
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/17-uppercut-two-coil.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          94
+        ],
+        "firstDiffersBy": -7
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/18-uppercut-two-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          100
+        ],
+        "firstDiffersBy": -1
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/19-uppercut-two-impact.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          94
+        ],
+        "firstDiffersBy": -7
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/20-uppercut-two-rise.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/21-combo-left-load.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/22-combo-left-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          91
+        ],
+        "firstDiffersBy": -10
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/23-combo-right-load.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/24-combo-right-hit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/25-combo-left-pursuit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          88
+        ],
+        "firstDiffersBy": -13
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/26-combo-right-pursuit.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          94
+        ],
+        "firstDiffersBy": -7
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/27-palm-load.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/28-palm-drive.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          100
+        ],
+        "firstDiffersBy": -1
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/29-palm-impact.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/30-palm-followthrough.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          95
+        ],
+        "firstDiffersBy": -6
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/01-dash-drive.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/02-dash-plant.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/03-heavy-lead-strike.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/04-heavy-drive.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/05-heavy-impact.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/06-heavy-followthrough.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/07-heavy-retract-link.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/08-uppercut-one-coil.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/10-uppercut-one-impact.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/11-uppercut-one-follow.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/12-kick-chamber.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/13-kick-drive.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/14-kick-impact.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/15-kick-turn-follow.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/16-kick-uppercut-link.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/17-uppercut-two-coil.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/19-uppercut-two-impact.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/20-uppercut-two-rise.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/21-combo-left-load.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/22-combo-left-hit.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/23-combo-right-load.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/24-combo-right-hit.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/25-combo-left-pursuit.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/26-combo-right-pursuit.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/27-palm-load.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/29-palm-impact.png",
+      "/workspace/work/mecha-impact-v002/deliverables/processing/lineup-inputs/30-palm-followthrough.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  },
+  "extraction_warnings": [
+    {
+      "id": "03",
+      "warning": "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "04",
+      "warning": "the new view's body is 91 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "06",
+      "warning": "the new view's body is 91 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "07",
+      "warning": "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "08",
+      "warning": "the new view's body is 95 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "11",
+      "warning": "the new view's body is 98 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "12",
+      "warning": "the new view's body is 104 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "13",
+      "warning": "the new view's body is 98 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "15",
+      "warning": "the new view's body is 95 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "16",
+      "warning": "the new view's body is 96 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "17",
+      "warning": "the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "19",
+      "warning": "the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "20",
+      "warning": "the new view's body is 92 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "21",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "22",
+      "warning": "the new view's body is 91 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "23",
+      "warning": "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "24",
+      "warning": "the new view's body is 93 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "25",
+      "warning": "the new view's body is 88 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "26",
+      "warning": "the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "30",
+      "warning": "the new view's body is 95 rows tall, the master's 101: it is not the same height; generate again"
+    }
+  ],
+  "visual_review": "Draft for user review. Numeric checks do not approve anatomy or motion.",
+  "hand_review": "Compared every pose to approved punch/palm/uppercut art. Articulated curled knuckles and open digits allowed; solid pointed cap hands rejected.",
+  "game_import_compatibility": "unverified"
+}
