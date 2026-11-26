@@ -1,0 +1,115 @@
+{
+  "quarter_torso": {
+    "file": "variants/quarter_torso.png",
+    "indexed": "variants/quarter_torso-indexed.png",
+    "replaces": [
+      "torso_core",
+      "waist_skirt"
+    ],
+    "pivot_global": [
+      63,
+      77
+    ],
+    "source": "one targeted pixel_look ask-pose/pose redraw",
+    "generation_record": "processing/quarter-generation.json",
+    "allowed_mask_ids": [
+      1,
+      6
+    ],
+    "changed_native_cells": 683,
+    "protected_other_parts_exact": true,
+    "source_ruler_share": 0.866,
+    "source_master_kept_share": 0.8816
+  },
+  "open_hand": {
+    "file": "variants/open_hand.png",
+    "indexed": "variants/open_hand-indexed.png",
+    "replaces": [
+      "near_claw_hand"
+    ],
+    "pivot_global": [
+      23,
+      55
+    ],
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png",
+    "source_polygon": [
+      [
+        8,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        39
+      ],
+      [
+        19,
+        39
+      ],
+      [
+        22,
+        43
+      ],
+      [
+        23,
+        49
+      ],
+      [
+        24,
+        54
+      ],
+      [
+        23,
+        62
+      ],
+      [
+        20,
+        65
+      ],
+      [
+        10,
+        65
+      ],
+      [
+        7,
+        63
+      ],
+      [
+        9,
+        60
+      ],
+      [
+        10,
+        58
+      ],
+      [
+        6,
+        56
+      ],
+      [
+        6,
+        51
+      ],
+      [
+        8,
+        48
+      ],
+      [
+        6,
+        47
+      ],
+      [
+        6,
+        44
+      ],
+      [
+        9,
+        42
+      ]
+    ],
+    "forearm_shell_replaced": false
+  }
+}

@@ -1,0 +1,4911 @@
+{
+  "version": "component-action-v001",
+  "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/v001/mecha-final-1x.png",
+  "unique_frames": 30,
+  "independent_whole_body_generations": 0,
+  "new_component_generations": 1,
+  "base_parts": 17,
+  "all_scales": 1,
+  "forearm_checks": [
+    {
+      "id": "01",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "01",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "02",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "02",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "03",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "03",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "04",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "04",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "05",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "05",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "06",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "06",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "07",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "07",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "08",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "08",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "09",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "09",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "16",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "16",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "17",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "17",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "18",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "18",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "19",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "19",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "20",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "20",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "21",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "21",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "22",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "22",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "23",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "23",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "24",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "24",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "25",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "25",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "26",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "26",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "27",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "27",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "28",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "28",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "29",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "29",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "30",
+      "part": "near_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    },
+    {
+      "id": "30",
+      "part": "far_forearm",
+      "palette_histogram_identical_to_base": true,
+      "all_original_red_black_pixels_retained": true
+    }
+  ],
+  "palm29_30_body_layers_identical": true,
+  "frames": [
+    {
+      "id": "01",
+      "name": "dash-load",
+      "file": "native/01-dash-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        8,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            60
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            60
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          -2,
+          1
+        ],
+        "_quarter": false
+      },
+      "sha256": "f4b56717fdfb6551b37565c5593f6695110ac2adbc4e7a3555915c7cc7b8bd18",
+      "body_layer_hash": "d1dd4d26c175d5c034f5498f96208c613ebc2129fc4752c7078bd649bca61782"
+    },
+    {
+      "id": "02",
+      "name": "dash-plant",
+      "file": "native/02-dash-plant.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        8,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            37,
+            61
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            37,
+            61
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -2,
+          1
+        ],
+        "_quarter": false
+      },
+      "sha256": "7dc61cd4fa9780f1b9c8d05d84a4881646fed6cf4776a4b4dc69a49bc1446681",
+      "body_layer_hash": "ddb4576984faa56519a98d1055ccbc8cb8602d1f4ad124a6d355ffa9e65e7862"
+    },
+    {
+      "id": "03",
+      "name": "heavy-chamber",
+      "file": "native/03-heavy-chamber.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "a79f288b10b0379b940f3547eeda6544e8b179993e364b7951861e7263732cb2",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "04",
+      "name": "heavy-drive",
+      "file": "native/04-heavy-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            79,
+            61
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            79,
+            61
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "97803e23ea5863ffe776806e855dd85af26deed77557862a2423ad054881a537",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "05",
+      "name": "heavy-cross-impact",
+      "file": "native/05-heavy-cross-impact.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            66,
+            60
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            66,
+            60
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -1,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "0350c6c1a493f5f15c46b5efc32d4154fc22805217a2dca7ffe75527cda73986",
+      "body_layer_hash": "fe1754cb0c8379cece6b2abf7c73178394dc4cd1e0f6f2f310d6125f88649d20"
+    },
+    {
+      "id": "06",
+      "name": "heavy-cross-follow",
+      "file": "native/06-heavy-cross-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            64,
+            60
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            64,
+            60
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -1,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "97a61cf8563e44bded23e433ceb5a2d5bc98da3fb8f1b05f4789847fe22da8b4",
+      "body_layer_hash": "fe1754cb0c8379cece6b2abf7c73178394dc4cd1e0f6f2f310d6125f88649d20"
+    },
+    {
+      "id": "07",
+      "name": "uppercut-one-coil",
+      "file": "native/07-uppercut-one-coil.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        8,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            63
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            63
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          0,
+          1
+        ],
+        "_quarter": false
+      },
+      "sha256": "50db0162c60eb235820e3e6ad4f17baf82d4ab604acdbbc51a81b3e6e00d7a90",
+      "body_layer_hash": "89279f24df7c04118c3d1b69c0f0bbcbf0e7d35e1ddc7cc2208cf6735aa490d0"
+    },
+    {
+      "id": "08",
+      "name": "uppercut-one-drive",
+      "file": "native/08-uppercut-one-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            62
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            62
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "fe273effe0704c36a7f660a3f4612632ce9128f20237ce66698f39e0d63214fb",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "09",
+      "name": "uppercut-one-impact",
+      "file": "native/09-uppercut-one-impact.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 180,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            49
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            49
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "cb890afc3640f71a4fc4ebf796cbf283c26d1e596df75fd2b389344d4bcc289c",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "10",
+      "name": "roundhouse-chamber",
+      "file": "native/10-roundhouse-chamber.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        124,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -130,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -25,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            80
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": -28
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "0858be4fcec2e0e08ac7a3210253189ad3536e92cd9c547cdcd04730ef49bbfd",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "11",
+      "name": "roundhouse-hip-open",
+      "file": "native/11-roundhouse-hip-open.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        126,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -140,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -60,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            77
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": -20
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "5f7611e6315991f2eeba6da337ba3daa30218b700df2c387ab8d8b607b2cff53",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "12",
+      "name": "roundhouse-sweep-drive",
+      "file": "native/12-roundhouse-sweep-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        127,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -140,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -100,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            77
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": -10
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "bfb853f15519f58d7973d84b5b0219e9dcbe3d15ebc5e677bb093249ebb60394",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "13",
+      "name": "roundhouse-impact",
+      "file": "native/13-roundhouse-impact.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        127,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -140,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -125,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            77
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": 0
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "dfb050313764508a86ae967447aba5059b1bf3bbf39d754998b6c05fdf9620a4",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "14",
+      "name": "roundhouse-short-follow",
+      "file": "native/14-roundhouse-short-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        127,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -140,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -130,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            77
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": 4
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "6cc37f737b41085042840bfd6aebcb9d02a314d3325f94d1c7f0c5a234a63091",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "15",
+      "name": "roundhouse-rechamber",
+      "file": "native/15-roundhouse-rechamber.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 15,
+      "bounds": [
+        11,
+        9,
+        125,
+        110
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 65,
+          "angle": -140,
+          "pivot": [
+            77,
+            80
+          ],
+          "at": [
+            77,
+            80
+          ]
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 65,
+          "angle": -60,
+          "pivot": [
+            85,
+            90
+          ],
+          "at": [
+            64,
+            77
+          ]
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 70,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            83,
+            48
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 65,
+          "pivot": [
+            74,
+            77
+          ],
+          "at": [
+            74,
+            77
+          ],
+          "angle": -24
+        },
+        "roundhouse-pelvis-support": {
+          "z": 50,
+          "pivot": [
+            69,
+            77
+          ],
+          "at": [
+            69,
+            77
+          ]
+        },
+        "side-mane-ribbons": {
+          "z": 30
+        },
+        "side-head-chest": {
+          "z": 60
+        },
+        "_body_angle": 0,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false,
+        "_kick_variant": true
+      },
+      "sha256": "c5ca48632b7942815238c48314fc217ef8850e1e11924b898fabe03aac4cec96",
+      "body_layer_hash": "dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292"
+    },
+    {
+      "id": "16",
+      "name": "roundhouse-plant",
+      "file": "native/16-roundhouse-plant.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80
+        },
+        "far_upper_arm": {
+          "z": 15
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            59
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            59
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 0
+      },
+      "sha256": "da7a0fa760735da0ae7398e260f6a9b2a99e37e3bb21a5d57ebf0aeb2888ab39",
+      "body_layer_hash": "b039ba0e4a37696fdc0d9f4075c49138cf4af05df56897e91a2ce51a7751320b"
+    },
+    {
+      "id": "17",
+      "name": "uppercut-two-coil",
+      "file": "native/17-uppercut-two-coil.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        8,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            64
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            64
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          1
+        ],
+        "_quarter": false
+      },
+      "sha256": "a1ff430b451616a390ad3d1804dd6aa75f57ec07ea825ee122eb33ae0c12623a",
+      "body_layer_hash": "c576ce6c09354987da767c53f28be960ef59fbd03a7cbb971b1e13dae3782d5c"
+    },
+    {
+      "id": "18",
+      "name": "uppercut-two-drive",
+      "file": "native/18-uppercut-two-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            59
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            59
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "e0d84e1038641966c8048f33ff61b3ffd2239a8b4e5168de026336a791cb1a87",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "19",
+      "name": "uppercut-two-impact",
+      "file": "native/19-uppercut-two-impact.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 180,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            48
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            40,
+            48
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "4b1ab50ec5e2689c15dfa36657f2c8c0baaaa6050d0e21855805f89931de19b5",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "20",
+      "name": "uppercut-two-follow",
+      "file": "native/20-uppercut-two-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 180,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            47
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            47
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "38491c35c229797d668d0f3a29a31bb85210c3848bb98011f180b9dbac32d831",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "21",
+      "name": "combo-left-load",
+      "file": "native/21-combo-left-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            80,
+            62
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            80,
+            62
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "9fa98efe7d9820d8c4d2c151e910a5e64a94211902f46735575eb6536940e000",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "22",
+      "name": "combo-left-hit",
+      "file": "native/22-combo-left-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            65,
+            59
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            65,
+            59
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "d341ae936a75894c3d164d35df89c0a0f88866a3136ebb6a22fc42a88f859a01",
+      "body_layer_hash": "c24b48878de2e7dc8c6100c8f9c05a85c8beecb38eab191d7c5e5d1ca4a21422"
+    },
+    {
+      "id": "23",
+      "name": "combo-right-load",
+      "file": "native/23-combo-right-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            45,
+            64
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            45,
+            64
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "a285ddd60b8a540bd12ba870ff5c29f1cf54e24efb6f99603ac1362296beb023",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "24",
+      "name": "combo-right-hit",
+      "file": "native/24-combo-right-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        10,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            62
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            36,
+            62
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "dda6986137ac69755d278faca3529e948c05ae7ff5c022e04a5e563b1cd37d08",
+      "body_layer_hash": "c24b48878de2e7dc8c6100c8f9c05a85c8beecb38eab191d7c5e5d1ca4a21422"
+    },
+    {
+      "id": "25",
+      "name": "combo-left-follow",
+      "file": "native/25-combo-left-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": -90,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            63,
+            59
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            55
+          ]
+        },
+        "far_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            63,
+            59
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -1,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "9f0712fa43477a5be7324b28d46c06129db54a39ca91cd10e42edc2b5ba38520",
+      "body_layer_hash": "fe1754cb0c8379cece6b2abf7c73178394dc4cd1e0f6f2f310d6125f88649d20"
+    },
+    {
+      "id": "26",
+      "name": "combo-right-follow",
+      "file": "native/26-combo-right-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        8,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            35,
+            61
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            35,
+            61
+          ]
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -1,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "39b7eeb5373b249e23a8d891c9165df7b0a6f9689387c594805b79950801887f",
+      "body_layer_hash": "fe1754cb0c8379cece6b2abf7c73178394dc4cd1e0f6f2f310d6125f88649d20"
+    },
+    {
+      "id": "27",
+      "name": "palm-coil",
+      "file": "native/27-palm-coil.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            64
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": 180,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            64
+          ],
+          "hide": true
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_open_hand": {
+          "at": [
+            48,
+            43
+          ],
+          "angle": -90,
+          "z": 95
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "86595358a9a4b947afdfc0e12bdc6eddad20278b1777762741ffaa72a71de2f7",
+      "body_layer_hash": "c24b48878de2e7dc8c6100c8f9c05a85c8beecb38eab191d7c5e5d1ca4a21422"
+    },
+    {
+      "id": "28",
+      "name": "palm-drive",
+      "file": "native/28-palm-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            65
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            47,
+            65
+          ],
+          "hide": true
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_open_hand": {
+          "at": [
+            32,
+            56
+          ],
+          "angle": 0,
+          "z": 95
+        },
+        "_body_angle": 1,
+        "_body_shift": [
+          0,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "e2689748db1592bd5d614926600dc5a5ba24692c85d6e0504e2039916f47615c",
+      "body_layer_hash": "4ea55415e8febdd6cdc1db03c1c7ee8fb78e704c58648917a75a790823a9ca38"
+    },
+    {
+      "id": "29",
+      "name": "palm-impact",
+      "file": "native/29-palm-impact.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        5,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            64
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            39,
+            64
+          ],
+          "hide": true
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_open_hand": {
+          "at": [
+            24,
+            55
+          ],
+          "angle": 0,
+          "z": 95
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -2,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "b634d8d15ece667a528f75bcdcf5bafa0c2b2f50120d09b2ea4c165e30158654",
+      "body_layer_hash": "ae3618da9e58e51be2ae0a8d0d2aeea966b53e89dc309c72a29ba34d24cca3ea"
+    },
+    {
+      "id": "30",
+      "name": "palm-follow",
+      "file": "native/30-palm-follow.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "used_colours": 16,
+      "bounds": [
+        4,
+        7,
+        128,
+        109
+      ],
+      "config": {
+        "torso_core": {
+          "z": 40
+        },
+        "rear_ribbons": {
+          "z": 0
+        },
+        "near_shoulder_wing": {
+          "z": 35
+        },
+        "far_shoulder_wing": {
+          "z": 35
+        },
+        "mane": {
+          "z": 30
+        },
+        "waist_skirt": {
+          "z": 50
+        },
+        "near_thigh": {
+          "z": 25
+        },
+        "far_thigh": {
+          "z": 25
+        },
+        "near_shin_foot": {
+          "z": 25
+        },
+        "far_shin_foot": {
+          "z": 25
+        },
+        "near_upper_arm": {
+          "z": 80,
+          "angle": 0,
+          "pivot": [
+            41,
+            54
+          ],
+          "at": [
+            41,
+            54
+          ]
+        },
+        "far_upper_arm": {
+          "z": 15,
+          "angle": 0,
+          "pivot": [
+            87,
+            53
+          ],
+          "at": [
+            87,
+            53
+          ]
+        },
+        "near_forearm": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            38,
+            64
+          ]
+        },
+        "far_forearm": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "head_crests_face": {
+          "z": 60
+        },
+        "near_claw_hand": {
+          "z": 90,
+          "angle": -90,
+          "pivot": [
+            36,
+            60
+          ],
+          "at": [
+            38,
+            64
+          ],
+          "hide": true
+        },
+        "far_claw_hand": {
+          "z": 55,
+          "angle": 0,
+          "pivot": [
+            89,
+            59
+          ],
+          "at": [
+            87,
+            56
+          ]
+        },
+        "quarter_torso": {
+          "z": 50
+        },
+        "roundhouse-kicking-leg": {
+          "z": 40
+        },
+        "roundhouse-pelvis-support": {
+          "z": 40
+        },
+        "side-mane-ribbons": {
+          "z": 40
+        },
+        "side-head-chest": {
+          "z": 40
+        },
+        "_open_hand": {
+          "at": [
+            23,
+            55
+          ],
+          "angle": 0,
+          "z": 95
+        },
+        "_body_angle": 2,
+        "_body_shift": [
+          -2,
+          0
+        ],
+        "_quarter": false
+      },
+      "sha256": "cde4a3ac05b91cf6940345eb83f4fa59266af39bb06f6d6942247cbb9acb6d57",
+      "body_layer_hash": "ae3618da9e58e51be2ae0a8d0d2aeea966b53e89dc309c72a29ba34d24cca3ea"
+    }
+  ]
+}

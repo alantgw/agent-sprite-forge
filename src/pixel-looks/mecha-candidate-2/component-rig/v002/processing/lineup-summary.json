@@ -1,0 +1,96 @@
+{
+  "verdict": "same",
+  "masterHeight": 101,
+  "heights": {
+    "01-dash-load.png": [
+      100
+    ],
+    "02-dash-plant.png": [
+      100
+    ],
+    "03-heavy-chamber.png": [
+      101
+    ],
+    "04-heavy-drive.png": [
+      101
+    ],
+    "05-heavy-cross-impact.png": [
+      101
+    ],
+    "06-heavy-cross-follow.png": [
+      101
+    ],
+    "07-uppercut-one-coil.png": [
+      100
+    ],
+    "08-uppercut-one-drive.png": [
+      101
+    ],
+    "09-uppercut-one-impact.png": [
+      101
+    ],
+    "10-roundhouse-chamber.png": [
+      101
+    ],
+    "11-roundhouse-hip-open.png": [
+      101
+    ],
+    "12-roundhouse-sweep-drive.png": [
+      101
+    ],
+    "13-roundhouse-impact.png": [
+      101
+    ],
+    "14-roundhouse-short-follow.png": [
+      101
+    ],
+    "15-roundhouse-rechamber.png": [
+      101
+    ],
+    "16-roundhouse-plant.png": [
+      101
+    ],
+    "17-uppercut-two-coil.png": [
+      100
+    ],
+    "18-uppercut-two-drive.png": [
+      101
+    ],
+    "19-uppercut-two-impact.png": [
+      101
+    ],
+    "20-uppercut-two-follow.png": [
+      101
+    ],
+    "21-combo-left-load.png": [
+      101
+    ],
+    "22-combo-left-hit.png": [
+      101
+    ],
+    "23-combo-right-load.png": [
+      101
+    ],
+    "24-combo-right-hit.png": [
+      101
+    ],
+    "25-combo-left-follow.png": [
+      101
+    ],
+    "26-combo-right-follow.png": [
+      101
+    ],
+    "27-palm-coil.png": [
+      101
+    ],
+    "28-palm-drive.png": [
+      101
+    ],
+    "29-palm-impact.png": [
+      101
+    ],
+    "30-palm-follow.png": [
+      101
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "used_colours_by_frame": {
+    "01": 16,
+    "02": 16,
+    "03": 16,
+    "04": 16,
+    "05": 16,
+    "06": 16,
+    "07": 16,
+    "08": 16,
+    "09": 16,
+    "10": 15,
+    "11": 15,
+    "12": 15,
+    "13": 15,
+    "14": 15,
+    "15": 15,
+    "16": 16,
+    "17": 16,
+    "18": 16,
+    "19": 16,
+    "20": 16,
+    "21": 16,
+    "22": 16,
+    "23": 16,
+    "24": 16,
+    "25": 16,
+    "26": 16,
+    "27": 16,
+    "28": 16,
+    "29": 16,
+    "30": 16
+  },
+  "opaque_teal": true,
+  "unique_native_frames": 30,
+  "all_part_scales": 1,
+  "palm29_30_body_layers_identical": true,
+  "exact_source_forearm_histogram_checks_non_kick": 48,
+  "kick_view": "reused selected v010 left-rear upper-body parts + new horizontal roundhouse lower-body angle",
+  "gif_frame_readback": [
+    {
+      "file": "action-1x.gif",
+      "frames": 42,
+      "pixels_exact": true
+    },
+    {
+      "file": "action-4x.gif",
+      "frames": 42,
+      "pixels_exact": true
+    },
+    {
+      "file": "action-slow-4x.gif",
+      "frames": 42,
+      "pixels_exact": true
+    }
+  ],
+  "ora_layer_reconstruction_exact_count": 30
+}

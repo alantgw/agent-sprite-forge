@@ -1,0 +1,110 @@
+{
+ "schema": "generate2dsprite.pixel_look.v2",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "name": "roundhouse",
+ "size": [
+  111,
+  103
+ ],
+ "cells": 7079,
+ "colours": 23,
+ "palette": [
+  "#000018",
+  "#02020c",
+  "#026704",
+  "#11090f",
+  "#111338",
+  "#1f1e1c",
+  "#28255d",
+  "#2e0b13",
+  "#36318c",
+  "#4d0a0d",
+  "#685ac4",
+  "#6e0b0e",
+  "#762e04",
+  "#7674dc",
+  "#94364e",
+  "#aa5c0a",
+  "#b8150e",
+  "#ba6cf6",
+  "#bc9fed",
+  "#c27e13",
+  "#cc90f6",
+  "#e3caf6",
+  "#f1ae24"
+ ],
+ "feet": {
+  "middle": 68.0,
+  "row": 102
+ },
+ "anchor": [
+  68.5,
+  103
+ ],
+ "change": "ONLY redraw waist skirt, pelvis and both legs for a grounded waist-height ROUNDHOUSE kick. Anatomical left leg sweeps toward IMAGE LEFT, almost HORIZONTAL, connected to turned hips. Show LEFT REAR QUARTER of pelvis and waist, chest turned less, original head still looks left. Original image-left right support boot stays PLANTED on floor. The kicking boot points IMAGE LEFT side-on at waist height, y55 to65, lower than face; gold toe claws point left. Strong bent support knee. Thick angular segmented lavender red black mechanical legs, matching original stout 2 to3 heads proportions. No front-facing sole, no high upward kick, no jump. Keep head face horns mane shoulder wings arms eyes pixel scale and colours unchanged. Preserve teal background. No FX or enemy.",
+ "masterAt": [
+  -1,
+  0
+ ],
+ "lattice": {
+  "cell": 11.021,
+  "offset": [
+   -0.2,
+   -0.2
+  ],
+  "equal": 4812,
+  "cells": 7846,
+  "share": 0.6133
+ },
+ "taken": {
+  "how": "the new part outside the silhouette and what hangs together with it",
+  "pictureEqual": 5078,
+  "cellsTaken": 2865,
+  "newCells": 224,
+  "cellsEmptied": 997
+ },
+ "masterCellsKept": 101,
+ "masterCells": 7846,
+ "masterKeptShare": 0.0129,
+ "newColours": 8,
+ "edge": {
+  "keyMixed": {
+   "removed": 0,
+   "darkened": 5
+  },
+  "keyTinted": 1,
+  "keyNear": 0,
+  "keyHoles": 0,
+  "keyInked": 4,
+  "keySpill": {
+   "removed": 0,
+   "recoloured": 0
+  },
+  "islandCells": 0
+ },
+ "outline": {
+  "line": [
+   0,
+   0,
+   24
+  ],
+  "specks": 0,
+  "bareCells": 6,
+  "lineCellsAdded": 6,
+  "closed": true,
+  "offset": [
+   1,
+   0
+  ],
+  "mode": "rule"
+ },
+ "source": {
+  "image": "/workspace/generated_images/exec-e314a167-7c53-4a98-9d26-24c40ce843cf.png",
+  "sha256": "a68e4d0941aca8d5e78ced87fed3d68e145c733741cbbde9d6f5e06028890f0b"
+ },
+ "files": {
+  "sprite": "roundhouse.png",
+  "review": "roundhouse-review.png"
+ }
+}

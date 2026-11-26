@@ -1,0 +1,45 @@
+{
+  "art_source": "host_image",
+  "source": "/workspace/generated_images/exec-e314a167-7c53-4a98-9d26-24c40ce843cf.png",
+  "extraction": "pixel_look ask-pose / pose",
+  "only_imported": "masked pelvis and legs; generated head, eyes, shoulders, arms and hair discarded",
+  "native_mapping": [
+    17,
+    7
+  ],
+  "palette": "nearest original palette, no new colours",
+  "lower_body_polygon": [
+    [
+      16,
+      64
+    ],
+    [
+      66,
+      64
+    ],
+    [
+      77,
+      69
+    ],
+    [
+      89,
+      85
+    ],
+    [
+      92,
+      111
+    ],
+    [
+      60,
+      111
+    ],
+    [
+      47,
+      89
+    ],
+    [
+      16,
+      83
+    ]
+  ]
+}

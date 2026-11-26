@@ -1,0 +1,9 @@
+Create exactly ONE square image.
+
+One image is attached: a pixel-art game sprite on a flat green (#00FF00) background, shown enlarged. Every square of 9 px in it is one pixel of the sprite.
+
+Reproduce the attached image: the same single figure at exactly the same size and in the same place on the canvas, the same pixel art on the same coarse, regular square pixel grid, every pixel exactly as large as in the attached image, one flat colour per pixel, hard edges, the same dark outline one pixel wide, the same colours.
+
+THE ONLY CHANGE: ONLY redraw waist skirt, pelvis and both legs for a grounded waist-height ROUNDHOUSE kick. Anatomical left leg sweeps toward IMAGE LEFT, almost HORIZONTAL, connected to turned hips. Show LEFT REAR QUARTER of pelvis and waist, chest turned less, original head still looks left. Original image-left right support boot stays PLANTED on floor. The kicking boot points IMAGE LEFT side-on at waist height, y55 to65, lower than face; gold toe claws point left. Strong bent support knee. Thick angular segmented lavender red black mechanical legs, matching original stout 2 to3 heads proportions. No front-facing sole, no high upward kick, no jump. Keep head face horns mane shoulder wings arms eyes pixel scale and colours unchanged. Preserve teal background. No FX or enemy.
+
+Everything that the change does not name is NOT redrawn: it stays exactly as it is, pixel for pixel, in the same place. The background stays the same flat pure green (#00FF00) everywhere, with no shadow and nothing else in the picture.

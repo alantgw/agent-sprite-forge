@@ -1,0 +1,30 @@
+{
+ "schema": "generate2dsprite.pixel_look_request.v1",
+ "tool": "pixel_look",
+ "kind": "pose",
+ "key": "green",
+ "cell": 9,
+ "canvas": [
+  1024,
+  1024
+ ],
+ "masterAt": [
+  0,
+  5
+ ],
+ "master": {
+  "file": "master.png",
+  "sha256": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+  "size": [
+   112,
+   102
+  ]
+ },
+ "references": [
+  "reference.png"
+ ],
+ "size": "1024x1024",
+ "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 1024x1024 --out-dir <take>; then pixel_look.py pose --image <take>/generated.png --request <this folder>",
+ "change": "ONLY redraw waist skirt, pelvis and both legs for a grounded waist-height ROUNDHOUSE kick. Anatomical left leg sweeps toward IMAGE LEFT, almost HORIZONTAL, connected to turned hips. Show LEFT REAR QUARTER of pelvis and waist, chest turned less, original head still looks left. Original image-left right support boot stays PLANTED on floor. The kicking boot points IMAGE LEFT side-on at waist height, y55 to65, lower than face; gold toe claws point left. Strong bent support knee. Thick angular segmented lavender red black mechanical legs, matching original stout 2 to3 heads proportions. No front-facing sole, no high upward kick, no jump. Keep head face horns mane shoulder wings arms eyes pixel scale and colours unchanged. Preserve teal background. No FX or enemy.",
+ "outline": "rule"
+}
