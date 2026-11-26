@@ -1,0 +1,82 @@
+[
+  {
+    "id": "04",
+    "name": "dash-coil",
+    "new": true,
+    "pose": "Low coiled forward dash anticipation toward image-left. Hips low, torso leans forward25degrees, rear leg bent and loaded, lead foot touching ahead, both original beast gauntlets tucked near ribs. A short powerful takeoff pose, not running with long legs.",
+    "source": "/workspace/generated_images/exec-34aea275-0958-4d8d-9f3f-17f5ec12dd91.png",
+    "prompt": "Edit wide ruler reference. Preserve LEFT standing robot pixel-identical. On blank RIGHT half draw ONE SAME robot in pose: Low coiled forward dash anticipation toward image-left. Hips low, torso leans forward25degrees, rear leg bent and loaded, lead foot touching ahead, both original beast gauntlets tucked near ribs. A short powerful takeoff pose, not running with long legs. Same original broad compact2–3head body, unchanged head and limb scale, angular lavender/red/black armour, red eye, original beast-shaped gauntlet shells (not human fists). Same square pixel cell size as left ruler. Complete mane/rear ribbons. Exactly2arms2legs. Whole character fits right half with margins. Pure green background, no enemy, effects, shadow, text or extra figures."
+  },
+  {
+    "id": "06",
+    "name": "kick-chamber",
+    "new": true,
+    "pose": "Anatomical left knee raised high across lower chest ready for rising kick, left shin folded tightly with clawed foot below knee and pointed forward-left, right foot planted. Torso forward not leaning back. Both beast gauntlets guard cheeks. Face looks image-left. Same body width and thick short limbs as master.",
+    "source": "/workspace/generated_images/exec-019d9254-2f0f-4f1a-8b12-bb6912acf805.png",
+    "prompt": "Edit wide ruler reference. Preserve LEFT standing robot EXACTLY. On blank RIGHT half add ONE SAME robot in POSE: Anatomical left knee raised high across lower chest ready for rising kick, left shin folded tightly with clawed foot below knee and pointed forward-left, right foot planted. Torso forward not leaning back. Both beast gauntlets guard cheeks. Face looks image-left. Same body width and thick short limbs as master. Keep original wide compact2–3head proportions, head/body size and short thick limbs; angular lavender armour with original red/black accents and red eyes. Original beast-head mechanical gauntlets with claws, not human fists. Same coarse square pixel cells as left ruler. Full mane and rear ribbons. Exactly2arms2legs. Entire figure fits right half with margin. Pure green, no opponent, no effect/ground/shadow/text. Wide2:1."
+  },
+  {
+    "id": "09",
+    "name": "back-landing",
+    "new": true,
+    "pose": "Kick follow-through into LANDING FACING AWAY from viewer, three-quarter BACK view turned toward image-right. Both clawed feet grounded, left foot just landing slightly forward, bent knees, lowered hips, back angular shoulder plates visible, gauntlets low beside ribs. Full pale lavender mane and red ribbons sweep sideways in a right-turning arc. No face/eyes visible from back; head size unchanged. Compact body.",
+    "source": "/workspace/generated_images/exec-662a3bde-ebc7-4181-9d8c-4288ef3591aa.png",
+    "prompt": "Edit wide ruler reference. Preserve LEFT standing robot EXACTLY. On blank RIGHT half add ONE SAME robot in POSE: Kick follow-through into LANDING FACING AWAY from viewer, three-quarter BACK view turned toward image-right. Both clawed feet grounded, left foot just landing slightly forward, bent knees, lowered hips, back angular shoulder plates visible, gauntlets low beside ribs. Full pale lavender mane and red ribbons sweep sideways in a right-turning arc. No face/eyes visible from back; head size unchanged. Compact body. Keep original wide compact2–3head proportions, head/body size and short thick limbs; angular lavender armour with original red/black accents and red eyes. Original beast-head mechanical gauntlets with claws, not human fists. Same coarse square pixel cells as left ruler. Full mane and rear ribbons. Exactly2arms2legs. Entire figure fits right half with margin. Pure green, no opponent, no effect/ground/shadow/text. Wide2:1."
+  },
+  {
+    "id": "10",
+    "name": "unwind-front",
+    "new": true,
+    "pose": "After back-facing landing, pivot back toward image-left into three-quarter SIDE LEFT, hips still partly turned away, upper torso comes around first. Both knees flexed, left beast gauntlet guarding near cheek, right beast gauntlet near waist. Forward inclined upper body, complete mane/ribbons swinging around shoulders.",
+    "source": "/workspace/generated_images/exec-5970d3cb-6dd1-460e-a753-9fd8dd9e18c0.png",
+    "prompt": "Edit wide ruler reference. Preserve LEFT standing robot EXACTLY. On blank RIGHT half add ONE SAME robot in POSE: After back-facing landing, pivot back toward image-left into three-quarter SIDE LEFT, hips still partly turned away, upper torso comes around first. Both knees flexed, left beast gauntlet guarding near cheek, right beast gauntlet near waist. Forward inclined upper body, complete mane/ribbons swinging around shoulders. Keep original wide compact2–3head proportions, head/body size and short thick limbs; angular lavender armour with original red/black accents and red eyes. Original beast-head mechanical gauntlets with claws, not human fists. Same coarse square pixel cells as left ruler. Full mane and rear ribbons. Exactly2arms2legs. Entire figure fits right half with margin. Pure green, no opponent, no effect/ground/shadow/text. Wide2:1."
+  },
+  {
+    "id": "11",
+    "name": "uppercut-coil",
+    "new": true,
+    "pose": "LOW UPPERCUT WINDUP facing image-left. Knees deeply bent, torso inclines forward, striking image-left beast gauntlet lowered beside hip with elbow back ready to drive upward. Other beast gauntlet stays beside upper chest. Feet planted wide, head looks toward upper-left, not head-down.",
+    "source": "/workspace/generated_images/exec-0e975f40-0a75-4e18-97a3-9095e60560c5.png",
+    "prompt": "Edit FIRST wide pixel ruler: LEFT standing mecha stays EXACTLY unchanged. Add ONE same robot to blank RIGHT half in pose: LOW UPPERCUT WINDUP facing image-left. Knees deeply bent, torso inclines forward, striking image-left beast gauntlet lowered beside hip with elbow back ready to drive upward. Other beast gauntlet stays beside upper chest. Feet planted wide, head looks toward upper-left, not head-down. SECOND reference when supplied is only approved pose endpoint for proportions and identity. Keep original compact broad2–3head body, angular lavender/red/black armour, short THICK arms and original beast-head gauntlet shells, NOT human fists or literal added animal. Red eyes. Same pixel cell size and head scale as left ruler. Full mane and red ribbons;2arms2legs. Entire pose fits right half with margin; green background, no effects/enemy/text/ground. Wide2:1."
+  },
+  {
+    "id": "21",
+    "name": "left-half-strike",
+    "new": true,
+    "pose": "Midway LEFT PUNCH toward image-left: anatomical left arm from image-right shoulder swings forward across chest; elbow still bent90degrees, long thick forearm parallel to ground with original beast gauntlet at lower-face level halfway extended. Right beast guard beside cheek partly occluded behind left forearm. Crouch planted same wide feet and head position as SECOND reference left-punch endpoint. No human fist.",
+    "source": "/workspace/generated_images/exec-24af63a9-0fe0-4e4f-842c-415fd29b4e63.png",
+    "prompt": "Edit FIRST wide pixel ruler: LEFT standing mecha stays EXACTLY unchanged. Add ONE same robot to blank RIGHT half in pose: Midway LEFT PUNCH toward image-left: anatomical left arm from image-right shoulder swings forward across chest; elbow still bent90degrees, long thick forearm parallel to ground with original beast gauntlet at lower-face level halfway extended. Right beast guard beside cheek partly occluded behind left forearm. Crouch planted same wide feet and head position as SECOND reference left-punch endpoint. No human fist. SECOND reference when supplied is only approved pose endpoint for proportions and identity. Keep original compact broad2–3head body, angular lavender/red/black armour, short THICK arms and original beast-head gauntlet shells, NOT human fists or literal added animal. Red eyes. Same pixel cell size and head scale as left ruler. Full mane and red ribbons;2arms2legs. Entire pose fits right half with margin; green background, no effects/enemy/text/ground. Wide2:1."
+  },
+  {
+    "id": "24",
+    "name": "right-half-strike",
+    "new": true,
+    "pose": "Midway RIGHT PUNCH toward image-left: anatomical right arm from image-left shoulder drives forward at lower-face level, elbow still bent90degrees with thick lavender forearm and original beast gauntlet halfway extended. Left beast guard pulls to shoulder partly hidden by torso. Crouched planted feet, same body/head size and location as SECOND right-punch endpoint. No human fist.",
+    "source": "/workspace/generated_images/exec-6e81831c-1873-4847-a307-fa1a6d4bba97.png",
+    "prompt": "Edit FIRST wide pixel ruler: LEFT standing mecha stays EXACTLY unchanged. Add ONE same robot to blank RIGHT half in pose: Midway RIGHT PUNCH toward image-left: anatomical right arm from image-left shoulder drives forward at lower-face level, elbow still bent90degrees with thick lavender forearm and original beast gauntlet halfway extended. Left beast guard pulls to shoulder partly hidden by torso. Crouched planted feet, same body/head size and location as SECOND right-punch endpoint. No human fist. SECOND reference when supplied is only approved pose endpoint for proportions and identity. Keep original compact broad2–3head body, angular lavender/red/black armour, short THICK arms and original beast-head gauntlet shells, NOT human fists or literal added animal. Red eyes. Same pixel cell size and head scale as left ruler. Full mane and red ribbons;2arms2legs. Entire pose fits right half with margin; green background, no effects/enemy/text/ground. Wide2:1."
+  },
+  {
+    "id": "26",
+    "name": "palm-settle",
+    "new": true,
+    "pose": "Transition from rapid punches into final palm: both forearms retract toward lower ribs, elbows drawn back, beast gauntlets partly open with original short claws. Torso straightens a little in same wide planted crouch, shoulders square three-quarter left, looking image-left. Hair settles back while rear ribbons remain to image-right.",
+    "source": "/workspace/generated_images/exec-b8ca1a10-91cd-40e9-9583-8594f00b1a68.png",
+    "prompt": "Edit FIRST wide ruler picture. LEFT master stays pixel-identical; add ONE SAME robot in blank RIGHT half. Pose: Transition from rapid punches into final palm: both forearms retract toward lower ribs, elbows drawn back, beast gauntlets partly open with original short claws. Torso straightens a little in same wide planted crouch, shoulders square three-quarter left, looking image-left. Hair settles back while rear ribbons remain to image-right. SECOND image is approved palm endpoint for body scale and original gauntlet shape. Original compact broad2–3head proportions, lavender angular armour, red-black accents, RED eyes, same head/body/limb scale as left ruler. Original black/red armoured beast gauntlet shells and short claws, no human hand/fist or round mittens. Same pixel cell size, bothfeetfullyshown,2arms2legs, full mane and rear ribbons. Green background, no energy/beam/ball/shadow/enemy/text. Entire robot inside right half with margin. Wide2:1."
+  },
+  {
+    "id": "28",
+    "name": "palm-half-release",
+    "new": true,
+    "pose": "Halfway final PALM THRUST toward image-left. Image-left beast gauntlet extends halfway out from chest, elbow partly bent, open armoured mechanical palm directed left and short original claws spread. Other gauntlet retracted shoulder beside chest. Torso leans forward, feet planted same wide stance. Keep original beast gauntlet not human hand. Same body proportions as SECOND final palm endpoint. No energy or effects.",
+    "source": "/workspace/generated_images/exec-3feff104-82f1-4196-b53c-3a49c891b7d9.png",
+    "prompt": "Edit FIRST wide ruler picture. LEFT master stays pixel-identical; add ONE SAME robot in blank RIGHT half. Pose: Halfway final PALM THRUST toward image-left. Image-left beast gauntlet extends halfway out from chest, elbow partly bent, open armoured mechanical palm directed left and short original claws spread. Other gauntlet retracted shoulder beside chest. Torso leans forward, feet planted same wide stance. Keep original beast gauntlet not human hand. Same body proportions as SECOND final palm endpoint. No energy or effects. SECOND image is approved palm endpoint for body scale and original gauntlet shape. Original compact broad2–3head proportions, lavender angular armour, red-black accents, RED eyes, same head/body/limb scale as left ruler. Original black/red armoured beast gauntlet shells and short claws, no human hand/fist or round mittens. Same pixel cell size, bothfeetfullyshown,2arms2legs, full mane and rear ribbons. Green background, no energy/beam/ball/shadow/enemy/text. Entire robot inside right half with margin. Wide2:1."
+  },
+  {
+    "id": "30",
+    "name": "palm-recovery",
+    "new": true,
+    "pose": "Recovery after final palm: striking image-left arm pulled back halfway, elbow bends and beast gauntlet lowers beside chest with claws relaxed, other beast gauntlet guards near ribs. Torso rises slightly from wide braced stance, feet remain planted, head faces image-left. Hair and red ribbons relax backward. Quiet recovery, no effects.",
+    "source": "/workspace/generated_images/exec-53da8c4a-4b6e-4707-a229-0f48fbb7637a.png",
+    "prompt": "Edit FIRST wide ruler picture. LEFT master stays pixel-identical; add ONE SAME robot in blank RIGHT half. Pose: Recovery after final palm: striking image-left arm pulled back halfway, elbow bends and beast gauntlet lowers beside chest with claws relaxed, other beast gauntlet guards near ribs. Torso rises slightly from wide braced stance, feet remain planted, head faces image-left. Hair and red ribbons relax backward. Quiet recovery, no effects. SECOND image is approved palm endpoint for body scale and original gauntlet shape. Original compact broad2–3head proportions, lavender angular armour, red-black accents, RED eyes, same head/body/limb scale as left ruler. Original black/red armoured beast gauntlet shells and short claws, no human hand/fist or round mittens. Same pixel cell size, bothfeetfullyshown,2arms2legs, full mane and rear ribbons. Green background, no energy/beam/ball/shadow/enemy/text. Entire robot inside right half with margin. Wide2:1."
+  }
+]

@@ -1,0 +1,2282 @@
+{
+  "unique_drawings": 30,
+  "newly_generated_drawings": 10,
+  "stage_native": [
+    384,
+    160
+  ],
+  "display_scale": 3,
+  "tick_ms": 50,
+  "duration_ms": 8800,
+  "combo_repeats": 4,
+  "combo_pose_cycle": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "method": "original static sprites, held timing and integer whole-sprite translation; no effects/morphing; inspection replay resets after recovery",
+  "steps": [
+    {
+      "pose": 1,
+      "ms": 450,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "pose": 2,
+      "ms": 350,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "pose": 3,
+      "ms": 500,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "pose": 4,
+      "ms": 150,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        280,
+        148
+      ],
+      "phase": "DASH ANTICIPATION"
+    },
+    {
+      "pose": 5,
+      "ms": 300,
+      "start_root": [
+        280,
+        148
+      ],
+      "end_root": [
+        225,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "pose": 6,
+      "ms": 150,
+      "start_root": [
+        225,
+        148
+      ],
+      "end_root": [
+        215,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "pose": 7,
+      "ms": 150,
+      "start_root": [
+        215,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "RISING KICK"
+    },
+    {
+      "pose": 8,
+      "ms": 150,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        205,
+        148
+      ],
+      "phase": "TURNING KICK"
+    },
+    {
+      "pose": 9,
+      "ms": 200,
+      "start_root": [
+        205,
+        148
+      ],
+      "end_root": [
+        200,
+        148
+      ],
+      "phase": "BACK LANDING"
+    },
+    {
+      "pose": 10,
+      "ms": 150,
+      "start_root": [
+        200,
+        148
+      ],
+      "end_root": [
+        195,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "pose": 11,
+      "ms": 200,
+      "start_root": [
+        195,
+        148
+      ],
+      "end_root": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT WINDUP"
+    },
+    {
+      "pose": 12,
+      "ms": 200,
+      "start_root": [
+        195,
+        148
+      ],
+      "end_root": [
+        190,
+        148
+      ],
+      "phase": "UPPERCUT"
+    },
+    {
+      "pose": 13,
+      "ms": 200,
+      "start_root": [
+        190,
+        148
+      ],
+      "end_root": [
+        185,
+        132
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "pose": 14,
+      "ms": 150,
+      "start_root": [
+        185,
+        132
+      ],
+      "end_root": [
+        175,
+        121
+      ],
+      "phase": "PURSUIT LAUNCH"
+    },
+    {
+      "pose": 15,
+      "ms": 200,
+      "start_root": [
+        175,
+        121
+      ],
+      "end_root": [
+        165,
+        116
+      ],
+      "phase": "AIRBORNE PURSUIT"
+    },
+    {
+      "pose": 16,
+      "ms": 150,
+      "start_root": [
+        165,
+        116
+      ],
+      "end_root": [
+        158,
+        119
+      ],
+      "phase": "TURN BACK"
+    },
+    {
+      "pose": 17,
+      "ms": 150,
+      "start_root": [
+        158,
+        119
+      ],
+      "end_root": [
+        150,
+        124
+      ],
+      "phase": "TURN SIDE"
+    },
+    {
+      "pose": 18,
+      "ms": 200,
+      "start_root": [
+        150,
+        124
+      ],
+      "end_root": [
+        142,
+        133
+      ],
+      "phase": "FOLLOWUP KICK"
+    },
+    {
+      "pose": 19,
+      "ms": 250,
+      "start_root": [
+        142,
+        133
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "pose": 20,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT WINDUP"
+    },
+    {
+      "pose": 21,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT HALF"
+    },
+    {
+      "pose": 22,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT WINDUP"
+    },
+    {
+      "pose": 24,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT HALF"
+    },
+    {
+      "pose": 25,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "pose": 20,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT WINDUP"
+    },
+    {
+      "pose": 21,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT HALF"
+    },
+    {
+      "pose": 22,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT WINDUP"
+    },
+    {
+      "pose": 24,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT HALF"
+    },
+    {
+      "pose": 25,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "pose": 20,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT WINDUP"
+    },
+    {
+      "pose": 21,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT HALF"
+    },
+    {
+      "pose": 22,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT WINDUP"
+    },
+    {
+      "pose": 24,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT HALF"
+    },
+    {
+      "pose": 25,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "pose": 20,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT WINDUP"
+    },
+    {
+      "pose": 21,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT HALF"
+    },
+    {
+      "pose": 22,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "pose": 23,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT WINDUP"
+    },
+    {
+      "pose": 24,
+      "ms": 50,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT HALF"
+    },
+    {
+      "pose": 25,
+      "ms": 100,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "pose": 26,
+      "ms": 250,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "pose": 27,
+      "ms": 600,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "pose": 28,
+      "ms": 150,
+      "start_root": [
+        138,
+        148
+      ],
+      "end_root": [
+        134,
+        148
+      ],
+      "phase": "PALM EXTENSION"
+    },
+    {
+      "pose": 29,
+      "ms": 150,
+      "start_root": [
+        134,
+        148
+      ],
+      "end_root": [
+        128,
+        148
+      ],
+      "phase": "PALM RELEASE"
+    },
+    {
+      "pose": 29,
+      "ms": 600,
+      "start_root": [
+        128,
+        148
+      ],
+      "end_root": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "pose": 30,
+      "ms": 400,
+      "start_root": [
+        128,
+        148
+      ],
+      "end_root": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "pose": 1,
+      "ms": 400,
+      "start_root": [
+        128,
+        148
+      ],
+      "end_root": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 50,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 100,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 150,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 200,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 250,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 300,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 350,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 400,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 450,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 500,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 550,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 600,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 650,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 700,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 750,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GUARD"
+    },
+    {
+      "t_ms": 800,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 850,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 900,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 950,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1050,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1100,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1150,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1250,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "POWER COIL"
+    },
+    {
+      "t_ms": 1300,
+      "pose": 4,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "DASH ANTICIPATION"
+    },
+    {
+      "t_ms": 1350,
+      "pose": 4,
+      "root_xy": [
+        285,
+        148
+      ],
+      "phase": "DASH ANTICIPATION"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 4,
+      "root_xy": [
+        280,
+        148
+      ],
+      "phase": "DASH ANTICIPATION"
+    },
+    {
+      "t_ms": 1450,
+      "pose": 5,
+      "root_xy": [
+        280,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1500,
+      "pose": 5,
+      "root_xy": [
+        269,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1550,
+      "pose": 5,
+      "root_xy": [
+        258,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 5,
+      "root_xy": [
+        247,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1650,
+      "pose": 5,
+      "root_xy": [
+        236,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1700,
+      "pose": 5,
+      "root_xy": [
+        225,
+        148
+      ],
+      "phase": "CLOSE THE DISTANCE"
+    },
+    {
+      "t_ms": 1750,
+      "pose": 6,
+      "root_xy": [
+        225,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 6,
+      "root_xy": [
+        220,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 1850,
+      "pose": 6,
+      "root_xy": [
+        215,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 1900,
+      "pose": 7,
+      "root_xy": [
+        215,
+        148
+      ],
+      "phase": "RISING KICK"
+    },
+    {
+      "t_ms": 1950,
+      "pose": 7,
+      "root_xy": [
+        212,
+        148
+      ],
+      "phase": "RISING KICK"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 7,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "RISING KICK"
+    },
+    {
+      "t_ms": 2050,
+      "pose": 8,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "TURNING KICK"
+    },
+    {
+      "t_ms": 2100,
+      "pose": 8,
+      "root_xy": [
+        208,
+        148
+      ],
+      "phase": "TURNING KICK"
+    },
+    {
+      "t_ms": 2150,
+      "pose": 8,
+      "root_xy": [
+        205,
+        148
+      ],
+      "phase": "TURNING KICK"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 9,
+      "root_xy": [
+        205,
+        148
+      ],
+      "phase": "BACK LANDING"
+    },
+    {
+      "t_ms": 2250,
+      "pose": 9,
+      "root_xy": [
+        203,
+        148
+      ],
+      "phase": "BACK LANDING"
+    },
+    {
+      "t_ms": 2300,
+      "pose": 9,
+      "root_xy": [
+        202,
+        148
+      ],
+      "phase": "BACK LANDING"
+    },
+    {
+      "t_ms": 2350,
+      "pose": 9,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "BACK LANDING"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 10,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 2450,
+      "pose": 10,
+      "root_xy": [
+        198,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 2500,
+      "pose": 10,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 2550,
+      "pose": 11,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT WINDUP"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 11,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT WINDUP"
+    },
+    {
+      "t_ms": 2650,
+      "pose": 11,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT WINDUP"
+    },
+    {
+      "t_ms": 2700,
+      "pose": 11,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT WINDUP"
+    },
+    {
+      "t_ms": 2750,
+      "pose": 12,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 12,
+      "root_xy": [
+        193,
+        148
+      ],
+      "phase": "UPPERCUT"
+    },
+    {
+      "t_ms": 2850,
+      "pose": 12,
+      "root_xy": [
+        192,
+        148
+      ],
+      "phase": "UPPERCUT"
+    },
+    {
+      "t_ms": 2900,
+      "pose": 12,
+      "root_xy": [
+        190,
+        148
+      ],
+      "phase": "UPPERCUT"
+    },
+    {
+      "t_ms": 2950,
+      "pose": 13,
+      "root_xy": [
+        190,
+        148
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 13,
+      "root_xy": [
+        188,
+        143
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 3050,
+      "pose": 13,
+      "root_xy": [
+        187,
+        137
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 3100,
+      "pose": 13,
+      "root_xy": [
+        185,
+        132
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 3150,
+      "pose": 14,
+      "root_xy": [
+        185,
+        132
+      ],
+      "phase": "PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 14,
+      "root_xy": [
+        180,
+        126
+      ],
+      "phase": "PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 3250,
+      "pose": 14,
+      "root_xy": [
+        175,
+        121
+      ],
+      "phase": "PURSUIT LAUNCH"
+    },
+    {
+      "t_ms": 3300,
+      "pose": 15,
+      "root_xy": [
+        175,
+        121
+      ],
+      "phase": "AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3350,
+      "pose": 15,
+      "root_xy": [
+        172,
+        119
+      ],
+      "phase": "AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 15,
+      "root_xy": [
+        168,
+        118
+      ],
+      "phase": "AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3450,
+      "pose": 15,
+      "root_xy": [
+        165,
+        116
+      ],
+      "phase": "AIRBORNE PURSUIT"
+    },
+    {
+      "t_ms": 3500,
+      "pose": 16,
+      "root_xy": [
+        165,
+        116
+      ],
+      "phase": "TURN BACK"
+    },
+    {
+      "t_ms": 3550,
+      "pose": 16,
+      "root_xy": [
+        162,
+        118
+      ],
+      "phase": "TURN BACK"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 16,
+      "root_xy": [
+        158,
+        119
+      ],
+      "phase": "TURN BACK"
+    },
+    {
+      "t_ms": 3650,
+      "pose": 17,
+      "root_xy": [
+        158,
+        119
+      ],
+      "phase": "TURN SIDE"
+    },
+    {
+      "t_ms": 3700,
+      "pose": 17,
+      "root_xy": [
+        154,
+        122
+      ],
+      "phase": "TURN SIDE"
+    },
+    {
+      "t_ms": 3750,
+      "pose": 17,
+      "root_xy": [
+        150,
+        124
+      ],
+      "phase": "TURN SIDE"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 18,
+      "root_xy": [
+        150,
+        124
+      ],
+      "phase": "FOLLOWUP KICK"
+    },
+    {
+      "t_ms": 3850,
+      "pose": 18,
+      "root_xy": [
+        147,
+        127
+      ],
+      "phase": "FOLLOWUP KICK"
+    },
+    {
+      "t_ms": 3900,
+      "pose": 18,
+      "root_xy": [
+        145,
+        130
+      ],
+      "phase": "FOLLOWUP KICK"
+    },
+    {
+      "t_ms": 3950,
+      "pose": 18,
+      "root_xy": [
+        142,
+        133
+      ],
+      "phase": "FOLLOWUP KICK"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 19,
+      "root_xy": [
+        142,
+        133
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "t_ms": 4050,
+      "pose": 19,
+      "root_xy": [
+        141,
+        137
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "t_ms": 4100,
+      "pose": 19,
+      "root_xy": [
+        140,
+        140
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "t_ms": 4150,
+      "pose": 19,
+      "root_xy": [
+        139,
+        144
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 19,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "LANDING BRACE"
+    },
+    {
+      "t_ms": 4250,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 4300,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 4350,
+      "pose": 21,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT HALF"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 4450,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 4500,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 4550,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 24,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT HALF"
+    },
+    {
+      "t_ms": 4650,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 4700,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 1/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 4750,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 4850,
+      "pose": 21,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT HALF"
+    },
+    {
+      "t_ms": 4900,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 4950,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 5050,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 5100,
+      "pose": 24,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT HALF"
+    },
+    {
+      "t_ms": 5150,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 5200,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 2/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 5250,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 5300,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 5350,
+      "pose": 21,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT HALF"
+    },
+    {
+      "t_ms": 5400,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 5450,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 5500,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 5550,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 5600,
+      "pose": 24,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT HALF"
+    },
+    {
+      "t_ms": 5650,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 5700,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 3/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 5750,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 5800,
+      "pose": 20,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT WINDUP"
+    },
+    {
+      "t_ms": 5850,
+      "pose": 21,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT HALF"
+    },
+    {
+      "t_ms": 5900,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 5950,
+      "pose": 22,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : LEFT HIT"
+    },
+    {
+      "t_ms": 6000,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 6050,
+      "pose": 23,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT WINDUP"
+    },
+    {
+      "t_ms": 6100,
+      "pose": 24,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT HALF"
+    },
+    {
+      "t_ms": 6150,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 6200,
+      "pose": 25,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "COMBO 4/4 : RIGHT HIT"
+    },
+    {
+      "t_ms": 6250,
+      "pose": 26,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "t_ms": 6300,
+      "pose": 26,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "t_ms": 6350,
+      "pose": 26,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "t_ms": 6400,
+      "pose": 26,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "t_ms": 6450,
+      "pose": 26,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "SETTLE"
+    },
+    {
+      "t_ms": 6500,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6550,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6600,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6650,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6700,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6750,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6800,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6850,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6900,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6950,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 7000,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 7050,
+      "pose": 27,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 7100,
+      "pose": 28,
+      "root_xy": [
+        138,
+        148
+      ],
+      "phase": "PALM EXTENSION"
+    },
+    {
+      "t_ms": 7150,
+      "pose": 28,
+      "root_xy": [
+        136,
+        148
+      ],
+      "phase": "PALM EXTENSION"
+    },
+    {
+      "t_ms": 7200,
+      "pose": 28,
+      "root_xy": [
+        134,
+        148
+      ],
+      "phase": "PALM EXTENSION"
+    },
+    {
+      "t_ms": 7250,
+      "pose": 29,
+      "root_xy": [
+        134,
+        148
+      ],
+      "phase": "PALM RELEASE"
+    },
+    {
+      "t_ms": 7300,
+      "pose": 29,
+      "root_xy": [
+        131,
+        148
+      ],
+      "phase": "PALM RELEASE"
+    },
+    {
+      "t_ms": 7350,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "PALM RELEASE"
+    },
+    {
+      "t_ms": 7400,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7450,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7500,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7550,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7600,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7650,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7700,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7750,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7800,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7850,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7900,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 7950,
+      "pose": 29,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "FINISH HOLD"
+    },
+    {
+      "t_ms": 8000,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8050,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8100,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8150,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8200,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8250,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8300,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8350,
+      "pose": 30,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "RECOVERY"
+    },
+    {
+      "t_ms": 8400,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8450,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8500,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8550,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8600,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8650,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8700,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 8750,
+      "pose": 1,
+      "root_xy": [
+        128,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "gif_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 93,
+      "checked_time_intervals": 176,
+      "duration_ms": 8800,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 93,
+      "checked_time_intervals": 176,
+      "duration_ms": 17600,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-labelled.gif",
+      "encoded_frames": 94,
+      "checked_time_intervals": 176,
+      "duration_ms": 8800,
+      "readback_matches": true
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "native_frames": 30,
+  "distinct_pixel_drawings": 30,
+  "new_generations": 10,
+  "existing_drawings": 20,
+  "existing_byte_identical": 18,
+  "legacy_eye_only_palette_corrections": [
+    "17",
+    "18"
+  ],
+  "canvas": [
+    144,
+    112
+  ],
+  "stored_palette_entries": 16,
+  "used_palette_entries_per_frame": {
+    "01": 16,
+    "02": 15,
+    "03": 15,
+    "04": 15,
+    "05": 15,
+    "06": 15,
+    "07": 15,
+    "08": 15,
+    "09": 15,
+    "10": 15,
+    "11": 15,
+    "12": 15,
+    "13": 15,
+    "14": 15,
+    "15": 15,
+    "16": 15,
+    "17": 15,
+    "18": 15,
+    "19": 15,
+    "20": 15,
+    "21": 15,
+    "22": 15,
+    "23": 15,
+    "24": 15,
+    "25": 15,
+    "26": 15,
+    "27": 15,
+    "28": 15,
+    "29": 15,
+    "30": 15
+  },
+  "opaque_teal_rgb": [
+    88,
+    120,
+    120
+  ],
+  "nearest_previews_scale": 6,
+  "all_frames_fit_native_canvas": true,
+  "original_long_left_punch": "frame22 byte-identical to latestv005/v01004",
+  "combo_shared_body": "20\u201325 exact protected head/feet outside documented arm mask;21/24 generated arms aligned by integer translation only",
+  "gif_readback_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 93,
+      "checked_time_intervals": 176,
+      "duration_ms": 8800,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 93,
+      "checked_time_intervals": 176,
+      "duration_ms": 17600,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-labelled.gif",
+      "encoded_frames": 94,
+      "checked_time_intervals": 176,
+      "duration_ms": 8800,
+      "readback_matches": true
+    }
+  ],
+  "extraction_warnings": [
+    {
+      "id": "04",
+      "file": "native/04-dash-coil.png",
+      "warning": "the new view's body is 89 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "09",
+      "file": "native/09-back-landing.png",
+      "warning": "the new view's body is 98 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "11",
+      "file": "native/11-uppercut-coil.png",
+      "warning": "the new view's body is 96 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "21",
+      "file": "native/21-left-half-strike.png",
+      "warning": "the new view's body is 98 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "24",
+      "file": "native/24-right-half-strike.png",
+      "warning": "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+    },
+    {
+      "id": "28",
+      "file": "native/28-palm-half-release.png",
+      "warning": "the new view's body is 98 rows tall, the master's 101: it is not the same height; generate again"
+    }
+  ],
+  "lineup": {
+    "schema": "generate2dsprite.pixel_lineup.v1",
+    "tool": "pixel_look",
+    "master": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+    "masterHeight": 101,
+    "tolerance": 1,
+    "items": [
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/01-standing.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/02-ready-guard.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/03-power-crouch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/04-dash-coil.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          89
+        ],
+        "firstDiffersBy": -12
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/05-low-dash.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          82
+        ],
+        "firstDiffersBy": -19
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/06-kick-chamber.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          102
+        ],
+        "firstDiffersBy": 1
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/07-forward-kick.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          96
+        ],
+        "firstDiffersBy": -5
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/08-turning-kick.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/09-back-landing.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          98
+        ],
+        "firstDiffersBy": -3
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/10-unwind-front.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/11-uppercut-coil.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          96
+        ],
+        "firstDiffersBy": -5
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/12-grounded-uppercut.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/13-rising-uppercut.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/14-pursuit-launch.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/15-airborne-rush.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          93
+        ],
+        "firstDiffersBy": -8
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/16-air-turn-back.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          94
+        ],
+        "firstDiffersBy": -7
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/17-air-turn-side.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          102
+        ],
+        "firstDiffersBy": 1
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/18-followup-kick.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          82
+        ],
+        "firstDiffersBy": -19
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/19-landing-brace.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          90
+        ],
+        "firstDiffersBy": -11
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/20-left-windup.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/21-left-half-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/22-left-full-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/23-right-windup.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/24-right-half-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/25-right-full-strike.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          92
+        ],
+        "firstDiffersBy": -9
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/26-palm-settle.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/27-palm-charge.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          99
+        ],
+        "firstDiffersBy": -2
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/28-palm-half-release.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          98
+        ],
+        "firstDiffersBy": -3
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/29-palm-full-release.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          97
+        ],
+        "firstDiffersBy": -4
+      },
+      {
+        "item": "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/30-palm-recovery.png",
+        "kind": "sprite",
+        "drawings": 1,
+        "heights": [
+          101
+        ],
+        "firstDiffersBy": 0
+      }
+    ],
+    "firstDrawingDiffers": [
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/02-ready-guard.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/04-dash-coil.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/05-low-dash.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/07-forward-kick.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/08-turning-kick.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/09-back-landing.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/11-uppercut-coil.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/12-grounded-uppercut.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/13-rising-uppercut.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/14-pursuit-launch.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/15-airborne-rush.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/16-air-turn-back.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/18-followup-kick.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/19-landing-brace.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/20-left-windup.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/21-left-half-strike.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/22-left-full-strike.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/23-right-windup.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/24-right-half-strike.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/25-right-full-strike.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/27-palm-charge.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/28-palm-half-release.png",
+      "/workspace/work/mecha-thirty-v001/deliverables/processing/lineup-inputs/29-palm-full-release.png"
+    ],
+    "verdict": "differs",
+    "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+  },
+  "visual_review": "draft for user review; numerical checks do not approve artwork",
+  "game_import_compatibility": "unverified"
+}

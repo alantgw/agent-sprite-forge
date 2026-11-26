@@ -1,0 +1,31 @@
+{
+  "schema": "generate2dsprite.pixel_look_request.v1",
+  "tool": "pixel_look",
+  "kind": "view",
+  "key": "green",
+  "cell": 8,
+  "canvas": [
+    2048,
+    1024
+  ],
+  "masterAt": [
+    8,
+    13
+  ],
+  "master": {
+    "file": "master.png",
+    "sha256": "e6310406e13702fda1a59843840a9eb1acf74483bce9594b34d10df21fa9dd34",
+    "size": [
+      112,
+      102
+    ]
+  },
+  "references": [
+    "reference.png"
+  ],
+  "size": "2048x1024",
+  "next": "route_media.py image --prompt-file prompt.txt --reference reference.png --size 2048x1024 --out-dir <take>; then pixel_look.py view --image <take>/generated.png --request <this folder>",
+  "view": "custom",
+  "viewWords": "Recovery after final palm: striking image-left arm pulled back halfway, elbow bends and beast gauntlet lowers beside chest with claws relaxed, other beast gauntlet guards near ribs. Torso rises slightly from wide braced stance, feet remain planted, head faces image-left. Hair and red ribbons relax backward. Quiet recovery, no effects.",
+  "outline": "rule"
+}

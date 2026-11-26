@@ -1,0 +1,216 @@
+{
+  "04": {
+    "eye_box_exclusive": [
+      46,
+      61,
+      49,
+      64
+    ]
+  },
+  "06": {
+    "eye_box_exclusive": [
+      58,
+      43,
+      61,
+      45
+    ]
+  },
+  "10": {
+    "eye_box_exclusive": [
+      48,
+      43,
+      51,
+      46
+    ]
+  },
+  "11": {
+    "eye_box_exclusive": [
+      52,
+      40,
+      56,
+      43
+    ]
+  },
+  "21": {
+    "eye_box_exclusive": [
+      57,
+      54,
+      60,
+      57
+    ],
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "protected_eye": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "protected_tail_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "alignment_shift": [
+      -7,
+      5
+    ],
+    "head_match_cells": 1317,
+    "outside_arm_mask_exact": true
+  },
+  "24": {
+    "eye_box_exclusive": [
+      56,
+      55,
+      60,
+      58
+    ],
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "protected_eye": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "protected_tail_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "alignment_shift": [
+      -6,
+      4
+    ],
+    "head_match_cells": 1764,
+    "outside_arm_mask_exact": true
+  },
+  "26": {
+    "eye_box_exclusive": [
+      58,
+      41,
+      62,
+      43
+    ]
+  },
+  "28": {
+    "eye_box_exclusive": [
+      67,
+      50,
+      71,
+      53
+    ]
+  },
+  "30": {
+    "eye_box_exclusive": [
+      62,
+      40,
+      65,
+      43
+    ]
+  }
+}
