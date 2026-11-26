@@ -1,0 +1,308 @@
+{
+ "schema": "generate2dsprite.pixel_lineup.v1",
+ "tool": "pixel_look",
+ "master": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/mecha-final-1x.png",
+ "masterHeight": 101,
+ "tolerance": 1,
+ "items": [
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/01-ready-guard.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/02-guard-tighten.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/03-power-crouch.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/04-launch-load.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    78
+   ],
+   "firstDiffersBy": -23
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/05-dash-drive.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    80
+   ],
+   "firstDiffersBy": -21
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/06-left-chamber.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/07-left-cross-half.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/08-left-cross-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/09-right-load.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/10-right-cross-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    92
+   ],
+   "firstDiffersBy": -9
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/11-kick-step.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    96
+   ],
+   "firstDiffersBy": -5
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/12-kick-chamber.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    100
+   ],
+   "firstDiffersBy": -1
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/13-turning-kick.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/14-turn-landing.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    94
+   ],
+   "firstDiffersBy": -7
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/15-unwind-coil.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    88
+   ],
+   "firstDiffersBy": -13
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/16-uppercut-load.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/17-uppercut-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/18-uppercut-rise.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    85
+   ],
+   "firstDiffersBy": -16
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/19-airborne-coil.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    87
+   ],
+   "firstDiffersBy": -14
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/20-airborne-lead-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    105
+   ],
+   "firstDiffersBy": 4
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/21-airborne-counter-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    101
+   ],
+   "firstDiffersBy": 0
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/22-downward-pursuit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    83
+   ],
+   "firstDiffersBy": -18
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/23-air-recovery.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    89
+   ],
+   "firstDiffersBy": -12
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/24-landing-absorb.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    106
+   ],
+   "firstDiffersBy": 5
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/25-palm-reset.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    104
+   ],
+   "firstDiffersBy": 3
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/26-palm-load.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/27-palm-drive-half.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    99
+   ],
+   "firstDiffersBy": -2
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/28-palm-hit.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    97
+   ],
+   "firstDiffersBy": -4
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/29-palm-followthrough.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    71
+   ],
+   "firstDiffersBy": -30
+  },
+  {
+   "item": "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/30-recover-guard.png",
+   "kind": "sprite",
+   "drawings": 1,
+   "heights": [
+    102
+   ],
+   "firstDiffersBy": 1
+  }
+ ],
+ "firstDrawingDiffers": [
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/01-ready-guard.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/04-launch-load.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/05-dash-drive.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/06-left-chamber.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/07-left-cross-half.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/08-left-cross-hit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/09-right-load.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/10-right-cross-hit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/11-kick-step.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/13-turning-kick.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/14-turn-landing.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/15-unwind-coil.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/16-uppercut-load.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/17-uppercut-hit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/18-uppercut-rise.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/19-airborne-coil.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/20-airborne-lead-hit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/22-downward-pursuit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/23-air-recovery.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/24-landing-absorb.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/25-palm-reset.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/26-palm-load.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/27-palm-drive-half.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/28-palm-hit.png",
+  "/workspace/work/mecha-video-rebuild-v001/deliverables/processing/lineup-inputs/29-palm-followthrough.png"
+ ],
+ "verdict": "differs",
+ "note": "The first drawing of every item is an upright one and is compared with the master; the others are poses (a crouch is lower, a blade over the head is higher): look at lineup.png."
+}

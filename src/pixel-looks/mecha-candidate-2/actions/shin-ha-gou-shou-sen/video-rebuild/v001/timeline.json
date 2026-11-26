@@ -1,0 +1,1990 @@
+{
+  "unique_drawings": 30,
+  "newly_generated_drawings": 22,
+  "stage_native": [
+    384,
+    160
+  ],
+  "display_scale": 3,
+  "tick_ms": 50,
+  "duration_ms": 7950,
+  "combo_repeats": 2,
+  "combo_pose_cycle": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "air_cycle": [
+    20,
+    21
+  ],
+  "air_repeats": 2,
+  "method": "original static sprites, held timing and integer whole-sprite translation; no effects/morphing; inspection replay resets after recovery",
+  "steps": [
+    {
+      "pose": 1,
+      "ms": 350,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "pose": 2,
+      "ms": 300,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "pose": 3,
+      "ms": 700,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "pose": 4,
+      "ms": 150,
+      "start_root": [
+        290,
+        148
+      ],
+      "end_root": [
+        280,
+        148
+      ],
+      "phase": "LAUNCH LOAD"
+    },
+    {
+      "pose": 5,
+      "ms": 300,
+      "start_root": [
+        280,
+        148
+      ],
+      "end_root": [
+        230,
+        146
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "pose": 6,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT CHAMBER"
+    },
+    {
+      "pose": 7,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HALF"
+    },
+    {
+      "pose": 8,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HIT"
+    },
+    {
+      "pose": 9,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT LOAD"
+    },
+    {
+      "pose": 10,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT HIT"
+    },
+    {
+      "pose": 6,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT CHAMBER"
+    },
+    {
+      "pose": 7,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HALF"
+    },
+    {
+      "pose": 8,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HIT"
+    },
+    {
+      "pose": 9,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT LOAD"
+    },
+    {
+      "pose": 10,
+      "ms": 100,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT HIT"
+    },
+    {
+      "pose": 11,
+      "ms": 150,
+      "start_root": [
+        230,
+        148
+      ],
+      "end_root": [
+        222,
+        148
+      ],
+      "phase": "PLANT FOR KICK"
+    },
+    {
+      "pose": 12,
+      "ms": 150,
+      "start_root": [
+        222,
+        148
+      ],
+      "end_root": [
+        217,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "pose": 13,
+      "ms": 200,
+      "start_root": [
+        217,
+        148
+      ],
+      "end_root": [
+        210,
+        148
+      ],
+      "phase": "TURNING RISING KICK"
+    },
+    {
+      "pose": 14,
+      "ms": 200,
+      "start_root": [
+        210,
+        148
+      ],
+      "end_root": [
+        205,
+        148
+      ],
+      "phase": "TURNING LANDING"
+    },
+    {
+      "pose": 15,
+      "ms": 150,
+      "start_root": [
+        205,
+        148
+      ],
+      "end_root": [
+        200,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "pose": 16,
+      "ms": 150,
+      "start_root": [
+        200,
+        148
+      ],
+      "end_root": [
+        200,
+        148
+      ],
+      "phase": "UPPERCUT LOAD"
+    },
+    {
+      "pose": 17,
+      "ms": 200,
+      "start_root": [
+        200,
+        148
+      ],
+      "end_root": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT HIT"
+    },
+    {
+      "pose": 18,
+      "ms": 150,
+      "start_root": [
+        195,
+        148
+      ],
+      "end_root": [
+        190,
+        132
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "pose": 19,
+      "ms": 150,
+      "start_root": [
+        190,
+        132
+      ],
+      "end_root": [
+        180,
+        120
+      ],
+      "phase": "COIL FOR PURSUIT"
+    },
+    {
+      "pose": 20,
+      "ms": 150,
+      "start_root": [
+        180,
+        120
+      ],
+      "end_root": [
+        172,
+        118
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "pose": 21,
+      "ms": 150,
+      "start_root": [
+        172,
+        118
+      ],
+      "end_root": [
+        165,
+        118
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "pose": 20,
+      "ms": 150,
+      "start_root": [
+        165,
+        118
+      ],
+      "end_root": [
+        157,
+        116
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "pose": 21,
+      "ms": 150,
+      "start_root": [
+        157,
+        116
+      ],
+      "end_root": [
+        150,
+        116
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "pose": 22,
+      "ms": 200,
+      "start_root": [
+        150,
+        116
+      ],
+      "end_root": [
+        142,
+        132
+      ],
+      "phase": "DOWNWARD PURSUIT"
+    },
+    {
+      "pose": 23,
+      "ms": 150,
+      "start_root": [
+        142,
+        132
+      ],
+      "end_root": [
+        138,
+        140
+      ],
+      "phase": "AIR RECOVERY"
+    },
+    {
+      "pose": 24,
+      "ms": 250,
+      "start_root": [
+        138,
+        140
+      ],
+      "end_root": [
+        135,
+        148
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "pose": 25,
+      "ms": 200,
+      "start_root": [
+        135,
+        148
+      ],
+      "end_root": [
+        135,
+        148
+      ],
+      "phase": "SET PALM STANCE"
+    },
+    {
+      "pose": 26,
+      "ms": 550,
+      "start_root": [
+        135,
+        148
+      ],
+      "end_root": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "pose": 27,
+      "ms": 150,
+      "start_root": [
+        135,
+        148
+      ],
+      "end_root": [
+        132,
+        148
+      ],
+      "phase": "PALM DRIVE"
+    },
+    {
+      "pose": 28,
+      "ms": 150,
+      "start_root": [
+        132,
+        148
+      ],
+      "end_root": [
+        126,
+        148
+      ],
+      "phase": "PALM HIT"
+    },
+    {
+      "pose": 28,
+      "ms": 450,
+      "start_root": [
+        126,
+        148
+      ],
+      "end_root": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "pose": 29,
+      "ms": 250,
+      "start_root": [
+        126,
+        148
+      ],
+      "end_root": [
+        123,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "pose": 30,
+      "ms": 350,
+      "start_root": [
+        123,
+        148
+      ],
+      "end_root": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "pose": 1,
+      "ms": 350,
+      "start_root": [
+        123,
+        148
+      ],
+      "end_root": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "timeline": [
+    {
+      "t_ms": 0,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 50,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 100,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 150,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 200,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 250,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 300,
+      "pose": 1,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "READY"
+    },
+    {
+      "t_ms": 350,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 400,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 450,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 500,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 550,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 600,
+      "pose": 2,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "TIGHTEN GUARD"
+    },
+    {
+      "t_ms": 650,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 700,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 750,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 800,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 850,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 900,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 950,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1000,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1050,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1100,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1150,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1200,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1250,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1300,
+      "pose": 3,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "GATHER POWER"
+    },
+    {
+      "t_ms": 1350,
+      "pose": 4,
+      "root_xy": [
+        290,
+        148
+      ],
+      "phase": "LAUNCH LOAD"
+    },
+    {
+      "t_ms": 1400,
+      "pose": 4,
+      "root_xy": [
+        285,
+        148
+      ],
+      "phase": "LAUNCH LOAD"
+    },
+    {
+      "t_ms": 1450,
+      "pose": 4,
+      "root_xy": [
+        280,
+        148
+      ],
+      "phase": "LAUNCH LOAD"
+    },
+    {
+      "t_ms": 1500,
+      "pose": 5,
+      "root_xy": [
+        280,
+        148
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1550,
+      "pose": 5,
+      "root_xy": [
+        270,
+        148
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1600,
+      "pose": 5,
+      "root_xy": [
+        260,
+        147
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1650,
+      "pose": 5,
+      "root_xy": [
+        250,
+        147
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1700,
+      "pose": 5,
+      "root_xy": [
+        240,
+        146
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1750,
+      "pose": 5,
+      "root_xy": [
+        230,
+        146
+      ],
+      "phase": "FORWARD RUSH"
+    },
+    {
+      "t_ms": 1800,
+      "pose": 6,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT CHAMBER"
+    },
+    {
+      "t_ms": 1850,
+      "pose": 6,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT CHAMBER"
+    },
+    {
+      "t_ms": 1900,
+      "pose": 7,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HALF"
+    },
+    {
+      "t_ms": 1950,
+      "pose": 7,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HALF"
+    },
+    {
+      "t_ms": 2000,
+      "pose": 8,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HIT"
+    },
+    {
+      "t_ms": 2050,
+      "pose": 8,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : LEFT HIT"
+    },
+    {
+      "t_ms": 2100,
+      "pose": 9,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT LOAD"
+    },
+    {
+      "t_ms": 2150,
+      "pose": 9,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT LOAD"
+    },
+    {
+      "t_ms": 2200,
+      "pose": 10,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2250,
+      "pose": 10,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 1/2 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2300,
+      "pose": 6,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT CHAMBER"
+    },
+    {
+      "t_ms": 2350,
+      "pose": 6,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT CHAMBER"
+    },
+    {
+      "t_ms": 2400,
+      "pose": 7,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HALF"
+    },
+    {
+      "t_ms": 2450,
+      "pose": 7,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HALF"
+    },
+    {
+      "t_ms": 2500,
+      "pose": 8,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HIT"
+    },
+    {
+      "t_ms": 2550,
+      "pose": 8,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : LEFT HIT"
+    },
+    {
+      "t_ms": 2600,
+      "pose": 9,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT LOAD"
+    },
+    {
+      "t_ms": 2650,
+      "pose": 9,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT LOAD"
+    },
+    {
+      "t_ms": 2700,
+      "pose": 10,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2750,
+      "pose": 10,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "CLOSE COMBAT 2/2 : RIGHT HIT"
+    },
+    {
+      "t_ms": 2800,
+      "pose": 11,
+      "root_xy": [
+        230,
+        148
+      ],
+      "phase": "PLANT FOR KICK"
+    },
+    {
+      "t_ms": 2850,
+      "pose": 11,
+      "root_xy": [
+        226,
+        148
+      ],
+      "phase": "PLANT FOR KICK"
+    },
+    {
+      "t_ms": 2900,
+      "pose": 11,
+      "root_xy": [
+        222,
+        148
+      ],
+      "phase": "PLANT FOR KICK"
+    },
+    {
+      "t_ms": 2950,
+      "pose": 12,
+      "root_xy": [
+        222,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 3000,
+      "pose": 12,
+      "root_xy": [
+        220,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 3050,
+      "pose": 12,
+      "root_xy": [
+        217,
+        148
+      ],
+      "phase": "KICK CHAMBER"
+    },
+    {
+      "t_ms": 3100,
+      "pose": 13,
+      "root_xy": [
+        217,
+        148
+      ],
+      "phase": "TURNING RISING KICK"
+    },
+    {
+      "t_ms": 3150,
+      "pose": 13,
+      "root_xy": [
+        215,
+        148
+      ],
+      "phase": "TURNING RISING KICK"
+    },
+    {
+      "t_ms": 3200,
+      "pose": 13,
+      "root_xy": [
+        212,
+        148
+      ],
+      "phase": "TURNING RISING KICK"
+    },
+    {
+      "t_ms": 3250,
+      "pose": 13,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "TURNING RISING KICK"
+    },
+    {
+      "t_ms": 3300,
+      "pose": 14,
+      "root_xy": [
+        210,
+        148
+      ],
+      "phase": "TURNING LANDING"
+    },
+    {
+      "t_ms": 3350,
+      "pose": 14,
+      "root_xy": [
+        208,
+        148
+      ],
+      "phase": "TURNING LANDING"
+    },
+    {
+      "t_ms": 3400,
+      "pose": 14,
+      "root_xy": [
+        207,
+        148
+      ],
+      "phase": "TURNING LANDING"
+    },
+    {
+      "t_ms": 3450,
+      "pose": 14,
+      "root_xy": [
+        205,
+        148
+      ],
+      "phase": "TURNING LANDING"
+    },
+    {
+      "t_ms": 3500,
+      "pose": 15,
+      "root_xy": [
+        205,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 3550,
+      "pose": 15,
+      "root_xy": [
+        202,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 3600,
+      "pose": 15,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UNWIND"
+    },
+    {
+      "t_ms": 3650,
+      "pose": 16,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UPPERCUT LOAD"
+    },
+    {
+      "t_ms": 3700,
+      "pose": 16,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UPPERCUT LOAD"
+    },
+    {
+      "t_ms": 3750,
+      "pose": 16,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UPPERCUT LOAD"
+    },
+    {
+      "t_ms": 3800,
+      "pose": 17,
+      "root_xy": [
+        200,
+        148
+      ],
+      "phase": "UPPERCUT HIT"
+    },
+    {
+      "t_ms": 3850,
+      "pose": 17,
+      "root_xy": [
+        198,
+        148
+      ],
+      "phase": "UPPERCUT HIT"
+    },
+    {
+      "t_ms": 3900,
+      "pose": 17,
+      "root_xy": [
+        197,
+        148
+      ],
+      "phase": "UPPERCUT HIT"
+    },
+    {
+      "t_ms": 3950,
+      "pose": 17,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "UPPERCUT HIT"
+    },
+    {
+      "t_ms": 4000,
+      "pose": 18,
+      "root_xy": [
+        195,
+        148
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 4050,
+      "pose": 18,
+      "root_xy": [
+        192,
+        140
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 4100,
+      "pose": 18,
+      "root_xy": [
+        190,
+        132
+      ],
+      "phase": "RISING FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 4150,
+      "pose": 19,
+      "root_xy": [
+        190,
+        132
+      ],
+      "phase": "COIL FOR PURSUIT"
+    },
+    {
+      "t_ms": 4200,
+      "pose": 19,
+      "root_xy": [
+        185,
+        126
+      ],
+      "phase": "COIL FOR PURSUIT"
+    },
+    {
+      "t_ms": 4250,
+      "pose": 19,
+      "root_xy": [
+        180,
+        120
+      ],
+      "phase": "COIL FOR PURSUIT"
+    },
+    {
+      "t_ms": 4300,
+      "pose": 20,
+      "root_xy": [
+        180,
+        120
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4350,
+      "pose": 20,
+      "root_xy": [
+        176,
+        119
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4400,
+      "pose": 20,
+      "root_xy": [
+        172,
+        118
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4450,
+      "pose": 21,
+      "root_xy": [
+        172,
+        118
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4500,
+      "pose": 21,
+      "root_xy": [
+        168,
+        118
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4550,
+      "pose": 21,
+      "root_xy": [
+        165,
+        118
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4600,
+      "pose": 20,
+      "root_xy": [
+        165,
+        118
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4650,
+      "pose": 20,
+      "root_xy": [
+        161,
+        117
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4700,
+      "pose": 20,
+      "root_xy": [
+        157,
+        116
+      ],
+      "phase": "AIR LEAD STRIKE"
+    },
+    {
+      "t_ms": 4750,
+      "pose": 21,
+      "root_xy": [
+        157,
+        116
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4800,
+      "pose": 21,
+      "root_xy": [
+        154,
+        116
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4850,
+      "pose": 21,
+      "root_xy": [
+        150,
+        116
+      ],
+      "phase": "AIR COUNTER STRIKE"
+    },
+    {
+      "t_ms": 4900,
+      "pose": 22,
+      "root_xy": [
+        150,
+        116
+      ],
+      "phase": "DOWNWARD PURSUIT"
+    },
+    {
+      "t_ms": 4950,
+      "pose": 22,
+      "root_xy": [
+        147,
+        121
+      ],
+      "phase": "DOWNWARD PURSUIT"
+    },
+    {
+      "t_ms": 5000,
+      "pose": 22,
+      "root_xy": [
+        145,
+        127
+      ],
+      "phase": "DOWNWARD PURSUIT"
+    },
+    {
+      "t_ms": 5050,
+      "pose": 22,
+      "root_xy": [
+        142,
+        132
+      ],
+      "phase": "DOWNWARD PURSUIT"
+    },
+    {
+      "t_ms": 5100,
+      "pose": 23,
+      "root_xy": [
+        142,
+        132
+      ],
+      "phase": "AIR RECOVERY"
+    },
+    {
+      "t_ms": 5150,
+      "pose": 23,
+      "root_xy": [
+        140,
+        136
+      ],
+      "phase": "AIR RECOVERY"
+    },
+    {
+      "t_ms": 5200,
+      "pose": 23,
+      "root_xy": [
+        138,
+        140
+      ],
+      "phase": "AIR RECOVERY"
+    },
+    {
+      "t_ms": 5250,
+      "pose": 24,
+      "root_xy": [
+        138,
+        140
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "t_ms": 5300,
+      "pose": 24,
+      "root_xy": [
+        137,
+        142
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "t_ms": 5350,
+      "pose": 24,
+      "root_xy": [
+        136,
+        144
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "t_ms": 5400,
+      "pose": 24,
+      "root_xy": [
+        136,
+        146
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "t_ms": 5450,
+      "pose": 24,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "LANDING ABSORB"
+    },
+    {
+      "t_ms": 5500,
+      "pose": 25,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "SET PALM STANCE"
+    },
+    {
+      "t_ms": 5550,
+      "pose": 25,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "SET PALM STANCE"
+    },
+    {
+      "t_ms": 5600,
+      "pose": 25,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "SET PALM STANCE"
+    },
+    {
+      "t_ms": 5650,
+      "pose": 25,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "SET PALM STANCE"
+    },
+    {
+      "t_ms": 5700,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 5750,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 5800,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 5850,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 5900,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 5950,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6000,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6050,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6100,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6150,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6200,
+      "pose": 26,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM WINDUP"
+    },
+    {
+      "t_ms": 6250,
+      "pose": 27,
+      "root_xy": [
+        135,
+        148
+      ],
+      "phase": "PALM DRIVE"
+    },
+    {
+      "t_ms": 6300,
+      "pose": 27,
+      "root_xy": [
+        134,
+        148
+      ],
+      "phase": "PALM DRIVE"
+    },
+    {
+      "t_ms": 6350,
+      "pose": 27,
+      "root_xy": [
+        132,
+        148
+      ],
+      "phase": "PALM DRIVE"
+    },
+    {
+      "t_ms": 6400,
+      "pose": 28,
+      "root_xy": [
+        132,
+        148
+      ],
+      "phase": "PALM HIT"
+    },
+    {
+      "t_ms": 6450,
+      "pose": 28,
+      "root_xy": [
+        129,
+        148
+      ],
+      "phase": "PALM HIT"
+    },
+    {
+      "t_ms": 6500,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HIT"
+    },
+    {
+      "t_ms": 6550,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6600,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6650,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6700,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6750,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6800,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6850,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6900,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 6950,
+      "pose": 28,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM HOLD"
+    },
+    {
+      "t_ms": 7000,
+      "pose": 29,
+      "root_xy": [
+        126,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 7050,
+      "pose": 29,
+      "root_xy": [
+        125,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 7100,
+      "pose": 29,
+      "root_xy": [
+        124,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 7150,
+      "pose": 29,
+      "root_xy": [
+        124,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 7200,
+      "pose": 29,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "PALM FOLLOWTHROUGH"
+    },
+    {
+      "t_ms": 7250,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7300,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7350,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7400,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7450,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7500,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7550,
+      "pose": 30,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "RECOVER GUARD"
+    },
+    {
+      "t_ms": 7600,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7650,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7700,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7750,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7800,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7850,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    },
+    {
+      "t_ms": 7900,
+      "pose": 1,
+      "root_xy": [
+        123,
+        148
+      ],
+      "phase": "REPLAY"
+    }
+  ],
+  "gif_checks": [
+    {
+      "file": "moveset-30.gif",
+      "encoded_frames": 88,
+      "checked_time_intervals": 159,
+      "duration_ms": 7950,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-slow.gif",
+      "encoded_frames": 88,
+      "checked_time_intervals": 159,
+      "duration_ms": 15900,
+      "readback_matches": true
+    },
+    {
+      "file": "moveset-30-labelled.gif",
+      "encoded_frames": 89,
+      "checked_time_intervals": 159,
+      "duration_ms": 7950,
+      "readback_matches": true
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "02": {
+    "eye_boxes_exclusive": [
+      [
+        60,
+        45,
+        63,
+        47
+      ]
+    ]
+  },
+  "04": {
+    "eye_boxes_exclusive": [
+      [
+        38,
+        63,
+        41,
+        65
+      ]
+    ]
+  },
+  "05": {
+    "eye_boxes_exclusive": [
+      [
+        29,
+        65,
+        32,
+        68
+      ]
+    ]
+  },
+  "06": {
+    "eye_boxes_exclusive": [
+      [
+        54,
+        53,
+        57,
+        56
+      ]
+    ]
+  },
+  "07": {
+    "eye_boxes_exclusive": [
+      [
+        71,
+        46,
+        75,
+        48
+      ]
+    ]
+  },
+  "10": {
+    "eye_boxes_exclusive": [
+      [
+        59,
+        38,
+        62,
+        40
+      ]
+    ]
+  },
+  "11": {
+    "eye_boxes_exclusive": [
+      [
+        51,
+        42,
+        54,
+        44
+      ]
+    ]
+  },
+  "13": {
+    "eye_boxes_exclusive": [
+      [
+        63,
+        34,
+        65,
+        36
+      ]
+    ]
+  },
+  "14": {
+    "eye_boxes_exclusive": [
+      [
+        39,
+        48,
+        43,
+        50
+      ]
+    ]
+  },
+  "15": {
+    "eye_boxes_exclusive": [
+      [
+        69,
+        37,
+        72,
+        39
+      ]
+    ]
+  },
+  "16": {
+    "eye_boxes_exclusive": [
+      [
+        71,
+        48,
+        75,
+        50
+      ]
+    ]
+  },
+  "17": {
+    "eye_boxes_exclusive": [
+      [
+        54,
+        60,
+        57,
+        63
+      ]
+    ]
+  },
+  "18": {
+    "eye_boxes_exclusive": [
+      [
+        57,
+        47,
+        61,
+        50
+      ]
+    ]
+  },
+  "19": {
+    "eye_boxes_exclusive": [
+      [
+        62,
+        58,
+        66,
+        61
+      ]
+    ]
+  },
+  "20": {
+    "eye_boxes_exclusive": [
+      [
+        53,
+        60,
+        56,
+        62
+      ]
+    ],
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "new_arm_design": true,
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "eye_lock_box": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "tail_lock_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "waist_lock_box": [
+      43,
+      78,
+      107,
+      91
+    ],
+    "integer_alignment": [
+      2,
+      2
+    ],
+    "head_match_cells": 691,
+    "outside_mask_exact": true,
+    "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/20.png"
+  },
+  "21": {
+    "eye_boxes_exclusive": [
+      [
+        53,
+        60,
+        56,
+        62
+      ]
+    ],
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "new_arm_design": true,
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "eye_lock_box": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "tail_lock_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "waist_lock_box": [
+      43,
+      78,
+      107,
+      91
+    ],
+    "integer_alignment": [
+      2,
+      1
+    ],
+    "head_match_cells": 736,
+    "outside_mask_exact": true,
+    "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/21.png"
+  },
+  "23": {
+    "eye_boxes_exclusive": [
+      [
+        62,
+        45,
+        65,
+        47
+      ]
+    ],
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "new_arm_design": true,
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "eye_lock_box": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "tail_lock_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "waist_lock_box": [
+      43,
+      78,
+      107,
+      91
+    ],
+    "integer_alignment": [
+      -8,
+      12
+    ],
+    "head_match_cells": 650,
+    "outside_mask_exact": true,
+    "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/23.png"
+  },
+  "25": {
+    "eye_boxes_exclusive": [
+      [
+        59,
+        37,
+        62,
+        39
+      ]
+    ]
+  },
+  "27": {
+    "eye_boxes_exclusive": [
+      [
+        69,
+        45,
+        72,
+        47
+      ],
+      [
+        77,
+        45,
+        80,
+        47
+      ]
+    ]
+  },
+  "29": {
+    "eye_boxes_exclusive": [
+      [
+        61,
+        52,
+        65,
+        54
+      ]
+    ]
+  },
+  "30": {
+    "eye_boxes_exclusive": [
+      [
+        57,
+        45,
+        60,
+        47
+      ]
+    ]
+  },
+  "22": {
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "new_arm_design": false,
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "eye_lock_box": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "tail_lock_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "waist_lock_box": [
+      43,
+      78,
+      107,
+      91
+    ],
+    "integer_alignment": [
+      0,
+      0
+    ],
+    "head_match_cells": 2565,
+    "outside_mask_exact": true,
+    "arm_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  "24": {
+    "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+    "new_arm_design": false,
+    "arm_mask_rows": [
+      28,
+      83
+    ],
+    "head_polygon": [
+      [
+        46,
+        17
+      ],
+      [
+        113,
+        17
+      ],
+      [
+        115,
+        25
+      ],
+      [
+        106,
+        31
+      ],
+      [
+        98,
+        45
+      ],
+      [
+        83,
+        62
+      ],
+      [
+        58,
+        71
+      ],
+      [
+        44,
+        64
+      ],
+      [
+        32,
+        50
+      ],
+      [
+        38,
+        37
+      ]
+    ],
+    "lower_face_occlusion_box": [
+      42,
+      62,
+      80,
+      70
+    ],
+    "eye_lock_box": [
+      51,
+      59,
+      54,
+      62
+    ],
+    "tail_lock_box": [
+      105,
+      70,
+      144,
+      112
+    ],
+    "waist_lock_box": [
+      43,
+      78,
+      107,
+      91
+    ],
+    "integer_alignment": [
+      0,
+      0
+    ],
+    "head_match_cells": 2718,
+    "outside_mask_exact": true,
+    "arm_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/06-combo-right-hit.png"
+  }
+}

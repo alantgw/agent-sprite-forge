@@ -1,0 +1,242 @@
+[
+  {
+    "id": "01",
+    "name": "ready-guard",
+    "new": false,
+    "video_part": 1,
+    "video_time": 0.2,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/01-ready-guard.png"
+  },
+  {
+    "id": "02",
+    "name": "guard-tighten",
+    "new": true,
+    "video_part": 1,
+    "video_time": 0.3,
+    "pose": "Same three-quarter left low wide stance as master. Both ORIGINAL beast gauntlets pull close together at upper chest below face, claws inward, elbows bend out and down. Head eyes focused left. Preparing to gather power without energy glow."
+  },
+  {
+    "id": "03",
+    "name": "power-crouch",
+    "new": false,
+    "video_part": 2,
+    "video_time": 3.2,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/02-power-crouch.png"
+  },
+  {
+    "id": "04",
+    "name": "launch-load",
+    "new": true,
+    "video_part": 3,
+    "video_time": 3.3,
+    "pose": "Load weight for explosive forward dash: deep crouch, hips lowered, head and shoulders FORWARD to image-left, rear foot under hip bent ready to push, front leg short and planted; both beast gauntlets tucked to chest. Keep broad torso and short limbs. Hair lifting behind head."
+  },
+  {
+    "id": "05",
+    "name": "dash-drive",
+    "new": true,
+    "video_part": 3,
+    "video_time": 4.2,
+    "pose": "Powerful low airborne dash toward image-left: torso near horizontal but head lifted, arms both tucked beside chest, front knee bent under body and rear knee stretched only slightly behind. Compact short thick limbs; mane/ribbons stream straight image-right, no running long legs."
+  },
+  {
+    "id": "06",
+    "name": "kick-step",
+    "new": true,
+    "video_part": 3,
+    "video_time": 5.6,
+    "pose": "Brake dash into kick setup: low forward torso, right support foot plants just below chest, left thigh pulls across waist, left foot still close to right knee. Original gauntlets guard face. Image-left facing with torso beginning its own rightward turn."
+  },
+  {
+    "id": "07",
+    "name": "kick-chamber",
+    "new": true,
+    "video_part": 3,
+    "video_time": 6.2,
+    "pose": "Left knee lifted across lower chest, left shin folded with toes pointing to robot-relative right-front and upward AWAY from camera. Torso FORWARD over waist, head/chest beginning a small rightward turn, right support foot planted. Beast gauntlets tucked near chest. This coils into a rotating rising side kick, no sole facing viewer."
+  },
+  {
+    "id": "08",
+    "name": "turning-kick",
+    "new": false,
+    "video_part": 3,
+    "video_time": 6.5,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/07-selected-turning-kick.png"
+  },
+  {
+    "id": "09",
+    "name": "turn-landing",
+    "new": true,
+    "video_part": 3,
+    "video_time": 6.8,
+    "pose": "Follow through from rightward rotating kick into three-quarter BACK-FACING landing. Pelvis and shoulders show back armour, both knees bent, left foot just lands to image-right, right support foot pivots. Both original beast arms low beside ribs, head turned slightly right but face hidden. Full mane/ribbons swing left in rotation, no effects."
+  },
+  {
+    "id": "10",
+    "name": "unwind-coil",
+    "new": true,
+    "video_part": 3,
+    "video_time": 7.1,
+    "pose": "Unwind from back landing toward image-left: low crouched stance, pelvis still partly away but chest turns back to camera-left, one original beast gauntlet low at hip ready for uppercut, other guarding cheek. Head looks up-left. Keep broad shoulders, full angular armour."
+  },
+  {
+    "id": "11",
+    "name": "uppercut-load",
+    "new": true,
+    "video_part": 3,
+    "video_time": 7.4,
+    "pose": "Uppercut anticipation facing left: BOTH feet wide planted, knees deeply bent, striking anatomical right beast gauntlet on image-left lowered beside hip, elbow drawn back; other gauntlet guards beside shoulder. Torso folds forward, chin lifted toward target above-left. Same short thick limbs."
+  },
+  {
+    "id": "12",
+    "name": "uppercut-hit",
+    "new": false,
+    "video_part": 3,
+    "video_time": 7.7,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png"
+  },
+  {
+    "id": "13",
+    "name": "uppercut-rise",
+    "new": true,
+    "video_part": 4,
+    "video_time": 0.0,
+    "pose": "Uppercut follow-through rising off ground: image-left beast gauntlet raised above forehead, elbow almost extended upward-left; other gauntlet braces ribs. Both knees begin tuck, feet just leave ground, torso follows upward without stretching longer. Mane and tail stream down-right."
+  },
+  {
+    "id": "14",
+    "name": "airborne-coil",
+    "new": true,
+    "video_part": 4,
+    "video_time": 0.6,
+    "pose": "Airborne pursuit anticipation facing upper-left: both knees TUCK tightly below low hips, elbows bend with original beast gauntlets close to cheeks, torso inclines forward45degrees, head looks up-left. Compact ball of broad mechanical armour, full mane streams right."
+  },
+  {
+    "id": "15",
+    "name": "airborne-lead-hit",
+    "new": true,
+    "video_part": 4,
+    "video_time": 0.9,
+    "pose": "Airborne diagonal pursuit strike toward upper-left: image-left beast gauntlet extends forward-up at face level, other gauntlet chambered beside ribs, front knee bent beneath body, rear leg slightly back. Original short thick arm, beast gauntlet NOT human fist. Full angular shoulder/back plates visible."
+  },
+  {
+    "id": "16",
+    "name": "airborne-counter-hit",
+    "new": true,
+    "video_part": 4,
+    "video_time": 1.5,
+    "pose": "Counter strike in airborne pursuit: torso twists toward viewer, anatomical LEFT arm from image-right shoulder thrusts across chest toward image-left at face level, other gauntlet retracts to ribs. Knees bent beneath compact hips, diagonal body tilt30degrees forward. Keep head size/arm thickness."
+  },
+  {
+    "id": "17",
+    "name": "downward-pursuit",
+    "new": true,
+    "video_part": 4,
+    "video_time": 3.2,
+    "pose": "Descending gauntlet strike after pursuit: torso pitches down-left about35degrees, near beast gauntlet drives forward-DOWN below face, other gauntlet guards shoulder. Both knees bent and feet trailing above/right of hips. Full mane/ribbons sweep up-right. No diving long stretched body."
+  },
+  {
+    "id": "18",
+    "name": "air-recovery",
+    "new": true,
+    "video_part": 4,
+    "video_time": 4.4,
+    "pose": "Recover from descending strike just before landing: torso rotates upright facing left, BOTH knees pulled beneath hips, arms draw back with original beast gauntlets at upper chest, head lifted. Mane/ribbons still streaming up-right. Short thick limbs compact."
+  },
+  {
+    "id": "19",
+    "name": "landing-absorb",
+    "new": true,
+    "video_part": 5,
+    "video_time": 2.6,
+    "pose": "Deep landing absorption facing three-quarter left: both feet wide flat on same ground line, hips very low, knees bent strongly, torso inclines forward, both beast gauntlets spread beside ribs at chest height. Complete mane lifts above/back from abrupt stop. No dust or rocks."
+  },
+  {
+    "id": "20",
+    "name": "left-chamber",
+    "new": true,
+    "video_part": 3,
+    "video_time": 6.4,
+    "pose": "Start repeated alternating punch: fixed broad low planted crouch facing three-quarter left. Left arm from image-right shoulder pulled back near shoulder but visible beside chest, right beast gauntlet guards in front of face. Head/chest lean FORWARD, original short thick limbs. Ready to drive left gauntlet horizontally."
+  },
+  {
+    "id": "21",
+    "name": "left-cross-half",
+    "new": true,
+    "video_part": 3,
+    "video_time": 6.5,
+    "pose": "Halfway left punch: fixed broad low crouch. Anatomical LEFT gauntlet from image-right shoulder sweeps across LOWER FACE horizontally toward image-left, elbow still bent90degrees. Forearm thick, palm-down beast shell; guarding right gauntlet pulled slightly toward shoulder partly hidden by punch. Red eye visible above forearm."
+  },
+  {
+    "id": "22",
+    "name": "left-cross-hit",
+    "new": false,
+    "video_part": 3,
+    "video_time": 6.5,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+  },
+  {
+    "id": "23",
+    "name": "right-load",
+    "new": true,
+    "video_part": 3,
+    "video_time": 6.6,
+    "pose": "Alternate punch recoil: left beast gauntlet from image-right shoulder retracts beside upper chest, right beast gauntlet at image-left half extended horizontally toward left with elbow bent90degrees, ready to snap forward. Same broad crouch/head pose as master, thick arms and palm down, forearm below red eye."
+  },
+  {
+    "id": "24",
+    "name": "right-cross-hit",
+    "new": false,
+    "video_part": 3,
+    "video_time": 6.6,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/06-combo-right-hit.png"
+  },
+  {
+    "id": "25",
+    "name": "palm-reset",
+    "new": true,
+    "video_part": 5,
+    "video_time": 2.9,
+    "pose": "After rapid punches settle into palm windup: knees stay wide and bent, shoulders square toward image-left, both original beast gauntlets retract near lower ribs, short claws begin open. Head lifts slightly, broad torso, no posture elongation. Mane/ribbons settle toward image-right."
+  },
+  {
+    "id": "26",
+    "name": "palm-load",
+    "new": false,
+    "video_part": 5,
+    "video_time": 4.1,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/09-palm-charge.png"
+  },
+  {
+    "id": "27",
+    "name": "palm-drive-half",
+    "new": true,
+    "video_part": 5,
+    "video_time": 4.4,
+    "pose": "Half extension of final open palm toward image-left: same broad wide planted stance, torso rotates FORWARD, anatomical right beast gauntlet at image-left extends halfway from chest, elbow still bent. Open MECHANICAL armoured palm with original short orange claws, original beast forearm shell, not bare human fingers. Other gauntlet near shoulder partly hidden."
+  },
+  {
+    "id": "28",
+    "name": "palm-hit",
+    "new": false,
+    "video_part": 5,
+    "video_time": 6.2,
+    "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png"
+  },
+  {
+    "id": "29",
+    "name": "palm-followthrough",
+    "new": true,
+    "video_part": 6,
+    "video_time": 0.2,
+    "pose": "Final palm follow-through: planted broad low stance, image-left open beast palm fully forward at lower-face height and shoulders twist further left; rear gauntlet pulled beside chest. Torso leans forward a little more, rear leg braces, head looks along open palm, full mane/ribbons whip back right. Keep arm short thick with original armour, no beam."
+  },
+  {
+    "id": "30",
+    "name": "recover-guard",
+    "new": true,
+    "video_part": 6,
+    "video_time": 1.2,
+    "pose": "Recovery after palm strike: still wide grounded feet, knees relax slightly, extended original beast gauntlet retracts to lower chest with elbow bent, other beast gauntlet settles beside ribs, head remains facing image-left. Broad compact original armour/body and full mane; quiet guard without effects."
+  }
+]

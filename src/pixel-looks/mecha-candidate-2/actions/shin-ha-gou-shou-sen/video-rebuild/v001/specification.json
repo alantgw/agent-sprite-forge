@@ -1,0 +1,3966 @@
+{
+  "version": "video-rebuild-v001",
+  "status": "draft for visual review",
+  "unique_sprite_count": 30,
+  "newly_generated_pose_count": 22,
+  "reused_key_pose_sources": 8,
+  "byte_unchanged_whole_sprites": 6,
+  "existing_punch_arm_endpoints_adapted_to_shared_body": 2,
+  "base": "approved Candidate2v001",
+  "background_rgb": [
+    88,
+    120,
+    120
+  ],
+  "native_canvas": [
+    144,
+    112
+  ],
+  "palette_entries": 16,
+  "frames": [
+    {
+      "id": "01",
+      "name": "ready-guard",
+      "new": false,
+      "video_part": 1,
+      "video_time": 0.2,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/01-ready-guard.png",
+      "source_slot": "01",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/01-ready-guard.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        8,
+        127,
+        109
+      ],
+      "sha256": "4307647ae4590d7e5e180e752c2e74eda042b12ee723b9716dcf4ede928cac31"
+    },
+    {
+      "id": "02",
+      "name": "guard-tighten",
+      "new": true,
+      "video_part": 1,
+      "video_time": 0.3,
+      "pose": "Same three-quarter left low wide stance as master. Both ORIGINAL beast gauntlets pull close together at upper chest below face, claws inward, elbows bend out and down. Head eyes focused left. Preparing to gather power without energy glow.",
+      "source_slot": "02",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            60,
+            45,
+            63,
+            47
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-02",
+        "size": [
+          112,
+          102
+        ],
+        "cells": 7154,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#020001",
+          "#02020c",
+          "#0a0a0e",
+          "#111338",
+          "#1f1e1c",
+          "#262264",
+          "#2e0b13",
+          "#36318c",
+          "#490c12",
+          "#6053bb",
+          "#762e04",
+          "#7674dc",
+          "#8958ae",
+          "#8e1212",
+          "#94364e",
+          "#9c4f08",
+          "#9c88e2",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d5b0ee",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 72.0,
+          "row": 101
+        },
+        "anchor": [
+          72.5,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7514,
+          "cells": 7846,
+          "share": 0.9577
+        },
+        "rulerEqualShare": 0.9577,
+        "heightRows": 101,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            0.0,
+            0.0
+          ],
+          "flat": 14861,
+          "flatUnshifted": 14861,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 4
+          },
+          "keyTinted": 3,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 4,
+          "lineCellsAdded": 4,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-9d2a0f62-a891-4538-8c2e-fd281289142d.png",
+          "sha256": "8cc9521142adfae9d3c5e63bf8bc8722e235eac965dfa84b1e979a19d42648d8"
+        },
+        "files": {
+          "sprite": "pose-02.png",
+          "how": "pose-02-how.png",
+          "review": "pose-02-review.png",
+          "grounds": "pose-02-grounds.png"
+        }
+      },
+      "file": "native/02-guard-tighten.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        16,
+        7,
+        128,
+        109
+      ],
+      "sha256": "ca037922ecbc0888e08d1f5bf21b9dc139407780de80474bc1b60ae1d45574f1"
+    },
+    {
+      "id": "03",
+      "name": "power-crouch",
+      "new": false,
+      "video_part": 2,
+      "video_time": 3.2,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/02-power-crouch.png",
+      "source_slot": "03",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/03-power-crouch.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        8,
+        133,
+        109
+      ],
+      "sha256": "931527ae55b777b4856b1239e58bef93060072f8c0cb8f9761f2fc9f9d289b19"
+    },
+    {
+      "id": "04",
+      "name": "launch-load",
+      "new": true,
+      "video_part": 3,
+      "video_time": 3.3,
+      "pose": "Load weight for explosive forward dash: deep crouch, hips lowered, head and shoulders FORWARD to image-left, rear foot under hip bent ready to push, front leg short and planted; both beast gauntlets tucked to chest. Keep broad torso and short limbs. Hair lifting behind head.",
+      "source_slot": "04",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            38,
+            63,
+            41,
+            65
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-04",
+        "size": [
+          109,
+          95
+        ],
+        "cells": 6780,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0c0a12",
+          "#111338",
+          "#1f1e1c",
+          "#28205c",
+          "#2e0b13",
+          "#36318c",
+          "#520d11",
+          "#543e68",
+          "#5d48b0",
+          "#762e04",
+          "#7674dc",
+          "#880e10",
+          "#94364e",
+          "#9c4ed2",
+          "#a686d8",
+          "#aa4a0d",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d7aff2",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 12.0,
+          "row": 94
+        },
+        "anchor": [
+          12.5,
+          95
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7450,
+          "cells": 7846,
+          "share": 0.9495
+        },
+        "rulerEqualShare": 0.9495,
+        "heightRows": 78,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.0
+          ],
+          "flat": 13156,
+          "flatUnshifted": 13075,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 46
+          },
+          "keyTinted": 9,
+          "keyNear": 0,
+          "keyHoles": 5,
+          "keyInked": 23,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 3
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 7,
+          "bareCells": 14,
+          "lineCellsAdded": 14,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 78 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-8366ea2d-2df4-4ec1-8439-aa9f93350c60.png",
+          "sha256": "670f044d18e2949e1cb3b723b0fb4441cdc9e18beb020affd677e8bf94b4d1da"
+        },
+        "files": {
+          "sprite": "pose-04.png",
+          "how": "pose-04-how.png",
+          "review": "pose-04-review.png",
+          "grounds": "pose-04-grounds.png"
+        }
+      },
+      "file": "native/04-launch-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        14,
+        126,
+        109
+      ],
+      "sha256": "58cf1051fab628bad32fba67d642d6adc9cc908cb097410345d6d576e2b8acd2"
+    },
+    {
+      "id": "05",
+      "name": "dash-drive",
+      "new": true,
+      "video_part": 3,
+      "video_time": 4.2,
+      "pose": "Powerful low airborne dash toward image-left: torso near horizontal but head lifted, arms both tucked beside chest, front knee bent under body and rear knee stretched only slightly behind. Compact short thick limbs; mane/ribbons stream straight image-right, no running long legs.",
+      "source_slot": "05",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            29,
+            65,
+            32,
+            68
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-05",
+        "size": [
+          121,
+          82
+        ],
+        "cells": 6230,
+        "colours": 24,
+        "palette": [
+          "#000000",
+          "#000018",
+          "#02020c",
+          "#0e0912",
+          "#111338",
+          "#1f1e1c",
+          "#2e0b13",
+          "#302258",
+          "#36318c",
+          "#500c11",
+          "#644cb9",
+          "#762e04",
+          "#7674dc",
+          "#7c588c",
+          "#901010",
+          "#94364e",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c8a5e8",
+          "#cc90f6",
+          "#e3caf6",
+          "#e89102",
+          "#f4e8ee"
+        ],
+        "feet": {
+          "middle": 33.0,
+          "row": 80
+        },
+        "anchor": [
+          33.5,
+          81
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7511,
+          "cells": 7846,
+          "share": 0.9573
+        },
+        "rulerEqualShare": 0.9573,
+        "heightRows": 80,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -14.0,
+        "ownLattice": {
+          "shift": [
+            -0.5,
+            0.0
+          ],
+          "flat": 13388,
+          "flatUnshifted": 13422,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 60
+          },
+          "keyTinted": 5,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 26,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 2
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 80 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-018208fa-cb37-45b6-93e1-b367dbfdeec3.png",
+          "sha256": "84a6d60208294e012cb3419d06f83e79140ab7059fb531a9f2b0f415d4ee8ae6"
+        },
+        "files": {
+          "sprite": "pose-05.png",
+          "how": "pose-05-how.png",
+          "review": "pose-05-review.png",
+          "grounds": "pose-05-grounds.png"
+        }
+      },
+      "file": "native/05-dash-drive.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        27,
+        132,
+        109
+      ],
+      "sha256": "32208b2b81e157e12c0a3d8d7bb09a7b0c2bcbc136153c3bae566e610df14825"
+    },
+    {
+      "id": "06",
+      "name": "left-chamber",
+      "new": true,
+      "video_part": 3,
+      "video_time": 6.4,
+      "pose": "Start repeated alternating punch: fixed broad low planted crouch facing three-quarter left. Left arm from image-right shoulder pulled back near shoulder but visible beside chest, right beast gauntlet guards in front of face. Head/chest lean FORWARD, original short thick limbs. Ready to drive left gauntlet horizontally.",
+      "source_slot": "20",
+      "new_generation": true,
+      "adapted_common_body": true,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            53,
+            60,
+            56,
+            62
+          ]
+        ],
+        "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+        "new_arm_design": true,
+        "arm_mask_rows": [
+          28,
+          83
+        ],
+        "head_polygon": [
+          [
+            46,
+            17
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            106,
+            31
+          ],
+          [
+            98,
+            45
+          ],
+          [
+            83,
+            62
+          ],
+          [
+            58,
+            71
+          ],
+          [
+            44,
+            64
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "lower_face_occlusion_box": [
+          42,
+          62,
+          80,
+          70
+        ],
+        "eye_lock_box": [
+          51,
+          59,
+          54,
+          62
+        ],
+        "tail_lock_box": [
+          105,
+          70,
+          144,
+          112
+        ],
+        "waist_lock_box": [
+          43,
+          78,
+          107,
+          91
+        ],
+        "integer_alignment": [
+          2,
+          2
+        ],
+        "head_match_cells": 691,
+        "outside_mask_exact": true,
+        "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/20.png"
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-20",
+        "size": [
+          114,
+          95
+        ],
+        "cells": 7245,
+        "colours": 24,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0e0912",
+          "#111338",
+          "#1f1e1c",
+          "#2b245e",
+          "#2e0b13",
+          "#36318c",
+          "#500e13",
+          "#5f4cb0",
+          "#6a517e",
+          "#762e04",
+          "#7674dc",
+          "#8c1010",
+          "#94364e",
+          "#a47ad6",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#ca422c",
+          "#cc90f6",
+          "#d5acef",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 47.5,
+          "row": 94
+        },
+        "anchor": [
+          48.0,
+          95
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7378,
+          "cells": 7846,
+          "share": 0.9404
+        },
+        "rulerEqualShare": 0.9404,
+        "heightRows": 95,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -2.0,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.0
+          ],
+          "flat": 13239,
+          "flatUnshifted": 13029,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 26
+          },
+          "keyTinted": 6,
+          "keyNear": 0,
+          "keyHoles": 6,
+          "keyInked": 16,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 7
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 4,
+          "bareCells": 5,
+          "lineCellsAdded": 5,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 95 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-ff03ffc9-cc9b-4383-b4eb-04aa210de1c4.png",
+          "sha256": "fbff306349939f57cecb917c2ccb76d6d4b65688c220da6222cd17db4a2c7759"
+        },
+        "files": {
+          "sprite": "pose-20.png",
+          "how": "pose-20-how.png",
+          "review": "pose-20-review.png",
+          "grounds": "pose-20-grounds.png"
+        }
+      },
+      "file": "native/06-left-chamber.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ],
+      "sha256": "a77017f7412939e81d2565bdb6e355010713d348d7a68fbd47993de19b7236d1"
+    },
+    {
+      "id": "07",
+      "name": "left-cross-half",
+      "new": true,
+      "video_part": 3,
+      "video_time": 6.5,
+      "pose": "Halfway left punch: fixed broad low crouch. Anatomical LEFT gauntlet from image-right shoulder sweeps across LOWER FACE horizontally toward image-left, elbow still bent90degrees. Forearm thick, palm-down beast shell; guarding right gauntlet pulled slightly toward shoulder partly hidden by punch. Red eye visible above forearm.",
+      "source_slot": "21",
+      "new_generation": true,
+      "adapted_common_body": true,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            53,
+            60,
+            56,
+            62
+          ]
+        ],
+        "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+        "new_arm_design": true,
+        "arm_mask_rows": [
+          28,
+          83
+        ],
+        "head_polygon": [
+          [
+            46,
+            17
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            106,
+            31
+          ],
+          [
+            98,
+            45
+          ],
+          [
+            83,
+            62
+          ],
+          [
+            58,
+            71
+          ],
+          [
+            44,
+            64
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "lower_face_occlusion_box": [
+          42,
+          62,
+          80,
+          70
+        ],
+        "eye_lock_box": [
+          51,
+          59,
+          54,
+          62
+        ],
+        "tail_lock_box": [
+          105,
+          70,
+          144,
+          112
+        ],
+        "waist_lock_box": [
+          43,
+          78,
+          107,
+          91
+        ],
+        "integer_alignment": [
+          2,
+          1
+        ],
+        "head_match_cells": 736,
+        "outside_mask_exact": true,
+        "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/21.png"
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-21",
+        "size": [
+          115,
+          95
+        ],
+        "cells": 6766,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0d070d",
+          "#111338",
+          "#1f1e1c",
+          "#2a1c5c",
+          "#2e0b13",
+          "#36318c",
+          "#4e0a12",
+          "#5a3c6a",
+          "#644db6",
+          "#762e04",
+          "#7674dc",
+          "#8e0f0f",
+          "#94364e",
+          "#a085ba",
+          "#b54ee8",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d32816",
+          "#dcadf0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 48.0,
+          "row": 94
+        },
+        "anchor": [
+          48.5,
+          95
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.88,
+          "offset": [
+            3.0,
+            3.0
+          ],
+          "equal": 6401,
+          "cells": 7846,
+          "share": 0.8158
+        },
+        "rulerEqualShare": 0.8158,
+        "heightRows": 95,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -2.0,
+        "ownLattice": {
+          "shift": [
+            0.5,
+            0.0
+          ],
+          "flat": 13464,
+          "flatUnshifted": 13502,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 43
+          },
+          "keyTinted": 21,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 12,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 95 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-f2663988-ea02-4af5-9799-2a3f59f329a0.png",
+          "sha256": "742e45edf81e785edc8c021e72e32e7561a9587c58154fb50a3b7a325f882762"
+        },
+        "files": {
+          "sprite": "pose-21.png",
+          "how": "pose-21-how.png",
+          "review": "pose-21-review.png",
+          "grounds": "pose-21-grounds.png"
+        }
+      },
+      "rejected_source_reason": "oversized black gauntlet obscured most of face",
+      "file": "native/07-left-cross-half.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        17,
+        133,
+        109
+      ],
+      "sha256": "1d7dd520d541c914547ce7c41b7b8d9bca6f289f0edd86be4631904ae6536697"
+    },
+    {
+      "id": "08",
+      "name": "left-cross-hit",
+      "new": false,
+      "video_part": 3,
+      "video_time": 6.5,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png",
+      "source_slot": "22",
+      "new_generation": false,
+      "adapted_common_body": true,
+      "art_processing": {
+        "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+        "new_arm_design": false,
+        "arm_mask_rows": [
+          28,
+          83
+        ],
+        "head_polygon": [
+          [
+            46,
+            17
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            106,
+            31
+          ],
+          [
+            98,
+            45
+          ],
+          [
+            83,
+            62
+          ],
+          [
+            58,
+            71
+          ],
+          [
+            44,
+            64
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "lower_face_occlusion_box": [
+          42,
+          62,
+          80,
+          70
+        ],
+        "eye_lock_box": [
+          51,
+          59,
+          54,
+          62
+        ],
+        "tail_lock_box": [
+          105,
+          70,
+          144,
+          112
+        ],
+        "waist_lock_box": [
+          43,
+          78,
+          107,
+          91
+        ],
+        "integer_alignment": [
+          0,
+          0
+        ],
+        "head_match_cells": 2565,
+        "outside_mask_exact": true,
+        "arm_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/04-combo-left-hit.png"
+      },
+      "file": "native/08-left-cross-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        17,
+        133,
+        109
+      ],
+      "sha256": "b73d711dd125382a8661b9c7344249602cb461e617349e2556cad0fb631e8b2f"
+    },
+    {
+      "id": "09",
+      "name": "right-load",
+      "new": true,
+      "video_part": 3,
+      "video_time": 6.6,
+      "pose": "Alternate punch recoil: left beast gauntlet from image-right shoulder retracts beside upper chest, right beast gauntlet at image-left half extended horizontally toward left with elbow bent90degrees, ready to snap forward. Same broad crouch/head pose as master, thick arms and palm down, forearm below red eye.",
+      "source_slot": "23",
+      "new_generation": true,
+      "adapted_common_body": true,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            62,
+            45,
+            65,
+            47
+          ]
+        ],
+        "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+        "new_arm_design": true,
+        "arm_mask_rows": [
+          28,
+          83
+        ],
+        "head_polygon": [
+          [
+            46,
+            17
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            106,
+            31
+          ],
+          [
+            98,
+            45
+          ],
+          [
+            83,
+            62
+          ],
+          [
+            58,
+            71
+          ],
+          [
+            44,
+            64
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "lower_face_occlusion_box": [
+          42,
+          62,
+          80,
+          70
+        ],
+        "eye_lock_box": [
+          51,
+          59,
+          54,
+          62
+        ],
+        "tail_lock_box": [
+          105,
+          70,
+          144,
+          112
+        ],
+        "waist_lock_box": [
+          43,
+          78,
+          107,
+          91
+        ],
+        "integer_alignment": [
+          -8,
+          12
+        ],
+        "head_match_cells": 650,
+        "outside_mask_exact": true,
+        "arm_source": "/workspace/work/mecha-video-rebuild-v001/arm-raw/23.png"
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-23",
+        "size": [
+          121,
+          102
+        ],
+        "cells": 7583,
+        "colours": 24,
+        "palette": [
+          "#000002",
+          "#000018",
+          "#02020c",
+          "#0a0a0d",
+          "#111338",
+          "#1f1e1c",
+          "#262356",
+          "#2e0b13",
+          "#36318c",
+          "#510e10",
+          "#6152b3",
+          "#762e04",
+          "#7674dc",
+          "#931410",
+          "#94364e",
+          "#a17ede",
+          "#b1640b",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d0241a",
+          "#d3aaf0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 81.0,
+          "row": 101
+        },
+        "anchor": [
+          81.5,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7453,
+          "cells": 7846,
+          "share": 0.9499
+        },
+        "rulerEqualShare": 0.9499,
+        "heightRows": 101,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            0.0,
+            0.0
+          ],
+          "flat": 14761,
+          "flatUnshifted": 14761,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 9
+          },
+          "keyTinted": 4,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 1,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-5cc27dd9-268d-415e-9ecf-b56a33fc5688.png",
+          "sha256": "c10e2b289d58f0ccd5efccf4bfc9f31c8e70233e28f6bb27d84683d449e207f2"
+        },
+        "files": {
+          "sprite": "pose-23.png",
+          "how": "pose-23-how.png",
+          "review": "pose-23-review.png",
+          "grounds": "pose-23-grounds.png"
+        }
+      },
+      "file": "native/09-right-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ],
+      "sha256": "635e6ad8ca4cf6cd967ec5ec1f5a505d70a19121b7c66a0549ab99ea1d465971"
+    },
+    {
+      "id": "10",
+      "name": "right-cross-hit",
+      "new": false,
+      "video_part": 3,
+      "video_time": 6.6,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/06-combo-right-hit.png",
+      "source_slot": "24",
+      "new_generation": false,
+      "adapted_common_body": true,
+      "art_processing": {
+        "common_body_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/03-combo-chamber-left.png",
+        "new_arm_design": false,
+        "arm_mask_rows": [
+          28,
+          83
+        ],
+        "head_polygon": [
+          [
+            46,
+            17
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            115,
+            25
+          ],
+          [
+            106,
+            31
+          ],
+          [
+            98,
+            45
+          ],
+          [
+            83,
+            62
+          ],
+          [
+            58,
+            71
+          ],
+          [
+            44,
+            64
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "lower_face_occlusion_box": [
+          42,
+          62,
+          80,
+          70
+        ],
+        "eye_lock_box": [
+          51,
+          59,
+          54,
+          62
+        ],
+        "tail_lock_box": [
+          105,
+          70,
+          144,
+          112
+        ],
+        "waist_lock_box": [
+          43,
+          78,
+          107,
+          91
+        ],
+        "integer_alignment": [
+          0,
+          0
+        ],
+        "head_match_cells": 2718,
+        "outside_mask_exact": true,
+        "arm_source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/06-combo-right-hit.png"
+      },
+      "file": "native/10-right-cross-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        3,
+        17,
+        133,
+        109
+      ],
+      "sha256": "f8174bebfd2864ede5d62c6bc933a840ef1b01f44789c00be8cd2798de04309d"
+    },
+    {
+      "id": "11",
+      "name": "kick-step",
+      "new": true,
+      "video_part": 3,
+      "video_time": 5.6,
+      "pose": "Brake dash into kick setup: low forward torso, right support foot plants just below chest, left thigh pulls across waist, left foot still close to right knee. Original gauntlets guard face. Image-left facing with torso beginning its own rightward turn.",
+      "source_slot": "06",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            54,
+            53,
+            57,
+            56
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-06",
+        "size": [
+          110,
+          96
+        ],
+        "cells": 6532,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e0812",
+          "#111338",
+          "#1f1e1c",
+          "#2a2258",
+          "#2e0b13",
+          "#36318c",
+          "#4f0d12",
+          "#544073",
+          "#5d51b8",
+          "#762e04",
+          "#7674dc",
+          "#881010",
+          "#94364e",
+          "#9666b0",
+          "#a48ce2",
+          "#ae4814",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d0aeef",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 33.0,
+          "row": 95
+        },
+        "anchor": [
+          33.5,
+          96
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7557,
+          "cells": 7846,
+          "share": 0.9632
+        },
+        "rulerEqualShare": 0.9632,
+        "heightRows": 96,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -0.5,
+            0.0
+          ],
+          "flat": 13532,
+          "flatUnshifted": 13454,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 50
+          },
+          "keyTinted": 19,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 23,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 11,
+          "lineCellsAdded": 13,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 96 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-380713e1-6d4f-4572-9202-ca13ffd9cdeb.png",
+          "sha256": "baf8ed09cd70d906275ee3dcc2304874f0fb52f3deb8bc2dfeedff8a893d205b"
+        },
+        "files": {
+          "sprite": "pose-06.png",
+          "how": "pose-06-how.png",
+          "review": "pose-06-review.png",
+          "grounds": "pose-06-grounds.png"
+        }
+      },
+      "file": "native/11-kick-step.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        13,
+        127,
+        109
+      ],
+      "sha256": "456248656b8f33ba965bdb1708c5d983372c63708fbc1bca8ee47edb71dd1c94"
+    },
+    {
+      "id": "12",
+      "name": "kick-chamber",
+      "new": true,
+      "video_part": 3,
+      "video_time": 6.2,
+      "pose": "Left knee lifted across lower chest, left shin folded with toes pointing to robot-relative right-front and upward AWAY from camera. Torso FORWARD over waist, head/chest beginning a small rightward turn, right support foot planted. Beast gauntlets tucked near chest. This coils into a rotating rising side kick, no sole facing viewer.",
+      "source_slot": "07",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            71,
+            46,
+            75,
+            48
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-07",
+        "size": [
+          93,
+          102
+        ],
+        "cells": 6089,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0d0912",
+          "#111338",
+          "#1f1e1c",
+          "#2c245a",
+          "#2e0b13",
+          "#36318c",
+          "#540c12",
+          "#5646a4",
+          "#762e04",
+          "#7674dc",
+          "#8c1210",
+          "#9054ca",
+          "#94364e",
+          "#a488e0",
+          "#b3530e",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d6acee",
+          "#e3caf6",
+          "#f8a72b"
+        ],
+        "feet": {
+          "middle": 18.5,
+          "row": 101
+        },
+        "anchor": [
+          19.0,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7575,
+          "cells": 7846,
+          "share": 0.9655
+        },
+        "rulerEqualShare": 0.9655,
+        "heightRows": 100,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            2.5,
+            0.0
+          ],
+          "flat": 13910,
+          "flatUnshifted": 13695,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 49
+          },
+          "keyTinted": 9,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 14,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 0,
+          "lineCellsAdded": 0,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 9,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-331ffc85-31e8-4663-bb3f-9002789fdbfd.png",
+          "sha256": "044d4dd5d82f466474be15b27d55ffe8c1473ccf9eae41f080ce430f8ff2e202"
+        },
+        "files": {
+          "sprite": "pose-07.png",
+          "how": "pose-07-how.png",
+          "review": "pose-07-review.png",
+          "grounds": "pose-07-grounds.png"
+        }
+      },
+      "file": "native/12-kick-chamber.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        25,
+        7,
+        118,
+        109
+      ],
+      "sha256": "90512e1e1fc9c447f8c9b628341d5ebed733ec7a9c6d0ff511d9c9d2341ce41f"
+    },
+    {
+      "id": "13",
+      "name": "turning-kick",
+      "new": false,
+      "video_part": 3,
+      "video_time": 6.5,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/07-selected-turning-kick.png",
+      "source_slot": "08",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/13-turning-kick.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        9,
+        133,
+        109
+      ],
+      "sha256": "03c517eb973e21a0f3d87a8f12b10058bd9e567638a7752ad7686fc248745cd6"
+    },
+    {
+      "id": "14",
+      "name": "turn-landing",
+      "new": true,
+      "video_part": 3,
+      "video_time": 6.8,
+      "pose": "Follow through from rightward rotating kick into three-quarter BACK-FACING landing. Pelvis and shoulders show back armour, both knees bent, left foot just lands to image-right, right support foot pivots. Both original beast arms low beside ribs, head turned slightly right but face hidden. Full mane/ribbons swing left in rotation, no effects.",
+      "source_slot": "09",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {},
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-09",
+        "size": [
+          118,
+          103
+        ],
+        "cells": 7515,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0c0a11",
+          "#111338",
+          "#1f1e1c",
+          "#2a215f",
+          "#2a9c80",
+          "#2e0b13",
+          "#36318c",
+          "#520e13",
+          "#593f72",
+          "#6150ba",
+          "#762e04",
+          "#7674dc",
+          "#901211",
+          "#94364e",
+          "#a066de",
+          "#a84d0b",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d1acf0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 99.0,
+          "row": 102
+        },
+        "anchor": [
+          99.5,
+          103
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7314,
+          "cells": 7846,
+          "share": 0.9322
+        },
+        "rulerEqualShare": 0.9322,
+        "heightRows": 94,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -0.07,
+        "ownLattice": {
+          "shift": [
+            -2.0,
+            -0.5
+          ],
+          "flat": 12540,
+          "flatUnshifted": 12350,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 105
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 5,
+          "keyInked": 58,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 14
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 12,
+          "lineCellsAdded": 11,
+          "closed": true,
+          "offset": [
+            0,
+            1
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 94 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-515cf5c4-d625-4ae2-a4a5-ab8a910b4768.png",
+          "sha256": "941646148b9cad185ec7aa849cd7f3bf83a358db3097d50ff82fb0d4c394e8f4"
+        },
+        "files": {
+          "sprite": "pose-09.png",
+          "how": "pose-09-how.png",
+          "review": "pose-09-review.png",
+          "grounds": "pose-09-grounds.png"
+        }
+      },
+      "file": "native/14-turn-landing.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        13,
+        6,
+        131,
+        109
+      ],
+      "sha256": "2a1559b07e0e10c4af39436318277ad0f68d50bb554806a4347772c6332595b9"
+    },
+    {
+      "id": "15",
+      "name": "unwind-coil",
+      "new": true,
+      "video_part": 3,
+      "video_time": 7.1,
+      "pose": "Unwind from back landing toward image-left: low crouched stance, pelvis still partly away but chest turns back to camera-left, one original beast gauntlet low at hip ready for uppercut, other guarding cheek. Head looks up-left. Keep broad shoulders, full angular armour.",
+      "source_slot": "10",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            59,
+            38,
+            62,
+            40
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-10",
+        "size": [
+          116,
+          102
+        ],
+        "cells": 8113,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0c0912",
+          "#111338",
+          "#1f1e1c",
+          "#282260",
+          "#2e0b13",
+          "#36318c",
+          "#5242a0",
+          "#540d12",
+          "#6856c0",
+          "#762e04",
+          "#7674dc",
+          "#8c1010",
+          "#94364e",
+          "#9c51e6",
+          "#a282e2",
+          "#a95a0c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d6aef2",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 12.0,
+          "row": 101
+        },
+        "anchor": [
+          12.5,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7390,
+          "cells": 7846,
+          "share": 0.9419
+        },
+        "rulerEqualShare": 0.9419,
+        "heightRows": 88,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            0.0,
+            0.0
+          ],
+          "flat": 12122,
+          "flatUnshifted": 12122,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 58
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 38,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 13
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 2,
+          "bareCells": 18,
+          "lineCellsAdded": 18,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 88 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-0c216a3f-a1f6-4e83-8cdc-4fbf444a1f40.png",
+          "sha256": "74a6c56ccb6ae0b8859fc994dfed89d54c2290e159e86bba6726d0929bbc94bf"
+        },
+        "files": {
+          "sprite": "pose-10.png",
+          "how": "pose-10-how.png",
+          "review": "pose-10-review.png",
+          "grounds": "pose-10-grounds.png"
+        }
+      },
+      "file": "native/15-unwind-coil.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        14,
+        7,
+        130,
+        109
+      ],
+      "sha256": "fd1b41ce18f8d09d1b37b1a46e5e23f6cf3719f7b5c8e1e051f4086ffc088ff2"
+    },
+    {
+      "id": "16",
+      "name": "uppercut-load",
+      "new": true,
+      "video_part": 3,
+      "video_time": 7.4,
+      "pose": "Uppercut anticipation facing left: BOTH feet wide planted, knees deeply bent, striking anatomical right beast gauntlet on image-left lowered beside hip, elbow drawn back; other gauntlet guards beside shoulder. Torso folds forward, chin lifted toward target above-left. Same short thick limbs.",
+      "source_slot": "11",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            51,
+            42,
+            54,
+            44
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-11",
+        "size": [
+          113,
+          97
+        ],
+        "cells": 7215,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e0910",
+          "#111338",
+          "#1f1e1c",
+          "#2b245c",
+          "#2e0b13",
+          "#36318c",
+          "#3aba93",
+          "#4ce4aa",
+          "#500c10",
+          "#5f50ae",
+          "#762e04",
+          "#7674dc",
+          "#8e120f",
+          "#94364e",
+          "#977ac8",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ccabe6",
+          "#d2170f",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 49.5,
+          "row": 96
+        },
+        "anchor": [
+          50.0,
+          97
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7600,
+          "cells": 7846,
+          "share": 0.9686
+        },
+        "rulerEqualShare": 0.9686,
+        "heightRows": 97,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -3.0,
+            0.0
+          ],
+          "flat": 13228,
+          "flatUnshifted": 12827,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 80
+          },
+          "keyTinted": 18,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 35,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 0
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 8,
+          "bareCells": 8,
+          "lineCellsAdded": 8,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 97 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-a89a684a-213b-420c-9c67-7f285e9da2a5.png",
+          "sha256": "9baffdef1aed5765b571be097c11e3e4d28452b2d397b4b032391315f374991b"
+        },
+        "files": {
+          "sprite": "pose-11.png",
+          "how": "pose-11-how.png",
+          "review": "pose-11-review.png",
+          "grounds": "pose-11-grounds.png"
+        }
+      },
+      "file": "native/16-uppercut-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        15,
+        12,
+        128,
+        109
+      ],
+      "sha256": "50e0cc5303208a4376f83050eda1bae9a7a4107a776c8abf1f912fcd79e92d14"
+    },
+    {
+      "id": "17",
+      "name": "uppercut-hit",
+      "new": false,
+      "video_part": 3,
+      "video_time": 7.7,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/08-grounded-uppercut.png",
+      "source_slot": "12",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/17-uppercut-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        12,
+        133,
+        109
+      ],
+      "sha256": "8634112c45e86d6af08c21b93ecf967293e675d0d82d0fe04f0c7ff56c6b3056"
+    },
+    {
+      "id": "18",
+      "name": "uppercut-rise",
+      "new": true,
+      "video_part": 4,
+      "video_time": 0.0,
+      "pose": "Uppercut follow-through rising off ground: image-left beast gauntlet raised above forehead, elbow almost extended upward-left; other gauntlet braces ribs. Both knees begin tuck, feet just leave ground, torso follows upward without stretching longer. Mane and tail stream down-right.",
+      "source_slot": "13",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            63,
+            34,
+            65,
+            36
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-13",
+        "size": [
+          93,
+          109
+        ],
+        "cells": 5827,
+        "colours": 24,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0f0910",
+          "#111338",
+          "#1f1e1c",
+          "#2e0b13",
+          "#30265e",
+          "#36318c",
+          "#560d10",
+          "#5e50ab",
+          "#762e04",
+          "#7674dc",
+          "#8a1112",
+          "#94364e",
+          "#9c60b6",
+          "#a88cd2",
+          "#b0650c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d2b1ee",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 90.0,
+          "row": 104
+        },
+        "anchor": [
+          90.5,
+          105
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7570,
+          "cells": 7846,
+          "share": 0.9648
+        },
+        "rulerEqualShare": 0.9648,
+        "heightRows": 85,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -6.93,
+        "ownLattice": {
+          "shift": [
+            4.0,
+            0.5
+          ],
+          "flat": 13225,
+          "flatUnshifted": 13146,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 78
+          },
+          "keyTinted": 14,
+          "keyNear": 0,
+          "keyHoles": 0,
+          "keyInked": 29,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 9,
+          "bareCells": 14,
+          "lineCellsAdded": 14,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 85 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-297502f9-9d90-43da-815c-0ff033ffa03b.png",
+          "sha256": "619f8a740d293bb6508eea014adc3c5b2b2708166aec3915e3967b536917fada"
+        },
+        "files": {
+          "sprite": "pose-13.png",
+          "how": "pose-13-how.png",
+          "review": "pose-13-review.png",
+          "grounds": "pose-13-grounds.png"
+        }
+      },
+      "file": "native/18-uppercut-rise.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        25,
+        0,
+        118,
+        109
+      ],
+      "sha256": "48f7777986354300a0140fe70746bb916898d0b0dd24c0f9c41773063f0889e1"
+    },
+    {
+      "id": "19",
+      "name": "airborne-coil",
+      "new": true,
+      "video_part": 4,
+      "video_time": 0.6,
+      "pose": "Airborne pursuit anticipation facing upper-left: both knees TUCK tightly below low hips, elbows bend with original beast gauntlets close to cheeks, torso inclines forward45degrees, head looks up-left. Compact ball of broad mechanical armour, full mane streams right.",
+      "source_slot": "14",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            39,
+            48,
+            43,
+            50
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-14",
+        "size": [
+          109,
+          88
+        ],
+        "cells": 6433,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e0910",
+          "#111338",
+          "#1f1e1c",
+          "#2a225d",
+          "#2e0b13",
+          "#36318c",
+          "#3c5808",
+          "#5a0c0f",
+          "#5c467c",
+          "#5e50bc",
+          "#762e04",
+          "#7674dc",
+          "#94364e",
+          "#95140e",
+          "#9f72c8",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d2ade8",
+          "#e3caf6",
+          "#e67f04"
+        ],
+        "feet": {
+          "middle": 40.0,
+          "row": 86
+        },
+        "anchor": [
+          40.5,
+          87
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7595,
+          "cells": 7846,
+          "share": 0.968
+        },
+        "rulerEqualShare": 0.968,
+        "heightRows": 87,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -15.0,
+        "ownLattice": {
+          "shift": [
+            2.5,
+            0.0
+          ],
+          "flat": 13815,
+          "flatUnshifted": 13655,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 68
+          },
+          "keyTinted": 3,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 28,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 5
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 2,
+          "lineCellsAdded": 2,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 87 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-1cc2ca4f-6dd1-44a8-8c47-98e90a50b341.png",
+          "sha256": "5c53485399cb59cf5316b065b196b98c06027ffa58134ec019140d8300813bc8"
+        },
+        "files": {
+          "sprite": "pose-14.png",
+          "how": "pose-14-how.png",
+          "review": "pose-14-review.png",
+          "grounds": "pose-14-grounds.png"
+        }
+      },
+      "file": "native/19-airborne-coil.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        17,
+        21,
+        126,
+        109
+      ],
+      "sha256": "6cc0c21d013272872cce0397134225da4cce5e1f69d2de18965459e787e83add"
+    },
+    {
+      "id": "20",
+      "name": "airborne-lead-hit",
+      "new": true,
+      "video_part": 4,
+      "video_time": 0.9,
+      "pose": "Airborne diagonal pursuit strike toward upper-left: image-left beast gauntlet extends forward-up at face level, other gauntlet chambered beside ribs, front knee bent beneath body, rear leg slightly back. Original short thick arm, beast gauntlet NOT human fist. Full angular shoulder/back plates visible.",
+      "source_slot": "15",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            69,
+            37,
+            72,
+            39
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-15",
+        "size": [
+          125,
+          108
+        ],
+        "cells": 7475,
+        "colours": 25,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#0c080e",
+          "#111338",
+          "#1f1e1c",
+          "#282260",
+          "#2e0b13",
+          "#36318c",
+          "#5244a4",
+          "#540c0e",
+          "#6e5ac6",
+          "#762e04",
+          "#7674dc",
+          "#900c0b",
+          "#94364e",
+          "#a28ad0",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ceb1ee",
+          "#d31106",
+          "#e3caf6",
+          "#e6962c"
+        ],
+        "feet": {
+          "middle": 95.0,
+          "row": 107
+        },
+        "anchor": [
+          95.5,
+          108
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7512,
+          "cells": 7846,
+          "share": 0.9574
+        },
+        "rulerEqualShare": 0.9574,
+        "heightRows": 105,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 2.0,
+        "ownLattice": {
+          "shift": [
+            2.0,
+            0.0
+          ],
+          "flat": 12652,
+          "flatUnshifted": 12587,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 1,
+            "darkened": 77
+          },
+          "keyTinted": 7,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 28,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 8
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 6,
+          "bareCells": 6,
+          "lineCellsAdded": 6,
+          "closed": true,
+          "offset": [
+            -1,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 105 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-fbb75dd7-c703-4357-a86f-6e64918b2404.png",
+          "sha256": "56ae206cc7c443d7a8e5a8b517ca38a39ef2f37026a953aa6c15eab1ca57c81f"
+        },
+        "files": {
+          "sprite": "pose-15.png",
+          "how": "pose-15-how.png",
+          "review": "pose-15-review.png",
+          "grounds": "pose-15-grounds.png"
+        }
+      },
+      "file": "native/20-airborne-lead-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        1,
+        134,
+        109
+      ],
+      "sha256": "ca9fcc3b1b35ce2efbbef89d81449cc8e1a288b4be2c1e5778ad61bac3623bc7"
+    },
+    {
+      "id": "21",
+      "name": "airborne-counter-hit",
+      "new": true,
+      "video_part": 4,
+      "video_time": 1.5,
+      "pose": "Counter strike in airborne pursuit: torso twists toward viewer, anatomical LEFT arm from image-right shoulder thrusts across chest toward image-left at face level, other gauntlet retracts to ribs. Knees bent beneath compact hips, diagonal body tilt30degrees forward. Keep head size/arm thickness.",
+      "source_slot": "16",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            71,
+            48,
+            75,
+            50
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-16",
+        "size": [
+          123,
+          102
+        ],
+        "cells": 7201,
+        "colours": 24,
+        "palette": [
+          "#000001",
+          "#000018",
+          "#02020c",
+          "#0c0911",
+          "#111338",
+          "#1f1e1c",
+          "#2a2464",
+          "#2e0b13",
+          "#36318c",
+          "#540b10",
+          "#6051ae",
+          "#762e04",
+          "#7674dc",
+          "#8a0f0f",
+          "#94364e",
+          "#9a5bcb",
+          "#a54c0c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c8acee",
+          "#cc90f6",
+          "#e3caf6",
+          "#f6e9f6"
+        ],
+        "feet": {
+          "middle": 86.5,
+          "row": 100
+        },
+        "anchor": [
+          87.0,
+          101
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7362,
+          "cells": 7846,
+          "share": 0.9383
+        },
+        "rulerEqualShare": 0.9383,
+        "heightRows": 101,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -3.0,
+        "ownLattice": {
+          "shift": [
+            -0.5,
+            0.0
+          ],
+          "flat": 12481,
+          "flatUnshifted": 12539,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 57
+          },
+          "keyTinted": 29,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 7,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 2
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 8,
+          "bareCells": 12,
+          "lineCellsAdded": 13,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-8061012a-c9c4-44c7-8404-0705b3f39ae5.png",
+          "sha256": "87d193ece626867474268e8012ebdeeae546237e04ca2e66bf1de8bf85f56a90"
+        },
+        "files": {
+          "sprite": "pose-16.png",
+          "how": "pose-16-how.png",
+          "review": "pose-16-review.png",
+          "grounds": "pose-16-grounds.png"
+        }
+      },
+      "file": "native/21-airborne-counter-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        10,
+        7,
+        133,
+        109
+      ],
+      "sha256": "75e880e0ae8aff5489eedd12587abcea2800532f08203326dfc148e4b1c47cdb"
+    },
+    {
+      "id": "22",
+      "name": "downward-pursuit",
+      "new": true,
+      "video_part": 4,
+      "video_time": 3.2,
+      "pose": "Descending gauntlet strike after pursuit: torso pitches down-left about35degrees, near beast gauntlet drives forward-DOWN below face, other gauntlet guards shoulder. Both knees bent and feet trailing above/right of hips. Full mane/ribbons sweep up-right. No diving long stretched body.",
+      "source_slot": "17",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            54,
+            60,
+            57,
+            63
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-17",
+        "size": [
+          120,
+          111
+        ],
+        "cells": 7145,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0d0910",
+          "#111338",
+          "#1f1e1c",
+          "#282261",
+          "#2e0b13",
+          "#36318c",
+          "#530d10",
+          "#604daa",
+          "#762e04",
+          "#7674dc",
+          "#8c1010",
+          "#94364e",
+          "#a04a0c",
+          "#a188ca",
+          "#a84ee4",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d4acf2",
+          "#d98e18",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 9.5,
+          "row": 109
+        },
+        "anchor": [
+          10.0,
+          110
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7240,
+          "cells": 7846,
+          "share": 0.9228
+        },
+        "rulerEqualShare": 0.9228,
+        "heightRows": 83,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.07,
+        "ownLattice": {
+          "shift": [
+            2.5,
+            0.5
+          ],
+          "flat": 12805,
+          "flatUnshifted": 12319,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 73
+          },
+          "keyTinted": 6,
+          "keyNear": 0,
+          "keyHoles": 3,
+          "keyInked": 28,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 19,
+          "bareCells": 8,
+          "lineCellsAdded": 9,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 83 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-44215d54-85b3-47fc-8cc5-aa75787fa4a7.png",
+          "sha256": "a0b486a393865f01ca025d9c56e553e9e88d415600ed58ef15819ec5f30a6ff8"
+        },
+        "files": {
+          "sprite": "pose-17.png",
+          "how": "pose-17-how.png",
+          "review": "pose-17-review.png",
+          "grounds": "pose-17-grounds.png"
+        }
+      },
+      "file": "native/22-downward-pursuit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        12,
+        0,
+        132,
+        111
+      ],
+      "sha256": "29d8893b22fa7cffd6e243bd01877c6edda955d3fce10d7ecd627e7bfb5f7842"
+    },
+    {
+      "id": "23",
+      "name": "air-recovery",
+      "new": true,
+      "video_part": 4,
+      "video_time": 4.4,
+      "pose": "Recover from descending strike just before landing: torso rotates upright facing left, BOTH knees pulled beneath hips, arms draw back with original beast gauntlets at upper chest, head lifted. Mane/ribbons still streaming up-right. Short thick limbs compact.",
+      "source_slot": "18",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            57,
+            47,
+            61,
+            50
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-18",
+        "size": [
+          102,
+          98
+        ],
+        "cells": 6563,
+        "colours": 25,
+        "palette": [
+          "#000002",
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#0e0913",
+          "#111338",
+          "#1f1e1c",
+          "#2a225f",
+          "#2e0b13",
+          "#36318c",
+          "#500d12",
+          "#604ead",
+          "#762e04",
+          "#7674dc",
+          "#8a1011",
+          "#94364e",
+          "#9e4e0e",
+          "#9e61da",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#c3a8e8",
+          "#cc90f6",
+          "#e3caf6",
+          "#f0def7"
+        ],
+        "feet": {
+          "middle": 40.5,
+          "row": 97
+        },
+        "anchor": [
+          41.0,
+          98
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7484,
+          "cells": 7846,
+          "share": 0.9539
+        },
+        "rulerEqualShare": 0.9539,
+        "heightRows": 89,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -11.0,
+        "ownLattice": {
+          "shift": [
+            -1.5,
+            0.0
+          ],
+          "flat": 13277,
+          "flatUnshifted": 13214,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 1,
+            "darkened": 50
+          },
+          "keyTinted": 2,
+          "keyNear": 0,
+          "keyHoles": 6,
+          "keyInked": 24,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 2
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 5,
+          "bareCells": 15,
+          "lineCellsAdded": 15,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 9,
+        "warnings": [
+          "the new view's body is 89 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-5edf7254-ffcf-476f-8794-fef9791ae9bc.png",
+          "sha256": "95e9d9f309fac678b42375943ec1830befe6d5da2a33de4103ad44f1ec3a6e04"
+        },
+        "files": {
+          "sprite": "pose-18.png",
+          "how": "pose-18-how.png",
+          "review": "pose-18-review.png",
+          "grounds": "pose-18-grounds.png"
+        }
+      },
+      "file": "native/23-air-recovery.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        21,
+        11,
+        123,
+        109
+      ],
+      "sha256": "60d6316ed60428185ebb961c7b4ab647c67694661807033a177fe2cce3fa87b6"
+    },
+    {
+      "id": "24",
+      "name": "landing-absorb",
+      "new": true,
+      "video_part": 5,
+      "video_time": 2.6,
+      "pose": "Deep landing absorption facing three-quarter left: both feet wide flat on same ground line, hips very low, knees bent strongly, torso inclines forward, both beast gauntlets spread beside ribs at chest height. Complete mane lifts above/back from abrupt stop. No dust or rocks.",
+      "source_slot": "19",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            62,
+            58,
+            66,
+            61
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-19",
+        "size": [
+          122,
+          106
+        ],
+        "cells": 8453,
+        "colours": 25,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#0a0a10",
+          "#111338",
+          "#1f1e1c",
+          "#2a2264",
+          "#2e0b13",
+          "#36318c",
+          "#510e12",
+          "#57409a",
+          "#6456be",
+          "#762e04",
+          "#7674dc",
+          "#8a1010",
+          "#94364e",
+          "#9e4cdf",
+          "#a185de",
+          "#b2540d",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d4aef0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 55.0,
+          "row": 105
+        },
+        "anchor": [
+          55.5,
+          106
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.8,
+            -0.2
+          ],
+          "equal": 7587,
+          "cells": 7846,
+          "share": 0.967
+        },
+        "rulerEqualShare": 0.967,
+        "heightRows": 106,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.0,
+        "ownLattice": {
+          "shift": [
+            -2.0,
+            0.0
+          ],
+          "flat": 12704,
+          "flatUnshifted": 12126,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 66
+          },
+          "keyTinted": 18,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 35,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 16
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 9,
+          "bareCells": 13,
+          "lineCellsAdded": 13,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 106 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-6ceb8593-f67c-4e0d-99a4-487f417a2ff3.png",
+          "sha256": "da15b8b56cfd711c7f1243bad34ca61a63b4d2923a8ad11ff6c6521164ce83fd"
+        },
+        "files": {
+          "sprite": "pose-19.png",
+          "how": "pose-19-how.png",
+          "review": "pose-19-review.png",
+          "grounds": "pose-19-grounds.png"
+        }
+      },
+      "file": "native/24-landing-absorb.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        3,
+        133,
+        109
+      ],
+      "sha256": "b43a9956d3f9d66bf0bd8e661c32f348260b5d095da30fdb5f33b5e194f00416"
+    },
+    {
+      "id": "25",
+      "name": "palm-reset",
+      "new": true,
+      "video_part": 5,
+      "video_time": 2.9,
+      "pose": "After rapid punches settle into palm windup: knees stay wide and bent, shoulders square toward image-left, both original beast gauntlets retract near lower ribs, short claws begin open. Head lifts slightly, broad torso, no posture elongation. Mane/ribbons settle toward image-right.",
+      "source_slot": "25",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            59,
+            37,
+            62,
+            39
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-25",
+        "size": [
+          114,
+          104
+        ],
+        "cells": 7934,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0c0912",
+          "#111338",
+          "#1f1e1c",
+          "#2a225d",
+          "#2e0b13",
+          "#36318c",
+          "#500d11",
+          "#5e4eb4",
+          "#762e04",
+          "#7674dc",
+          "#8a1010",
+          "#94364e",
+          "#944a0a",
+          "#9d4ed8",
+          "#a68ae3",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ceadf0",
+          "#d2961e",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 74.5,
+          "row": 103
+        },
+        "anchor": [
+          75.0,
+          104
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7424,
+          "cells": 7846,
+          "share": 0.9462
+        },
+        "rulerEqualShare": 0.9462,
+        "heightRows": 104,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            -0.5,
+            0.0
+          ],
+          "flat": 13163,
+          "flatUnshifted": 13114,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 27
+          },
+          "keyTinted": 5,
+          "keyNear": 0,
+          "keyHoles": 4,
+          "keyInked": 15,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 4
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 3,
+          "bareCells": 5,
+          "lineCellsAdded": 5,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [
+          "the new view's body is 104 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-2353c49f-f30f-431f-95a6-11fc6450455d.png",
+          "sha256": "012be87b1ac80330e8ec0c6d771373387f7bff633f4c0c133142d671d34df101"
+        },
+        "files": {
+          "sprite": "pose-25.png",
+          "how": "pose-25-how.png",
+          "review": "pose-25-review.png",
+          "grounds": "pose-25-grounds.png"
+        }
+      },
+      "file": "native/25-palm-reset.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        15,
+        5,
+        129,
+        109
+      ],
+      "sha256": "18346b8d5e215df9c18d35ded6b4bc293bde9df716d40faf5d73389ac2985845"
+    },
+    {
+      "id": "26",
+      "name": "palm-load",
+      "new": false,
+      "video_part": 5,
+      "video_time": 4.1,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/09-palm-charge.png",
+      "source_slot": "26",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/26-palm-load.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        9,
+        8,
+        134,
+        109
+      ],
+      "sha256": "8ed40dee6af4da11e0f018904e287d5ae5d3fb141b2ad7e40629a6178af06cea"
+    },
+    {
+      "id": "27",
+      "name": "palm-drive-half",
+      "new": true,
+      "video_part": 5,
+      "video_time": 4.4,
+      "pose": "Half extension of final open palm toward image-left: same broad wide planted stance, torso rotates FORWARD, anatomical right beast gauntlet at image-left extends halfway from chest, elbow still bent. Open MECHANICAL armoured palm with original short orange claws, original beast forearm shell, not bare human fingers. Other gauntlet near shoulder partly hidden.",
+      "source_slot": "27",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            69,
+            45,
+            72,
+            47
+          ],
+          [
+            77,
+            45,
+            80,
+            47
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-27",
+        "size": [
+          122,
+          102
+        ],
+        "cells": 7668,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0c0a10",
+          "#111338",
+          "#1f1e1c",
+          "#292460",
+          "#2e0b13",
+          "#36318c",
+          "#4f3d68",
+          "#500c12",
+          "#6054b2",
+          "#762e04",
+          "#7674dc",
+          "#8c0f10",
+          "#94364e",
+          "#9c460a",
+          "#a080d9",
+          "#b8150e",
+          "#ba6cf6",
+          "#bb415c",
+          "#c27e13",
+          "#cc90f6",
+          "#d2acf0",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 91.0,
+          "row": 101
+        },
+        "anchor": [
+          91.5,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7405,
+          "cells": 7846,
+          "share": 0.9438
+        },
+        "rulerEqualShare": 0.9438,
+        "heightRows": 99,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            0.0,
+            0.0
+          ],
+          "flat": 13072,
+          "flatUnshifted": 13072,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 55
+          },
+          "keyTinted": 16,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 12,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 11
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 5,
+          "bareCells": 10,
+          "lineCellsAdded": 10,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 99 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-62e63bb3-90d9-4392-927f-f44219d433e0.png",
+          "sha256": "9bd59f4e05ffca52cf7270ace817ab98883ca72dc58231c28b373412cfa58552"
+        },
+        "files": {
+          "sprite": "pose-27.png",
+          "how": "pose-27-how.png",
+          "review": "pose-27-review.png",
+          "grounds": "pose-27-grounds.png"
+        }
+      },
+      "file": "native/27-palm-drive-half.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        11,
+        7,
+        133,
+        109
+      ],
+      "sha256": "44090112814848f61f9b634cda32331314f0a78ba3341b231a07a6e2133bd518"
+    },
+    {
+      "id": "28",
+      "name": "palm-hit",
+      "new": false,
+      "video_part": 5,
+      "video_time": 6.2,
+      "source": "/workspace/agent-sprite-forge/src/pixel-looks/mecha-candidate-2/actions/shin-ha-gou-shou-sen/v010/native/10-palm-release.png",
+      "source_slot": "28",
+      "new_generation": false,
+      "adapted_common_body": false,
+      "byte_identical_to_source": true,
+      "file": "native/28-palm-hit.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        12,
+        137,
+        109
+      ],
+      "sha256": "f6a789352710cf846e8d87320034f85b2d3606828f72db53d27898e2b462a081"
+    },
+    {
+      "id": "29",
+      "name": "palm-followthrough",
+      "new": true,
+      "video_part": 6,
+      "video_time": 0.2,
+      "pose": "Final palm follow-through: planted broad low stance, image-left open beast palm fully forward at lower-face height and shoulders twist further left; rear gauntlet pulled beside chest. Torso leans forward a little more, rear leg braces, head looks along open palm, full mane/ribbons whip back right. Keep arm short thick with original armour, no beam.",
+      "source_slot": "29",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            61,
+            52,
+            65,
+            54
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-29",
+        "size": [
+          130,
+          96
+        ],
+        "cells": 7925,
+        "colours": 24,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#0e0a14",
+          "#111338",
+          "#1f1e1c",
+          "#29225a",
+          "#2e0b13",
+          "#36318c",
+          "#54406e",
+          "#550e13",
+          "#5f50ae",
+          "#762e04",
+          "#7674dc",
+          "#8e1211",
+          "#94364e",
+          "#9f50d1",
+          "#a287d7",
+          "#aa5e0c",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#d0b0ee",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 15.5,
+          "row": 95
+        },
+        "anchor": [
+          16.0,
+          96
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            -0.2,
+            -0.2
+          ],
+          "equal": 7137,
+          "cells": 7846,
+          "share": 0.9096
+        },
+        "rulerEqualShare": 0.9096,
+        "heightRows": 71,
+        "masterHeightRows": 101,
+        "solesBelowMasters": -1.07,
+        "ownLattice": {
+          "shift": [
+            0.0,
+            -0.5
+          ],
+          "flat": 12118,
+          "flatUnshifted": 12090,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 101
+          },
+          "keyTinted": 10,
+          "keyNear": 0,
+          "keyHoles": 1,
+          "keyInked": 45,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 1
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 5,
+          "bareCells": 8,
+          "lineCellsAdded": 8,
+          "closed": true,
+          "offset": [
+            1,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 7,
+        "warnings": [
+          "the new view's body is 71 rows tall, the master's 101: it is not the same height; generate again"
+        ],
+        "source": {
+          "image": "/workspace/generated_images/exec-0d0aca09-5672-4123-98bd-63e06ef5027e.png",
+          "sha256": "b6887af7985047b6d777a84536bff23b43bf84efe65cf272b241230983c5879d"
+        },
+        "files": {
+          "sprite": "pose-29.png",
+          "how": "pose-29-how.png",
+          "review": "pose-29-review.png",
+          "grounds": "pose-29-grounds.png"
+        }
+      },
+      "file": "native/29-palm-followthrough.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        7,
+        13,
+        137,
+        109
+      ],
+      "sha256": "1ea448b27f469eff7449f51eccf0aed73e43994127e3bd31aa3d81587e2e910f"
+    },
+    {
+      "id": "30",
+      "name": "recover-guard",
+      "new": true,
+      "video_part": 6,
+      "video_time": 1.2,
+      "pose": "Recovery after palm strike: still wide grounded feet, knees relax slightly, extended original beast gauntlet retracts to lower chest with elbow bent, other beast gauntlet settles beside ribs, head remains facing image-left. Broad compact original armour/body and full mane; quiet guard without effects.",
+      "source_slot": "30",
+      "new_generation": true,
+      "adapted_common_body": false,
+      "art_processing": {
+        "eye_boxes_exclusive": [
+          [
+            57,
+            45,
+            60,
+            47
+          ]
+        ]
+      },
+      "extraction": {
+        "schema": "generate2dsprite.pixel_look.v2",
+        "tool": "pixel_look",
+        "kind": "view",
+        "name": "pose-30",
+        "size": [
+          107,
+          102
+        ],
+        "cells": 7474,
+        "colours": 25,
+        "palette": [
+          "#000018",
+          "#02020c",
+          "#026704",
+          "#0e0811",
+          "#111338",
+          "#1f1e1c",
+          "#28215a",
+          "#2e0b13",
+          "#36318c",
+          "#493756",
+          "#4cb665",
+          "#550c10",
+          "#5d54ae",
+          "#762e04",
+          "#7674dc",
+          "#92110e",
+          "#94364e",
+          "#a054c0",
+          "#a48bda",
+          "#b8150e",
+          "#ba6cf6",
+          "#c27e13",
+          "#cc90f6",
+          "#ccaee9",
+          "#e3caf6"
+        ],
+        "feet": {
+          "middle": 64.0,
+          "row": 101
+        },
+        "anchor": [
+          64.5,
+          102
+        ],
+        "view": "custom",
+        "lattice": {
+          "cell": 6.93,
+          "offset": [
+            0.3,
+            -0.2
+          ],
+          "equal": 7442,
+          "cells": 7846,
+          "share": 0.9485
+        },
+        "rulerEqualShare": 0.9485,
+        "heightRows": 102,
+        "masterHeightRows": 101,
+        "solesBelowMasters": 0.0,
+        "ownLattice": {
+          "shift": [
+            -1.0,
+            0.0
+          ],
+          "flat": 13361,
+          "flatUnshifted": 13342,
+          "cells": 17152
+        },
+        "edge": {
+          "keyMixed": {
+            "removed": 0,
+            "darkened": 55
+          },
+          "keyTinted": 10,
+          "keyNear": 0,
+          "keyHoles": 2,
+          "keyInked": 20,
+          "keySpill": {
+            "removed": 0,
+            "recoloured": 3
+          },
+          "islandCells": 0
+        },
+        "newColours": 10,
+        "outline": {
+          "line": [
+            0,
+            0,
+            24
+          ],
+          "specks": 1,
+          "bareCells": 1,
+          "lineCellsAdded": 1,
+          "closed": true,
+          "offset": [
+            0,
+            0
+          ],
+          "mode": "rule"
+        },
+        "key": "green",
+        "howZoom": 8,
+        "warnings": [],
+        "source": {
+          "image": "/workspace/generated_images/exec-61448ae7-38f0-4f9c-b7e8-9851119aed29.png",
+          "sha256": "e8088b4f10fedd712b9b0263bb7b8e7f9711ada65f99240ac67e5081276850e2"
+        },
+        "files": {
+          "sprite": "pose-30.png",
+          "how": "pose-30-how.png",
+          "review": "pose-30-review.png",
+          "grounds": "pose-30-grounds.png"
+        }
+      },
+      "file": "native/30-recover-guard.png",
+      "canvas": [
+        144,
+        112
+      ],
+      "palette_entries": 16,
+      "used_colours": 15,
+      "occupied_bounds_exclusive": [
+        18,
+        7,
+        125,
+        109
+      ],
+      "sha256": "2b759d14eb9a634b23268f6ea99a870800d59dee9396b65501f2991adcfbbb3a"
+    }
+  ],
+  "art_source": "host image_gen; existing approved base and8key poses used only where appropriate",
+  "motion_design": "new video-based close combat -> turning kick -> uppercut -> alternating airborne pursuit -> landing -> palm finish; no previous spin-followup cycle",
+  "game_import_compatibility": "not verified"
+}
